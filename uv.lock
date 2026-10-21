@@ -2460,11 +2460,13 @@ dependencies = [
     { name = "pandas" },
     { name = "python-dotenv" },
     { name = "pyvis" },
+    { name = "scikit-learn" },
     { name = "scipy" },
     { name = "seaborn" },
     { name = "sentence-transformers" },
     { name = "shap" },
     { name = "tigramite" },
+    { name = "torch" },
 ]
 
 [package.metadata]
@@ -2480,11 +2482,13 @@ requires-dist = [
     { name = "pandas", specifier = ">=3.0.5" },
     { name = "python-dotenv", specifier = ">=1.2.2" },
     { name = "pyvis", specifier = ">=0.3.2" },
+    { name = "scikit-learn", specifier = ">=1.9.0" },
     { name = "scipy", specifier = "==1.18.0" },
     { name = "seaborn", specifier = ">=0.13.2" },
     { name = "sentence-transformers", specifier = ">=5.7.0" },
     { name = "shap", specifier = ">=0.52.0" },
     { name = "tigramite", specifier = ">=5.2.10.1" },
+    { name = "torch", specifier = ">=2.13.0" },
 ]
 
 [[package]]
