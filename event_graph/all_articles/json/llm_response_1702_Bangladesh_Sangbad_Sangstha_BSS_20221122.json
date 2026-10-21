@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-11-22",
+    "url": "https://www.bssnews.net/news-flash/95438",
+    "body_preview": "DHAKA, Nov 22, 2022 (BSS) - Prime Minister Sheikh Hasina today asked all concerned to undertake and thus implement development projects without harming nature.\n\nThe Premier also directed the authorities concerned to implement the development schemes maintaining ecological balance as well as implementing those in a speedy manner avoiding unnecessary revision.\n\nThe Prime Minister gave the directives while chairing a meeting of the Executive Committee of the National Economic Council (ECNEC) held a"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Aman harvest boosts supply",
+      "edge_label": "reduces inflation",
+      "evidence_quote": "good Harvest of Aman crops this time ... would also be helpful to boost the supply side to rein in inflation further.",
+      "scope_justification": "The article explicitly links increased agricultural supply from the Aman harvest to the country’s overall inflation trend, matching the aggregate price-level scope of the feature.",
+      "verification": {
+        "quote_similarity": 0.796,
+        "quote_best_match": "side it would also be helpful to boost the supply side to rein in inflation further.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that a good Aman harvest will boost supply and help rein in inflation, matching the provided quote and establishing explicit causality at the national inflation level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-11-22",
+      "inflation_rate",
+      "reduces inflation",
+      "Aman harvest boosts supply"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

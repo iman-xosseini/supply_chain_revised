@@ -1,0 +1,37 @@
+{
+  "article": {
+    "source": "Asian News International (ANI)",
+    "date": "2022-12-25",
+    "url": "https://www.aninews.in/news/world/asia/bangladesh-pm-sheikh-hasina-says-she-accepted-awami-leagues-leadership-in-view-of-global-situation20221225202057/",
+    "body_preview": "Dhaka [Bangladesh], December 25 (ANI): Bangladesh PM Sheikh Hasina on Sunday said she accepted leadership of the Awami League in view of the global economic situation, The Daily Star reported.\n\nShe made the statement while exchanging greetings with party leaders and activists at Ganabhaban after being elected as Awami League's President for the 10th time.\n\n\"One must not take (leadership) responsibility so many times. But I accepted the responsibility considering the current global situation. You"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Hasina urges food production",
+      "edge_label": "enables exports",
+      "evidence_quote": "If we can produce extra food, we can export those, mitigating our own demands,",
+      "scope_justification": "The article explicitly links increased food production in Bangladesh with sending goods internationally, matching the feature's country-level exports scope.",
+      "verification": {
+        "quote_similarity": 0.994,
+        "quote_best_match": "If we can produce extra food, we can export those, mitigating our own demands,\"",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The quoted sentence appears verbatim and explicitly links producing extra food to being able to export it. The context is national (Bangladesh), matching the country-level exports scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-12-25",
+      "exports",
+      "enables exports",
+      "Hasina urges food production"
+    ]
+  ],
+  "features_queried": [
+    "balance_of_trade",
+    "stock_market_close",
+    "exports"
+  ],
+  "num_connections_found": 1
+}

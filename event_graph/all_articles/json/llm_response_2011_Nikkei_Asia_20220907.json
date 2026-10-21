@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Nikkei Asia",
+    "date": "2022-09-07",
+    "url": "https://asia.nikkei.com/Economy/Trade/Bangladesh-clothing-exporters-target-Asia-as-Western-demand-fades",
+    "body_preview": "DHAKA -- Bangladesh's huge clothing industry is looking for new markets in countries such as Japan and South Korea, hoping to broaden its customer base as surging inflation stifles orders from key buyers in North America and Europe.\n\nThe South Asian nation's producers of ready-made garments contribute around a fifth of its gross domestic product and more than 80% of its export earnings. But they face slumping demand, with three quarters of the sector's exports usually going to the European Union"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Inflation stifles garment orders",
+      "edge_label": "reduces export demand",
+      "evidence_quote": "surging inflation stifles orders from key buyers in North America and Europe",
+      "scope_justification": "The article links weaker foreign buyer orders to Bangladesh's garment industry, whose international shipments constitute the sector's exports.",
+      "verification": {
+        "quote_similarity": 0.993,
+        "quote_best_match": "surging inflation stifles orders from key buyers in North America and Europe.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that “surging inflation stifles orders from key buyers in North America and Europe” and also mentions slumping demand for a sector whose exports largely go to those regions, explicitly tying inflation to reduced export demand at the industry (country-sector) level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-09-07",
+      "exports",
+      "reduces export demand",
+      "Inflation stifles garment orders"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

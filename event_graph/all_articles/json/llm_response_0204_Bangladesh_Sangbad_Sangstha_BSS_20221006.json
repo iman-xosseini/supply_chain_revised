@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-10-06",
+    "url": "https://www.bssnews.net/news-flash/86584",
+    "body_preview": "DHAKA, Oct 6, 2022 (BSS) - Prime Minister Sheikh Hasina today assured the countrymen that there is nothing to be worried as Bangladesh's economy is in a quite strong position.\n\n\"Bangladesh's economy, in terms of midterm and long-term aspects, is at no risk. I can ensure all of you that there is nothing to worry,\" she said.\n\nThe premier made this assurance while addressing a press conference about the outcome of her recently concluded official visit to the United Kingdom and the United States of "
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "War and sanctions increase inflation",
+      "edge_label": "increases price levels",
+      "evidence_quote": "Regarding the Russia-Ukraine war, sanction and counter sanction, ... inflation has increased",
+      "scope_justification": "The article explicitly links the Russia-Ukraine war and sanctions with increased inflation affecting Bangladesh and people worldwide, matching the feature's general price-level scope.",
+      "verification": {
+        "quote_similarity": 0.827,
+        "quote_best_match": "Regarding the Russia-Ukraine war, sanction and counter sanction, prime",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states, in the context of the Russia-Ukraine war and sanctions, that people worldwide are suffering and that inflation has increased, strongly implying the war/sanctions caused higher inflation. The scope discussed is global (including Bangladesh), consistent with a general inflation rate feature."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-10-06",
+      "inflation_rate",
+      "increases price levels",
+      "War and sanctions increase inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

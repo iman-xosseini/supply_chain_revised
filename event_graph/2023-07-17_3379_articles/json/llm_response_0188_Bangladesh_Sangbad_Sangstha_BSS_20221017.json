@@ -1,0 +1,37 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-10-17",
+    "url": "https://www.bssnews.net/business/88464",
+    "body_preview": "DHAKA, Oct 17, 2022 (BSS) - Country's both the bourses, Dhaka Stock Exchange (DSE) and Chittagong Stock Exchange (CSE) today plunged further due to mainly price fall in large-cap securities.\n\nDSEX, the benchmark index of the Dhaka Stock Exchange (DSE), slid 65 points, or 1.01 per cent, at 6,413 at the end of the day. The DS30, the index that consists of blue-chip companies, went down 0.93 per cent to 2,277, while the DSES, the Shariah-complaint index, plummeted 0.80 per cent to 1,406.\n\nTurnover "
+  },
+  "llm_connections": [
+    {
+      "feature": "stock_market_close",
+      "event_summary": "Large-cap securities prices fell",
+      "edge_label": "drives market decline",
+      "evidence_quote": "Country's both the bourses, Dhaka Stock Exchange (DSE) and Chittagong Stock Exchange (CSE) today plunged further due to mainly price fall in large-cap securities.",
+      "scope_justification": "The article directly links price movements across large-cap securities to the performance of both national stock-market exchanges and their indexes.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "Country's both the bourses, Dhaka Stock Exchange (DSE) and Chittagong Stock Exchange (CSE) today plunged further due to mainly price fall in large-cap securities.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states verbatim that both bourses plunged due to mainly price fall in large-cap securities, explicitly linking large-cap declines to the broader market drop at the national level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-10-17",
+      "stock_market_close",
+      "drives market decline",
+      "Large-cap securities prices fell"
+    ]
+  ],
+  "features_queried": [
+    "balance_of_trade",
+    "stock_market_close",
+    "exports"
+  ],
+  "num_connections_found": 1
+}

@@ -1,0 +1,61 @@
+{
+  "article": {
+    "source": "Rappler",
+    "date": "2022-08-10",
+    "url": "https://www.rappler.com/business/bangladesh-garment-export-growth-forecast-august-2022/",
+    "body_preview": "DHAKA, Bangladesh - Growth in Bangladesh's garment exports could drop to about 15% this year after an unusually strong expansion of more than 30% in 2021, two industry leaders told Reuters on Wednesday, August 10, as US and European customers grapple with cost of living pressures.\n\nThe garment industry accounts for more than 80% of total exports for Bangladesh, which sells to clients such as Walmart, Gap, H&M, VF Corporation, Zara, and American Eagle Outfitters - some of which have already flagg"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Customer cost pressures slow exports",
+      "edge_label": "reduces export growth",
+      "evidence_quote": "Growth in Bangladesh's garment exports could drop to about 15% this year ... as US and European customers grapple with cost of living pressures.",
+      "scope_justification": "The article directly links international customer demand conditions to Bangladesh's garment goods exported abroad, matching the exports feature's focus on internationally sent goods driven by global demand.",
+      "verification": {
+        "quote_similarity": 0.717,
+        "quote_best_match": "- Growth in Bangladesh's garment exports could drop to about 15% this year after an unusually",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article includes the quoted line linking a potential drop in Bangladesh’s garment export growth to US and European customers’ cost-of-living pressures. This explicitly implies causality, and the discussion is at the national garment export level."
+      }
+    },
+    {
+      "feature": "exports",
+      "event_summary": "Lockdowns and stimulus boost exports",
+      "edge_label": "boosts export sales",
+      "evidence_quote": "The slowdown follows a surge in sales in 2021 after coronavirus lockdowns eased and government stimulus measures left consumers with disposable cash",
+      "scope_justification": "The article describes consumer purchasing conditions driving a surge in Bangladesh's garment export sales, which matches exports as internationally sold goods affected by demand.",
+      "verification": {
+        "quote_similarity": 0.997,
+        "quote_best_match": "The slowdown follows a surge in sales in 2021 after coronavirus lockdowns eased and government stimulus measures left consumers with disposable cash,",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that after lockdowns eased and stimulus left consumers with disposable cash—leading to ‘revenge shopping’—there was a surge in sales, and it notes Bangladesh’s garment exports soared in 2021. This strongly implies that the post-lockdown and stimulus-driven demand boosted Bangladesh’s export sales at the country level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-08-10",
+      "exports",
+      "reduces export growth",
+      "Customer cost pressures slow exports"
+    ],
+    [
+      "2022-08-10",
+      "exports",
+      "boosts export sales",
+      "Lockdowns and stimulus boost exports"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 2
+}

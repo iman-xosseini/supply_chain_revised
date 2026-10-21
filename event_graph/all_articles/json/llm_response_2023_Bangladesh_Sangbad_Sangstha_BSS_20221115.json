@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-11-15",
+    "url": "https://www.bssnews.net/business/94134",
+    "body_preview": "DHAKA, Nov 15, 2022 (BSS) - Air Incheon, a South Korean cargo airline, has started direct Seoul-Dhaka-Seoul cargo flight that will guarantee a single-day arrival for any urgent goods in between Bangladesh and the east Asian nation.\n\nTAD Logistics, a local international freight forwarder launched the two weekly direct cargo flight on Saturday, a press release said here today.\n\n\"Our export process would increase its earnings with the aid of the cargo flights and based on demand from the market. We"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "New cargo service launched",
+      "edge_label": "increases exports",
+      "evidence_quote": "Through the new cargo service exports of perishable goods from Bangladesh will rise as a result",
+      "scope_justification": "The article explicitly states that the cargo service increases goods exported internationally from Bangladesh, matching the exports feature's scope.",
+      "verification": {
+        "quote_similarity": 0.995,
+        "quote_best_match": "Through the new cargo service exports of perishable goods from Bangladesh will rise as a result,",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article contains the quote stating that through the new cargo service, exports of perishable goods from Bangladesh will rise. This explicitly links the launch of the cargo service to an increase in exports at a country-level scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-11-15",
+      "exports",
+      "increases exports",
+      "New cargo service launched"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

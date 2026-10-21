@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-10-27",
+    "url": "https://www.bssnews.net/business/90493",
+    "body_preview": "DHAKA, Oct 27, 2022 (BSS) - Bangladesh exported US$$23 billion to 27 countries of the European Union (EU) which can be increased $18 billion more by enhancing production capacity and product diversification, as per a study.\n\nThe study was conducted by Research and Policy Integration for Development (RAPID) with the cooperation of Friedrich-Ebert-Stiftung (FES) Bangladesh on the titled 'Strengthening Bangladesh-EU Trade and Economic Cooperation: Issues and Policy Priorities.'\n\nSharifa Khan, Secre"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Production capacity expansion",
+      "edge_label": "increases exports",
+      "evidence_quote": "which can be increased $18 billion more by enhancing production capacity and product diversification",
+      "scope_justification": "The article explicitly links Bangladesh’s international export volume to enhanced production capacity and product diversification.",
+      "verification": {
+        "quote_similarity": 0.995,
+        "quote_best_match": "which can be increased $18 billion more by enhancing production capacity and product diversification,",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that Bangladesh’s $23B exports to the EU “can be increased $18 billion more by enhancing production capacity and product diversification,” explicitly linking capacity expansion to higher exports at the national level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-10-27",
+      "exports",
+      "increases exports",
+      "Production capacity expansion"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

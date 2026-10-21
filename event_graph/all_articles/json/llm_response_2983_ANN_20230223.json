@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "ANN",
+    "date": "2023-02-23",
+    "url": "https://asianews.network/making-our-public-food-distribution-system-work/",
+    "body_preview": "DHAKA - With the soaring inflation rate in recent times, the importance of effective public food distribution cannot be emphasised enough. While already recovering from pandemic-incurred losses, it is proving difficult for people at the lower end of the distribution chain to cope with the price hikes without adequate support from the government. However, the recent statistics from public food distribution appear to be not addressing this inflationary pressure.\n\nAccording to the latest data of Ba"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Inflation pressures fixed incomes",
+      "edge_label": "reduces purchasing power",
+      "evidence_quote": "it is proving difficult for people at the lower end of the distribution chain to cope with the price hikes without adequate support",
+      "scope_justification": "The article reports Bangladesh-wide food inflation, CPI-based price increases, and their effect on people's ability to cope with higher prices, matching the feature's price-level and purchasing-power scope.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "it is proving difficult for people at the lower end of the distribution chain to cope with the price hikes without adequate support",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The cited sentence appears nearly verbatim in the article. The article explicitly links higher inflation/price rises to declining real earnings and states that price increases put fixed-income people under pressure, indicating reduced purchasing power at a Bangladesh-wide scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-02-23",
+      "inflation_rate",
+      "reduces purchasing power",
+      "Inflation pressures fixed incomes"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

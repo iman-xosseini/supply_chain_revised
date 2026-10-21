@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "ANN",
+    "date": "2023-05-22",
+    "url": "https://asianews.network/bangladesh-needs-to-be-more-cost-competitive-to-boost-exports-to-japan-experts/",
+    "body_preview": "DHAKA - Bangladesh needs better cost competitiveness and less complexities in its taxation and foreign exchange policies to boost exports to Japan while also attracting more investment from the country, according to experts.\n\n\"The business environment in Bangladesh needs improvement to attract more foreign direct investment from Japan and explore the potential of an economic partnership agreement between the two countries,\" said Japanese Ambassador Iwama Kiminori.\n\nKiminori was speaking at a sem"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Policy reforms boost Japan exports",
+      "edge_label": "boosts exports",
+      "evidence_quote": "Bangladesh needs better cost competitiveness and less complexities in its taxation and foreign exchange policies to boost exports to Japan",
+      "scope_justification": "The article explicitly links Bangladesh-wide competitiveness and policy conditions to the volume of goods exported internationally to Japan.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "Bangladesh needs better cost competitiveness and less complexities in its taxation and foreign exchange policies to boost exports to Japan",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states that Bangladesh needs improved cost competitiveness and simpler taxation/foreign exchange policies 'to boost exports to Japan,' indicating a causal link at the national (country) level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-05-22",
+      "exports",
+      "boosts exports",
+      "Policy reforms boost Japan exports"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

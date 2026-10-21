@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-11-05",
+    "url": "https://www.bssnews.net/business/92126",
+    "body_preview": "DHAKA, Nov 5, 2022 (BSS) - President of the Federation of Bangladesh Chambers of Commerce and Industry (FBCCI) Md Jashim Uddin today said that domestic industries would fall in difficulties if the current lending rate is increased.\n\nHe said this while speaking at 'ERF's Dialogue' as the chief guest, organized by the Economic Reporters' Forum (ERF), at its auditorium in the capital today.\n\nJashim said that the interest rate of bank loans cannot be increased for the sake of expanding investment an"
+  },
+  "llm_connections": [
+    {
+      "feature": "interest_rate_value",
+      "event_summary": "Higher lending rate pressures industry",
+      "edge_label": "raises production costs",
+      "evidence_quote": "Any initiative to increase the lending rate will impact production cost as well as raise a burden on the customers.",
+      "scope_justification": "The article discusses Bangladesh's bank-loan lending rate and explicitly links it to production costs, matching the feature's borrowing-cost scope.",
+      "verification": {
+        "quote_similarity": 0.987,
+        "quote_best_match": "Any initiative to increase the lending rate will impact production cost as well as raise a burden on the customers,\"",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The quoted sentence appears verbatim in the article and explicitly states that increasing lending rates will impact (i.e., raise) production costs and burden customers. The discussion is at the national level for Bangladesh’s industries, matching the feature’s scope on lending rates."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-11-05",
+      "interest_rate_value",
+      "raises production costs",
+      "Higher lending rate pressures industry"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

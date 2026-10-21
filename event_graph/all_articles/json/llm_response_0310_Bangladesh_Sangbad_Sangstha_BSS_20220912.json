@@ -1,0 +1,61 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-09-12",
+    "url": "https://www.bssnews.net/business/82196",
+    "body_preview": "DHAKA, Sept 12, 2022 (BSS) - Bangladesh has an additional export potential of $20 billion in the EU and UK and it would rise further as China was losing its share in the global market.\n\n\"It is possible to increase its export by $20 billion in the EU and UK with the existing capacity of Bangladesh through improving efficiency,\" said Research and Policy Integration for Development (RAPID) Chairman Dr Mohammad Abdur Razzaque said.\n\nAccording to a study conducted by RAPID, Bangladesh's export potent"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Efficiency raises export potential",
+      "edge_label": "increases exports",
+      "evidence_quote": "It is possible to increase its export by $20 billion in the EU and UK with the existing capacity of Bangladesh through improving efficiency",
+      "scope_justification": "The article directly describes Bangladesh's country-level international exports increasing through improved efficiency, matching the feature's scope of goods sent internationally.",
+      "verification": {
+        "quote_similarity": 0.989,
+        "quote_best_match": "\"It is possible to increase its export by $20 billion in the EU and UK with the existing capacity of Bangladesh through improving efficiency,\"",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article contains the quoted sentence explicitly stating exports could increase by $20B through improving efficiency, establishing a clear cause-effect link. This is discussed at the Bangladesh country-level for exports to the EU and UK, matching the scope."
+      }
+    },
+    {
+      "feature": "exports",
+      "event_summary": "Chinese share decline benefits Bangladesh",
+      "edge_label": "shifts export share",
+      "evidence_quote": "Bangladesh had captured most of the declining share of China in the EU market",
+      "scope_justification": "The claim concerns Bangladesh's exports in an international regional market and explicitly links them to China losing market share.",
+      "verification": {
+        "quote_similarity": 0.994,
+        "quote_best_match": "Bangladesh had captured most of the declining share of China in the EU market,",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that Bangladesh 'had captured most of the declining share of China in the EU market,' explicitly linking China’s declining share to Bangladesh’s gains. This is discussed at the country level within the EU market, matching the claim’s scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-09-12",
+      "exports",
+      "increases exports",
+      "Efficiency raises export potential"
+    ],
+    [
+      "2022-09-12",
+      "exports",
+      "shifts export share",
+      "Chinese share decline benefits Bangladesh"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 2
+}

@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "MSN International Edition",
+    "date": "2022-10-06",
+    "url": "https://www.msn.com/en-xl/asia/bangladesh/how-the-cuts-announced-by-opecplus-will-affect-oil-prices-inflation/ar-AA12GeHt",
+    "body_preview": "Bangladesh, Oct. 7 -- producing countries led by Saudi Arabia and Russia have decided to slash the amount of oil they deliver to the global economy.\n\nAnd the law of supply and demand suggests that can only mean one thing: higher prices are on the way for crude, and for the diesel fuel, gasoline and heating oil that are produced from oil.\n\nThe decision by the OPEC+ alliance to cut 2 million barrels a day starting next month comes as the Western allies are trying to cap the oil money flowing into "
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "OPEC+ cuts raise inflation",
+      "edge_label": "increases inflation",
+      "evidence_quote": "Higher oil prices will inevitably add to the inflation headache that global central banks are fighting",
+      "scope_justification": "The article explicitly links higher energy prices to broader inflation and reduced purchasing power, matching the feature's general price-level scope.",
+      "verification": {
+        "quote_similarity": 0.99,
+        "quote_best_match": "\"Higher oil prices will inevitably add to the inflation headache that global central banks are fighting,",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article includes the quoted line about higher oil prices adding to inflation and explicitly asks and answers that OPEC+ production cuts will likely make inflation worse. It discusses inflation at a broad macro level (global/central banks), matching the general scope of an inflation rate."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-10-06",
+      "inflation_rate",
+      "increases inflation",
+      "OPEC+ cuts raise inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

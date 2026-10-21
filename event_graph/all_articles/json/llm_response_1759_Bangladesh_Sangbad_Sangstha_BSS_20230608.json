@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2023-06-08",
+    "url": "https://www.bssnews.net/news/129887",
+    "body_preview": "DHAKA, June 8, 2023 (BSS) - The World Accreditation Day-2023 will be observed in the country like elsewhere in the world tomorrow.\n\nThis year, the theme of the day is 'Accreditation: Supporting the Future of Global Trade', said a handout from Press Information Department (PID) today.\n\nOn the eve of the day, President Mohammed Shahabuddin and Prime Minister Sheikh Hasina gave separate messages wishing success of the day.\n\nIn his message, President Mohammed Shahabuddin said: \"I welcome the initiat"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Accreditation removes trade barriers",
+      "edge_label": "accelerates export trade",
+      "evidence_quote": "It creates new areas of cooperation in international trade including accelerating export trade by removing technical barriers to global trade.",
+      "scope_justification": "The article explicitly describes Bangladesh-wide export trade being accelerated through removal of technical barriers, matching the national-level scope of goods sent internationally.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "it creates new areas of cooperation in international trade including accelerating export trade by removing technical barriers to global trade.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The quoted sentence appears verbatim and explicitly links removal of technical barriers to accelerated export trade. Elsewhere the article states accreditation’s role is immense in removing such barriers, tying accreditation to the causal chain at a national/international trade scope relevant to Bangladesh."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-06-08",
+      "exports",
+      "accelerates export trade",
+      "Accreditation removes trade barriers"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

@@ -1,0 +1,61 @@
+{
+  "article": {
+    "source": "La Prensa Latina Media",
+    "date": "2023-01-18",
+    "url": "https://www.laprensalatina.com/bangladesh-raises-gas-prices-amid-fears-of-a-fresh-spike-in-inflation/",
+    "body_preview": "Dhaka, Jan 18 (EFE).- Bangladesh increased the retail price for piped gas for industrial use and power production by up to 179 percent on Wednesday, raising fears of more inflation.\n\nThe energy ministry said from Feb.1, power producers would have to pay Taka 14 (0.13 cents) for a cubic meter of gas, up from the previous price of Taka 5.02 (0.05 cents).\n\nThe gas price for captive power producers and all industrial units was set at Taka 30 (0.29 cents) per cubic meter, up 88 percent to 155 percent"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Gas hike may raise inflation",
+      "edge_label": "may raise inflation",
+      "evidence_quote": "Economists and consumers said the hike might further increase inflation.",
+      "scope_justification": "The article explicitly links the national gas-price increase to further inflation, matching the feature's general price-level scope.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "Economists and consumers said the hike might further increase inflation.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states, “Economists and consumers said the hike might further increase inflation,” explicitly linking the gas price hike to higher national inflation in Bangladesh. This matches the country-level inflation scope."
+      }
+    },
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Fuel hike raised inflation",
+      "edge_label": "raises inflation",
+      "evidence_quote": "Inflation jumped to 9.52 percent in August from 5.54 percent during the same period in 2021 after the authorities raised the fuel price by almost 51 percent that month.",
+      "scope_justification": "The article directly connects a nationwide fuel-price increase with a measured inflation-rate increase, matching the CPI-wide feature definition.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "Inflation jumped to 9.52 percent in August from 5.54 percent during the same period in 2021 after the authorities raised the fuel price by almost 51 percent that month.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The exact quote appears, stating inflation jumped in August after a 51% fuel price hike. This strongly implies a cause-effect link between the nationwide fuel-price increase and the national inflation rate."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-01-18",
+      "inflation_rate",
+      "may raise inflation",
+      "Gas hike may raise inflation"
+    ],
+    [
+      "2023-01-18",
+      "inflation_rate",
+      "raises inflation",
+      "Fuel hike raised inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 2
+}

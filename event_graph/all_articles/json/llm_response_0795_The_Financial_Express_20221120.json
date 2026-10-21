@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "The Financial Express",
+    "date": "2022-11-20",
+    "url": "https://thefinancialexpress.com.bd/trade/lng-import-to-go-up-25pc-in-dec-1668912258",
+    "body_preview": "Bangladesh will increase liquefied natural gas (LNG) import by around 25 per cent in December compared to its November and October imports respectively to feed growing demand for natural gas in industries, despite financial tightening.\n\nThe government will import a total of five LNG cargoes from long-term suppliers during December against its import of four LNG cargoes each during October and November, says a senior official of the state-run Petrobangla.\n\nFed on the higher imports, the quantity "
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Gas shortages threaten exports",
+      "edge_label": "constrains exports",
+      "evidence_quote": "production squeeze would have on supplies on the already-overheated domestic market and on export",
+      "scope_justification": "The article explicitly links a production squeeze from gas shortages to effects on the country's exports, matching the national scope of goods sent internationally.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "production squeeze would have on supplies on the already-overheated domestic market and on export",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states concern that a production squeeze (stemming from limited gas supply) would impact exports, and describes national-level actions by Bangladesh. The quoted phrase appears nearly verbatim and clearly links gas-related production constraints to effects on exports at the country level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-11-20",
+      "exports",
+      "constrains exports",
+      "Gas shortages threaten exports"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

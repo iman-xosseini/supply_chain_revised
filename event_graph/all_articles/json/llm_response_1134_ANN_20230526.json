@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "ANN",
+    "date": "2023-05-26",
+    "url": "https://asianews.network/rise-of-inequality-drumbeat-of-development/",
+    "body_preview": "DHAKA - Recently, a five-star hotel in the capital announced the sale of Jilapi wrapped in 24-carat edible gold. Priced at Tk 20,000 per kg, those jilapis were sold out so quickly that the hotel's stock of imported edible gold ran out within six days and it had to stop taking orders. Ironically, in March 2023, a survey by Sanem revealed that the majority of the people in the country are forced to reduce their food intake after massive food price hikes. According to the survey, in February, 96.4 "
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Inflation reduced real wages",
+      "edge_label": "reduces purchasing power",
+      "evidence_quote": "the actual minimum wage of workers in Bangladesh has decreased ... because wages did not increase proportionately with inflation between 2010 to 2019",
+      "scope_justification": "The article explicitly discusses Bangladesh-wide inflation reducing workers' real wages, matching the feature's focus on general price increases diminishing purchasing power.",
+      "verification": {
+        "quote_similarity": 0.795,
+        "quote_best_match": "actual minimum wage of workers in Bangladesh has decreased at the highest rate among the countries in the region, because wages did not increase proportionately with inflation between 2010",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that the actual minimum wage in Bangladesh decreased because wages did not keep pace with inflation between 2010 and 2019, explicitly linking inflation to reduced real wages. This is discussed at the national (Bangladesh-wide) level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-05-26",
+      "inflation_rate",
+      "reduces purchasing power",
+      "Inflation reduced real wages"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

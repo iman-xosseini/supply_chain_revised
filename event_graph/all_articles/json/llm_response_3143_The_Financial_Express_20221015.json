@@ -1,0 +1,118 @@
+{
+  "article": {
+    "source": "The Financial Express",
+    "date": "2022-10-15",
+    "url": "https://thefinancialexpress.com.bd/views/views/currency-depreciation-and-balance-of-payments-1665848740",
+    "body_preview": "Bangladesh's balance of payments (BoP) captures the transactions between Bangladeshi residents and the rest of the world in a given period of time. Residents are defined broadly to include people who live in Bangladesh, engaged in businesses and other organisations that operate in Bangladesh.\n\nBalance of payments divides transactions into two broad accounts: current account (CA) and combined capital and financial account (CFA). In essence, the current account captures the net flow of money that "
+  },
+  "llm_connections": [
+    {
+      "feature": "currency_momentum_5d",
+      "event_summary": "US dollar appreciation depreciates taka",
+      "edge_label": "depreciates currency",
+      "evidence_quote": "the US dollar is appreciating leading to the depreciation of the taka",
+      "scope_justification": "The article explicitly describes a recent national exchange-rate movement, matching the feature's definition of currency trend or strength.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "the US dollar is appreciating leading to the depreciation of the taka",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states, “as the US dollar is appreciating leading to the depreciation of the taka,” explicitly indicating causality. This is discussed at the national (currency) level, matching the feature’s scope."
+      }
+    },
+    {
+      "feature": "exports",
+      "event_summary": "Currency depreciation raises export volume",
+      "edge_label": "increases export volume",
+      "evidence_quote": "the indirect effects of a currency depreciation increase the volume of exports",
+      "scope_justification": "The statement directly concerns Bangladesh's aggregate export volume, matching the feature's definition of goods sent internationally.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "the indirect effects of a currency depreciation increase the volume of exports",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that the indirect effects of a currency depreciation increase the volume of exports, explicitly linking depreciation to higher export volumes at the country level for Bangladesh."
+      }
+    },
+    {
+      "feature": "imports",
+      "event_summary": "Currency depreciation reduces import volume",
+      "edge_label": "reduces import volume",
+      "evidence_quote": "the indirect effects of a currency depreciation increase the volume of exports and reduce volume of imports",
+      "scope_justification": "The article explicitly refers to the volume of imports at the national level, matching the feature's definition of goods brought into the country.",
+      "verification": {
+        "quote_similarity": 0.995,
+        "quote_best_match": "the indirect effects of a currency depreciation increase the volume of exports and reduce volume of imports.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states that the indirect effects of a currency depreciation reduce the volume of imports, and the discussion is at the national level (Bangladesh’s external accounts), matching the feature’s scope."
+      }
+    },
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Taka depreciation raises inflation",
+      "edge_label": "increases inflation",
+      "evidence_quote": "The depreciating taka will also contribute to higher inflation as the prices of imported goods and services rise.",
+      "scope_justification": "The article directly links currency depreciation to higher national inflation through rising imported prices, matching the feature's CPI-level scope.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "The depreciating taka will also contribute to higher inflation as the prices of imported goods and services rise.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article contains the exact sentence stating that a depreciating taka will contribute to higher inflation due to rising import prices, explicitly establishing causality at the national level."
+      }
+    },
+    {
+      "feature": "balance_of_trade",
+      "event_summary": "Import restrictions reduce trade deficit",
+      "edge_label": "temporarily reduces deficit",
+      "evidence_quote": "these measures are likely to reduce trade deficit temporarily, they do not stimulate exports.",
+      "scope_justification": "The article explicitly discusses the country-wide trade deficit, which is the aggregate imports-versus-exports balance represented by this feature.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "these measures are likely to reduce trade deficit temporarily, they do not stimulate exports.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that Bangladesh's government introduced import restrictions and multiple exchange rates, and explicitly says these measures are likely to reduce the trade deficit temporarily. This is at the country-level trade balance scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-10-15",
+      "currency_momentum_5d",
+      "depreciates currency",
+      "US dollar appreciation depreciates taka"
+    ],
+    [
+      "2022-10-15",
+      "exports",
+      "increases export volume",
+      "Currency depreciation raises export volume"
+    ],
+    [
+      "2022-10-15",
+      "imports",
+      "reduces import volume",
+      "Currency depreciation reduces import volume"
+    ],
+    [
+      "2022-10-15",
+      "inflation_rate",
+      "increases inflation",
+      "Taka depreciation raises inflation"
+    ],
+    [
+      "2022-10-15",
+      "balance_of_trade",
+      "temporarily reduces deficit",
+      "Import restrictions reduce trade deficit"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 5
+}

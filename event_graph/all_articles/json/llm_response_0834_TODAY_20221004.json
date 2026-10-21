@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "TODAY",
+    "date": "2022-10-04",
+    "url": "https://www.todayonline.com/world/blackouts-hit-130-million-bangladesh-after-grid-failure-2011051",
+    "body_preview": "DHAKA -- At least 130 million people in Bangladesh were without power on Tuesday (Oct 4) afternoon after a grid failure caused widespread blackouts, the government's power utility company said.\n\nBangladesh has suffered a major power crisis in recent month as a result of higher global energy prices following Russia's invasion of Ukraine, and has imposed regular service cuts to conserve electricity.\n\nBut it remained unclear what caused Tuesday's unscheduled blackout, which hit more than 80 per cen"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Consumer inflation hits households",
+      "edge_label": "reduces purchasing power",
+      "evidence_quote": "Consumer inflation has hit household budgets hard",
+      "scope_justification": "The article explicitly describes consumer inflation affecting household budgets, matching the feature's country-level price-rise and purchasing-power scope.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "Consumer inflation has hit household budgets hard",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states, 'Consumer inflation has hit household budgets hard,' which strongly implies inflation is reducing households’ purchasing power. This is presented at the national level for Bangladesh, matching the country-level scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-10-04",
+      "inflation_rate",
+      "reduces purchasing power",
+      "Consumer inflation hits households"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

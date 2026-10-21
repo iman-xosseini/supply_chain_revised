@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Daily Sun",
+    "date": "2023-03-12",
+    "url": "https://www.daily-sun.com/post/678769/General-point-to-point-inflation-reaches-8.78pc-in-February",
+    "body_preview": "DHAKA- The general point to point inflation rate in February increased slightly as it reached to 8.78 percentage up from 8.57 percentage points in January mainly because of the slight rise in food inflation.\n\nThe general point to point inflation rate in December last was 8.71percentage points, according to the monthly Consumer Price Index (CPI) of the Bangladesh Bureau of Statistics (BBS).\n\nOn the other hand, the point to point non-food inflation declined slightly to 9.82 percentage points in Fe"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Food inflation raises general inflation",
+      "edge_label": "raises inflation",
+      "evidence_quote": "increased slightly as it reached to 8.78 percentage up from 8.57 percentage points in January mainly because of the slight rise in food inflation",
+      "scope_justification": "The article explicitly links a rise in food inflation to the national general CPI inflation rate, matching the feature's aggregate price-level scope.",
+      "verification": {
+        "quote_similarity": 0.997,
+        "quote_best_match": "increased slightly as it reached to 8.78 percentage up from 8.57 percentage points in January mainly because of the slight rise in food inflation.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that general inflation increased 'mainly because of the slight rise in food inflation,' which directly links food inflation to the national general CPI rate. The quoted wording appears verbatim and matches the country-level scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-03-12",
+      "inflation_rate",
+      "raises inflation",
+      "Food inflation raises general inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

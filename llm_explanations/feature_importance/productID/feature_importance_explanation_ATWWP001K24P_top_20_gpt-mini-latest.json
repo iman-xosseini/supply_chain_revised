@@ -1,0 +1,7 @@
+{
+  "start_date": "2023-07-11",
+  "end_date": "2023-08-09",
+  "top_n": 20,
+  "model_name": "~openai/gpt-mini-latest",
+  "explanation": "**Operations and Logistics** accounts for 84.0% of predictive importance and is associated with lower daily sales volume, while **Sales** adds 14.8% with the same downward direction. **Macroeconomics** contributes only 0.7% and also leans lower, and **Weather**, **Rainfall**, and **Holiday Type** are negligible at about 0.2% each, with Rainfall and Holiday Type slightly upward. For planning, attention should stay on the operations, logistics, and sales signals that move the forecast most, while treating weather-related categories as secondary. These are predictive associations, not causes, and the sales pattern may also reflect autocorrelated historical sales."
+}

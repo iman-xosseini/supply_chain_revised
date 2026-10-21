@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Capital FM Kenya",
+    "date": "2022-10-04",
+    "url": "https://www.capitalfm.co.ke/news/2022/10/power-blackouts-hit-130-million-people-in-bangladesh/",
+    "body_preview": "Dhaka (AFP), Oct 4 - An unexplained grid failure left over 80 percent of the population of Bangladesh, or 130 million people, without power for several hours on Tuesday, officials said.\n\nBangladesh has suffered a major power crisis in recent months as a result of higher global energy prices following Russia's invasion of Ukraine, and has imposed regular cuts to conserve electricity.\n\nBut it remained unclear what caused Tuesday's unscheduled blackout, which hit more than 80 percent of the country"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Consumer inflation strains households",
+      "edge_label": "reduces purchasing power",
+      "evidence_quote": "Consumer inflation has hit household budgets hard",
+      "scope_justification": "The article explicitly describes consumer inflation affecting household budgets, matching the feature's general price-level and purchasing-power scope.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "Consumer inflation has hit household budgets hard",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states, 'Consumer inflation has hit household budgets hard,' explicitly linking inflation to household strain. This is at the national level (Bangladesh), matching the scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-10-04",
+      "inflation_rate",
+      "reduces purchasing power",
+      "Consumer inflation strains households"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

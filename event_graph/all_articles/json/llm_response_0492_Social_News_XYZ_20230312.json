@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Social News XYZ",
+    "date": "2023-03-12",
+    "url": "https://www.socialnews.xyz/2023/03/12/bangladeshs-inflation-leaps-to-8-78-in-feb/",
+    "body_preview": "Dhaka, March 13 (SocialNews.XYZ) Bangladesh's inflation hit 8.78 per cent in February, driven by both food and non-food prices, official data showed.\n\nBangladesh's inflation increased to 8.78 per cent in February from 8.57 per cent in January, the data showed on Sunday.\n\nFood inflation increased to 7.98 per cent in February from 7.41 per cent in the previous month. Non-food items inflation increased to 9.61 per cent in February from 9.48 per cent in January, Xinhua news agency reported.\n\nAccordi"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Food prices drive inflation",
+      "edge_label": "drives inflation upward",
+      "evidence_quote": "Bangladesh's inflation hit 8.78 per cent in February, driven by both food and non-food prices, official data showed.",
+      "scope_justification": "The article describes Bangladesh's national inflation rate, matching the feature's scope as a general rise in overall price levels.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "Bangladesh's inflation hit 8.78 per cent in February, driven by both food and non-food prices, official data showed.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states inflation was 'driven by both food and non-food prices,' explicitly linking food prices to higher national inflation. The scope is Bangladesh’s overall inflation rate, matching the feature’s level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-03-12",
+      "inflation_rate",
+      "drives inflation upward",
+      "Food prices drive inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

@@ -1,0 +1,56 @@
+{
+  "article": {
+    "source": "The Financial Express",
+    "date": "2022-10-15",
+    "url": "https://thefinancialexpress.com.bd/views/views/currency-depreciation-and-balance-of-payments-1665848740",
+    "body_preview": "Bangladesh's balance of payments (BoP) captures the transactions between Bangladeshi residents and the rest of the world in a given period of time. Residents are defined broadly to include people who live in Bangladesh, engaged in businesses and other organisations that operate in Bangladesh.\n\nBalance of payments divides transactions into two broad accounts: current account (CA) and combined capital and financial account (CFA). In essence, the current account captures the net flow of money that "
+  },
+  "llm_connections": [
+    {
+      "feature": "balance_of_trade",
+      "event_summary": "Import restrictions reduce deficit",
+      "edge_label": "temporarily reduces trade deficit",
+      "evidence_quote": "While these measures are likely to reduce trade deficit temporarily, they do not stimulate exports.",
+      "scope_justification": "The article refers to Bangladesh's aggregate trade deficit, which matches the country-wide import-export difference represented by the balance of trade.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "While these measures are likely to reduce trade deficit temporarily, they do not stimulate exports.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that government measures including import restrictions are likely to temporarily reduce the trade deficit. This explicitly links the measures to a reduction in the country-level trade deficit."
+      }
+    },
+    {
+      "feature": "exports",
+      "event_summary": "Taka depreciation boosts competitiveness",
+      "edge_label": "stimulates export growth",
+      "evidence_quote": "As the taka depreciates, one would expect that exports from Bangladesh would become more price competitive stimulating export growth.",
+      "scope_justification": "The statement addresses export growth from Bangladesh as a national aggregate, matching the feature's scope of internationally sent goods.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "As the taka depreciates, one would expect that exports from Bangladesh would become more price competitive stimulating export growth.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states that as the taka depreciates, exports from Bangladesh become more price competitive, stimulating export growth, and it addresses this at the national level. Although offsetting factors are noted, the causal link is clearly articulated."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-10-15",
+      "balance_of_trade",
+      "temporarily reduces trade deficit",
+      "Import restrictions reduce deficit"
+    ],
+    [
+      "2022-10-15",
+      "exports",
+      "stimulates export growth",
+      "Taka depreciation boosts competitiveness"
+    ]
+  ],
+  "features_queried": [
+    "balance_of_trade",
+    "stock_market_close",
+    "exports"
+  ],
+  "num_connections_found": 2
+}

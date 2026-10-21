@@ -1,0 +1,37 @@
+{
+  "article": {
+    "source": "LatestLY",
+    "date": "2022-08-10",
+    "url": "https://www.latestly.com/agency-news/world-news-bangladesh-textile-faces-major-challanges-amid-global-recession-4063541.html",
+    "body_preview": "Dhaka [Bangladesh], August 10 (ANI): Bangladesh's textile industry is currently facing major challenges due to the global recession and inflation as retailers in both European and US markets are either deferring the shipments of finished products or delaying orders due to soaring inflation.\n\nThe world's second-largest garment exporter after China is facing prolonged challenges including power shortage domestically affecting production on one hand while its major markets are postponing shipments "
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Constricted demand reduced exports",
+      "edge_label": "reduces exports",
+      "evidence_quote": "Since then the RMG exports could not pick up to the desired level of growth due to constricted demand",
+      "scope_justification": "The article directly describes Bangladesh's RMG goods sent internationally and attributes their reduced growth to constrained demand.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "Since then the RMG exports could not pick up to the desired level of growth due to constricted demand",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that RMG exports ‘could not pick up to the desired level of growth due to constricted demand,’ explicitly linking constrained demand to weaker export performance at the national sector level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-08-10",
+      "exports",
+      "reduces exports",
+      "Constricted demand reduced exports"
+    ]
+  ],
+  "features_queried": [
+    "balance_of_trade",
+    "stock_market_close",
+    "exports"
+  ],
+  "num_connections_found": 1
+}

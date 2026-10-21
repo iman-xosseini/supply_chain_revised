@@ -1,0 +1,37 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-09-17",
+    "url": "https://www.bssnews.net/business/83066",
+    "body_preview": "DHAKA, Sept 17, 2022 (BSS) - Commerce Minister Tipu Munshi today said that the government has a target of attaining manufacturing goods exports worth $80 billion by 2024 and $100.0 billion by 2026.\n\nThe Minister said this while speaking at the \"Meet the Overseas Correspondents Association of Bangladesh (OCAB)\" at Jatiya Press Club in the city today.\n\nTipu also said that there was a potential to increase Bangladesh's exports to the Indian market to $4 billion in the next three to four years.\n\nReg"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Government targets export growth",
+      "edge_label": "seeks to increase",
+      "evidence_quote": "the Bangladesh government was working to increase its agricultural production and exports to tackle the situation",
+      "scope_justification": "The article explicitly addresses Bangladesh-wide exports, matching the feature's scope of goods sent internationally.",
+      "verification": {
+        "quote_similarity": 0.996,
+        "quote_best_match": "the Bangladesh government was working to increase its agricultural production and exports to tackle the situation.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states that “the Bangladesh government was working to increase its agricultural production and exports to tackle the situation,” showing a direct effort (cause) to raise exports (effect). This is discussed at the national level, matching the scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-09-17",
+      "exports",
+      "seeks to increase",
+      "Government targets export growth"
+    ]
+  ],
+  "features_queried": [
+    "balance_of_trade",
+    "stock_market_close",
+    "exports"
+  ],
+  "num_connections_found": 1
+}

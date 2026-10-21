@@ -1,0 +1,37 @@
+{
+  "article": {
+    "source": "Asian News International (ANI)",
+    "date": "2023-06-14",
+    "url": "https://www.aninews.in/news/world/asia/bangladesh-is-way-ahead-of-pakistan-in-economy-population-planning-sector-report20230614164150/",
+    "body_preview": "Dhaka [Bangladesh], June 14 (ANI): Once Bangladesh was labelled as the \"basket case\" by the then US National Security Adviser Henry Kissinger has now outpaced Pakistan which it was once part of, reported Bangladeshlivenews citing Daily Jang.\n\nThe Bangladeshlivenews reported that Bangladesh left Pakistan behind in all the sectors of the economy in 2023-24 as Dhaka presented a budget of USD 71 billion and a growth rate of 7.5 per cent, whereas Pakistan's growth rate is only 3.5 per cent and inflat"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Bangladesh expanded garment exports",
+      "edge_label": "increases exports",
+      "evidence_quote": "Bangladesh focused on its labour-intensive light manufacturing industry and became the world's second-largest clothing exporter after China.",
+      "scope_justification": "The article directly links Bangladesh's national manufacturing focus to internationally exported goods, matching the country-wide exports definition.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "Bangladesh focused on its labour-intensive light manufacturing industry and became the world's second-largest clothing exporter after China.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The quoted sentence appears verbatim. The article explicitly states that Bangladesh’s garment factories 'contribute significantly to its USD35 billion in exports,' implying that expanded garment exports increase national exports. All discussion is at the country level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-06-14",
+      "exports",
+      "increases exports",
+      "Bangladesh expanded garment exports"
+    ]
+  ],
+  "features_queried": [
+    "balance_of_trade",
+    "stock_market_close",
+    "exports"
+  ],
+  "num_connections_found": 1
+}

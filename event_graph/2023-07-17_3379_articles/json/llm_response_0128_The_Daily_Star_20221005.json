@@ -1,0 +1,37 @@
+{
+  "article": {
+    "source": "The Daily Star",
+    "date": "2022-10-05",
+    "url": "https://www.thedailystar.net/business/economy/news/small-fish-big-potential-3135171",
+    "body_preview": "The Bangladesh Fisheries Research Institute (BFRI) has conserved and improved 37 domesticated varieties of freshwater fish over the past 30 years, bringing hopes that endangered breeds can be preserved to satisfy both local and global demand.\n\nOf the small indigenous species, some 11 were developed just last year and are already being exported overseas after catering to the domestic market, according to the BFRI sources.\n\nSome 64 of the 260 varieties of freshwater fish native to Bangladesh are a"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Fish export growth projected",
+      "edge_label": "expands export scale",
+      "evidence_quote": "If this trend continues maintaining the desired quality, the export scale will surely be expanded in the future",
+      "scope_justification": "The article explicitly links maintaining fish quality to an increased volume of goods exported internationally, matching the exports feature.",
+      "verification": {
+        "quote_similarity": 0.996,
+        "quote_best_match": "If this trend continues maintaining the desired quality, the export scale will surely be expanded in the future,",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The exact quote appears, stating that if the current trend continues with maintained quality, the export scale will expand. This is an explicit causal claim at the national exports level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-10-05",
+      "exports",
+      "expands export scale",
+      "Fish export growth projected"
+    ]
+  ],
+  "features_queried": [
+    "balance_of_trade",
+    "stock_market_close",
+    "exports"
+  ],
+  "num_connections_found": 1
+}

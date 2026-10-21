@@ -1,0 +1,37 @@
+{
+  "article": {
+    "source": "ANN",
+    "date": "2022-09-19",
+    "url": "https://asianews.network/bangladesh-needs-to-rely-less-on-eu-us-markets/",
+    "body_preview": "DHAKA - In the US and Europe, a recession is coming. As an apparel maker, I can already feel the early signs of a storm heading our way. Orders have been decreasing for many of us in the industry since this summer, after picking up dramatically at the back end of last year.\n\nThe issues around a recession are well-documented. High and rising inflation in the US and much of Europe; soaring energy prices that are placing businesses and households under huge financial strain; fallout from the pandem"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Asian middle classes expand",
+      "edge_label": "expands export opportunities",
+      "evidence_quote": "As middle class populations grow, spending power increases. Countries with higher middle class populations have a higher propensity to import foreign goods.",
+      "scope_justification": "The article explicitly links growing foreign-market demand in China and India to opportunities for Bangladeshi garment exporters, matching internationally shipped goods.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "As middle class populations grow, spending power increases. Countries with higher middle class populations have a higher propensity to import foreign goods.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The exact quote appears in the article. The text explicitly links growing middle classes in China and India to increased spending and higher imports, which it frames as opportunities for Bangladeshi garment exporters. The scope matches country-level export opportunities for Bangladesh’s apparel industry."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-09-19",
+      "exports",
+      "expands export opportunities",
+      "Asian middle classes expand"
+    ]
+  ],
+  "features_queried": [
+    "balance_of_trade",
+    "stock_market_close",
+    "exports"
+  ],
+  "num_connections_found": 1
+}

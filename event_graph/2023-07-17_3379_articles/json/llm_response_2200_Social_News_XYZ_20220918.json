@@ -1,0 +1,37 @@
+{
+  "article": {
+    "source": "Social News XYZ",
+    "date": "2022-09-18",
+    "url": "https://www.socialnews.xyz/2022/09/18/bangladesh-eyes-100-billion-usd-export-earnings-by-2026/",
+    "body_preview": "Dhaka, Sep 18 (SocialNews.XYZ) Bangladesh has embarked on a high growth path with an aim to double its export earnings in just four years, country's Commerce Minister Tipu Munshi said.\n\nAddressing a meeting with the Overseas Correspondents Association of Bangladesh (OCAB) at the National Press Club in Dhaka on Saturday, he said the government has planned an export target of 100 billion US dollars by 2026.\n\n\"We're planning an export target of 80 billion US dollars by 2024 and 100 billion US dolla"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "RMG receives export priority",
+      "edge_label": "supports goods exports",
+      "evidence_quote": "ready-made garments (RMG), including knitwear and woven, would be given a special priority as always to achieve goods export target",
+      "scope_justification": "The article explicitly links priority for RMG exports to achieving Bangladesh's national goods export target, matching the feature's scope of internationally sent goods.",
+      "verification": {
+        "quote_similarity": 0.996,
+        "quote_best_match": "ready-made garments (RMG), including knitwear and woven, would be given a special priority as always to achieve goods export target.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article contains the exact quote stating RMG will be given special priority to achieve the goods export target, explicitly linking the priority to boosting national goods exports at the country level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-09-18",
+      "exports",
+      "supports goods exports",
+      "RMG receives export priority"
+    ]
+  ],
+  "features_queried": [
+    "balance_of_trade",
+    "stock_market_close",
+    "exports"
+  ],
+  "num_connections_found": 1
+}

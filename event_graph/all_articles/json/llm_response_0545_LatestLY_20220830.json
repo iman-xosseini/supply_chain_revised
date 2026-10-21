@@ -1,0 +1,80 @@
+{
+  "article": {
+    "source": "LatestLY",
+    "date": "2022-08-30",
+    "url": "https://www.latestly.com/agency-news/world-news-pm-sheikh-hasina-dispels-possibility-of-sri-lanka-like-economic-crisis-in-bangladesh-4145396.html",
+    "body_preview": "Dhaka, Aug 30 (PTI) Prime Minister Sheikh Hasina said on Tuesday that Bangladesh would never plunge into a Sri Lanka-like economic crisis as her government was steering the country's development in a planned way.\n\nAddressing an event of her ruling Awami League here, Hasina said her government took every development project considering their economic return and the national budgets were prepared in a planned way as well to evade economic disasters and facilitate smooth development.\n\nAlso Read | P"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Fuel price hike drives inflation",
+      "edge_label": "increases price pressure",
+      "evidence_quote": "people were now suffering due to the inflation, largely caused by fuel price hike",
+      "scope_justification": "The statement directly attributes broader national inflation, a general rise in prices, to higher fuel prices.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "people were now suffering due to the inflation, largely caused by fuel price hike",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that people are suffering due to inflation 'largely caused by fuel price hike,' explicitly linking fuel price increases to national inflation. The context is Bangladesh’s overall economy, matching the country-level scope."
+      }
+    },
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Currency depreciation raises inflation",
+      "edge_label": "mounts inflation pressure",
+      "evidence_quote": "further depreciation of its currency would mount domestic inflation pressures",
+      "scope_justification": "The article explicitly links national currency depreciation to domestic inflation pressure, matching the aggregate CPI-oriented definition.",
+      "verification": {
+        "quote_similarity": 0.994,
+        "quote_best_match": "further depreciation of its currency would mount domestic inflation pressures,",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that S&P cautioned Bangladesh that further currency depreciation would mount domestic inflation pressures, explicitly linking depreciation to higher national inflation. This is at the country level, matching the scope of the feature."
+      }
+    },
+    {
+      "feature": "currency_momentum_5d",
+      "event_summary": "Outflows weaken currency trend",
+      "edge_label": "drives currency depreciation",
+      "evidence_quote": "These trends have driven net outflows of foreign exchange from the economy, resulting in declining reserves and depreciatory pressure against the taka",
+      "scope_justification": "The article describes national exchange-rate depreciation and its drivers, matching the feature's focus on the currency's recent trend or strength.",
+      "verification": {
+        "quote_similarity": 0.99,
+        "quote_best_match": "\"These trends have driven net outflows of foreign exchange from the economy, resulting in declining reserves and depreciatory pressure against the taka,\"",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The quoted sentence appears verbatim and explicitly states that net foreign exchange outflows result in depreciatory pressure on the taka, indicating a causal link at the national (Bangladesh) currency level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-08-30",
+      "inflation_rate",
+      "increases price pressure",
+      "Fuel price hike drives inflation"
+    ],
+    [
+      "2022-08-30",
+      "inflation_rate",
+      "mounts inflation pressure",
+      "Currency depreciation raises inflation"
+    ],
+    [
+      "2022-08-30",
+      "currency_momentum_5d",
+      "drives currency depreciation",
+      "Outflows weaken currency trend"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 3
+}

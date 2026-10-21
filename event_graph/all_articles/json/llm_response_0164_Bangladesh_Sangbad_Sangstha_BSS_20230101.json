@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2023-01-01",
+    "url": "https://www.bssnews.net/business/102891",
+    "body_preview": "DHAKA, Jan 1, 2023 (BSS) - Dhaka Chamber of Commerce and Industry (DCCI) today underscored the need for Public-Private Partnership (PPP) to manage sustainable economic recovery.\n\nTo further accelerate the country's economic recovery in 2023, DCCI urged the government to focus on uninterrupted and affordable energy supply to local and export-oriented manufacturing industries, improve the ease of doing business, develop an infrastructural environment conducive to attracting local and foreign inves"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "FTAs support export growth",
+      "edge_label": "supports export growth",
+      "evidence_quote": "After the LDC graduation, in order to continue the existing export growth, we have to take the initiative of signing free trade agreements (FTAs)",
+      "scope_justification": "The article explicitly discusses continued national export growth, matching the feature's aggregate volume of goods sent internationally.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "After the LDC graduation, in order to continue the existing export growth, we have to take the initiative of signing free trade agreements (FTAs)",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that to continue national export growth after LDC graduation, Bangladesh should initiate FTAs, explicitly linking FTAs to supporting export growth at the country level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-01-01",
+      "exports",
+      "supports export growth",
+      "FTAs support export growth"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

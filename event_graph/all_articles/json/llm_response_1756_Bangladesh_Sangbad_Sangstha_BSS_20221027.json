@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-10-27",
+    "url": "https://www.bssnews.net/news/90409",
+    "body_preview": "KHULNA, Oct 27, 2022 (BSS) - Amid import control and inflation in economy, the Mongla Port, country's second largest sea port, saw huge export and import in last three and a half months in the current fiscal years (2021-22) after the inauguration of Padma Bridge.\n\nFertilizer, wheat, raw materials of cement industry, coal and car import has increased while the export of fish, shrimp, crabs, garments, jute goods, fruits, vegetables, ceramics, electrical wire, mud tally, betel-nut and others produc"
+  },
+  "llm_connections": [
+    {
+      "feature": "imports",
+      "event_summary": "Padma Bridge boosts port imports",
+      "edge_label": "boosts import volume",
+      "evidence_quote": "export and import in last three and a half months in the current fiscal years (2021-22) after the inauguration of Padma Bridge",
+      "scope_justification": "The article describes increased quantities of goods entering through Mongla Port, matching the feature's definition of imported-goods volume.",
+      "verification": {
+        "quote_similarity": 0.996,
+        "quote_best_match": "export and import in last three and a half months in the current fiscal years (2021-22) after the inauguration of Padma Bridge.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The quoted line appears nearly verbatim. The article explicitly links the Padma Bridge to enhanced ship arrivals and reduced import costs, citing these as reasons for ‘huge import activities’ at Mongla Port. The scope is port-level imports, matching the claim."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-10-27",
+      "imports",
+      "boosts import volume",
+      "Padma Bridge boosts port imports"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

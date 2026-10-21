@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "United News of India",
+    "date": "2023-06-02",
+    "url": "http://www.uniindia.com/news/world/b-desh-finance-minister-unveils-tk-7-61-lakh-crore-budget/2983384.html",
+    "body_preview": "Dhaka, June 2 (UNI) Bangladesh Finance Minister AHM Mustafa Kamal has unveiled the proposed national budget of Tk 7,61,785 crore for the 2023-24 fiscal year at Jatiya Sangsad.\n\nHe placed the budget on Thursday afternoon. It is his fifth budget, Independent Bangladesh's 52nd, and Awami League's 15th in its three tenures.\n\nEarlier, the proposed budget was approved in the meeting of the Cabinet Division at the parliament with Prime Minister Sheikh Hasina in the chair.\n\nThe budget, which is Tk 1,01,"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Proposed budget targets inflation",
+      "edge_label": "aims to contain",
+      "evidence_quote": "mainly aimed to contain inflation and maintain the pace of high GDP growth",
+      "scope_justification": "The article links the national budget to containing inflation, matching the feature's country-level measure of general price-level increases.",
+      "verification": {
+        "quote_similarity": 0.993,
+        "quote_best_match": "mainly aimed to contain inflation and maintain the pace of high GDP growth.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states the budget is 'mainly aimed to contain inflation and maintain the pace of high GDP growth.' This directly links the national budget to targeting country-level inflation, matching the feature’s scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-06-02",
+      "inflation_rate",
+      "aims to contain",
+      "Proposed budget targets inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

@@ -1,0 +1,37 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-09-13",
+    "url": "https://www.bssnews.net/business/82332",
+    "body_preview": "DHAKA, Sept 13, 2022 (BSS) - After witnessing a downward trend in the two sessions, stocks today rebounded in the Dhaka and Chittagong stock exchanges as investors remained active on sector-wise issues.\n\nDSEX, the key index of the Dhaka Stock Exchange (DSE), went up by 9.28 points or 0.14 per cent to settle at 6,537.60, after losing 32 points in the past two days. However, two other indices edged lower. The DS30 index, comprising blue chips, dropped 3.11 points to finish at 2,353 and the DSE Sha"
+  },
+  "llm_connections": [
+    {
+      "feature": "stock_market_close",
+      "event_summary": "Investor activity drives rebound",
+      "edge_label": "drives market rebound",
+      "evidence_quote": "stocks today rebounded in the Dhaka and Chittagong stock exchanges as investors remained active on sector-wise issues",
+      "scope_justification": "The article describes broad movements in the Dhaka and Chittagong equity-market indices, matching the feature's overall equity-market performance scope.",
+      "verification": {
+        "quote_similarity": 0.996,
+        "quote_best_match": "stocks today rebounded in the Dhaka and Chittagong stock exchanges as investors remained active on sector-wise issues.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that stocks rebounded 'as investors remained active on sector-wise issues,' explicitly linking investor activity to the rebound. It addresses overall market indices in Dhaka and Chittagong, matching the broad stock market scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-09-13",
+      "stock_market_close",
+      "drives market rebound",
+      "Investor activity drives rebound"
+    ]
+  ],
+  "features_queried": [
+    "balance_of_trade",
+    "stock_market_close",
+    "exports"
+  ],
+  "num_connections_found": 1
+}

@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "MSN International Edition",
+    "date": "2022-10-06",
+    "url": "https://www.msn.com/en-xl/asia/bangladesh/unprecedented-shocks-exacerbating-challenges-dampening-growth-in-south-asia-world-bank/ar-AA12GaLn",
+    "body_preview": "Bangladesh, Oct. 7 -- Beset with Sri Lanka's economic crisis, Pakistan's catastrophic floods, a global slowdown, and the impacts of the war in Ukraine, South Asia faces an unprecedented combination of shocks on top of the lingering scars of the Covid, the World Bank said in its twice-a-year update.\n\nReleased Thursday, the latest \"South Asia Economic Focus, Coping with Shocks: Migration and the Road to Resilience,\" projects regional growth to average 5.8 percent this year - a downward revision of"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Global prices raise inflation",
+      "edge_label": "raises inflation",
+      "evidence_quote": "Inflation in South Asia, caused by elevated global food and energy prices and trade restrictions that worsened food insecurity in the region, is expected to rise to 9.2 percent this year",
+      "scope_justification": "The article explicitly describes a broad regional rise in prices and its effect on real income, matching the feature's general price-level inflation scope.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "Inflation in South Asia, caused by elevated global food and energy prices and trade restrictions that worsened food insecurity in the region, is expected to rise to 9.2 percent this year",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states that elevated global food and energy prices caused inflation in South Asia to rise to 9.2% this year, matching the provided quote and the regional scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-10-06",
+      "inflation_rate",
+      "raises inflation",
+      "Global prices raise inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2023-07-21",
+    "url": "https://www.bssnews.net/news-flash/137581",
+    "body_preview": "DHAKA, July 21, 2023 (BSS) - Prime Minister Sheikh Hasina today laid emphasis on an amicable end to the Ukraine war, saying international cooperation in this time of growing instability is clearly vital to the vulnerable among the global community to build resilience against future shocks.\n\n\"The prolonging war and the imposed sanctions and counter sanctions continue to destabilise the world. Each passing day of the war take as well as destroy many lives in the conflict zone, and also in the far-"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Global shocks raise prices",
+      "edge_label": "raises inflation",
+      "evidence_quote": "These and other shocks have driven up the prices of food, energy, and other commodities the world over",
+      "scope_justification": "The article links broad global price increases to Bangladesh’s increasing inflation, matching the feature’s country-level general price-rise scope.",
+      "verification": {
+        "quote_similarity": 0.99,
+        "quote_best_match": "\"These and other shocks have driven up the prices of food, energy, and other commodities the world over,",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that global shocks have driven up prices worldwide and then notes Bangladesh is experiencing increasing inflation, strongly implying that the global price shocks are causing higher inflation in Bangladesh. The quoted sentence appears verbatim, and the scope is at the country level for Bangladesh."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-07-21",
+      "inflation_rate",
+      "raises inflation",
+      "Global shocks raise prices"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

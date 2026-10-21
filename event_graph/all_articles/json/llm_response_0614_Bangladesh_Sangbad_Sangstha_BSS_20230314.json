@@ -1,0 +1,61 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2023-03-14",
+    "url": "https://www.bssnews.net/business/115503",
+    "body_preview": "DHAKA, March 14, 2023 (BSS) - Metropolitan Chamber of Commerce and Industry (MCCI) has underscored the need for taking quick and decisive measures to rebound the country's economy.\n\nAt its quarterly review, MCCI observed that Bangladesh's robust economic recovery from the COVID-19 pandemic has been interrupted by the war in Russia-Ukraine, resultant supply-chain disruptions, global oil-and food-price spikes, slowdown in external demand, weak remittance inflow, rise in inflation, negative current"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Export earnings supported recovery",
+      "edge_label": "facilitates recovery",
+      "evidence_quote": "Export earnings have facilitated economic recovery.",
+      "scope_justification": "The statement concerns Bangladesh's aggregate export earnings, matching the country-wide scope of goods sent internationally.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "Export earnings have facilitated economic recovery.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states, 'Export earnings have facilitated economic recovery,' indicating a clear causal link at the national (Bangladesh) level."
+      }
+    },
+    {
+      "feature": "imports",
+      "event_summary": "Import payments decreased",
+      "edge_label": "creates multiplier effects",
+      "evidence_quote": "The import payments and inward remittances, however, decreased, which has multiplier effects on other economic sectors.",
+      "scope_justification": "The article addresses aggregate national import activity and its effects across other economic sectors, matching the country-wide scope of imports.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "The import payments and inward remittances, however, decreased, which has multiplier effects on other economic sectors.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states verbatim that import payments and inward remittances decreased, which has multiplier effects on other economic sectors, explicitly indicating causality at the national level. The scope matches aggregate country-level imports."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-03-14",
+      "exports",
+      "facilitates recovery",
+      "Export earnings supported recovery"
+    ],
+    [
+      "2023-03-14",
+      "imports",
+      "creates multiplier effects",
+      "Import payments decreased"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 2
+}

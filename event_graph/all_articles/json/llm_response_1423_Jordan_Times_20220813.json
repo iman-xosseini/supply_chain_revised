@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Jordan Times",
+    "date": "2022-08-13",
+    "url": "http://jordantimes.com/news/business/nearly-150000-bangladeshi-tea-workers-strike",
+    "body_preview": "DHAKA -- Nearly 150,000 workers at more than 200 Bangladeshi tea plantations went on strike Saturday to demand a 150 per cent rise to their dollar-a-day wages, which researchers say are among the lowest in the world.\n\nMost tea workers in the overwhelmingly Muslim country are low-caste Hindus, the descendants of labourers brought to the plantations by colonial-era British planters.\n\nThe minimum wage for a tea plantation worker in the country is 120 taka a day -- about $1.25 at official rates, but"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Inflation fuels wage demands",
+      "edge_label": "drives wage demands",
+      "evidence_quote": "Unions are demanding an increase to 300 taka a day, with inflation rising and the currency depreciating",
+      "scope_justification": "The article explicitly identifies rising inflation as a reason for higher wages, matching the feature’s country-level general price-pressure concept.",
+      "verification": {
+        "quote_similarity": 0.995,
+        "quote_best_match": "Unions are demanding an increase to 300 taka a day, with inflation rising and the currency depreciating,",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states unions are demanding higher wages 'with inflation rising and the currency depreciating,' explicitly linking inflation to the wage demands. This refers to country-level inflation in Bangladesh, matching the feature’s scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-08-13",
+      "inflation_rate",
+      "drives wage demands",
+      "Inflation fuels wage demands"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

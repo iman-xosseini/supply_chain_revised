@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Market Screener",
+    "date": "2022-08-10",
+    "url": "https://www.marketscreener.com//quote/stock/HENNES-MAURITZ-AB-6491104/news/Bangladesh-garment-export-growth-seen-slowing-to-normal-15-this-year-41267174/",
+    "body_preview": "DHAKA (Reuters) - Growth in Bangladesh's garment exports could drop to about 15% this year after an unusually strong expansion of more than 30% in 2021, two industry leaders told Reuters on Wednesday, as U.S. and European customers grapple with cost of living pressures.\n\nThe garment industry accounts for more than 80% of total exports for Bangladesh, which sells to clients such as Walmart, Gap Inc, H&M, VF Corp, Zara and American Eagle Outfitters - some of which have already flagged weak sales a"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Customer cost pressures slow exports",
+      "edge_label": "slows export growth",
+      "evidence_quote": "Growth in Bangladesh's garment exports could drop to about 15% this year ... as U.S. and European customers grapple with cost of living pressures.",
+      "scope_justification": "The article explicitly links international customers' cost pressures to slower growth in Bangladesh's exported garments, which are goods sent internationally.",
+      "verification": {
+        "quote_similarity": 0.711,
+        "quote_best_match": "- Growth in Bangladesh's garment exports could drop to about 15% this year after an unusually",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that growth in Bangladesh's garment exports could drop to about 15% this year 'as U.S. and European customers grapple with cost of living pressures,' explicitly linking customer cost pressures to slower export growth at the national (Bangladesh garment exports) level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-08-10",
+      "exports",
+      "slows export growth",
+      "Customer cost pressures slow exports"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

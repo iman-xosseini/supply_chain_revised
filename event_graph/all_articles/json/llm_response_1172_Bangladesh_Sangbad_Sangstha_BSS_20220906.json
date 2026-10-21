@@ -1,0 +1,61 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-09-06",
+    "url": "https://www.bssnews.net/news/80963",
+    "body_preview": "DHAKA, Sept 6, 2022 (BSS) - Planning Minister MA Mannan today expressed his hope that the general point to point inflation in the country is likely to ease from October due to the various measures taken by the government.\n\n\"The inflation is likely to remain a bit higher in September as it was in August. After that hopefully inflation is likely to ease from October,\" he said.\n\nThe Planning Minister said this while responding to a volley of questions at the \"DJFB Development Dialogue\" as the chief"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Government measures ease inflation",
+      "edge_label": "eases price growth",
+      "evidence_quote": "inflation is likely to ease from October due to the various measures taken by the government",
+      "scope_justification": "The statement directly concerns Bangladesh's general point-to-point inflation rate, matching the feature's national CPI-level definition.",
+      "verification": {
+        "quote_similarity": 0.937,
+        "quote_best_match": "is likely to ease from October due to the various measures taken by the government.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that national inflation is likely to ease from October due to government measures, matching the quote closely and explicitly attributing causality at the country level."
+      }
+    },
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Food reserves support easing",
+      "edge_label": "reduces inflation pressure",
+      "evidence_quote": "the current food reserve of the country is at a record height of more than 20 lakh metric tons while the price of rice is gradually coming down",
+      "scope_justification": "The article explicitly presents national food reserves and declining rice prices as reasons for easing the country's general inflation rate.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "the current food reserve of the country is at a record height of more than 20 lakh metric tons while the price of rice is gradually coming down",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that high national food reserves and declining rice prices are reasons for expected easing of overall inflation, and the quoted sentence closely matches the text at the country level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-09-06",
+      "inflation_rate",
+      "eases price growth",
+      "Government measures ease inflation"
+    ],
+    [
+      "2022-09-06",
+      "inflation_rate",
+      "reduces inflation pressure",
+      "Food reserves support easing"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 2
+}

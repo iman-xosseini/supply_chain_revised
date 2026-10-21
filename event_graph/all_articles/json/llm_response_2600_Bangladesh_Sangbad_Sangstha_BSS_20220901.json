@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-09-01",
+    "url": "https://www.bssnews.net/news-flash/80076",
+    "body_preview": "DHAKA, Sept 1, 2022 (BSS) - Prime Minister Sheikh Hasina today reiterated her call to the countrymen to put concentration on boosting food production, doing savings and showing austerity in all stages in the wake of global crisis.\n\n\"I am again urging all to be active in enhancing food production, so the people of Bangladesh don't face any suffering during the world economic recession. We have to do our arrangement by our own,\" she said.\n\nThe premier was addressing the opening ceremony of 24th Na"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Global crises raise prices",
+      "edge_label": "raises price levels",
+      "evidence_quote": "price of all essential items has shot up across the globe due to the Covid-19 pandemic and Russia-Ukraine war",
+      "scope_justification": "The article describes a broad rise in prices across all essential items, matching the feature's general price-level scope.",
+      "verification": {
+        "quote_similarity": 0.995,
+        "quote_best_match": "price of all essential items has shot up across the globe due to the Covid-19 pandemic and Russia-Ukraine war.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states that prices of essential items have risen across the globe due to COVID-19 and the Russia-Ukraine war, matching the provided quote and indicating a causal relationship at a global price-level scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-09-01",
+      "inflation_rate",
+      "raises price levels",
+      "Global crises raise prices"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

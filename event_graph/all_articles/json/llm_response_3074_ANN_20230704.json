@@ -1,0 +1,99 @@
+{
+  "article": {
+    "source": "ANN",
+    "date": "2023-07-04",
+    "url": "https://asianews.network/bangladeshs-inflation-climbs-to-12-year-high/",
+    "body_preview": "DHAKA - Average inflation in Bangladesh surpassed the government's target for the just-concluded fiscal year by a large margin as higher prices of goods and services continue to linger for the economic crisis at home and abroad.\n\nThe Consumer Price Index (CPI) rose 9.02 per cent in 2022-23 against the government's revised target of 7.5 per cent. This was the highest average inflation rate in 12 years, according to the Bangladesh Bureau of Statistics (BBS).\n\nThis was much higher than the 5-6 per "
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Taka depreciation raises inflation",
+      "edge_label": "raises inflation",
+      "evidence_quote": "The central bank has blamed several factors for the elevated domestic commodity prices and inflation, including higher prices of imported items and a larger depreciation of the taka",
+      "scope_justification": "The article explicitly links nationwide domestic commodity prices and inflation to taka depreciation, matching the aggregate CPI-based inflation feature.",
+      "verification": {
+        "quote_similarity": 0.997,
+        "quote_best_match": "The central bank has blamed several factors for the elevated domestic commodity prices and inflation, including higher prices of imported items and a larger depreciation of the taka,",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states that the central bank blamed the larger depreciation of the taka for elevated domestic commodity prices and inflation. This is presented at the national CPI level for Bangladesh, matching the feature’s scope."
+      }
+    },
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Fuel price adjustments raise inflation",
+      "edge_label": "increases inflationary pressure",
+      "evidence_quote": "The upward adjustments in fuel and energy prices have also significantly contributed to the inflationary pressure",
+      "scope_justification": "The statement directly attributes broader domestic inflationary pressure to fuel and energy price adjustments, matching the general inflation-rate scope.",
+      "verification": {
+        "quote_similarity": 0.996,
+        "quote_best_match": "The upward adjustments in fuel and energy prices have also significantly contributed to the inflationary pressure,",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states that upward adjustments in fuel and energy prices significantly contributed to inflationary pressure. This is discussed in the context of national inflation in Bangladesh, matching the scope of the feature."
+      }
+    },
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Demand-boosting policies raise inflation",
+      "edge_label": "adds inflationary pressure",
+      "evidence_quote": "government policy sought to boost demand by increasing domestic credit through controls over interest rates and a higher fiscal deficit. These policies further added to inflationary pressures.",
+      "scope_justification": "The article describes national government policies increasing domestic credit and fiscal deficit as contributors to overall inflationary pressure.",
+      "verification": {
+        "quote_similarity": 0.997,
+        "quote_best_match": "government policy sought to boost demand by increasing domestic credit through controls over interest rates and a higher fiscal deficit. These policies further added to inflationary pressures.\"",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The cited quote appears verbatim in the article, attributing increased inflationary pressures to government policies that boosted demand via increased domestic credit, interest rate controls, and a higher fiscal deficit. This explicitly states a causal link at the national (Bangladesh) level, matching the scope of the inflation rate feature."
+      }
+    },
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Lending cap limits inflation control",
+      "edge_label": "prevents inflation control",
+      "evidence_quote": "it has not been able to rein in the rocketing inflation owing to the lending rate cap on loans and the largely administered exchange rate",
+      "scope_justification": "The article explicitly states that lending-rate restrictions prevented the central bank from containing general inflation, matching the aggregate CPI scope.",
+      "verification": {
+        "quote_similarity": 0.996,
+        "quote_best_match": "it has not been able to rein in the rocketing inflation owing to the lending rate cap on loans and the largely administered exchange rate.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states that the central bank could not rein in inflation owing to the lending rate cap (and administered exchange rate). This directly links the lending cap to preventing inflation control at the national CPI level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-07-04",
+      "inflation_rate",
+      "raises inflation",
+      "Taka depreciation raises inflation"
+    ],
+    [
+      "2023-07-04",
+      "inflation_rate",
+      "increases inflationary pressure",
+      "Fuel price adjustments raise inflation"
+    ],
+    [
+      "2023-07-04",
+      "inflation_rate",
+      "adds inflationary pressure",
+      "Demand-boosting policies raise inflation"
+    ],
+    [
+      "2023-07-04",
+      "inflation_rate",
+      "prevents inflation control",
+      "Lending cap limits inflation control"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 4
+}

@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-11-13",
+    "url": "https://www.bssnews.net/business/93615",
+    "body_preview": "RAJSHAHI, Nov 13, 2022 (BSS) - Integrated efforts of all the government and\n\nprivate organizations concerned can be the best way of boosting export volume\n\nof silk and its products as its prospects are very bright.\n\nGolden tradition of silk industries is expected to revive within a shortest\n\npossible time with breakthrough innovation of high yielding varieties of\n\nsilkworms and mulberry plants creating scopes of enriching the export list.\n\nHigh officials and experts came up with the observation "
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Integrated efforts boost silk exports",
+      "edge_label": "boosts export volume",
+      "evidence_quote": "Integrated efforts of all the government and private organizations concerned can be the best way of boosting export volume of silk and its products",
+      "scope_justification": "The article explicitly links coordinated organizational efforts to increased export volume of silk goods, which are goods sent internationally.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "Integrated efforts of all the government and private organizations concerned can be the best way of boosting export volume of silk and its products",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states that integrated efforts of government and private organizations can be the best way to boost the export volume of silk and its products. This is a clear causal link at the sector/national level consistent with the claim."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-11-13",
+      "exports",
+      "boosts export volume",
+      "Integrated efforts boost silk exports"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

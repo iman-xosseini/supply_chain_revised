@@ -1,0 +1,61 @@
+{
+  "article": {
+    "source": "Agencia EFE",
+    "date": "2023-05-02",
+    "url": "https://efe.com/en/latest-news/2023-05-02/world-bank-gives-bangladesh-2-25-billion-development-loan/",
+    "body_preview": "Dhaka, May 2 (EFE).- The World Bank has agreed to provide Bangladesh a $2.25-billion loan for its five development projects on regional trade and connectivity, disaster preparedness, and environmental management.\n\nBangladesh's Economic Relations Division secretary and World Bank country director signed the agreements in Washington with Bangladesh Prime Minister Sheikh Hasina present on Monday.\n\nHasina is in Washington celebrating Bangladesh's 50-year partnership with the World Bank.\n\nUnder the a"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Fuel price hike drives inflation",
+      "edge_label": "raises inflation",
+      "evidence_quote": "The authorities raised fuel prices by almost 51 percent in August, which drove inflation to a nine-year high of 9.52 percent that month.",
+      "scope_justification": "The article explicitly links a national fuel-price increase to Bangladesh's aggregate inflation rate, matching the feature's country-wide price-level scope.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "The authorities raised fuel prices by almost 51 percent in August, which drove inflation to a nine-year high of 9.52 percent that month.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states: 'The authorities raised fuel prices by almost 51 percent in August, which drove inflation to a nine-year high of 9.52 percent that month,' explicitly linking a national fuel price hike to Bangladesh’s inflation rate."
+      }
+    },
+    {
+      "feature": "currency_momentum_5d",
+      "event_summary": "War causes currency depreciation",
+      "edge_label": "weakens currency",
+      "evidence_quote": "It has led to a sharp widening of the current account deficit, depreciation of Bangladeshi currency, the taka, and a decline in foreign exchange reserves.",
+      "scope_justification": "The article explicitly describes a decline in the national currency's value, matching the feature's definition of currency trend or strength.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "It has led to a sharp widening of the current account deficit, depreciation of Bangladeshi currency, the taka, and a decline in foreign exchange reserves.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states that the Russia-Ukraine war led to depreciation of Bangladesh’s currency, and the provided quote appears verbatim. The discussion is at the national currency level, matching the feature’s scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-05-02",
+      "inflation_rate",
+      "raises inflation",
+      "Fuel price hike drives inflation"
+    ],
+    [
+      "2023-05-02",
+      "currency_momentum_5d",
+      "weakens currency",
+      "War causes currency depreciation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 2
+}

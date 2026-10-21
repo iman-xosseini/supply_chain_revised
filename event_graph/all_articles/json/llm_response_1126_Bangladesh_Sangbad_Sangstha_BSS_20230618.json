@@ -1,0 +1,80 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2023-06-18",
+    "url": "https://www.bssnews.net/business/131959",
+    "body_preview": "DHAKA, June 18, 2023 (BSS) - In response to the declared Monetary Policy for the first half of the fiscal year 2023-24 (July-December 2023) by the Bangladesh Bank, President of Dhaka Chamber of Commerce and Industry (DCCI) Barrister Md Sameer Sattar said that a contractionary MPS will help to revive the financial and private sectors.\n\n\"The MPS primarily aims to curb inflation by reducing the aggregate demand in the economy, continuing supply-side interventions and a stable and favourable busines"
+  },
+  "llm_connections": [
+    {
+      "feature": "interest_rate_value",
+      "event_summary": "Repo rate adjusted to 6.5%",
+      "edge_label": "adjusts repo rate",
+      "evidence_quote": "The repo and reverse repo have been adjusted to 6.5 percent and 4.5 percent respectively",
+      "scope_justification": "The article explicitly reports an adjustment to the central bank repo rate, matching the feature's defined borrowing-cost measure.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "The repo and reverse repo have been adjusted to 6.5 percent and 4.5 percent respectively",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that the repo rate has been adjusted to 6.5%, matching the quoted wording. This explicitly links the adjustment event to the resulting interest rate value, and it refers to Bangladesh’s central bank policy, matching the national scope."
+      }
+    },
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Reverse repo raised earlier",
+      "edge_label": "fails to reduce inflation",
+      "evidence_quote": "Because the reverse repo was raised earlier, inflation did not decline as expected.",
+      "scope_justification": "The article directly links a monetary-policy rate change to the national inflation outcome, matching the aggregate price-level scope of the feature.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "Because the reverse repo was raised earlier, inflation did not decline as expected.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states, “Because the reverse repo was raised earlier, inflation did not decline as expected,” directly linking the rate increase to insufficient reduction in national inflation. The scope is national macroeconomic inflation."
+      }
+    },
+    {
+      "feature": "currency_log_return",
+      "event_summary": "Unified exchange rate proposed",
+      "edge_label": "stabilizes exchange rate",
+      "evidence_quote": "a unified exchange rate will stabilize the market",
+      "scope_justification": "The statement concerns exchange-rate stability at the market level, matching the feature's definition of exchange-rate volatility.",
+      "verification": {
+        "quote_similarity": 0.99,
+        "quote_best_match": "a unified exchange rate will stabilize the market.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states, in the context of exchange rate stability, that a unified exchange rate will stabilize the market, explicitly expressing a cause-effect link at the market (country) level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-06-18",
+      "interest_rate_value",
+      "adjusts repo rate",
+      "Repo rate adjusted to 6.5%"
+    ],
+    [
+      "2023-06-18",
+      "inflation_rate",
+      "fails to reduce inflation",
+      "Reverse repo raised earlier"
+    ],
+    [
+      "2023-06-18",
+      "currency_log_return",
+      "stabilizes exchange rate",
+      "Unified exchange rate proposed"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 3
+}

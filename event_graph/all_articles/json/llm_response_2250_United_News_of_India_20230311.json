@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "United News of India",
+    "date": "2023-03-11",
+    "url": "http://www.uniindia.com/news/world/invest-in-b-desh-in-its-quest-to-become-developed-country-by-2041-hasina/2931237.html",
+    "body_preview": "Dhaka, Mar 11 (UNI) Bangladesh Prime Minister Sheikh Hasina Saturday called upon the global businessmen and investors to invest in Bangladesh to join hands in making smooth journey of transforming Bangladesh into a developed, prosperous and Smart Bangladesh by 2041.\n\n\"You people (world business community) come. Bangladesh is always ready to welcome you here---invest in Bangladesh thinking it as your country,\" she said while inaugurating a three-day \"Bangladesh Business Summit 2023\".\n\nThe Federat"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Global recession raises inflation",
+      "edge_label": "drives price inflation",
+      "evidence_quote": "high inflation rate due to the global economic recession",
+      "scope_justification": "The article describes broad inflation and essential-price increases affecting people generally, matching the feature's aggregate price-level scope.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "high inflation rate due to the global economic recession",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states there is a 'high inflation rate due to the global economic recession,' indicating a clear causal link. It addresses inflation at a global/aggregate level, matching the feature's scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-03-11",
+      "inflation_rate",
+      "drives price inflation",
+      "Global recession raises inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

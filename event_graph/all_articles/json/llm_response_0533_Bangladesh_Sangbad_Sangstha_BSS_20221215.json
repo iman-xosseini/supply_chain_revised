@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-12-15",
+    "url": "https://www.bssnews.net/news/100282",
+    "body_preview": "DHAKA, Dec 15, 2022 (BSS) - President M Abdul Hamid has greeted the countrymen living at home and abroad on the occasion of the 52nd Victory Day.\n\n\"December 16th is our great Victory Day. On this day in 1971, we achieved our long-cherished victory after a long struggle and bloodshed war. On this joyous day, I extend my sincere felicitations and warm greetings to my fellow countrymen living at home and abroad,\" he said in a message issued today.\n\nThe head of the state recalled with profound respe"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Russia-Ukraine crisis spikes inflation",
+      "edge_label": "increases inflation",
+      "evidence_quote": "the Russia-Ukraine crisis is causing global economic recession and spike in inflation",
+      "scope_justification": "The article explicitly describes a crisis causing a broad rise in inflation, matching the feature's general price-level scope.",
+      "verification": {
+        "quote_similarity": 0.988,
+        "quote_best_match": "the Russia-Ukraine crisis is causing global economic recession and spike in inflation,\"",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states that the Russia-Ukraine crisis is causing a global spike in inflation. This directly links the event to increased inflation at a broad (global) scope, matching the general inflation_rate feature."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-12-15",
+      "inflation_rate",
+      "increases inflation",
+      "Russia-Ukraine crisis spikes inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

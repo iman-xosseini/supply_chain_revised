@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "MSN International Edition",
+    "date": "2023-04-23",
+    "url": "https://www.msn.com/en-xl/asia/bangladesh/fakhrul-sees-sadness-suffering-overshadowing-eid-celebrations/ar-AA1abYHb",
+    "body_preview": "Dhaka, April 22 -- BNP Secretary General Mirza Fakhrul Islam Alamgir on Saturday asserted that the masses are celebrating Eid-ul-Fitr amid \"sadness and suffering\".\n\n\"This year's Eid was very painful and difficult for us. Many of our leaders and workers are in jail while the common people could not buy the minimum items needed to enjoy the joy of this Eid due to the unusual price hike. So, they're going through misery and suffering,\" Fakhrul said, while talking to reporters after paying homage to"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Commodity prices increase",
+      "edge_label": "reduces purchasing power",
+      "evidence_quote": "the purchasing power of the people has been completely diminished simply by the prices of all commodities increasing greatly.",
+      "scope_justification": "The article describes broad increases in the prices of all commodities that reduce people's purchasing power, matching the general price-level scope of the inflation rate feature.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "the purchasing power of the people has been completely diminished simply by the prices of all commodities increasing greatly.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article contains the quoted sentence almost verbatim and explicitly states that rising prices of all commodities have diminished people’s purchasing power. The discussion is at a broad, national level consistent with general inflation effects."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-04-23",
+      "inflation_rate",
+      "reduces purchasing power",
+      "Commodity prices increase"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

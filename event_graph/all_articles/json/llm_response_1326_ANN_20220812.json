@@ -1,0 +1,61 @@
+{
+  "article": {
+    "source": "ANN",
+    "date": "2022-08-12",
+    "url": "https://asianews.network/can-bangladesh-ensure-a-soft-landing/",
+    "body_preview": "DHAKA - Economists are fond of drawing analogies from flying. Thus, when economies attain sufficient, sustained growth, they \"take off.\" When external conditions help them grow faster, they are pushed by \"tailwinds.\" Conversely, if unfavourable conditions force them to slow, they face the \"headwinds.\" When economies are unstable, it is \"bumpy.\" When they have to slow down quickly and significantly, we question whether they will have an orderly slowdown, a \"soft landing,\" or a disruptive one, a \""
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Turkey inflation-depreciation cycle",
+      "edge_label": "drives inflation",
+      "evidence_quote": "a vicious inflation-depreciation cycle that has led to 70 percent inflation rates",
+      "scope_justification": "The article explicitly describes a national economy-wide cycle causing a general inflation rate, matching the feature's aggregate price-level scope.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "a vicious inflation-depreciation cycle that has led to 70 percent inflation rates",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states Turkey is experiencing “a vicious inflation-depreciation cycle that has led to 70 percent inflation rates,” explicitly linking the cycle to national inflation. The scope is country-level, matching the feature."
+      }
+    },
+    {
+      "feature": "imports",
+      "event_summary": "Power cuts target imports",
+      "edge_label": "reduces imports",
+      "evidence_quote": "To reduce imports and protect reserves, the government has reduced power supply by 1,000-1,500MW",
+      "scope_justification": "The article explicitly refers to Bangladesh's overall imports and a government measure intended to reduce their volume, rather than a single imported commodity.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "To reduce imports and protect reserves, the government has reduced power supply by 1,000-1,500MW",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states, \"To reduce imports and protect reserves, the government has reduced power supply by 1,000-1,500MW,\" which explicitly links power cuts to reducing imports at the national level. This matches the scope of overall imports for Bangladesh."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-08-12",
+      "inflation_rate",
+      "drives inflation",
+      "Turkey inflation-depreciation cycle"
+    ],
+    [
+      "2022-08-12",
+      "imports",
+      "reduces imports",
+      "Power cuts target imports"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 2
+}

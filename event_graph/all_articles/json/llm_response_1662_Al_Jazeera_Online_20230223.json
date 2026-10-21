@@ -1,0 +1,61 @@
+{
+  "article": {
+    "source": "Al Jazeera Online",
+    "date": "2023-02-23",
+    "url": "https://www.aljazeera.com/economy/2023/2/23/severe-dollar-crisis-hobbles-bangladesh-businesses",
+    "body_preview": "Dhaka, Bangladesh - Spice trader Mohammed Enayet Ullah has made at least four attempts since November to open a letter of credit to pay for imports of cumin, cardamom and cloves, some of the most essential spices used in Bangladeshi cooking, only to be refused by banks due to a shortage of dollars.\n\nImporters in Bangladesh need to open letters of credit with one of the country's 61 scheduled banks to buy foreign goods and services. It is essentially a financial contract issued by an importer's b"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Commodity prices drive inflation",
+      "edge_label": "raises price levels",
+      "evidence_quote": "rising global fuel oil and other commodity prices have caused nearly double-digit inflation",
+      "scope_justification": "The article explicitly links broad commodity-price increases to Bangladesh's national inflation rate, matching the general price-level scope of the feature.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "rising global fuel oil and other commodity prices have caused nearly double-digit inflation",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that rising global fuel oil and other commodity prices have caused nearly double-digit inflation in Bangladesh, explicitly linking commodity prices to national inflation. This matches the feature’s country-level scope."
+      }
+    },
+    {
+      "feature": "imports",
+      "event_summary": "Government restrictions curb imports",
+      "edge_label": "restricts import flow",
+      "evidence_quote": "the government had stopped all non-essential imports and reduced the supply of dollars to commercial banks",
+      "scope_justification": "This describes a national government policy affecting non-essential imports across Bangladesh, matching the country-wide import-volume scope rather than a single commodity or company.",
+      "verification": {
+        "quote_similarity": 0.995,
+        "quote_best_match": "the government had stopped all non-essential imports and reduced the supply of dollars to commercial banks.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that the government 'stopped all non-essential imports and reduced the supply of dollars to commercial banks,' which directly indicates government restrictions curbing imports at a national level. It also explains resulting impacts on letters of credit, reinforcing the causal link."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-02-23",
+      "inflation_rate",
+      "raises price levels",
+      "Commodity prices drive inflation"
+    ],
+    [
+      "2023-02-23",
+      "imports",
+      "restricts import flow",
+      "Government restrictions curb imports"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 2
+}

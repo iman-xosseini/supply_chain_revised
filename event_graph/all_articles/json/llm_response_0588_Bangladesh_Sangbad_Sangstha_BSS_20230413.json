@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2023-04-13",
+    "url": "https://www.bssnews.net/news/top-news/120491",
+    "body_preview": "DHAKA, April 12, 2023 (BSS) - The poverty rate in the country came down at 18.7 percent at the national level, which is 20.5 percent in the rural areas and 14.7 percent in the urban areas, according to the key findings of the Household Income and Expenditure Survey 2022.\n\nThe survey findings also showed that the overall rate of extreme poverty in the country is 5.6 percent, which is 6.5 percent in the rural areas and 3.8 percent in the urban areas.\n\nThe poverty rate in the country in 2016 was 24"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Government steps contain inflation",
+      "edge_label": "contains inflation",
+      "evidence_quote": "the general point to point inflation could have gone to 13 percent now, but now it is below the double digit thanks to the different pragmatic steps.",
+      "scope_justification": "The article explicitly refers to national general point-to-point inflation, matching the feature's scope as a general measure of price-level increases.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "the general point to point inflation could have gone to 13 percent now, but now it is below the double digit thanks to the different pragmatic steps.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The quoted sentence appears in the article and explicitly credits government steps for keeping national point-to-point inflation below double digits, matching the country-level scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-04-13",
+      "inflation_rate",
+      "contains inflation",
+      "Government steps contain inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

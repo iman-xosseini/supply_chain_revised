@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2023-02-05",
+    "url": "https://www.bssnews.net/news-flash/109023",
+    "body_preview": "DHAKA, Feb 5, 2023 (BSS) - Prime Minister Sheikh Hasina today called upon the countrymen to pay their taxes, stressing the need for increasing revenue income and expanding the tax net in view of the ongoing global economic crisis.\n\n\"Those who are able to pay taxes not only in the capital or in cities, but also across the country, please pay your taxes. The government will use your money in your service and welfare,\" she said.\n\nWhile inaugurating the country's first-ever two-day Revenue Conferenc"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Global inflation hits Bangladesh",
+      "edge_label": "affects inflation rate",
+      "evidence_quote": "the entire world is now going through an economic recession and high inflation rate which also fell upon Bangladesh.",
+      "scope_justification": "The article explicitly identifies high inflation affecting Bangladesh nationally, matching the aggregate general price-level scope of the inflation-rate feature.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "the entire world is now going through an economic recession and high inflation rate which also fell upon Bangladesh.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The quoted sentence appears verbatim and states that global high inflation has also ‘fallen upon’ Bangladesh, explicitly linking the global inflation event to Bangladesh’s inflation rate at the national level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-02-05",
+      "inflation_rate",
+      "affects inflation rate",
+      "Global inflation hits Bangladesh"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

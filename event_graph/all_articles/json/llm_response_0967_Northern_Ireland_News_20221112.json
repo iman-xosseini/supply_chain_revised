@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Northern Ireland News",
+    "date": "2022-11-12",
+    "url": "https://www.northernirelandnews.com/news/273080528/interview-bangladesh-feels-pinch-of-us-feds-rate-hikes-says-economist",
+    "body_preview": "DHAKA, Nov. 12 (Xinhua) -- The economic woes associated with the ballooning U.S. debt are spilling over to many countries around the world and countries like Bangladesh have felt the pinch of the U.S. Federal Reserve's aggressive interest rate hikes, a leading Bangladeshi economist has warned.\n\nWith the U.S. national debt already exceeding 31 trillion U.S. dollars and due to the U.S. rate hikes, the global economy has shrunk amid dire problems including currency devaluation, inflation and food c"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "US/EU downturn threatens Bangladesh",
+      "edge_label": "threatens export performance",
+      "evidence_quote": "If the U.S. and European economies markedly fall, the Bangladeshi economy will take a hard hit as the country's exports are highly dependent on the United States and European countries",
+      "scope_justification": "The article explicitly refers to Bangladesh's country-wide exports and their dependence on the U.S. and European economies, matching the aggregate exports feature.",
+      "verification": {
+        "quote_similarity": 0.997,
+        "quote_best_match": "If the U.S. and European economies markedly fall, the Bangladeshi economy will take a hard hit as the country's exports are highly dependent on the United States and European countries,",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states, “If the U.S. and European economies markedly fall, the Bangladeshi economy will take a hard hit as the country's exports are highly dependent on the United States and European countries,” directly linking a US/EU downturn to negative effects via exports. It discusses country-level exports, matching the scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-11-12",
+      "exports",
+      "threatens export performance",
+      "US/EU downturn threatens Bangladesh"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

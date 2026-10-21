@@ -1,0 +1,80 @@
+{
+  "article": {
+    "source": "United News of India",
+    "date": "2023-07-19",
+    "url": "http://www.uniindia.com/~/adb-raises-bangladesh-s-economic-growth-forecast/World/news/3013493.html",
+    "body_preview": "Dhaka, July 19 (UNI) The Asian Development Bank (ADB) Wednesday said the Bangladeshi economy is forecast to grow faster than initially expected in 2023, following better export performance.\n\nADB in its Asian Development Outlook (ADO) for July 2023 says the Bangladeshi economy will grow at least 6 percent in 2023-2024, up from the bank's April forecast of 5.3 percent.\n\nFor the current 2023-2024 fiscal, the Manila-based lender has kept the forecast for the growth of Bangladesh's economy unchanged "
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Slower export growth decline",
+      "edge_label": "supports growth forecast",
+      "evidence_quote": "export growth slowed less than expected",
+      "scope_justification": "The article describes Bangladesh-wide export growth, matching the feature's scope of internationally sent goods at the national level.",
+      "verification": {
+        "quote_similarity": 0.975,
+        "quote_best_match": "export growth slowed less than expected,\"",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states: “export growth slowed less than expected” and explicitly links this to “strong net exports,” which it says the higher 6% growth estimate for FY23 “reflects.” This is at the Bangladesh national level."
+      }
+    },
+    {
+      "feature": "imports",
+      "event_summary": "Sharper import decline",
+      "edge_label": "strengthens net exports",
+      "evidence_quote": "imports fell more sharply than expected",
+      "scope_justification": "The statement concerns Bangladesh's aggregate imports, matching the feature's country-wide volume of goods brought in.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "imports fell more sharply than expected",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states, “imports fell more sharply than expected,” and ties this to “strong net exports,” implying the sharper import decline strengthened net exports. This is discussed at the Bangladesh economy (country) level."
+      }
+    },
+    {
+      "feature": "balance_of_trade",
+      "event_summary": "Stronger net exports",
+      "edge_label": "raises growth estimate",
+      "evidence_quote": "The higher estimate of 6 percent for FY23 ended on June 30 reflects strong net exports",
+      "scope_justification": "“Strong net exports” directly describes the national relationship between exports and imports, matching the country-wide balance-of-trade scope.",
+      "verification": {
+        "quote_similarity": 0.994,
+        "quote_best_match": "\"The higher estimate of 6 percent for FY23 ended on June 30 reflects strong net exports",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states, “The higher estimate of 6 percent for FY23 ... reflects strong net exports,” directly linking stronger net exports to the raised growth estimate at the national (Bangladesh) level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-07-19",
+      "exports",
+      "supports growth forecast",
+      "Slower export growth decline"
+    ],
+    [
+      "2023-07-19",
+      "imports",
+      "strengthens net exports",
+      "Sharper import decline"
+    ],
+    [
+      "2023-07-19",
+      "balance_of_trade",
+      "raises growth estimate",
+      "Stronger net exports"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 3
+}

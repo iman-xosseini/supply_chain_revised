@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "english.news.cn",
+    "date": "2022-09-11",
+    "url": "https://english.news.cn/asiapacific/20220911/489beb503e1d4493b3c90755d817c736/c.html",
+    "body_preview": "DHAKA, Sept. 11 (Xinhua) -- The Bangladeshi government on Sunday launched a special sales drive of essentials at subsidized rates across the South Asian country to help millions of low-income families cope with soaring prices.\n\nSenior secretary of Bangladesh's Ministry of Commerce Tapan Kanti Ghosh inaugurated the special sales drive at a dealer point in the national capital Dhaka.\n\nThe drive run by the state-owned Trading Corporation of Bangladesh (TCB) is aimed at selling essentials at subsidi"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Energy, commodity prices raise inflation",
+      "edge_label": "pushes up inflation",
+      "evidence_quote": "higher energy and commodity prices are pushing up inflation in the country.",
+      "scope_justification": "The article explicitly describes country-wide inflation driven by higher energy and commodity prices, matching the feature's national general price-level scope.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "higher energy and commodity prices are pushing up inflation in the country.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that 'higher energy and commodity prices are pushing up inflation in the country,' explicitly linking the cause to national inflation in Bangladesh."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-09-11",
+      "inflation_rate",
+      "pushes up inflation",
+      "Energy, commodity prices raise inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

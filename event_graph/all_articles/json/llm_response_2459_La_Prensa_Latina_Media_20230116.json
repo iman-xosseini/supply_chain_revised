@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "La Prensa Latina Media",
+    "date": "2023-01-16",
+    "url": "https://www.laprensalatina.com/imf-board-to-consider-bangladesh-loan-package-this-month/",
+    "body_preview": "Dhaka, Jan 9 (EFE).- The International Monetary Fund (IMF) said Monday its Executive Board was expected on Jan.30 to consider a $4.5 billion credit plan for Bangladesh to help the country deal with the financial crisis.\n\nThe Washington-based global lender issued a statement in this regard after its Deputy Managing Director Antoinette M. Sayeh held a meeting with Bangladesh Prime Minister Sheikh Hasina at her office.\n\nBangladesh and the IMF team reached \"a staff-level agreement\" in October to sup"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Fuel price increase",
+      "edge_label": "drives inflation",
+      "evidence_quote": "The authorities raised the price of fuel by almost 51 percent in August, which further drove inflation to 9.52 percent that month.",
+      "scope_justification": "The article explicitly links a nationwide fuel-price increase to Bangladesh's aggregate inflation rate, matching the feature's national general-price-level scope.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "The authorities raised the price of fuel by almost 51 percent in August, which further drove inflation to 9.52 percent that month.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article contains the exact quote stating that a 51% fuel price increase 'further drove inflation to 9.52 percent that month,' explicitly linking the national fuel-price hike to Bangladesh’s overall inflation rate."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-01-16",
+      "inflation_rate",
+      "drives inflation",
+      "Fuel price increase"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

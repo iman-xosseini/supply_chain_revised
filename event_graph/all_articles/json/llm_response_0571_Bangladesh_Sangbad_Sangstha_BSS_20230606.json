@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2023-06-06",
+    "url": "https://www.bssnews.net/news-flash/129497",
+    "body_preview": "DHAKA, June 6, 2023 (BSS) - Prime Minister Sheikh Hasina today urged the authorities concerned to expedite the formulation and implementation of various projects under the Government to Government (G2G) initiatives.\n\nThe Prime Minister gave the directive while chairing a meeting of the Executive Committee of the National Economic Council (ECNEC) as its chairperson held at the NEC conference room in the city's Sher-e-Bangla Nagar area.\n\nBriefing reporters after the meeting, Planning Minister MA M"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Government targets inflation containment",
+      "edge_label": "contains inflation",
+      "evidence_quote": "The Planning Minister said the very first strategy of the government to contain inflation would be not to let it increase further and then try to roll it back.",
+      "scope_justification": "The statement concerns containing inflation across the country, matching the feature's definition of the general rise in national price levels.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "The Planning Minister said the very first strategy of the government to contain inflation would be not to let it increase further and then try to roll it back.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The quoted sentence appears verbatim. It explicitly links government action/strategy to the intended outcome of containing and rolling back inflation. The discussion is at the national (Bangladesh) level, matching the feature’s scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-06-06",
+      "inflation_rate",
+      "contains inflation",
+      "Government targets inflation containment"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

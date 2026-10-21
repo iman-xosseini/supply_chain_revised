@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-10-11",
+    "url": "https://www.bssnews.net/news-flash/87374",
+    "body_preview": "DHAKA, Oct 11, 2022 (BSS) - Prime Minister Sheikh Hasina today asked the authorities concerned to strengthen the market monitoring system to control the inflation especially the uptrend of price of essentials in the country.\n\nThe premier gave the directive while chairing a meeting of the Executive Committee of the National Economic Council (ECNEC) virtually from her official residence Ganabhaban.\n\nMinisters, state ministers, planning commission members and secretaries concerned attended the meet"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Global shocks drive inflation",
+      "edge_label": "raises inflation",
+      "evidence_quote": "So, the whole of the world is now suffering from high commodity price which has also affected us.",
+      "scope_justification": "The article explicitly links global commodity-price pressures to Bangladesh’s high general inflation, matching the feature’s national CPI scope.",
+      "verification": {
+        "quote_similarity": 0.995,
+        "quote_best_match": "\"So, the whole of the world is now suffering from high commodity price which has also affected us.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The quoted sentence appears verbatim. The article explicitly links global shocks (COVID-19 and the Russia-Ukraine conflict) and resulting high global commodity prices to Bangladesh’s high inflation. The discussion is at the national inflation (CPI) level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-10-11",
+      "inflation_rate",
+      "raises inflation",
+      "Global shocks drive inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

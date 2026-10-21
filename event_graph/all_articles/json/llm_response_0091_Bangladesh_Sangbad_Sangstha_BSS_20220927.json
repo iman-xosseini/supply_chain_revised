@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-09-27",
+    "url": "https://www.bssnews.net/business/84863",
+    "body_preview": "DHAKA, Sept 27, 2022 (BSS) - Bangladesh expects to receive $12 billion to $ 15 billion loan support from the Asian Development Bank under its Country Partnership Strategy (CPS) (2021-2025), said Finance Minister AHM Mustafa Kamal.\n\nThe minister said this today after a bilateral meeting with ADB President Masatsugu Asakawa at the ADB headquarters in Manila as part of the annual meeting of the lending agency.\n\nKamal said the ADB has helped the developing countries including Bangladesh with quick v"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Supply chain disruption raises inflation",
+      "edge_label": "raises inflation",
+      "evidence_quote": "fund scarcity and thus disrupted the global supply chain resulting in rise in worldwide inflation",
+      "scope_justification": "The article explicitly links a global supply-chain disruption to worldwide inflation, matching the feature's scope as a general rise in price levels.",
+      "verification": {
+        "quote_similarity": 0.99,
+        "quote_best_match": "fund scarcity and thus disrupted the global supply chain resulting in rise in worldwide inflation,\"",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that disruption of the global supply chain resulted in a rise in worldwide inflation, and the quoted text appears verbatim. The scope is global, matching a general inflation rate."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-09-27",
+      "inflation_rate",
+      "raises inflation",
+      "Supply chain disruption raises inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

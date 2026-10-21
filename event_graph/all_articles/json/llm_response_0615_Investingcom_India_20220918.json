@@ -1,0 +1,80 @@
+{
+  "article": {
+    "source": "Investing.com India",
+    "date": "2022-09-18",
+    "url": "https://in.investing.com/news/bangladesh-eyes-100-billion-usd-export-earnings-by-2026-3347541",
+    "body_preview": "Dhaka, Sep 18 (IANS) Bangladesh has embarked on a high growth path with an aim to double its export earnings in just four years, country's Commerce Minister Tipu Munshi said.\n\nAddressing a meeting with the Overseas Correspondents Association of Bangladesh (OCAB) at the National Press Club in Dhaka on Saturday, he said the government has planned an export target of 100 billion US dollars by 2026.\n\n\"We're planning an export target of 80 billion US dollars by 2024 and 100 billion US dollars in 2026"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "China expands duty-free access",
+      "edge_label": "increases export prospects",
+      "evidence_quote": "China has already announced to raise duty-free access to 98 per cent Bangladeshi products.",
+      "scope_justification": "The statement concerns expanded international access for Bangladeshi products, matching the feature's scope of goods sent internationally.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "China has already announced to raise duty-free access to 98 per cent Bangladeshi products.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article contains the quoted line about China raising duty-free access to 98% of Bangladeshi products. It explicitly links this to improved prospects for Bangladesh’s ready-made garments sector (“looks bright further as...”), implying increased export prospects. The discussion is at the national export/sector level, matching the claim’s scope."
+      }
+    },
+    {
+      "feature": "exports",
+      "event_summary": "China garment industry relocates",
+      "edge_label": "increases export prospects",
+      "evidence_quote": "Apart from this, he said China's garment industry is relocating. As a result, our chances have increased.",
+      "scope_justification": "The article explicitly links relocation in China's garment industry to increased Bangladeshi export chances within the country's goods-export strategy.",
+      "verification": {
+        "quote_similarity": 0.995,
+        "quote_best_match": "Apart from this, he said China's garment industry is relocating. \"As a result, our chances have increased.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article includes the quote stating China’s garment industry is relocating and directly follows with 'As a result, our chances have increased,' explicitly linking the relocation to improved Bangladeshi prospects. This is discussed in the context of Bangladesh’s national export goals and garment exports, matching the country-level scope."
+      }
+    },
+    {
+      "feature": "exports",
+      "event_summary": "Government boosts product exports",
+      "edge_label": "increases export volume",
+      "evidence_quote": "the government is taking special initiatives to increase the export of 10 products including ICT, leather, plastic, light engineering and jute.",
+      "scope_justification": "The claim directly addresses increasing exports across multiple product categories at the national level, matching the feature's goods-export scope.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "the government is taking special initiatives to increase the export of 10 products including ICT, leather, plastic, light engineering and jute.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states nearly verbatim that the government is taking special initiatives to increase the export of 10 products, explicitly linking government action to increased exports at a national level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-09-18",
+      "exports",
+      "increases export prospects",
+      "China expands duty-free access"
+    ],
+    [
+      "2022-09-18",
+      "exports",
+      "increases export prospects",
+      "China garment industry relocates"
+    ],
+    [
+      "2022-09-18",
+      "exports",
+      "increases export volume",
+      "Government boosts product exports"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 3
+}

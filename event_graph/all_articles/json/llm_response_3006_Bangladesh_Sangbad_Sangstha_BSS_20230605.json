@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2023-06-05",
+    "url": "https://www.bssnews.net/business/129278",
+    "body_preview": "DHAKA, June 5, 2023 (BSS) - The general point to point inflation rate in May increased as it reached 9.94 percentage points up from 9.24 percentage points in April mainly because of the slight rise in food and non-food inflation.\n\nAccording to the monthly consumer price (CPI) index of the Bangladesh Bureau of Statistics (BBS), the point to point food inflation in May increased to 9.24 percentage points up from 8.84 percentage points in April.\n\nOn the other hand, the point to point non-food infla"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Food and non-food inflation rose",
+      "edge_label": "raises general inflation",
+      "evidence_quote": "The general point to point inflation rate in May increased ... mainly because of the slight rise in food and non-food inflation.",
+      "scope_justification": "The article explicitly links national general CPI inflation to increases in both food and non-food inflation, matching the feature's economy-wide price-level scope.",
+      "verification": {
+        "quote_similarity": 0.736,
+        "quote_best_match": "percentage points in April mainly because of the slight rise in food and non-food inflation.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that general inflation increased mainly because of a rise in food and non-food inflation, and this is presented at the national CPI level. The quoted wording appears essentially verbatim."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-06-05",
+      "inflation_rate",
+      "raises general inflation",
+      "Food and non-food inflation rose"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

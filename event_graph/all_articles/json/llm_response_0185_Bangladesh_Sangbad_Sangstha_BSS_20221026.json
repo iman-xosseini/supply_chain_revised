@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-10-26",
+    "url": "https://www.bssnews.net/news-flash/90270",
+    "body_preview": "DHAKA, Oct 26, 2022 (BSS) - Information and Broadcasting Minister Dr Hasan Mahmud today said the foreign exchange reserves of the country have stood at about US$37 billion, increasing 12 times than the BNP regime.\n\n\"At the end of BNP's tenure, foreign exchange reserves were less than US$ 3.5 billion in 2006, which increased 12 times during Prime Minister Sheikh Hasina's tenure and now stand at around US$37 billion,\" he said.\n\nThe minister was speaking at DRU Sahitya Award-2022 distribution cerem"
+  },
+  "llm_connections": [
+    {
+      "feature": "imports",
+      "event_summary": "Corona improvement boosts imports",
+      "edge_label": "increases import volume",
+      "evidence_quote": "imports have increased following the improvement of the Corona situation",
+      "scope_justification": "The article explicitly describes an increase in Bangladesh's aggregate imports, matching the country-wide volume of goods brought in covered by this feature.",
+      "verification": {
+        "quote_similarity": 0.986,
+        "quote_best_match": "imports have increased following the improvement of the Corona situation,\"",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states, “imports have increased following the improvement of the Corona situation” and also, “Now that Corona has subsided a little, … imports have increased,” explicitly linking COVID-19 improvement to higher imports. The context is Bangladesh’s national economy, matching the country-level scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-10-26",
+      "imports",
+      "increases import volume",
+      "Corona improvement boosts imports"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

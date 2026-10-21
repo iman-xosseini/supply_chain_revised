@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2023-06-02",
+    "url": "https://www.bssnews.net/national-budget-2023-2024/128792",
+    "body_preview": "DHAKA, June 2, 2023 (BSS) - The Bangladesh Garment Manufacturers and Exporters Association (BGMEA) President Faruque Hassan today said if all opportunities and possibilities of the industrial sector are utilized, it will be possible to achieve the desired GDP growth of the proposed national budget for the fiscal 2023-24 (FY24).\n\n\"This year's budget is very important and significant in the current global situation. The main objective of this year's budget is to control the ongoing high inflation,"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Budget targets inflation control",
+      "edge_label": "controls inflation",
+      "evidence_quote": "The main objective of this year's budget is to control the ongoing high inflation",
+      "scope_justification": "The article addresses ongoing national inflation, matching the feature's economy-wide measure of general price-level increases.",
+      "verification": {
+        "quote_similarity": 0.994,
+        "quote_best_match": "The main objective of this year's budget is to control the ongoing high inflation,",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states, “The main objective of this year's budget is to control the ongoing high inflation,” explicitly linking the budget to controlling inflation at the national level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-06-02",
+      "inflation_rate",
+      "controls inflation",
+      "Budget targets inflation control"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

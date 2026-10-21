@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Social News XYZ",
+    "date": "2022-12-15",
+    "url": "https://www.socialnews.xyz/2022/12/15/hasina-asks-people-to-choose-between-peaceful-life-or-bnp-jamat-alliances-mischief/",
+    "body_preview": "Dhaka, Dec 15 (SocialNews.XYZ) Prime Minister Sheikh Hasina on Thursday asked the nation to decide between the Jamat-BNP who established only communalism, militancy, and politics of killing, or her Awami League, to go ahead with progress, and fulfil the dream of the Father of the Nation Bangabandhu Sheikh Mujibur Rahman by establishing a happy, prosperous, non-communal Bangladesh.\n\n\"Now, it is up to you, the people of the country, to choose what you want - a continuation of a peaceful dignified "
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Economic reasons raise prices",
+      "edge_label": "raises price levels",
+      "evidence_quote": "On the rising prices of daily necessities, she said this was due to economic reasons",
+      "scope_justification": "The article links economy-wide rising prices of daily necessities to economic reasons, matching the feature's general price-level scope.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "On the rising prices of daily necessities, she said this was due to economic reasons",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that rising prices of daily necessities were due to economic reasons, explicitly indicating causation at a national level. The quoted phrasing appears in the text and aligns with an economy-wide price level/inflation context."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-12-15",
+      "inflation_rate",
+      "raises price levels",
+      "Economic reasons raise prices"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

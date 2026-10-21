@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-09-07",
+    "url": "https://www.bssnews.net/news/pm/81253",
+    "body_preview": "DHAKA, Sept 7, 2022 (BSS) - India has offered free transit to Bangladesh for exporting its products to third countries as Prime Minister Sheikh Hasina and her Indian counterpart Narendra Modi have reiterated their strong commitment to strengthen bilateral relations further.\n\n\"Indian has offered free transit via its territory to Bangladesh for exporting its products to third countries through specified Land Customs Stations/Airports/Seaports,\" according to a joint statement issued today.\n\nIn this"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "India offers free transit",
+      "edge_label": "facilitates exports",
+      "evidence_quote": "India has offered free transit via its territory to Bangladesh for exporting its products to third countries",
+      "scope_justification": "The statement concerns Bangladesh’s products being sent internationally through India, matching the feature’s country-level scope of goods exported abroad.",
+      "verification": {
+        "quote_similarity": 0.991,
+        "quote_best_match": "\"Indian has offered free transit via its territory to Bangladesh for exporting its products to third countries",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article says India has offered free transit via its territory to Bangladesh for exporting its products to third countries, explicitly linking the transit offer to enabling exports at the national level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-09-07",
+      "exports",
+      "facilitates exports",
+      "India offers free transit"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2023-07-25",
+    "url": "https://www.bssnews.net/business/138218",
+    "body_preview": "DHAKA, July 25, 2023 (BSS) - The International Monetary Fund (IMF) has laid emphasis on addressing long-standing structural issues to make Bangladesh's economy more resilient and create a conducive environment to achieve higher growth.\n\n\"Policy priorities must focus on containing inflation, softening the impact of these economic disruptions on the vulnerable, and building external resilience through continued exchange rate flexibility,\" IMF Director for the Asia and Pacific Department (APD) Kris"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Multiple shocks impact inflation",
+      "edge_label": "affects inflation",
+      "evidence_quote": "In case of Bangladesh, the multiple shocks have had a significant impact on balance of payments, inflation, and fiscal position.",
+      "scope_justification": "The article explicitly describes Bangladesh-wide shocks affecting inflation, matching the national general price-level scope of the feature.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "In case of Bangladesh, the multiple shocks have had a significant impact on balance of payments, inflation, and fiscal position.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states that multiple shocks have had a significant impact on Bangladesh’s inflation, at a national level, matching the feature’s scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-07-25",
+      "inflation_rate",
+      "affects inflation",
+      "Multiple shocks impact inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

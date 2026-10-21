@@ -1,0 +1,37 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-11-12",
+    "url": "https://www.bssnews.net/news-flash/93461",
+    "body_preview": "DHAKA, Nov 11, 2022 (BSS) - Prime Minister Sheikh Hasina will inaugurate 50 industrial units, projects and facilities in Economic Zones (EZs) on November 20 marking the 50 years of independence.\n\nTalking to BSS, Bangladesh Economic Zones Authority (BEZA) Executive Chairman Shaikh Yusuf Harun said the Prime Minister will virtually inaugurate 50 industrial units, projects and facilities in the EZs across the country and BEZA will have the event at eight venues.\n\n\"These include commercial operation"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Economic zones target exports",
+      "edge_label": "increases exports",
+      "evidence_quote": "BEZA aims to establish economic zones ... with a view to encouraging rapid economic development through increase and diversification of industry, mployment, production and export.",
+      "scope_justification": "The article explicitly links the establishment of economic zones to increased exports, referring to goods produced and exported internationally from those zones.",
+      "verification": {
+        "quote_similarity": 0.883,
+        "quote_best_match": "regions with a view to encouraging rapid economic development through increase and diversification of industry, mployment, production and export.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states BEZA aims to establish economic zones to encourage development through increased and diversified export, indicating a causal intent. This is discussed at a national policy level, matching the scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-11-12",
+      "exports",
+      "increases exports",
+      "Economic zones target exports"
+    ]
+  ],
+  "features_queried": [
+    "balance_of_trade",
+    "stock_market_close",
+    "exports"
+  ],
+  "num_connections_found": 1
+}

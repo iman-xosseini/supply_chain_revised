@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-09-15",
+    "url": "https://www.bssnews.net/business/82733",
+    "body_preview": "DHAKA, Sept 15, 2022 (BSS) - After witnessing a downward trend in the last\n\nsession, stocks today rebounded in the Dhaka and Chittagong stock exchanges\n\nas investors remained active on sector-wise issues.\n\nDSEX, the key index of the Dhaka Stock Exchange (DSE), finally went up by\n\n27.83 points or 0.43 per cent to settle at 6,515. Two other indices also\n\nended higher. The DS30 Index, comprising blue-chip companies, rose 13.12\n\npoints to close at 2,346 and the DSES Index advanced 12.02 points to fi"
+  },
+  "llm_connections": [
+    {
+      "feature": "stock_market_close",
+      "event_summary": "Investors drive stock rebound",
+      "edge_label": "raises market index",
+      "evidence_quote": "stocks today rebounded in the Dhaka and Chittagong stock exchanges as investors remained active on sector-wise issues.",
+      "scope_justification": "The article describes aggregate performance of the Dhaka and Chittagong equity markets, including their overall indices, matching the feature's market-level scope.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "stocks today rebounded in the Dhaka and Chittagong stock exchanges as investors remained active on sector-wise issues.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that stocks rebounded 'as investors remained active on sector-wise issues,' and then details market indices rising, explicitly linking investor activity to the rebound. It discusses overall indices for the Dhaka and Chittagong exchanges, matching the market-level scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-09-15",
+      "stock_market_close",
+      "raises market index",
+      "Investors drive stock rebound"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

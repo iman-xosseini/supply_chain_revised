@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "english.news.cn",
+    "date": "2023-05-19",
+    "url": "https://english.news.cn/20230519/e2191757bcbf49b6babc70863ab4a11b/c.html",
+    "body_preview": "DHAKA, May 19 (Xinhua) -- Bangladeshi State Minister for Power, Energy and Mineral Resources Nasrul Hamid Thursday said the government plans to keep energy prices on par with international rates.\n\nSpeaking at a program in Dhaka, he said they are working to make a guideline about fixing the price of electricity and gas by the international market.\n\nThe minister said subsidies given by the government in these two sectors will not be given in future.\n\nHe said steps are underway to set up a 2,000MW "
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Higher food prices drive inflation",
+      "edge_label": "drives inflation",
+      "evidence_quote": "Inflation in Bangladesh accelerated to 9.52 percent in August last year, the highest in 10 years, mainly driven by higher food prices",
+      "scope_justification": "The article describes Bangladesh's national inflation rate and its rise in general price levels, matching the feature's country-wide CPI scope.",
+      "verification": {
+        "quote_similarity": 0.996,
+        "quote_best_match": "Inflation in Bangladesh accelerated to 9.52 percent in August last year, the highest in 10 years, mainly driven by higher food prices,",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that inflation in Bangladesh was 'mainly driven by higher food prices,' explicitly linking higher food prices to national inflation. The quote appears verbatim and the scope is country-level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-05-19",
+      "inflation_rate",
+      "drives inflation",
+      "Higher food prices drive inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

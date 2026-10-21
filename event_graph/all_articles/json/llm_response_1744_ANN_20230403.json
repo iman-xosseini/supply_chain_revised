@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "ANN",
+    "date": "2023-04-03",
+    "url": "https://asianews.network/how-the-poor-dodge-the-pangs-of-hunger/",
+    "body_preview": "DHAKA - One of the takeaways from the finance minister's March 19 pre-budget session with economists was the unanimous appeal to the government to address the budget's impact on the common people. It will not be an exaggeration to contend that the budget of the ordinary person has taken a big hit in the post-Covid era. Families in the lower-income categories have seen their real income decline due to geopolitical tensions, food insecurity, global inflation and supply chain gnarls. \"Shrinkflation"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Inflation cuts real incomes",
+      "edge_label": "reduces purchasing power",
+      "evidence_quote": "Families in the lower-income categories have seen their real income decline due to geopolitical tensions, food insecurity, global inflation and supply chain gnarls.",
+      "scope_justification": "The article explicitly links inflation and related price pressures to declining real income among Bangladesh's lower-income families, matching the general price-level and purchasing-power scope.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "Families in the lower-income categories have seen their real income decline due to geopolitical tensions, food insecurity, global inflation and supply chain gnarls.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The exact quote appears and explicitly states that real incomes have declined due to factors including global inflation. The discussion is at a population/economy level (Bangladesh’s lower-income families), matching the feature’s scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-04-03",
+      "inflation_rate",
+      "reduces purchasing power",
+      "Inflation cuts real incomes"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

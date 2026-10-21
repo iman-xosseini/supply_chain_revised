@@ -1,0 +1,61 @@
+{
+  "article": {
+    "source": "The Financial Express",
+    "date": "2022-11-04",
+    "url": "https://thefinancialexpress.com.bd/economy/bangladesh/bop-deficit-widens-forex-reserves-fall-further-1667530056",
+    "body_preview": "Bangladesh's balance-of-payments (BoP) deficit widened to nearly US$3.45 billion in the July-September quarter of the current fiscal year, casting further strain on the country's falling foreign-currency reserves, according to latest official data.\n\nThe high-frequency macroeconomic data released Thursday by the central bank of Bangladesh show that all three key accounts under the BoP flagship shrank during the first quarter or Q1 of the fiscal.\n\nCurrent account accounted for a higher deficit of "
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "EU slowdown cuts exports",
+      "edge_label": "reduces export earnings",
+      "evidence_quote": "single-month merchandise-export earnings in October this year declined 7.85 per cent ... mainly because of the economic slowdown in the European Union caused by the Russia-Ukraine war.",
+      "scope_justification": "The article describes a national, aggregate merchandise-export decline, matching the feature's scope of goods sent internationally.",
+      "verification": {
+        "quote_similarity": 0.898,
+        "quote_best_match": "single-month merchandise-export earnings in October this year declined 7.85 per cent to US$ 4.35 billion, year on year, mainly because of the economic slowdown in the European Union caused by the Russia-Ukraine",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states that Bangladesh’s October merchandise-export earnings declined mainly due to the EU’s economic slowdown, and this is presented at the national level. The quoted wording closely matches the article text."
+      }
+    },
+    {
+      "feature": "imports",
+      "event_summary": "Austerity measures restrain imports",
+      "edge_label": "restrains import payments",
+      "evidence_quote": "the import payment has been restrained to some extent following the central bank measures to control imports.",
+      "scope_justification": "The article explicitly discusses country-wide import payments and controls affecting aggregate imports, matching the feature's national import-volume scope.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "the import payment has been restrained to some extent following the central bank measures to control imports.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that import payments have been restrained following central bank measures to control imports, explicitly linking policy measures to reduced import payments at the national level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-11-04",
+      "exports",
+      "reduces export earnings",
+      "EU slowdown cuts exports"
+    ],
+    [
+      "2022-11-04",
+      "imports",
+      "restrains import payments",
+      "Austerity measures restrain imports"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 2
+}

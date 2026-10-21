@@ -1,0 +1,37 @@
+{
+  "article": {
+    "source": "ANN",
+    "date": "2022-09-06",
+    "url": "https://asianews.network/understanding-the-proposed-bangladesh-india-agreement/",
+    "body_preview": "DHAKA - Bangladesh and India enjoy cooperation and warm relations in almost every area. Throughout history, both countries have cultivated an economic dependency through export relations. At present, both the countries are experiencing high growth and stable rise. To consolidate their growth and dependency, they have embarked on signing a comprehensive economic partnership agreement, titled Bangladesh-India Comprehensive Economic Partnership Agreement (CEPA).\n\nCurrently, both countries are diplo"
+  },
+  "llm_connections": [
+    {
+      "feature": "balance_of_trade",
+      "event_summary": "CEPA targets trade gap reduction",
+      "edge_label": "reduces trade gap",
+      "evidence_quote": "The main target of the proposed CEPA is to reduce the huge trade gap between Bangladesh and India",
+      "scope_justification": "The article explicitly identifies a bilateral, country-level trade gap between Bangladesh and India, matching the aggregate difference between imports and exports.",
+      "verification": {
+        "quote_similarity": 0.974,
+        "quote_best_match": "main target of the proposed CEPA is to reduce the huge trade gap between Bangladesh and India,",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states, “The main target of the proposed CEPA is to reduce the huge trade gap between Bangladesh and India,” indicating a direct causal intent. This refers to the bilateral country-level trade gap, matching the scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-09-06",
+      "balance_of_trade",
+      "reduces trade gap",
+      "CEPA targets trade gap reduction"
+    ]
+  ],
+  "features_queried": [
+    "balance_of_trade",
+    "stock_market_close",
+    "exports"
+  ],
+  "num_connections_found": 1
+}

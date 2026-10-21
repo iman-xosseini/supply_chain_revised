@@ -1,0 +1,37 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-10-02",
+    "url": "https://www.bssnews.net/business/85828",
+    "body_preview": "RANGPUR, Oct 2, 2022 (BSS) - Flourishing the potential of the small and medium enterprise (SME) sector could create more jobs for youths to boost economic activities and growth in strengthening the economy.\n\nThe observation came today at the inaugural function of the month-long Rangpur Industry and Trade Fair-2022 being organized by Rangpur Metropolitan Chamber of Commerce and Industry (RMCCI) at the Cricket Ground in the city.\n\nThe main objective of arranging the fair is to promote the local SM"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "SME loans support export production",
+      "edge_label": "enhances exports",
+      "evidence_quote": "further easing the process of allocating SME loans to flourish the sector and ensure production of international standard SME products to enhance export",
+      "scope_justification": "The article explicitly links SME financing and production of internationally standard products to enhancing exports, matching the feature's scope of goods sent internationally.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "further easing the process of allocating SME loans to flourish the sector and ensure production of international standard SME products to enhance export",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article includes the sentence that easing SME loan allocation will ensure production of international-standard SME products “to enhance export,” explicitly linking SME financing to increased exports at a general (sector/national) level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-10-02",
+      "exports",
+      "enhances exports",
+      "SME loans support export production"
+    ]
+  ],
+  "features_queried": [
+    "balance_of_trade",
+    "stock_market_close",
+    "exports"
+  ],
+  "num_connections_found": 1
+}

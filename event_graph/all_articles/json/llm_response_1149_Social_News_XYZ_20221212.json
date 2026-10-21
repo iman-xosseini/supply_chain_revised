@@ -1,0 +1,61 @@
+{
+  "article": {
+    "source": "Social News XYZ",
+    "date": "2022-12-12",
+    "url": "https://www.socialnews.xyz/2022/12/12/bdesh-asks-banks-to-relax-lc-margin-rate-for-essential-food-items/",
+    "body_preview": "Dhaka, Dec 12 (SocialNews.XYZ) In the wake of soaring inflation, the central bank of Bangladesh has instructed all the commercial banks in the country to relax the opening margin rate for the settlement of Letters of Credit (LC) against eight food items.\n\nBangladesh Bank said on Sunday in a circular that the instruction is aimed at keeping the prices of the food items within reach of consumers during the upcoming Islamic holy month of Ramadan, Xinhua news agency reported.\n\nThe items are edible o"
+  },
+  "llm_connections": [
+    {
+      "feature": "imports",
+      "event_summary": "Bank sets LC margin",
+      "edge_label": "limits imports",
+      "evidence_quote": "The bank also fixed the opening margin rate for the settlement of letters of credit at 75 per cent in a bid to limit imports",
+      "scope_justification": "The article explicitly states that a national banking policy involving LC margins is intended to limit imports, matching the feature's country-wide volume of goods brought in.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "The bank also fixed the opening margin rate for the settlement of letters of credit at 75 per cent in a bid to limit imports",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states the bank fixed the LC opening margin at 75% \"in a bid to limit imports,\" which is an explicit causal link. This is a national policy by Bangladesh Bank affecting country-level imports, and the quoted text appears nearly verbatim."
+      }
+    },
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Bank relaxes LC margins",
+      "edge_label": "eases retail inflation",
+      "evidence_quote": "keeping the LC margin at the lowest level for the products would slow down the rise in food prices and help ease retail inflation during Ramadan",
+      "scope_justification": "The article directly links the LC-margin policy to easing retail inflation, which matches the feature's scope of general price-level increases.",
+      "verification": {
+        "quote_similarity": 0.997,
+        "quote_best_match": "keeping the LC margin at the lowest level for the products would slow down the rise in food prices and help ease retail inflation during Ramadan.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states that keeping LC margins at the lowest level would help ease retail inflation during Ramadan. This directly links the bank’s LC-margin relaxation to easing inflation at a national (country) level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-12-12",
+      "imports",
+      "limits imports",
+      "Bank sets LC margin"
+    ],
+    [
+      "2022-12-12",
+      "inflation_rate",
+      "eases retail inflation",
+      "Bank relaxes LC margins"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 2
+}

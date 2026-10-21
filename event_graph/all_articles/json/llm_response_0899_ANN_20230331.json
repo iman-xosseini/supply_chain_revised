@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "ANN",
+    "date": "2023-03-31",
+    "url": "https://asianews.network/great-resignation-to-unprecedented-tech-layoffs/",
+    "body_preview": "DHAKA - A college friend who was once an outstanding student failed to do well in his IT career. His family of two university students barely managed with his single income until the pandemic. But since then, the price of his basket of goods has increased significantly. As a result, the family is finding it very hard to make ends meet with his monthly income of Tk 60,000.\n\nTo make matters worse, he recently got fired by his struggling IT company, which is heavily dependent on the export market. "
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Inflation impacts consumer spending",
+      "edge_label": "reduces spending power",
+      "evidence_quote": "Persisting supply chain issues, inflation and the war in Ukraine also impacted business and consumer spending",
+      "scope_justification": "The article explicitly links inflation to consumer spending and separately identifies Bangladesh's high inflation, matching the feature's general price-level and purchasing-power scope.",
+      "verification": {
+        "quote_similarity": 0.995,
+        "quote_best_match": "Persisting supply chain issues, inflation and the war in Ukraine also impacted business and consumer spending,",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that “inflation … impacted business and consumer spending,” directly linking inflation to reduced consumer spending. This is discussed at a macro (global) level consistent with a general inflation rate feature."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-03-31",
+      "inflation_rate",
+      "reduces spending power",
+      "Inflation impacts consumer spending"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

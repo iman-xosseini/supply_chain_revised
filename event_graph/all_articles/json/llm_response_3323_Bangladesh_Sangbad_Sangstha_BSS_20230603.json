@@ -1,0 +1,61 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2023-06-03",
+    "url": "https://www.bssnews.net/business/128969",
+    "body_preview": "DHAKA, June 3, 2023 (BSS) - Planning Minister MA Mannan today said that the proposed budget for FY24 has been largely rural-friendly.\n\n\"The number of beneficiaries and the amounts has been increased under the social safety nets for the rural communities. Besides, the rural economy will be strengthened further since there will be steps for boosting agricultural production,\" he said.\n\nThe Planning Minister was addressing the MCCI-PRI Post Budget 2023-2024 Discussion titled \"Bangladesh from Vulnera"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Budget targets inflation containment",
+      "edge_label": "targets inflation reduction",
+      "evidence_quote": "Earlier on June 1, Finance Minister AHM Mustafa Kamal placed a Taka 7,61,785 crore budget for the next fiscal year (FY24) eyeing for a 7.5 percent GDP growth and to contain inflation at around 6 percent.",
+      "scope_justification": "The article describes a national budget target for overall inflation, matching the feature's country-level general price-level scope.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "Earlier on June 1, Finance Minister AHM Mustafa Kamal placed a Taka 7,61,785 crore budget for the next fiscal year (FY24) eyeing for a 7.5 percent GDP growth and to contain inflation at around 6 percent.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The quoted sentence appears verbatim and explicitly states that the national budget aims to contain inflation around 6 percent, indicating a causal intent at the country level."
+      }
+    },
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Supply-side strengthening contains inflation",
+      "edge_label": "strengthens supply to contain",
+      "evidence_quote": "But, the main thing is that it's not possible to contain inflation without strengthening the supply side",
+      "scope_justification": "The statement directly links strengthening the overall supply side to containing inflation, matching the feature's broad CPI-like price-level scope.",
+      "verification": {
+        "quote_similarity": 0.986,
+        "quote_best_match": "\"But, the main thing is that it's not possible to contain inflation without strengthening the supply side,\"",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states, “it’s not possible to contain inflation without strengthening the supply side,” directly linking supply-side strengthening to containing inflation. This is discussed in a national macroeconomic context, matching the broad inflation scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-06-03",
+      "inflation_rate",
+      "targets inflation reduction",
+      "Budget targets inflation containment"
+    ],
+    [
+      "2023-06-03",
+      "inflation_rate",
+      "strengthens supply to contain",
+      "Supply-side strengthening contains inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 2
+}

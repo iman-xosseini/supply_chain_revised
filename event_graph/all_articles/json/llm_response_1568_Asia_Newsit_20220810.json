@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Asia News.it",
+    "date": "2022-08-10",
+    "url": "https://www.asianews.it/news-en/Soaring-fuel-prices-push-up-Bangladesh%E2%80%99s-inflation-rate-56435.html",
+    "body_preview": "Dhaka (AsiaNews) - The price of petrol increased by 51.7 per cent in Bangladesh at midnight last Friday, the largest single jump ever recorded in the country, local media report, driving up the cost of transportation as well as the prices of all goods and services.\n\nAs a result, more and more people will find it hard to get three meals a day - even the middle classes are beginning to feel the pinch. Many are forced to give up meat and fish.\n\nOn average, retail prices are up by 5 to 15 taka (abou"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Petrol price jump drives inflation",
+      "edge_label": "increases price levels",
+      "evidence_quote": "driving up the cost of transportation as well as the prices of all goods and services.",
+      "scope_justification": "The article describes a broad increase in transportation and all goods and services prices, matching the country-wide general price-level scope of inflation.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "driving up the cost of transportation as well as the prices of all goods and services.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that the petrol price increase is “driving up the cost of transportation as well as the prices of all goods and services,” explicitly linking the event to a broad rise in prices (i.e., inflation). The discussion is at the national level for Bangladesh."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-08-10",
+      "inflation_rate",
+      "increases price levels",
+      "Petrol price jump drives inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "The Financial Express",
+    "date": "2022-11-09",
+    "url": "https://thefinancialexpress.com.bd/economy/bangladesh/bangladesh-imf-reach-initial-deal-for-45b-loans-1667989046",
+    "body_preview": "Bangladesh and the International Monetary Fund (IMF) have reached a staff-level agreement that would see the country receive a total $4.5 billion in loan support amid global economic uncertainty due to the Russia-Ukraine war.\n\nThe 42-month agreement says that funds will be divided between the Extended Credit Facility (ECF), the Extended Fund Facility (EFF), and the Resilience and Sustainability Facility.\n\n\"The Bangladesh authorities and the IMF team have reached a staff-level agreement to suppor"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "War-driven inflation increase",
+      "edge_label": "increases inflation",
+      "evidence_quote": "Bangladesh's 'robust' post-pandemic recovery was hampered by the war and led to a sharp widening of the current account deficit, a steep decline in foreign exchange reserves, rising inflation",
+      "scope_justification": "The article explicitly describes rising inflation at the national Bangladesh macroeconomic level, matching the aggregate price-level scope of the feature.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "Bangladesh's 'robust' post-pandemic recovery was hampered by the war and led to a sharp widening of the current account deficit, a steep decline in foreign exchange reserves, rising inflation",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that the war hampered Bangladesh’s recovery and led to rising inflation, explicitly linking the war to higher inflation at the national level. The quoted sentence (or very close paraphrase) appears in the text."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-11-09",
+      "inflation_rate",
+      "increases inflation",
+      "War-driven inflation increase"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

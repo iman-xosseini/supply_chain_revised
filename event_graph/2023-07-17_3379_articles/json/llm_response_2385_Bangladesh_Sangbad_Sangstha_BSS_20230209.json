@@ -1,0 +1,37 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2023-02-09",
+    "url": "https://www.bssnews.net/news-flash/109790",
+    "body_preview": "DHAKA, Feb 09, 2023 (BSS) - Principal Secretary to Prime Minister Tofazzel Hossain Miah today informed that the government has already taken an initiative to formulate a logistics policy to ensure more competitiveness of Bangladeshi products in world market.\n\n\"We have to work seriously on logistics. In Bangladesh, we still don't have a logistics policy. But Prime Minister Sheikh Hasina has recently formed a committee under the leadership of the principal secretary with the participation of the p"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Russian-Ukraine war reduced demand",
+      "edge_label": "reduces export demand",
+      "evidence_quote": "The domino effect of the Russian-Ukraine war has contributed to instability in the region and reduced demand for exports from countries like Bangladesh",
+      "scope_justification": "The article explicitly links the war to reduced demand for Bangladesh's internationally sent goods, matching the exports feature's country-level trade scope.",
+      "verification": {
+        "quote_similarity": 0.997,
+        "quote_best_match": "The domino effect of the Russian-Ukraine war has contributed to instability in the region and reduced demand for exports from countries like Bangladesh,",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that the domino effect of the Russian-Ukraine war reduced demand for exports from countries like Bangladesh. This explicitly links the war to reduced export demand at the country level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-02-09",
+      "exports",
+      "reduces export demand",
+      "Russian-Ukraine war reduced demand"
+    ]
+  ],
+  "features_queried": [
+    "balance_of_trade",
+    "stock_market_close",
+    "exports"
+  ],
+  "num_connections_found": 1
+}

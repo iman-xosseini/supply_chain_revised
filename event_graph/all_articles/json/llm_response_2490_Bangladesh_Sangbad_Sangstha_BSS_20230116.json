@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2023-01-16",
+    "url": "https://www.bssnews.net/news-flash/105505",
+    "body_preview": "DHAKA, Jan 16, 2023 (BSS) - Visiting Deputy Managing Director of the International Monetary Fund (IMF) Antoinette Monsio Sayeh today said that the IMF Board is likely to consider the $4.5 billion loan to Bangladesh on January 30.\n\n\"The IMF Executive Board is expected to consider approving the program with Bangladesh on January 30,\" she said in a press statement.\n\nSayeh said she was very pleased to have had the opportunity to meet with Prime Minister Sheikh Hasina, Finance Minister AHM Mustafa Ka"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Macroeconomic policies stabilized inflation",
+      "edge_label": "stabilizes price growth",
+      "evidence_quote": "Macroeconomic policies in recent years have helped keep inflation stable",
+      "scope_justification": "The statement directly concerns Bangladesh's overall inflation stability, matching the national CPI-based definition of inflation rate.",
+      "verification": {
+        "quote_similarity": 0.993,
+        "quote_best_match": "Macroeconomic policies in recent years have helped keep inflation stable,",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states that 'Macroeconomic policies in recent years have helped keep inflation stable,' indicating a causal link at the national (Bangladesh) level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-01-16",
+      "inflation_rate",
+      "stabilizes price growth",
+      "Macroeconomic policies stabilized inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

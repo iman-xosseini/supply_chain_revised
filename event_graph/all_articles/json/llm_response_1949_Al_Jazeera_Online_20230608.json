@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Al Jazeera Online",
+    "date": "2023-06-08",
+    "url": "https://www.aljazeera.com/news/2023/6/8/bangladesh-suffers-long-power-cuts-amid-worst-heatwave-in-decades",
+    "body_preview": "Dhaka, Bangladesh - Abdur Rahman nearly fainted while pulling his rickshaw under the scorching sun in Bangladesh's capital city. \"It is not possible to continue doing this in such weather,\" he told Al Jazeera.\n\nFor the last few weeks, the slum in Dhaka where Rahman lives has hardly had any electricity at night.\n\n\"After a hard, laborious day, I used to get some sleep. Now my sleeps are disrupted without a fan. I wake up many times, drenched in sweat,\" he said.\n\nA crippling power crisis has added "
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Power outages delay shipments",
+      "edge_label": "curbs export earnings",
+      "evidence_quote": "Factory owners say the crisis has raised their production costs and forced them to cut or delay output.",
+      "scope_justification": "The article explicitly links nationwide power outages to reduced or delayed output in Bangladesh’s export-oriented RMG sector, directly affecting goods prepared for international shipment.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "Factory owners say the crisis has raised their production costs and forced them to cut or delay output.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The quoted line appears verbatim. The article explicitly links power outages to reduced output, risks of missing shipment deadlines, and a factory owner stating this curbs export earnings. It discusses impacts on Bangladesh’s export-oriented RMG sector, matching the scope implied by “exports.”"
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-06-08",
+      "exports",
+      "curbs export earnings",
+      "Power outages delay shipments"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

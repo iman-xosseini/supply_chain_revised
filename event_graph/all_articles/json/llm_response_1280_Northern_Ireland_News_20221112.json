@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Northern Ireland News",
+    "date": "2022-11-12",
+    "url": "https://www.northernirelandnews.com/news/273080528/interview-bangladesh-feels-pinch-of-us-feds-rate-hikes-says-economist",
+    "body_preview": "DHAKA, Nov. 12 (Xinhua) -- The economic woes associated with the ballooning U.S. debt are spilling over to many countries around the world and countries like Bangladesh have felt the pinch of the U.S. Federal Reserve's aggressive interest rate hikes, a leading Bangladeshi economist has warned.\n\nWith the U.S. national debt already exceeding 31 trillion U.S. dollars and due to the U.S. rate hikes, the global economy has shrunk amid dire problems including currency devaluation, inflation and food c"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "U.S. rate hikes fuel inflation",
+      "edge_label": "drives inflation",
+      "evidence_quote": "due to the U.S. rate hikes, the global economy has shrunk amid dire problems including currency devaluation, inflation and food crisis",
+      "scope_justification": "The article explicitly links U.S. rate hikes to inflation occurring across various countries, matching the feature's aggregate price-level scope.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "due to the U.S. rate hikes, the global economy has shrunk amid dire problems including currency devaluation, inflation and food crisis",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that due to U.S. rate hikes, the global economy has shrunk amid problems including inflation, explicitly linking the hikes to inflation across various countries, which matches an aggregate inflation scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-11-12",
+      "inflation_rate",
+      "drives inflation",
+      "U.S. rate hikes fuel inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

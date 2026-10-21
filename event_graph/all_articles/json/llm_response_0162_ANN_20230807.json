@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "ANN",
+    "date": "2023-08-07",
+    "url": "https://asianews.network/surging-government-borrowing-portrays-a-grim-future/",
+    "body_preview": "DHAKA - Government borrowing from the banking sector has been rising alarmingly since the end of the pandemic. The government took around Tk 98,000 crore in loans from Bangladesh Bank in the 2022-23 fiscal year - which was 44 percent of the total deficit, suggesting excessive borrowing. Borrowing is used to plug the budget deficit, but enough acumen on economics and finance must be exercised to decide the sources of borrowing since different sources can lead to different repercussions on growth "
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Central bank borrowing stokes inflation",
+      "edge_label": "stokes inflation",
+      "evidence_quote": "borrowing from the central bank is a double-edged sword for stoking inflation",
+      "scope_justification": "The article explicitly links government borrowing from the central bank to Bangladesh's national inflation rate, matching the feature's economy-wide price-level scope.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "borrowing from the central bank is a double-edged sword for stoking inflation",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states that borrowing from the central bank stokes inflation, including the near-exact quote provided, and ties this mechanism to Bangladesh’s nationwide inflation rate. The scope matches the economy-wide inflation feature."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-08-07",
+      "inflation_rate",
+      "stokes inflation",
+      "Central bank borrowing stokes inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

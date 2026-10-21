@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "MSN International Edition",
+    "date": "2023-06-01",
+    "url": "https://www.msn.com/en-xl/asia/bangladesh/economists-wary-about-finance-ministers-6-percent-inflation-target-for-fy24/ar-AA1bZS3i",
+    "body_preview": "Dhaka, June 1 -- Finance minister AHM Mustafa Kamal's target of containing the rate of inflation at 6 percent in the upcoming fiscal year is being described as ambitious by some economists.\n\nThe finance minister announced the target in the budget proposals for FY23-24 placed at the Parliament on Thursday.\n\nThe existing rate of inflation in the country has soared to over 9 percent.\n\nExecutive director of SANEM Selim Raihan said, \"The government gave the promise to tackle inflation at 5.5 percent "
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Missing anti-inflation initiatives",
+      "edge_label": "keeps inflation elevated",
+      "evidence_quote": "We have witnessed no significant initiatives from the government in terms of currency policy, duty tax policy, or market management policy, which could have contributed to controlling inflation",
+      "scope_justification": "The article discusses Bangladesh's nationwide inflation rate and government policies intended to control the aggregate general price level.",
+      "verification": {
+        "quote_similarity": 0.992,
+        "quote_best_match": "\"We have witnessed no significant initiatives from the government in terms of currency policy, duty tax policy, or market management policy, which could have contributed to controlling inflation,\"",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The quoted sentence appears verbatim. Economists explicitly state that the absence of anti-inflation measures means inflation cannot be reduced and note inflation has remained high, implying causality. The discussion is at the national (Bangladesh) inflation level, matching scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-06-01",
+      "inflation_rate",
+      "keeps inflation elevated",
+      "Missing anti-inflation initiatives"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

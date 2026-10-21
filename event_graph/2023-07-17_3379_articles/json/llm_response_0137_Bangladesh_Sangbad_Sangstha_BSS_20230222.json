@@ -1,0 +1,37 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2023-02-22",
+    "url": "https://www.bssnews.net/business/112047",
+    "body_preview": "DHAKA, Feb 22, 2023 (BSS) - Speakers at a meeting today said that Bangladesh, being a Commonwealth member state, has a huge scope for boosting export of agricultural items to the UK market through availing duty free and quota free access facilities.\n\nBut for this, they suggested the government and the policy makers to ensure international standard accredited lab certificates, diversification in export items, quality control from production stage to shipment, packaging and supplying bacteria free"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "BSTI capacity enhancement",
+      "edge_label": "raises agricultural exports",
+      "evidence_quote": "export of agricultural items could be raised up to $5 billion if the capacity of the Bangladesh Standards and Testing Institute (BSTI) could be enhanced.",
+      "scope_justification": "The article explicitly links enhanced testing-institution capacity to the volume of Bangladesh's goods sent internationally, specifically agricultural exports.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "export of agricultural items could be raised up to $5 billion if the capacity of the Bangladesh Standards and Testing Institute (BSTI) could be enhanced.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that agricultural exports could rise to $5 billion if BSTI capacity is enhanced, explicitly linking capacity enhancement to increased exports. This pertains to Bangladesh’s national agricultural exports, matching the scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-02-22",
+      "exports",
+      "raises agricultural exports",
+      "BSTI capacity enhancement"
+    ]
+  ],
+  "features_queried": [
+    "balance_of_trade",
+    "stock_market_close",
+    "exports"
+  ],
+  "num_connections_found": 1
+}

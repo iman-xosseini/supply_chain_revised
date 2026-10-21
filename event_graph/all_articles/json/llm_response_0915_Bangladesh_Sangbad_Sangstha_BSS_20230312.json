@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2023-03-12",
+    "url": "https://www.bssnews.net/business/115163",
+    "body_preview": "DHAKA, March 12, 2023 (BSS) - The general point to point inflation rate in\n\nFebruary increased slightly as it reached to 8.78 percentage up from 8.57\n\npercentage points in January mainly because of the slight rise in food\n\ninflation.\n\nThe general point to point inflation rate in December last was 8.71\n\npercentage points, according to the monthly Consumer Price Index (CPI) of the\n\nBangladesh Bureau of Statistics (BBS).\n\nThe point to point food inflation increased to 8.13 percentage points in\n\nFeb"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Food inflation raises CPI",
+      "edge_label": "raises inflation rate",
+      "evidence_quote": "The general point to point inflation rate in February increased slightly ... mainly because of the slight rise in food inflation.",
+      "scope_justification": "The article explicitly links a national general CPI increase to food inflation, matching the feature's definition of overall price-level growth.",
+      "verification": {
+        "quote_similarity": 0.761,
+        "quote_best_match": "The general point to point inflation rate in February increased slightly as it reached to",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that the general inflation rate increased 'mainly because of the slight rise in food inflation,' explicitly linking food inflation to the national CPI increase. The scope is national-level Bangladesh CPI."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-03-12",
+      "inflation_rate",
+      "raises inflation rate",
+      "Food inflation raises CPI"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

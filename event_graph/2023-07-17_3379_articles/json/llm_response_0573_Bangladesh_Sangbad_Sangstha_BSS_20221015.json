@@ -1,0 +1,37 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-10-15",
+    "url": "https://www.bssnews.net/news/88120",
+    "body_preview": "DHAKA, Oct 15, 2022 (BSS) - The World Food Day-2022 will be observed in the country tomorrow as elsewhere in the world in a befitting manner.\n\nThis year's theme of the day is 'Kauke Poshchatey Rekhey Noy-Valo Uthpadoney Uttom Pushti, Surokkhito Poribesh Abong Unnoto Jibon.'\n\nThe Agriculture Ministry and the Food and Agricultural Organization of the United Nations (FAO) will jointly observe the day.\n\nPresident M Abul Hamid and Prime Minister Sheikh Hasina issued separate messages on the eve of th"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Agricultural production enables exports",
+      "edge_label": "enables food exports",
+      "evidence_quote": "If agricultural production is increased alongside controlling inflation, it will be possible to earn foreign exchange by exporting food products at high prices to the world market",
+      "scope_justification": "The article explicitly links increased agricultural production to exporting food products internationally, matching the feature's scope of goods sent to international markets.",
+      "verification": {
+        "quote_similarity": 0.997,
+        "quote_best_match": "If agricultural production is increased alongside controlling inflation, it will be possible to earn foreign exchange by exporting food products at high prices to the world market,",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article contains the exact quoted sentence linking increased agricultural production to the possibility of exporting food products and earning foreign exchange. This is an explicit causal statement at the national level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-10-15",
+      "exports",
+      "enables food exports",
+      "Agricultural production enables exports"
+    ]
+  ],
+  "features_queried": [
+    "balance_of_trade",
+    "stock_market_close",
+    "exports"
+  ],
+  "num_connections_found": 1
+}

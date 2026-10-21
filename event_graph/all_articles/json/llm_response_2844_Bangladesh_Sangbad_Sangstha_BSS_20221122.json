@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-11-22",
+    "url": "https://www.bssnews.net/news-flash/95438",
+    "body_preview": "DHAKA, Nov 22, 2022 (BSS) - Prime Minister Sheikh Hasina today asked all concerned to undertake and thus implement development projects without harming nature.\n\nThe Premier also directed the authorities concerned to implement the development schemes maintaining ecological balance as well as implementing those in a speedy manner avoiding unnecessary revision.\n\nThe Prime Minister gave the directives while chairing a meeting of the Executive Committee of the National Economic Council (ECNEC) held a"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Aman harvest boosts supply",
+      "edge_label": "reduces inflation",
+      "evidence_quote": "it would also be helpful to boost the supply side to rein in inflation further",
+      "scope_justification": "The article explicitly links increased agricultural supply to lower overall inflation, matching the feature's economy-wide price-level scope.",
+      "verification": {
+        "quote_similarity": 0.994,
+        "quote_best_match": "it would also be helpful to boost the supply side to rein in inflation further.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that a good Aman harvest would boost the supply side and help rein in inflation further, directly linking increased supply from the harvest to lower overall inflation at a national level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-11-22",
+      "inflation_rate",
+      "reduces inflation",
+      "Aman harvest boosts supply"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

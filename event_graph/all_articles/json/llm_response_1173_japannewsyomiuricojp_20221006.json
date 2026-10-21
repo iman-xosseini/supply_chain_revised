@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "japannews.yomiuri.co.jp",
+    "date": "2022-10-06",
+    "url": "https://japannews.yomiuri.co.jp/world/asia-pacific/20221006-62689/",
+    "body_preview": "DHAKA (Thomson Reuters Foundation) -- When Abul Kashem moved to Dhaka two years ago, after the roiling Jamuna River eroded away his home and farm in northern Bangladesh, the work he found helping grocery buyers carry their wares paid just enough to feed his family and pay his rent.\n\nBut with the government increasing fuel prices 50% in August, inflation on the rise and the economy slowing, getting by is now much harder, especially for the most vulnerable, including the capital's legions of migra"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Fuel hike drives inflation",
+      "edge_label": "increases price levels",
+      "evidence_quote": "Bangladesh's inflation rate is now about 7.5% ... after the government dramatically boosted fuel prices",
+      "scope_justification": "The article reports Bangladesh's national inflation rate and links its increase to the government's nationwide fuel-price hike, matching the aggregate CPI scope.",
+      "verification": {
+        "quote_similarity": 0.785,
+        "quote_best_match": "Bangladesh's inflation rate is now about 7.5%, according to the country's central bank, after the government dramatically boosted fuel",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states Bangladesh’s inflation rate is about 7.5% after a government fuel price hike and explicitly adds that the hike sent prices of food and other commodities surging. This is discussed at the national level, matching the inflation rate scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-10-06",
+      "inflation_rate",
+      "increases price levels",
+      "Fuel hike drives inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

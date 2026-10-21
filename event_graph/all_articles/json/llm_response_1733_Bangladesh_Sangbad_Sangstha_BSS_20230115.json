@@ -1,0 +1,61 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2023-01-15",
+    "url": "https://www.bssnews.net/news-flash/105330",
+    "body_preview": "DHAKA, Jan 15, 2023 (BSS) - Bangladesh Bank (BB) today announced 'cautiously accommodative' Monetary Policy Statement (MPS) for the second half of the current fiscal year 2022-23 (H2FY23).\n\n\"BB's monetary and credit programs for H2FY23 will pursue a cautiously accommodative policy stance to contain inflationary and exchange rate pressures, support desired economic growth, ensuring the necessary flow of funds to the economy's productive and employment generating activities,\" said BB Governor Abdu"
+  },
+  "llm_connections": [
+    {
+      "feature": "interest_rate_value",
+      "event_summary": "BB raises repo rate",
+      "edge_label": "raises interest rate",
+      "evidence_quote": "BB has decided to increase its policy rates by 25 basis points, the repo rate to 6.00 percent from 5.75 percent",
+      "scope_justification": "The article explicitly reports a change in Bangladesh Bank's central bank repo rate, matching the feature's borrowing-cost scope.",
+      "verification": {
+        "quote_similarity": 0.996,
+        "quote_best_match": "BB has decided to increase its policy rates by 25 basis points, the repo rate to 6.00 percent from 5.75 percent,",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states that BB decided to increase policy rates, specifying the repo rate rose from 5.75% to 6.00%. This directly links the event (BB action) to the increase in the interest rate at the national central bank level."
+      }
+    },
+    {
+      "feature": "inflation_rate",
+      "event_summary": "MPS targets inflation",
+      "edge_label": "contains inflationary pressure",
+      "evidence_quote": "BB's monetary and credit programs for H2FY23 will pursue a cautiously accommodative policy stance to contain inflationary and exchange rate pressures",
+      "scope_justification": "The article describes economy-wide inflationary pressures and a monetary-policy response intended to contain them, matching the general price-level scope of the feature.",
+      "verification": {
+        "quote_similarity": 0.993,
+        "quote_best_match": "\"BB's monetary and credit programs for H2FY23 will pursue a cautiously accommodative policy stance to contain inflationary and exchange rate pressures,",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The quoted sentence appears verbatim and explicitly states that the monetary policy aims to contain inflationary pressures. The discussion is at the national macroeconomic level, matching the scope of an economy-wide inflation rate."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-01-15",
+      "interest_rate_value",
+      "raises interest rate",
+      "BB raises repo rate"
+    ],
+    [
+      "2023-01-15",
+      "inflation_rate",
+      "contains inflationary pressure",
+      "MPS targets inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 2
+}

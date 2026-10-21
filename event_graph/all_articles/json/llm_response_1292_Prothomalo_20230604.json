@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Prothomalo",
+    "date": "2023-06-04",
+    "url": "https://en.prothomalo.com/business/local/1q4bvruzz4",
+    "body_preview": "Bangladesh Trade and Tariff Commission (BTTC), under the Ministry of Commerce, shows the price of unrefined soybean oil in Argentina was USD 847 per tonne on 31 May. The price was USD 1970 dollars exactly a year ago. The price has dropped by nearly 57 per cent.\n\nA bottle of soybean oil in the country's market went up to Tk 199 after it had been increased by Tk 12 per litre on 3 May. The price hike was caused by the withdrawal of exemption of value added tax (VAT) on soybean oil. The prices stood"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Domestic energy prices fuel inflation",
+      "edge_label": "fuels inflation",
+      "evidence_quote": "As the government has failed to control the price of the dollar, it has fuelled inflation by raising the prices of gas, electricity and fuel.",
+      "scope_justification": "The article explicitly links national increases in gas, electricity, and fuel prices to rising inflation, matching the country-wide price-level scope of the feature.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "As the government has failed to control the price of the dollar, it has fuelled inflation by raising the prices of gas, electricity and fuel.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states that raising prices of gas, electricity, and fuel has fueled inflation in the country. This directly links domestic energy price increases to national inflation, matching the scope and demonstrating clear causality."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-06-04",
+      "inflation_rate",
+      "fuels inflation",
+      "Domestic energy prices fuel inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

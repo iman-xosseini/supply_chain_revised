@@ -1,0 +1,37 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2023-01-30",
+    "url": "https://www.bssnews.net/news/108021",
+    "body_preview": "DHAKA, Jan 30, 2023 (BSS) - Agriculture Minister and Awami League (AL) Presidium Member Dr Md Abdur Razzaque today said the Centre for Policy Dialogue (CPD) is working to bring a specific political party to power.\n\n\"CPD conducts many surveys with political motives. They want to bring a political party to the power as they are the partners of that party,\" he said while exchanging views with journalists at the ministry's conference room in the Secretariat here after a meeting on the progress of th"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Export obstacles persist",
+      "edge_label": "hampers agricultural exports",
+      "evidence_quote": "there are still some obstacles, including banking problems and not getting the 20 per cent incentive properly given to the export of agricultural products.",
+      "scope_justification": "The article explicitly links banking and incentive obstacles to exporting agricultural products, which are goods sent internationally.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "there are still some obstacles, including banking problems and not getting the 20 per cent incentive properly given to the export of agricultural products.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The quoted sentence appears verbatim and in context of exporting agricultural products. Calling banking issues and incomplete incentives 'obstacles' explicitly implies they hinder (hamper) agricultural exports at a national/sector level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-01-30",
+      "exports",
+      "hampers agricultural exports",
+      "Export obstacles persist"
+    ]
+  ],
+  "features_queried": [
+    "balance_of_trade",
+    "stock_market_close",
+    "exports"
+  ],
+  "num_connections_found": 1
+}

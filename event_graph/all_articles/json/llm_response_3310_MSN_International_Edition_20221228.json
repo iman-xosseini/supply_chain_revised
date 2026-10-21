@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "MSN International Edition",
+    "date": "2022-12-28",
+    "url": "https://www.msn.com/en-xl/asia/bangladesh/private-sector-should-prepare-to-face-challenges-of-ldc-graduation-fbcci-president-says-at-agm/ar-AA15JVdY",
+    "body_preview": "Dhaka, Dec. 28 -- FBCCI president Md Jashim Uddin said Bangladesh's graduation from the Least Developed Country will strengthen the image of the country in the international arena along with creating huge trade and investment opportunities.\n\nThe president of the Federation of Bangladesh Chambers of Commerce and Industries (FBCCI) said this at the Annual General Meeting (AGM) of the organisation held at a convention hall in the capital on Wednesday.\n\nDue to Covid-19 Pandemic, the AGM of the sessi"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Crises raise prices",
+      "edge_label": "raises price levels",
+      "evidence_quote": "The Covid-19 pandemic and the Russia-Ukraine crisis have resulted in an abnormal increase in energy price, food price, agricultural production cost",
+      "scope_justification": "The article attributes broad increases across energy, food, agricultural, industrial, and transport costs to the crises, matching a general economy-wide rise in price levels.",
+      "verification": {
+        "quote_similarity": 0.993,
+        "quote_best_match": "\"The Covid-19 pandemic and the Russia-Ukraine crisis have resulted in an abnormal increase in energy price, food price, agricultural production cost,",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states that the Covid-19 pandemic and the Russia-Ukraine crisis have resulted in abnormal increases in multiple prices/costs. This is a clear cause-effect statement at a broad, economy-wide scope consistent with inflation/price levels."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-12-28",
+      "inflation_rate",
+      "raises price levels",
+      "Crises raise prices"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

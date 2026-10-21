@@ -1,0 +1,37 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-09-12",
+    "url": "https://www.bssnews.net/business/82130",
+    "body_preview": "DHAKA, Sept 12, 2022 (BSS) - Country's both the bourses, Dhaka Stock Exchange (DSE) and Chittagong Stock Exchange (CSE) , today plunged further due to mainly price fall in large-cap securities.\n\nDSEX, the key index of the Dhaka Stock Exchange (DSE), finally went down by 9.99 points or 0.15 per cent to settle at 6,528. Two other indices also edged lower. The DS30 index, comprising blue chips, plunged 16.67 points to finish at 2,356 and the DSE Shariah Index (DSES) fell 2.68 points to close at 1,4"
+  },
+  "llm_connections": [
+    {
+      "feature": "stock_market_close",
+      "event_summary": "Large-cap securities price fall",
+      "edge_label": "drives market decline",
+      "evidence_quote": "Country's both the bourses, Dhaka Stock Exchange (DSE) and Chittagong Stock Exchange (CSE), today plunged further due to mainly price fall in large-cap securities.",
+      "scope_justification": "The article directly links large-cap securities’ price decline to the performance of the overall DSE and CSE equity markets, matching the feature’s market-level scope.",
+      "verification": {
+        "quote_similarity": 0.997,
+        "quote_best_match": "Country's both the bourses, Dhaka Stock Exchange (DSE) and Chittagong Stock Exchange (CSE) , today plunged further due to mainly price fall in large-cap securities.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that both bourses 'plunged further due to mainly price fall in large-cap securities,' which explicitly links large-cap declines to overall market fall at the market level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-09-12",
+      "stock_market_close",
+      "drives market decline",
+      "Large-cap securities price fall"
+    ]
+  ],
+  "features_queried": [
+    "balance_of_trade",
+    "stock_market_close",
+    "exports"
+  ],
+  "num_connections_found": 1
+}

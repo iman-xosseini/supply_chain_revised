@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-11-12",
+    "url": "https://www.bssnews.net/business/93452",
+    "body_preview": "DHAKA, Nov 12, 2022 (BSS) - Bangladesh Bank Deputy Governor Abu Farah Md Nasser today said that proper utilization of Credit Guarantee Scheme is inevitable for revival of Cottage Micro Small and Medium Enterprises (CMSMEs).\n\nHe said although the Bangladesh Bank has created a fund of Taka 2000 crore for Credit Guaranty Scheme with a view to giving collateral free loan specially to the CMSMEs, but out of that amount only Taka 192 crore has been disbursed till today, which is not so much encouragin"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Priority loans to sectors",
+      "edge_label": "helps control inflation",
+      "evidence_quote": "the manufacturing and service sector should get priority in getting loans right at this moment to control inflation",
+      "scope_justification": "The article explicitly links sector-wide loan prioritization to controlling inflation, matching the feature's aggregate price-level scope.",
+      "verification": {
+        "quote_similarity": 0.996,
+        "quote_best_match": "the manufacturing and service sector should get priority in getting loans right at this moment to control inflation,",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article includes the quote stating that prioritizing loans to manufacturing and service sectors is to control inflation, explicitly asserting a causal link at a national policy level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-11-12",
+      "inflation_rate",
+      "helps control inflation",
+      "Priority loans to sectors"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

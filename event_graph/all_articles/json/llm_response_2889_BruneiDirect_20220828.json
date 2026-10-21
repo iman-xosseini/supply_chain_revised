@@ -1,0 +1,61 @@
+{
+  "article": {
+    "source": "BruneiDirect",
+    "date": "2022-08-28",
+    "url": "https://brudirect.com/news.php?id=151953",
+    "body_preview": "Bangladesh is on track to end a U.S. dollar crisis soon in the country, Bangladesh Bank (BB) Governor Abdur Rouf Talukder said here Saturday.\n\n\"Dollar market stability depends virtually on our inflows of remittances, export incomes and payments of import bills,\" said the BB chief while attending the Annual Banking Conference 2022 at the Bangladesh Institute of Bank Management (BIBM) premises on Saturday.\n\nDollar prices remain stable when there's a balance between the inflows and outflows, Talukd"
+  },
+  "llm_connections": [
+    {
+      "feature": "balance_of_trade",
+      "event_summary": "Imports widened trade deficit",
+      "edge_label": "widens trade deficit",
+      "evidence_quote": "Bangladesh's trade deficit ballooned to a record level of over 33 billion U.S. dollars ... on the back of increased imports",
+      "scope_justification": "The article describes a country-wide trade deficit and aggregate national imports, matching the feature's definition as the difference between imports and exports.",
+      "verification": {
+        "quote_similarity": 0.86,
+        "quote_best_match": "Bangladesh's trade deficit ballooned to a record level of over 33 billion U.S. dollars in the fiscal year",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that Bangladesh’s trade deficit ‘ballooned… on the back of increased imports,’ explicitly linking higher imports to a larger trade deficit at the national level. This matches the claimed causal relationship and scope."
+      }
+    },
+    {
+      "feature": "currency_momentum_5d",
+      "event_summary": "Imports drove taka depreciation",
+      "edge_label": "depreciates currency",
+      "evidence_quote": "Increasing imports and a widening trade deficit were cited as the most possible reasons for taka depreciation in recent months.",
+      "scope_justification": "The article explicitly links national import and trade-deficit trends to the taka's recent multi-month depreciation, matching the feature's currency-trend scope.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "Increasing imports and a widening trade deficit were cited as the most possible reasons for taka depreciation in recent months.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states that increasing imports and a widening trade deficit were cited as reasons for recent taka depreciation. This is a national-level (Bangladesh) currency trend, matching the feature's scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-08-28",
+      "balance_of_trade",
+      "widens trade deficit",
+      "Imports widened trade deficit"
+    ],
+    [
+      "2022-08-28",
+      "currency_momentum_5d",
+      "depreciates currency",
+      "Imports drove taka depreciation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 2
+}

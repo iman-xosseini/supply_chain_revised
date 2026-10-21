@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Daily Sun",
+    "date": "2023-07-02",
+    "url": "https://www.daily-sun.com/post/697784/Govt-allows-import-of-36830-tons-green-chilli",
+    "body_preview": "DHAKA - A total of 93 tons of green chilli has already been imported following the government's permission of importing 36,830 tons to curb steep price hike of the essential kitchen item.\n\n\"After giving permission, 93 tons of imported green chilli have already come in the country . . . more chilli will be reaching tonight,\" said a press release of the agricultural ministry today.\n\nMoreover, over 1.38 lakh tons of onion have already come in the country against the government's permission to impor"
+  },
+  "llm_connections": [
+    {
+      "feature": "imports",
+      "event_summary": "Government permits chilli imports",
+      "edge_label": "increases imported volume",
+      "evidence_quote": "A total of 93 tons of green chilli has already been imported following the government's permission of importing 36,830 tons",
+      "scope_justification": "The article explicitly describes goods entering Bangladesh after government import permission, matching the feature's definition of imported-goods volume.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "A total of 93 tons of green chilli has already been imported following the government's permission of importing 36,830 tons",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that 93 tons of green chili were imported 'following the government's permission' and adds 'After giving permission, 93 tons... have already come,' explicitly linking permission to increased imports at the country level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-07-02",
+      "imports",
+      "increases imported volume",
+      "Government permits chilli imports"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

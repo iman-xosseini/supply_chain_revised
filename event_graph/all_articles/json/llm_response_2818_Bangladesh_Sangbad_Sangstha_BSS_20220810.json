@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-08-10",
+    "url": "https://www.bssnews.net/news/76583",
+    "body_preview": "CHATTOGRAM, Aug, 10, 2022 (BSS) - Information and Broadcasting Minister Dr Hasan Mahmud today said 90 percent agriculture has been mechanized in the country over the last 10 years.\n\n\"As a result, more than one billion US dollars is being earned through exporting agricultural products annually and the government has a plan to increase it further in future,\" he said.\n\nThe minister was virtually inaugurating the 'Agricultural Technology Fair' held at Rangunia Upazila Parishad Auditorium this aftern"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Agricultural mechanization boosts exports",
+      "edge_label": "boosts exports",
+      "evidence_quote": "As a result, more than one billion US dollars is being earned through exporting agricultural products annually",
+      "scope_justification": "The article describes a country-wide increase in agricultural products exported internationally, matching the national export scope of goods sent abroad.",
+      "verification": {
+        "quote_similarity": 0.995,
+        "quote_best_match": "\"As a result, more than one billion US dollars is being earned through exporting agricultural products annually",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article contains the exact quote linking mechanization to export earnings (“As a result...”), explicitly stating causation, and it discusses Bangladesh’s national agricultural exports, matching the country-level scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-08-10",
+      "exports",
+      "boosts exports",
+      "Agricultural mechanization boosts exports"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Weekly Voice",
+    "date": "2023-01-31",
+    "url": "https://weeklyvoice.com/bangladesh-raises-electricity-prices-to-ease-subsidy-burden/",
+    "body_preview": "Dhaka, Jan 31 (VOICE) In an apparent bid to ease the subsidy burden, the Bangladesh government has again raised the prices of power at both the wholesale and retail levels.\n\nThe new rates will come into effect from Wednesday (February 1), according to a notice from the ministry of power, energy and mineral resources, Xinhua News Agency reported.\n\nThe retail price of electricity will be raised by 5 per cent for the second time in less than a month while the wholesale prices are seeing an increase"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Power prices raised again",
+      "edge_label": "pushes up inflation",
+      "evidence_quote": "Experts claimed the markup in power prices would likely push up the nation's inflation rate again.",
+      "scope_justification": "The article explicitly links nationwide power-price increases to the nation's overall inflation rate, matching the national CPI scope.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "Experts claimed the markup in power prices would likely push up the nation's inflation rate again.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The exact quote appears in the article and explicitly states that higher power prices would likely push up the nation's inflation rate. Both the event and the effect are discussed at the national level, matching the feature's scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-01-31",
+      "inflation_rate",
+      "pushes up inflation",
+      "Power prices raised again"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

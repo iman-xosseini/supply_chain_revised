@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2023-02-06",
+    "url": "https://www.bssnews.net/business/109287",
+    "body_preview": "DHAKA, Feb 6, 2023 (BSS) - The general point-to-point inflation rate in January eased further as it fell to 8.57 percentage points down from 8.71 percentage points last December mainly because of the downtrend in food and non-food inflation.\n\nThe general point-to-point inflation rate in November last was 8.85 percentage points, according to the monthly consumer price (CPI) index of the Bangladesh Bureau of Statistics (BBS).\n\nThe point-to-point food inflation came down to 7.76 percentage points i"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Food and non-food inflation declined",
+      "edge_label": "reduces inflation rate",
+      "evidence_quote": "mainly because of the downtrend in food and non-food inflation.",
+      "scope_justification": "The article explicitly links declines in food and non-food inflation to the national general CPI inflation rate, matching the feature's aggregate price-level scope.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "mainly because of the downtrend in food and non-food inflation.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that the general inflation rate fell 'mainly because of the downtrend in food and non-food inflation,' explicitly linking the decline in food and non-food inflation to a reduction in the national CPI inflation rate."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-02-06",
+      "inflation_rate",
+      "reduces inflation rate",
+      "Food and non-food inflation declined"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

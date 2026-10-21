@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "RocketNews | Top News Stories From Around the Globe",
+    "date": "2023-02-23",
+    "url": "https://www.rocketnews.com/2023/02/severe-dollar-crisis-hobbles-bangladesh-businesses/",
+    "body_preview": "Dhaka, Bangladesh - Spice trader Mohammed Enayet Ullah has made at least four attempts since November to open a letter of credit to pay for imports of cumin, cardamom and cloves, some of the most essential spices used in Bangladeshi cooking, only to be refused by banks due to a shortage of dollars.Importers in Bangladesh need to open letters of credit with one of the country's 61 scheduled banks to buy foreign goods and services. It is essentially a financial contract issued by an importer's ban"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Commodity prices drive inflation",
+      "edge_label": "drives inflation",
+      "evidence_quote": "rising global fuel oil and other commodity prices have caused nearly double-digit inflation",
+      "scope_justification": "The article explicitly links globally rising commodity prices to Bangladesh's national inflation rate, matching the feature's general price-level scope.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "rising global fuel oil and other commodity prices have caused nearly double-digit inflation",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that 'rising global fuel oil and other commodity prices have caused nearly double-digit inflation,' explicitly linking commodity prices to national inflation in Bangladesh."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-02-23",
+      "inflation_rate",
+      "drives inflation",
+      "Commodity prices drive inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

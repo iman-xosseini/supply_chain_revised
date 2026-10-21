@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-10-11",
+    "url": "https://www.bssnews.net/news-flash/87374",
+    "body_preview": "DHAKA, Oct 11, 2022 (BSS) - Prime Minister Sheikh Hasina today asked the authorities concerned to strengthen the market monitoring system to control the inflation especially the uptrend of price of essentials in the country.\n\nThe premier gave the directive while chairing a meeting of the Executive Committee of the National Economic Council (ECNEC) virtually from her official residence Ganabhaban.\n\nMinisters, state ministers, planning commission members and secretaries concerned attended the meet"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Global shocks raise inflation",
+      "edge_label": "drives inflation higher",
+      "evidence_quote": "Explaining the reasons behind the high inflation trend, the Planning Minister said that the global economy especially the global market system has been devastated due to the COVID-19 pandemic",
+      "scope_justification": "The article explicitly links global economic disruption to Bangladesh's general high inflation trend, matching the national CPI-based definition.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "Explaining the reasons behind the high inflation trend, the Planning Minister said that the global economy especially the global market system has been devastated due to the COVID-19 pandemic",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The quoted sentence (a verbatim substring of the full line) appears in the article. The article explicitly links global disruptions (COVID-19 and the Russia-Ukraine conflict) to Bangladesh’s high inflation trend. It discusses national CPI inflation, matching the country-level scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-10-11",
+      "inflation_rate",
+      "drives inflation higher",
+      "Global shocks raise inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-12-15",
+    "url": "https://www.bssnews.net/news/100289",
+    "body_preview": "DHAKA, Dec 15, 2022 (BSS) - Prime Minister Sheikh Hasina addressed the nation this evening on the occasion of the great Victory Day 2022.\n\nThe full text of her televised address is as follows:\n\nOn the occasion of the great Victory Day 2022, I am extending heartiest greetings to all the citizens of Bangladesh staying home and abroad.\n\nI am recalling with profound respect the greatest Bangalee of all times Father of the Nation Bangabandhu Sheikh Mujibur Rahman. Under his leadership, we achieved th"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "War raises consumer prices",
+      "edge_label": "raises price levels",
+      "evidence_quote": "Due to Russia-Ukraine War and economic sanctions and counter sanctions imposed by the Western nations, the developing and import-reliant countries like us have been in much crisis. Prices of almost all consumer goods including fuel oil, edible oil, wheat, sugar, corn, pulse and chemical fertilizers have risen at unusual rate.",
+      "scope_justification": "The article attributes widespread increases across almost all consumer goods to the war and sanctions, matching the feature’s country-wide general price-level scope.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "Due to Russia-Ukraine War and economic sanctions and counter sanctions imposed by the Western nations, the developing and import-reliant countries like us have been in much crisis. Prices of almost all consumer goods including fuel oil, edible oil, wheat, sugar, corn, pulse and chemical fertilizers have risen at unusual rate.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The quoted passage appears in the article and directly links the Russia-Ukraine war and related sanctions to widespread increases in consumer goods prices. The discussion is at a national level (“countries like us”), matching the general price-level (inflation) scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-12-15",
+      "inflation_rate",
+      "raises price levels",
+      "War raises consumer prices"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

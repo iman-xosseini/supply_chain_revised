@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "VietNam Breaking News",
+    "date": "2022-08-30",
+    "url": "https://www.vietnambreakingnews.com/2022/08/bangladesh-to-import-rice-from-vietnam-and-india-to-replenish-reserves/",
+    "body_preview": "DHAKA -- Bangladesh is finalising deals with Vietnam and India to import a total of 330,000 tonnes of rice as it races to replenish reserves and cool domestic prices, two officials with direct knowledge of the matter said on Monday.\n\nSoaring prices of the staple grain for the country's 165 million people pose a problem for the government, which plans to expand cut-price rice sales to help people hard-hit by high costs.\n\nThe south Asian country will buy 100,000 tonnes of parboiled rice from an In"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Domestic oil price hike",
+      "edge_label": "increases domestic prices",
+      "evidence_quote": "surging domestic prices, which saw yet another uptick after it hiked domestic oil prices early this month",
+      "scope_justification": "The article explicitly links a national domestic oil-price increase to rising domestic price levels, matching the inflation feature's economy-wide price-level scope.",
+      "verification": {
+        "quote_similarity": 0.995,
+        "quote_best_match": "surging domestic prices, which saw yet another uptick after it hiked domestic oil prices early this month.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article includes the quoted sentence and explicitly links the government's domestic oil price hike to an uptick in domestic prices. The discussion is at the country level, matching the inflation feature’s scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-08-30",
+      "inflation_rate",
+      "increases domestic prices",
+      "Domestic oil price hike"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

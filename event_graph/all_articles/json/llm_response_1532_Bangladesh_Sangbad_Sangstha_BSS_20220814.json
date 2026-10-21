@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-08-14",
+    "url": "https://www.bssnews.net/news/national/77129",
+    "body_preview": "DHAKA, August 14, 2022 (BSS) - Agriculture Minister Dr M Abdur Razzaque today\n\nwarned of tougher action against those who will be found involve in selling\n\nfertilizer in exorbitant price compare to the price fixed by the government\n\nas the country has substantial stock of fertilizer.\n\n\"Directives have already been given to the concerned field level officials to\n\nstrictly monitor that none can sale fertilizer in excessive price...If any\n\nallegation found then strict punitive action would be taken"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Global crises raise prices",
+      "edge_label": "raises price levels",
+      "evidence_quote": "the price of food stuffs, fertilizer, oil and gas has been soared exorbitantly resulting in various global reasons including ongoing pandemic and war between Ukraine and Russia.",
+      "scope_justification": "The article explicitly links global events to sharply higher prices across several categories of goods, matching the feature’s scope of broad price-level increases.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "the price of food stuffs, fertilizer, oil and gas has been soared exorbitantly resulting in various global reasons including ongoing pandemic and war between Ukraine and Russia.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article quotes the minister stating that prices of multiple goods have soared due to global reasons including the pandemic and the Ukraine-Russia war, explicitly linking global crises to broad price increases in the country."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-08-14",
+      "inflation_rate",
+      "raises price levels",
+      "Global crises raise prices"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

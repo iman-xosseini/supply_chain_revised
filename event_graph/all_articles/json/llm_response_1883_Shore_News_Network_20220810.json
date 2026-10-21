@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Shore News Network",
+    "date": "2022-08-10",
+    "url": "https://www.shorenewsnetwork.com/2022/08/10/bangladesh-garment-export-growth/",
+    "body_preview": "DHAKA (Reuters) - Growth in Bangladesh's garment exports could drop to about 15% this year after an unusually strong expansion of more than 30% in 2021, two industry leaders told Reuters on Wednesday, as U.S. and European customers grapple with cost of living pressures.\n\nThe garment industry accounts for more than 80% of total exports for Bangladesh, which sells to clients such as Walmart, Gap Inc, H&M, VF Corp, Zara and American Eagle Outfitters - some of which have already flagged weak sales a"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Cost pressures slow exports",
+      "edge_label": "slows export growth",
+      "evidence_quote": "Growth in Bangladesh's garment exports could drop to about 15% this year ... as U.S. and European customers grapple with cost of living pressures.",
+      "scope_justification": "The article directly links consumer cost pressures in major international markets to slower country-level garment export growth.",
+      "verification": {
+        "quote_similarity": 0.711,
+        "quote_best_match": "- Growth in Bangladesh's garment exports could drop to about 15% this year after an unusually",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article’s opening sentence contains the quoted claim and links U.S. and European cost-of-living pressures to a drop in Bangladesh’s garment export growth. This is discussed at the country-level, matching the scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-08-10",
+      "exports",
+      "slows export growth",
+      "Cost pressures slow exports"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

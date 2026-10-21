@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-08-27",
+    "url": "https://www.bssnews.net/news-flash/79191",
+    "body_preview": "DHAKA, Aug 27, 2022 (BSS) - Bangladesh is being affected by 'economic conditions elsewhere in the world' as the country is now facing soaring prices of energy and food following the Covid-19 pandemic and Russia-Ukraine war.\n\nThese have led to energy shortages and rising import bills that are, in some cases, straining the ability of the country of 160 million people to keep up with debt payments.\n\nThese observations came at a recent article published at UK-based Financial Times titled, \"Banglades"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Global demand for garments slows",
+      "edge_label": "reduces export performance",
+      "evidence_quote": "demand for Bangladesh's cornerstone industry's products will suffer due to slowing growth in major buyers in the US and European countries.",
+      "scope_justification": "The article directly links weaker demand in major foreign markets to Bangladesh's export performance, matching the feature's internationally shipped goods and global-demand scope.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "demand for Bangladesh's cornerstone industry's products will suffer due to slowing growth in major buyers in the US and European countries.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article contains the quoted line and adds that this will affect export performance, explicitly linking slowing growth in major US/EU markets (reducing demand for garments) to Bangladesh’s export performance at the country level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-08-27",
+      "exports",
+      "reduces export performance",
+      "Global demand for garments slows"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

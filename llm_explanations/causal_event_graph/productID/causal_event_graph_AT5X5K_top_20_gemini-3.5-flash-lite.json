@@ -1,0 +1,7 @@
+{
+  "start_date": "2023-07-11",
+  "end_date": "2023-08-09",
+  "top_n": 20,
+  "model_name": "google/gemini-3.5-flash-lite",
+  "explanation": "Historical data shows **Macroeconomics** appears to influence **Operations and Logistics**, which feeds through into recent sales momentum. Right now, currency depreciation and rising import costs widen trade deficits despite exchange-rate stabilization, with downward pressures dominating. This volatility ripples directly through macroeconomic shifts into logistics and sales. To manage this risk, commercial leads should monitor **Macroeconomics** for cost swings, demand planners must track **Operations and Logistics** for fulfillment bottlenecks, and sourcing managers should evaluate inventory cover across each product **Category**. These relationships are inferred from historical data and news signals and should be treated as informed guidance rather than certainty."
+}

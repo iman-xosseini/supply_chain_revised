@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2023-06-07",
+    "url": "https://www.bssnews.net/business/129745",
+    "body_preview": "DHAKA, June 7, 2023 (BSS) - Federation of Bangladesh Chambers of Commerce and Industry (FBCCI) President Md Jashim Uddin today urged the government to extend policy support towards import-substitute industries in the country to lessen import pressure on foreign exchange.\n\nThe FBCCI president made the call while addressing a post-budget discussion as a special guest organized by the Economic Reporters' Forum (ERF) jointly with RAPID and Asia Foundation held at the ERF auditorium at Paltan in the "
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Conditions challenge inflation target",
+      "edge_label": "complicates inflation control",
+      "evidence_quote": "the target of keeping inflation within 6 percent in the proposed budget for FY24 would be very hard given the current conditions",
+      "scope_justification": "The statement directly addresses Bangladesh's overall inflation target, matching the national general price-level scope of the inflation-rate feature.",
+      "verification": {
+        "quote_similarity": 0.996,
+        "quote_best_match": "the target of keeping inflation within 6 percent in the proposed budget for FY24 would be very hard given the current conditions.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article contains the exact quote stating that keeping inflation within 6% would be very hard given current conditions, explicitly implying that current conditions make inflation control difficult at the national level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-06-07",
+      "inflation_rate",
+      "complicates inflation control",
+      "Conditions challenge inflation target"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

@@ -1,0 +1,80 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2023-07-20",
+    "url": "https://www.bssnews.net/business/137382",
+    "body_preview": "DHAKA, July 20, 2023 (BSS) - Minimizing various trade barriers, Bangladesh's export to India can grow by 300 percent if it can just fetch only one percent of total Indian imports, observed International Chamber of Commerce Bangladesh (ICCB).\n\nIn its quarterly news bulletin (April-June 2023 issue), ICCB mentioned that despite huge potential, bilateral trade between India and Bangladesh was only US$11 billion in FY22, out of which export from Bangladesh to India was only $1.27 billion.\n\nEstimates "
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Trade barriers boost exports",
+      "edge_label": "boosts exports",
+      "evidence_quote": "Minimizing various trade barriers, Bangladesh's export to India can grow by 300 percent",
+      "scope_justification": "The claim directly concerns Bangladesh's international export volume to India, matching the feature's scope of goods sent internationally.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "Minimizing various trade barriers, Bangladesh's export to India can grow by 300 percent",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states, 'Minimizing various trade barriers, Bangladesh's export to India can grow by 300 percent,' explicitly linking reduced trade barriers to increased exports. This is discussed at the country-level for Bangladesh's exports to India, matching the claim's scope."
+      }
+    },
+    {
+      "feature": "exports",
+      "event_summary": "Free trade agreement boosts exports",
+      "edge_label": "increases exports",
+      "evidence_quote": "Bangladesh's exports to India could increase by 182 percent from the current levels if the countries implement a free trade agreement.",
+      "scope_justification": "The article explicitly links an inter-country free trade agreement to an increase in Bangladesh's exports, matching the international export-volume definition.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "Bangladesh's exports to India could increase by 182 percent from the current levels if the countries implement a free trade agreement.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that Bangladesh's exports to India could increase by 182% if a free trade agreement is implemented, explicitly linking the FTA to higher exports at the country level."
+      }
+    },
+    {
+      "feature": "exports",
+      "event_summary": "Transport connectivity boosts exports",
+      "edge_label": "increases exports",
+      "evidence_quote": "Improving transport connectivity between the two countries could increase exports even further, yielding a 297 percent increase in Bangladesh's exports to India.",
+      "scope_justification": "The statement addresses Bangladesh's cross-border export volume and explicitly attributes its increase to improved bilateral transport connectivity.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "Improving transport connectivity between the two countries could increase exports even further, yielding a 297 percent increase in Bangladesh's exports to India.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The quoted sentence appears verbatim in the article and explicitly links improved transport connectivity to increased exports, specifying a 297% rise in Bangladesh’s exports to India. The scope matches the country-level export context."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-07-20",
+      "exports",
+      "boosts exports",
+      "Trade barriers boost exports"
+    ],
+    [
+      "2023-07-20",
+      "exports",
+      "increases exports",
+      "Free trade agreement boosts exports"
+    ],
+    [
+      "2023-07-20",
+      "exports",
+      "increases exports",
+      "Transport connectivity boosts exports"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 3
+}

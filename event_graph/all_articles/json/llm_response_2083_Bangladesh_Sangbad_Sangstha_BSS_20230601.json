@@ -1,0 +1,61 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2023-06-01",
+    "url": "https://www.bssnews.net/national-budget-2023-2024/128513",
+    "body_preview": "DHAKA, June 01, 2023 (BSS) - Finance Minister AHM Mustafa Kamal today said the rate of cash usage is expected to reduce by 75 percent in the next four years.\n\n\"By introducing universal Bangla QR, steps have been taken to bring all merchants, including small and marginal traders, under digital payment to create 'Cashless Bangladesh'. As a result, the rate of cash usage is expected to reduce by 75 percent in the next four years,\" he said.\n\nThe minister said this while placing over Taka 7.61 lakh c"
+  },
+  "llm_connections": [
+    {
+      "feature": "interest_rate_value",
+      "event_summary": "Central bank raises repo rate",
+      "edge_label": "raises repo rate",
+      "evidence_quote": "repo rate has been increased by 125 basis points from 4.75 percent to present 6.00 percent",
+      "scope_justification": "The article explicitly reports a change in the central bank repo rate, which directly matches the feature's defined interest-rate measure.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "repo rate has been increased by 125 basis points from 4.75 percent to present 6.00 percent",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states the repo rate was increased to 6.00% (“repo rate has been increased by 125 basis points... to present 6.00 percent”), which directly links the action (raising the repo rate) to the interest rate value at the national (monetary policy) level."
+      }
+    },
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Repo increase mitigates inflation",
+      "edge_label": "mitigates inflation",
+      "evidence_quote": "repo rate has been increased by 125 basis points from 4.75 percent to present 6.00 percent and reverse repo rate has been revised by 25 basis points to 4.25 percent to mitigate the increasing pressure of demand driven inflation.",
+      "scope_justification": "The article explicitly links monetary policy changes to demand-driven inflation at the macroeconomic level, matching the feature's general price-level inflation scope.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "repo rate has been increased by 125 basis points from 4.75 percent to present 6.00 percent and reverse repo rate has been revised by 25 basis points to 4.25 percent to mitigate the increasing pressure of demand driven inflation.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states the repo and reverse repo rate increases were made \"to mitigate the increasing pressure of demand driven inflation,\" directly linking the policy change to inflation at a national/macroeconomic level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-06-01",
+      "interest_rate_value",
+      "raises repo rate",
+      "Central bank raises repo rate"
+    ],
+    [
+      "2023-06-01",
+      "inflation_rate",
+      "mitigates inflation",
+      "Repo increase mitigates inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 2
+}

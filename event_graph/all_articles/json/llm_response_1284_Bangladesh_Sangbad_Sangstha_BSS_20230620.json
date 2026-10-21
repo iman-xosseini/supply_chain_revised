@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2023-06-20",
+    "url": "https://www.bssnews.net/news-flash/132318",
+    "body_preview": "DHAKA, June 20, 2023 (BSS) - Prime Minister Sheikh Hasina today asked the authorities concerned to emphasize more on availing funding from the foreign sources alongside the local funding to ensure project financing.\n\nShe also noted that if the trend on timely implementation of foreign-aided projects increases, then disbursement of foreign loans would increase which would also put an impact on the foreign currency reserves.\n\nThe Prime Minister gave the directive while chairing a meeting of the Ex"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Stable rice prices lower inflation",
+      "edge_label": "reduces inflation",
+      "evidence_quote": "With the stable price trend of staple food rice, he hoped that the general point to point inflation would come down in the coming days.",
+      "scope_justification": "The statement directly addresses Bangladesh's general point-to-point inflation, matching the feature's country-wide general price-level scope.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "With the stable price trend of staple food rice, he hoped that the general point to point inflation would come down in the coming days.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The quoted sentence appears verbatim and explicitly links stable rice prices to an expected decline in general point-to-point inflation. The scope is national inflation in Bangladesh, matching the feature."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-06-20",
+      "inflation_rate",
+      "reduces inflation",
+      "Stable rice prices lower inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

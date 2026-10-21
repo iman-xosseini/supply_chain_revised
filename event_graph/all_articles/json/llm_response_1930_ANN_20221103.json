@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "ANN",
+    "date": "2022-11-03",
+    "url": "https://asianews.network/peoples-income-has-not-risen-in-line-with-inflation-bangladesh-planning-minister/",
+    "body_preview": "DHAKA - People's income has not increased the same way inflation has risen in the country, Planning Minister MA Mannan said yesterday.\n\n\"But we should keep in mind the immediate reason for the rise in inflation as it is not a failure of our market,\" he said.\n\n\"Our market is now integrated with the global market and due to the ongoing Russia-Ukraine war, some pressure in other economies has affected us,\" Mannan added.\n\nHe made these remarks after meeting with a delegation of the International Lab"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "War pressures raise inflation",
+      "edge_label": "increases inflation pressure",
+      "evidence_quote": "Our market is now integrated with the global market and due to the ongoing Russia-Ukraine war, some pressure in other economies has affected us",
+      "scope_justification": "The article connects the Russia-Ukraine war and external economic pressures to Bangladesh's nationally reported rise in inflation, matching the aggregate price-level scope.",
+      "verification": {
+        "quote_similarity": 0.99,
+        "quote_best_match": "\"Our market is now integrated with the global market and due to the ongoing Russia-Ukraine war, some pressure in other economies has affected us,\"",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The quoted sentence appears verbatim. In context, the minister links the Russia-Ukraine war causing pressures in other economies to Bangladesh’s rise in inflation, indicating a causal effect at the national level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-11-03",
+      "inflation_rate",
+      "increases inflation pressure",
+      "War pressures raise inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

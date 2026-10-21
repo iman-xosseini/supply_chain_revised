@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Yahoo Sports",
+    "date": "2023-02-21",
+    "url": "https://sports.yahoo.com/bangladesh-private-power-producers-seek-182306772.html",
+    "body_preview": "DHAKA (Reuters) - Bangladesh's private power producers will need $1 billion in foreign currency to import fuel oil and avert an energy crisis this summer, their industry association said in a letter to the central bank seen by Reuters.\n\nAnalysts expect power cuts in Bangladesh to worsen this year, as a rapid decline in the value of its currency and foreign exchange reserves have limited its ability to import power generation fuels, whose prices have surged following Western sanctions on major en"
+  },
+  "llm_connections": [
+    {
+      "feature": "currency_momentum_5d",
+      "event_summary": "Currency decline limits imports",
+      "edge_label": "restricts fuel imports",
+      "evidence_quote": "a rapid decline in the value of its currency and foreign exchange reserves have limited its ability to import power generation fuels",
+      "scope_justification": "The article explicitly describes a recent national currency decline, matching the feature's definition of currency trend or strength over recent periods.",
+      "verification": {
+        "quote_similarity": 0.996,
+        "quote_best_match": "a rapid decline in the value of its currency and foreign exchange reserves have limited its ability to import power generation fuels,",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states that a rapid decline in Bangladesh’s currency has limited its ability to import power generation fuels. This is a country-level causal link matching the feature’s scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-02-21",
+      "currency_momentum_5d",
+      "restricts fuel imports",
+      "Currency decline limits imports"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

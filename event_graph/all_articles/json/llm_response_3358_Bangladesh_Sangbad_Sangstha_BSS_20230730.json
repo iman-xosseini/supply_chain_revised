@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2023-07-30",
+    "url": "https://www.bssnews.net/business/139204",
+    "body_preview": "DHAKA, July 30, 2023 (BSS) - Business Initiative Leading Development (BUILD)\n\ntoday organized a dialogue on 'Monetary Policy Statement(MPS) and Containing\n\nInflationary Pressure in Bangladesh' on at BUILD Conference Room in the city.\n\nThe dialogue majorly covered new areas in the MPS for 2nd half of\n\n2023(H1FY24) and Comparison of Inflationary situation and challenges of\n\nmonetary policies and the new tool on interest rate corridor (IRC) as\n\nfollowed by different countries in the world, said a p"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Contractionary MPS targets inflation",
+      "edge_label": "contains inflation",
+      "evidence_quote": "He said that to contain inflation, MPS is contractionary",
+      "scope_justification": "The article discusses Bangladesh's inflationary pressure and the monetary policy stance intended to contain the country's general inflation rate.",
+      "verification": {
+        "quote_similarity": 0.991,
+        "quote_best_match": "He said that to contain inflation, MPS is contractionary,",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article contains the exact quote stating that MPS is contractionary to contain inflation, explicitly asserting a cause-effect link, and it addresses Bangladesh’s national inflation and monetary policy."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-07-30",
+      "inflation_rate",
+      "contains inflation",
+      "Contractionary MPS targets inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

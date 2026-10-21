@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Social News XYZ",
+    "date": "2023-02-03",
+    "url": "https://www.socialnews.xyz/2023/02/02/lpg-price-hiked-in-bangladesh/",
+    "body_preview": "Dhaka, Feb 3 (SocialNews.XYZ) The price of Liquefied Petroleum Gas (LPG) in Bangladesh has been hiked by 22.15 taka per kg to 124.85 taka.\n\nBangladesh Energy Regulatory Commission (BERC) in Dhaka announced the latest LPG price in a statement, reports Xinhua news agency.\n\nThe new price came into effect from Thursday 6 p.m.\n\nThe 12 kg cylinder LPG price, which was 1,232 taka in January, would now stand at 1,498 taka after the hike.\n\nThe move to raise LPG price came after the electricity price was "
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Energy price hikes raise inflation",
+      "edge_label": "pushes up inflation",
+      "evidence_quote": "Experts claimed the markup in the retail power and energy prices would likely push up the nation's inflation rate again.",
+      "scope_justification": "The article explicitly links nationwide retail power and energy price increases to the nation's overall inflation rate, matching the national CPI-level scope.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "Experts claimed the markup in the retail power and energy prices would likely push up the nation's inflation rate again.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The quoted sentence appears verbatim in the article and explicitly states that increases in retail power and energy prices would likely push up the nation's inflation rate, matching the national scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-02-03",
+      "inflation_rate",
+      "pushes up inflation",
+      "Energy price hikes raise inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

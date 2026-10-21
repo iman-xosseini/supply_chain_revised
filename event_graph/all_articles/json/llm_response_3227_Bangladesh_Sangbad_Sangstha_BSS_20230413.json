@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2023-04-13",
+    "url": "https://www.bssnews.net/business/120673",
+    "body_preview": "DHAKA, April 13, 2023 (BSS) - Finance Minister AHM Mustafa Kamal today said that the businessmen of the country would become happy to see the national budget for the next fiscal year (FY24).\n\n\"There is nothing to be afraid of seeing the next budget. You won't be looser,\" he told the business community.\n\nThe finance minister said this while addressing as the chief guest at the 43rd Consultative Committee meeting of the NBR and FBCCI centering the next budget held at a city hotel.\n\nOrganized joint"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "High-end product export push",
+      "edge_label": "boosts exports",
+      "evidence_quote": "The NBR chairman also called upon the business community to produce high-end products and thus boosting their exports.",
+      "scope_justification": "The statement directly links business-community production of high-end products to increased exports, matching the feature's scope of goods sent internationally.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "The NBR chairman also called upon the business community to produce high-end products and thus boosting their exports.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states that producing high-end products would boost exports, and the quoted sentence appears verbatim. The scope concerns the national business community’s exports, matching the general exports feature."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-04-13",
+      "exports",
+      "boosts exports",
+      "High-end product export push"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

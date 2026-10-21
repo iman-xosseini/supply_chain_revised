@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-11-20",
+    "url": "https://www.bssnews.net/news-flash/95150",
+    "body_preview": "DHAKA, Nov 20, 2022 (BSS) - Agriculture Minister Dr Abdur Razzaque today said that the government has taken various steps to fulfil the prerequisites for exporting agricultural goods to the main markets of developed countries, including the USA, the UK, Europe and Japan.\n\n\"We are working to increase the export of agricultural products to the main markets of developed countries, including the USA, the UK, Europe and Japan. Many steps have been taken to fulfil the prerequisites set by those countr"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Government pursues export growth",
+      "edge_label": "supports export growth",
+      "evidence_quote": "We are working to increase the export of agricultural products to the main markets of developed countries",
+      "scope_justification": "The article explicitly concerns Bangladesh sending agricultural goods to international markets, which falls within the feature's definition of goods exported internationally.",
+      "verification": {
+        "quote_similarity": 0.991,
+        "quote_best_match": "\"We are working to increase the export of agricultural products to the main markets of developed countries,",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article quotes the minister saying they are working to increase agricultural exports and taking steps to meet export prerequisites, explicitly implying government actions aimed at increasing exports at the national level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-11-20",
+      "exports",
+      "supports export growth",
+      "Government pursues export growth"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

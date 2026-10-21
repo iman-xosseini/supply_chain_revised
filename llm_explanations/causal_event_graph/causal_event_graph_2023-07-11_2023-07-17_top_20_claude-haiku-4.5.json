@@ -1,0 +1,7 @@
+{
+  "start_date": "2023-07-11",
+  "end_date": "2023-07-17",
+  "top_n": 20,
+  "model_name": "anthropic/claude-haiku-4.5",
+  "explanation": "Recent sales momentum and **Operations and Logistics** form a reinforcing cycle shaping demand. Currently, **export activity** faces mixed pressures—gas crises and inflation dampen shipments, while port development and economic zones provide support, with headwinds slightly dominating. This export weakness feeds into **Operations and Logistics** efficiency, constraining sales momentum. Monitor **Weather** patterns as they cascade into **Macroeconomics** and sales; track **export activity** recovery signals from infrastructure gains; adjust **Products** mix as logistics tightens. These relationships emerge from historical data and should guide rather than dictate strategy."
+}

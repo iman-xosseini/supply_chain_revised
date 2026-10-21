@@ -1,0 +1,7 @@
+{
+  "start_date": "2023-07-11",
+  "end_date": "2023-07-17",
+  "top_n": 20,
+  "model_name": "anthropic/claude-haiku-4.5",
+  "explanation": "**Operations and Logistics** accounts for 85.4% of predictive importance and is associated with downward pressure on the forecast, though internal signals within this domain show mixed directional effects. **Sales** contributes 13.2% with a similar downward association. **Macroeconomics**, **Products**, **Weather**, and **Sub-Groups** together represent less than 1.5% of importance and warrant minimal forecasting attention. Monitor **Operations and Logistics** closely as the primary predictive driver; its signals reflect historical sales patterns rather than causal mechanisms. These associations are predictive only and do not imply causation."
+}

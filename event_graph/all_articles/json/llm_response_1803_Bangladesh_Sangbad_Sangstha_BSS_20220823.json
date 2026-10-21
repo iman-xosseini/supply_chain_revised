@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-08-23",
+    "url": "https://www.bssnews.net/news/78541",
+    "body_preview": "DHAKA, Aug 23, 2022 (BSS) - Awami League (AL) Presidium Member and Agriculture Minister Dr Muhammad Abdur Razzaque today said the government is trying its best to reduce the price of consumer goods as those have been increased due to global crisis.\n\n\"We admit that people are suffering. Those with low income are finding it difficult to run their families. However, the government is trying its best to alleviate the suffering of the people. The government is trying to reduce the price of everything"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Global crisis raises prices",
+      "edge_label": "raises price levels",
+      "evidence_quote": "the government is trying its best to reduce the price of consumer goods as those have been increased due to global crisis.",
+      "scope_justification": "The article describes a broad increase in consumer-goods prices across the country, matching the feature's focus on general price-level increases.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "the government is trying its best to reduce the price of consumer goods as those have been increased due to global crisis.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The quoted sentence appears verbatim and the article explicitly links the global crisis to increased prices of consumer goods. It discusses price increases across the country (consumer goods, some products), matching a broad, national scope consistent with general price-level increases."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-08-23",
+      "inflation_rate",
+      "raises price levels",
+      "Global crisis raises prices"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

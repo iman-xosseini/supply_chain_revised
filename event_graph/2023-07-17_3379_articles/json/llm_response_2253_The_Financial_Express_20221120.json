@@ -1,0 +1,37 @@
+{
+  "article": {
+    "source": "The Financial Express",
+    "date": "2022-11-20",
+    "url": "https://thefinancialexpress.com.bd/trade/lng-import-to-go-up-25pc-in-dec-1668912258",
+    "body_preview": "Bangladesh will increase liquefied natural gas (LNG) import by around 25 per cent in December compared to its November and October imports respectively to feed growing demand for natural gas in industries, despite financial tightening.\n\nThe government will import a total of five LNG cargoes from long-term suppliers during December against its import of four LNG cargoes each during October and November, says a senior official of the state-run Petrobangla.\n\nFed on the higher imports, the quantity "
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Gas shortages threaten exports",
+      "edge_label": "threatens exports",
+      "evidence_quote": "production squeeze would have on supplies on the already-overheated domestic market and on export",
+      "scope_justification": "The article refers to effects on Bangladesh's export activity at the national level, matching the feature's scope of goods sent internationally.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "production squeeze would have on supplies on the already-overheated domestic market and on export",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article contains the cited phrase and states that, amid fuel/gas shortages, authorities acted out of concern that a production squeeze would impact exports, implying the shortages threaten exports at the national level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-11-20",
+      "exports",
+      "threatens exports",
+      "Gas shortages threaten exports"
+    ]
+  ],
+  "features_queried": [
+    "balance_of_trade",
+    "stock_market_close",
+    "exports"
+  ],
+  "num_connections_found": 1
+}

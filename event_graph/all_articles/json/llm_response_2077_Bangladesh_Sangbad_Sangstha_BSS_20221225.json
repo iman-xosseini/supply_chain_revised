@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-12-25",
+    "url": "https://www.bssnews.net/news-flash/101899",
+    "body_preview": "DHAKA, Dec 25, 2022 (BSS) - Prime Minister and Awami League President Sheikh Hasina today urged the leaders and activists to give utmost priority to strengthening the party, saying that Awami League's biggest strength is the confidence and trust of the mass people.\n\n\"You (leaders and activists) must strengthen the party giving the highest priority to it. This is my request to you,\" she said.\n\nThe Premier said these while exchanging greetings with the party leaders and activists since she was ele"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Extra food production enables exports",
+      "edge_label": "enables exports",
+      "evidence_quote": "if we produce extra foods we can export those to many countries mitigating our own demands.",
+      "scope_justification": "The article explicitly links Bangladesh's increased production of goods to sending them internationally, matching the exports feature's scope.",
+      "verification": {
+        "quote_similarity": 0.995,
+        "quote_best_match": "if we produce extra foods we can export those to many countries mitigating our own demands.\"",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article includes the sentence, 'Rather if we produce extra foods we can export those to many countries mitigating our own demands,' which explicitly states that producing extra food would enable exports at the national (Bangladesh) level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-12-25",
+      "exports",
+      "enables exports",
+      "Extra food production enables exports"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "La Prensa Latina Media",
+    "date": "2022-08-11",
+    "url": "https://www.laprensalatina.com/bangladesh-to-stagger-industry-holidays-amid-energy-crisis/",
+    "body_preview": "Dhaka, Aug 11 (EFE).- The government of Bangladesh on Thursday announced zone-based weekly holidays for industries in the country as a fresh power rationing measure in the backdrop of an ongoing energy and economic crisis\n\nThe department of inspection for factories and establishments issued the order under a section of the country's labor act, requiring all shops and commercial or industrial establishments to remain entirely closed for at least one and a-half day every week.\n\nThe announcement co"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Power crisis reduces exports",
+      "edge_label": "reduces exports",
+      "evidence_quote": "If there is a (prolonged) crisis, production in factories will get affected, exports will get reduced.",
+      "scope_justification": "The article explicitly links a national power crisis to reduced Bangladesh exports, matching the feature's country-wide volume of goods sent internationally.",
+      "verification": {
+        "quote_similarity": 0.995,
+        "quote_best_match": "\"If there is a (prolonged) crisis, production in factories will get affected, exports will get reduced.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The quoted sentence appears verbatim and, in context of the national power crisis, explicitly links a prolonged power crisis to reduced exports at the country level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-08-11",
+      "exports",
+      "reduces exports",
+      "Power crisis reduces exports"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

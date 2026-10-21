@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "The Daily Star",
+    "date": "2022-11-20",
+    "url": "https://www.thedailystar.net/news/bangladesh/utilities/news/verdict-tomorrow-whether-electricity-prices-would-go-3174626",
+    "body_preview": "Bangladesh Energy Regulatory Commission (BERC) is set to announce the verdict tomorrow of the review appeal of the Bangladesh Power Development Board (PDB) to hike the bulk electricity price.\n\nThe verdict will be announced at noon tomorrow, BERC said in a press release.\n\nThe appeal, which was filed on November 14, comes after BERC on October 13 rejected the state-owned company's proposal to raise bulk tariff by 65.57 percent and gave 30 working days to appeal against the decision.\n\n\"The informat"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "High commodity prices drive inflation",
+      "edge_label": "drives inflation",
+      "evidence_quote": "people are already struggling with inflation caused by high commodity prices",
+      "scope_justification": "The article explicitly describes inflation as a broad rise in prices, matching the feature's general price-level scope.",
+      "verification": {
+        "quote_similarity": 0.993,
+        "quote_best_match": "people are already struggling with inflation caused by high commodity prices.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article includes the sentence “people are already struggling with inflation caused by high commodity prices,” explicitly stating that high commodity prices cause inflation. This refers to general inflation affecting people broadly, matching the general inflation_rate scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-11-20",
+      "inflation_rate",
+      "drives inflation",
+      "High commodity prices drive inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

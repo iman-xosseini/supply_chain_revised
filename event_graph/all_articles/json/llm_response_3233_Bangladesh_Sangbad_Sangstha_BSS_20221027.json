@@ -1,0 +1,61 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-10-27",
+    "url": "https://www.bssnews.net/business/90493",
+    "body_preview": "DHAKA, Oct 27, 2022 (BSS) - Bangladesh exported US$$23 billion to 27 countries of the European Union (EU) which can be increased $18 billion more by enhancing production capacity and product diversification, as per a study.\n\nThe study was conducted by Research and Policy Integration for Development (RAPID) with the cooperation of Friedrich-Ebert-Stiftung (FES) Bangladesh on the titled 'Strengthening Bangladesh-EU Trade and Economic Cooperation: Issues and Policy Priorities.'\n\nSharifa Khan, Secre"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "EBA access expanded exports",
+      "edge_label": "expands exports",
+      "evidence_quote": "Taking advantage of the Everything But Arms (EBA) initiative ... Bangladesh's combined exports to the EU and UK expanded rapidly",
+      "scope_justification": "The article explicitly describes Bangladesh's international merchandise exports increasing in volume, matching the exports feature.",
+      "verification": {
+        "quote_similarity": 0.682,
+        "quote_best_match": "the EU. Taking advantage of the Everything But Arms (EBA) initiative- designed for providing",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article includes the quoted line stating that by taking advantage of the EBA initiative, Bangladesh’s exports to the EU and UK expanded rapidly, which strongly implies a causal link. This is discussed at the country-level for Bangladesh’s exports."
+      }
+    },
+    {
+      "feature": "exports",
+      "event_summary": "Capacity diversification boosts exports",
+      "edge_label": "increases exports",
+      "evidence_quote": "which can be increased $18 billion more by enhancing production capacity and product diversification",
+      "scope_justification": "The article explicitly links expanded production capacity and product diversification to a higher value of Bangladesh's exported goods.",
+      "verification": {
+        "quote_similarity": 0.995,
+        "quote_best_match": "which can be increased $18 billion more by enhancing production capacity and product diversification,",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that Bangladesh’s $23B exports to the EU \"can be increased $18 billion more by enhancing production capacity and product diversification,\" explicitly linking these actions to increased exports at the national level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-10-27",
+      "exports",
+      "expands exports",
+      "EBA access expanded exports"
+    ],
+    [
+      "2022-10-27",
+      "exports",
+      "increases exports",
+      "Capacity diversification boosts exports"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 2
+}

@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "english.news.cn",
+    "date": "2022-12-19",
+    "url": "https://english.news.cn/asiapacific/20221219/99c3f8da69c24baea209add6591954c7/c.html",
+    "body_preview": "DHAKA, Dec. 19 (Xinhua) -- Bangladeshi Prime Minister Sheikh Hasina on Monday reiterated her call for boosting food production to save the country from any possible trouble amid the global economic recession.\n\n\"We have to increase our production and preserve those so that our country must not plunge into any danger,\" she was quoted as saying by United News of Bangladesh (UNB), adding that the government had set up a number of modern silos to stock rice.\n\nSpeaking at a program from her official r"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Global recession raises prices",
+      "edge_label": "reduces purchasing power",
+      "evidence_quote": "As a result, the prices of food items have soared beyond the purchasing capacity of all.",
+      "scope_justification": "The article describes broad price increases in food and other goods that reduce purchasing capacity, matching the general price-level scope of inflation.",
+      "verification": {
+        "quote_similarity": 0.994,
+        "quote_best_match": "\"As a result, the prices of food items have soared beyond the purchasing capacity of all.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article includes the exact quote and explicitly links the global economic recession to price increases that surpass purchasing capacity. The discussion is at a broad, macroeconomic level (food and other essentials), consistent with inflation’s impact on purchasing power."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-12-19",
+      "inflation_rate",
+      "reduces purchasing power",
+      "Global recession raises prices"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "La Prensa Latina Media",
+    "date": "2023-06-05",
+    "url": "https://www.laprensalatina.com/bangladesh-inflation-hits-decade-high-of-9-94/",
+    "body_preview": "Dhaka, June 5 (EFE).- Bangladesh's inflation hit a decade-high of 9.94 percent in May amid price hikes in food and non-food items, in a fresh indication of the country's growing economic woes, officials said on Monday.\n\nThe monthly inflation in May was the highest in recent months, surpassing 9.52 percent in August 2022, according to the Bangladesh Bureau of Statistics.\n\nThe last time Bangladesh witnessed a double-digit inflation rate was in 2011, when the country recorded 10.92 percent inflatio"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Food and non-food price hikes",
+      "edge_label": "increases inflation",
+      "evidence_quote": "prices of both food and non-food items increased further in the past month, with food inflation jumping",
+      "scope_justification": "The article describes nationwide increases across food and non-food items alongside Bangladesh's aggregate inflation rate, matching the general CPI price-level scope.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "prices of both food and non-food items increased further in the past month, with food inflation jumping",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states inflation hit a decade high 'amid price hikes in food and non-food items' and notes both food and non-food prices increased, strongly implying these hikes drove the overall inflation rate. The discussion is at the national (Bangladesh) level, matching the scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-06-05",
+      "inflation_rate",
+      "increases inflation",
+      "Food and non-food price hikes"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

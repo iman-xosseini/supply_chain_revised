@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-08-10",
+    "url": "https://www.bssnews.net/business/76570",
+    "body_preview": "DHAKA, Aug 10, 2022 (BSS) - The Centre for Policy Dialogue (CPD) today proposed for re-fixing the fuel oil price alleging that the recent hike in fuel oil price has increased the living expenditures of low-income group people.\n\nThe civil society think tank also opined that the price hike has put a negative impact on the industrial and agricultural production as well.\n\nThe CPD came up with such recommendation at a discussion titled: \"Abnormal price hike of fuel oil: Could it be avoided at the mom"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Fuel price hike raises inflation",
+      "edge_label": "raises inflation",
+      "evidence_quote": "This will raise further the inflation and put a multidimensional negative impact",
+      "scope_justification": "The article explicitly links the fuel price hike to broader inflation, matching the feature's country-wide general price-level scope.",
+      "verification": {
+        "quote_similarity": 0.988,
+        "quote_best_match": "This will raise further the inflation and put a multidimensional negative impact,\"",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article includes the exact quote stating the hike will 'raise further the inflation' and explicitly links the fuel price hike to higher inflation. The discussion is at a national economic level, matching the country-wide scope of inflation."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-08-10",
+      "inflation_rate",
+      "raises inflation",
+      "Fuel price hike raises inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

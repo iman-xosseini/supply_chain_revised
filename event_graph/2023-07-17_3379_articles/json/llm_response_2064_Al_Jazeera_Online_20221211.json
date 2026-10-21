@@ -1,0 +1,37 @@
+{
+  "article": {
+    "source": "Al Jazeera Online",
+    "date": "2022-12-11",
+    "url": "https://www.aljazeera.com/news/2022/12/11/bangladesh-opposition-protests-amid-harsh-government-crackdowns",
+    "body_preview": "Dhaka, Bangladesh - Rafiqul Islam has joined tens of thousands of opposition supporters in the capital Dhaka after travelling nearly 200km (124 miles) from the southern coastal district of Noakhali. But he has had to fake his identity to evade detention ahead of the anti-government rally.\n\nThe police in the South Asian nation had arrested hundreds of opposition supporters from the main opposition Bangladesh Nationalist Party (BNP), which had called for the rally to protest against price rises an"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "High energy prices reduce orders",
+      "edge_label": "reduces export orders",
+      "evidence_quote": "High energy prices triggered by the Russia-Ukraine war have significantly reduced its export orders from Western countries",
+      "scope_justification": "The article describes a country-wide reduction in Bangladesh's export orders, directly matching the feature's scope of internationally sent goods.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "High energy prices triggered by the Russia-Ukraine war have significantly reduced its export orders from Western countries",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states, 'High energy prices triggered by the Russia-Ukraine war have significantly reduced its export orders from Western countries,' explicitly linking high energy prices to reduced export orders. This refers to Bangladesh’s export sector, matching the country-level scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-12-11",
+      "exports",
+      "reduces export orders",
+      "High energy prices reduce orders"
+    ]
+  ],
+  "features_queried": [
+    "balance_of_trade",
+    "stock_market_close",
+    "exports"
+  ],
+  "num_connections_found": 1
+}

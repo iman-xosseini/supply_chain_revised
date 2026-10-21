@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-09-14",
+    "url": "https://www.bssnews.net/business/82495",
+    "body_preview": "DHAKA, Sept 14, 2022 (BSS) - Stocks today extended losing streak for the second straight day as the investors booked profit on large-cap stocks.\n\nDSEX, the prime index of the Dhaka Stock Exchange (DSE), went down by 50.41 points or 0.77 per cent to settle at 6,487. Two other indices also closed lower. The DS30 index, comprising blue chips, plunged 20.27 points to finish at 2,333 and the DSE Shariah Index (DSES) fell 9.42 points to close at 1,417.\n\nTurnover, a crucial indicator of the market, dro"
+  },
+  "llm_connections": [
+    {
+      "feature": "stock_market_close",
+      "event_summary": "Profit booking drives decline",
+      "edge_label": "drives market decline",
+      "evidence_quote": "Stocks today extended losing streak for the second straight day as the investors booked profit on large-cap stocks.",
+      "scope_justification": "The article reports a broad DSE index decline and widespread losing issues, matching the overall equity-market performance described by this feature.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "Stocks today extended losing streak for the second straight day as the investors booked profit on large-cap stocks.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states that stocks extended their losing streak 'as the investors booked profit on large-cap stocks,' indicating causality. It discusses overall market indices (DSE, DS30, DSES) and broad market performance, matching the stock_market_close scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-09-14",
+      "stock_market_close",
+      "drives market decline",
+      "Profit booking drives decline"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

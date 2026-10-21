@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-11-16",
+    "url": "https://www.bssnews.net/business/94335",
+    "body_preview": "DHAKA, Nov 16, 2022 (BSS) - Businesses from Singapore can invest in Bangladesh's different sectors, including information technology, pharmaceuticals and hospitality as the country offers a wide range of facilities to the foreign investors.\n\nThis was observed at meeting held at a city hotel today where representatives from different local conglomerates highlighted Bangladesh's investment climate for the delegates of visiting Singapore Business Federation (SBF).\n\nThe SBF and Howlader Maria & Co ("
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Commodity prices and imports rise",
+      "edge_label": "accelerates inflation",
+      "evidence_quote": "rising commodity prices and a surge in imports in the second half of FY22 resulted in widening Balance of Payments (BoP) deficit and accelerating inflation.",
+      "scope_justification": "The article describes accelerating inflation at the national economic level, matching the feature's definition of general price-level increases.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "rising commodity prices and a surge in imports in the second half of FY22 resulted in widening Balance of Payments (BoP) deficit and accelerating inflation.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that rising commodity prices and a surge in imports resulted in accelerating inflation in Bangladesh, explicitly linking the event to higher inflation at the national level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-11-16",
+      "inflation_rate",
+      "accelerates inflation",
+      "Commodity prices and imports rise"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

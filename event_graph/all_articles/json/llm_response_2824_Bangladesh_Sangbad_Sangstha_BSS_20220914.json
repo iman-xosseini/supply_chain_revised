@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-09-14",
+    "url": "https://www.bssnews.net/news/82498",
+    "body_preview": "DHAKA, Sept 14, 2022 (BSS) - Finance Minister AHM Mustafa Kamal today said that the government is considering introducing the market-based foreign currency exchange rates in the country.\n\n\"We're thinking of going for market-based foreign currency exchange rates,\" he said.\n\nThe Finance Minister was responding to queries of reporters after chairing virtually two separate meetings on the Cabinet Committee on Economic Affairs (CCEA) and the Cabinet Committee on Government Purchase (CCGP) today.\n\nHe "
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Interest rates affect inflation control",
+      "edge_label": "constrains inflation control",
+      "evidence_quote": "He said it is very tough in countries like Bangladesh to contain inflation by increasing or decreasing interest rate",
+      "scope_justification": "The article discusses inflation at the national macroeconomic level and explicitly links its containment to changes in interest rates, matching the aggregate inflation feature.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "He said it is very tough in countries like Bangladesh to contain inflation by increasing or decreasing interest rate",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states it is very tough in countries like Bangladesh to contain inflation by increasing or decreasing interest rates, explicitly linking interest-rate changes to constrained inflation control at the national level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-09-14",
+      "inflation_rate",
+      "constrains inflation control",
+      "Interest rates affect inflation control"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

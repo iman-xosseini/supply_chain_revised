@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "The Frontier Post",
+    "date": "2022-09-23",
+    "url": "https://thefrontierpost.com/inflation-unrest-challenge-bangladeshs-miracle-economy/",
+    "body_preview": "DHAKA (AP): Standing in line to try to buy food, Rekha Begum is distraught. Like many others in Bangladesh, she is struggling to find affordable daily essentials like rice, lentils and onions.\n\n\"I went to two other places, but they told me they don't have supplies. Then I came here and stood at the end of the queue,\" said Begum, 60, as she waited for nearly two hours to buy what she needed from a truck selling food at subsidized prices in the capital, Dhaka.\n\nBangladesh's economic miracle is und"
+  },
+  "llm_connections": [
+    {
+      "feature": "currency_log_return",
+      "event_summary": "Currency weakening raises import costs",
+      "edge_label": "increases import costs",
+      "evidence_quote": "countries like Bangladesh, Sri Lanka and Laos -- among many -- have seen their currencies weaken against the dollar, adding to the costs for dollar-denominated imports of oil and other goods",
+      "scope_justification": "The article explicitly describes national-currency movement against the dollar affecting the costs of dollar-denominated imports across multiple goods.",
+      "verification": {
+        "quote_similarity": 0.997,
+        "quote_best_match": "countries like Bangladesh, Sri Lanka and Laos -- among many -- have seen their currencies weaken against the dollar, adding to the costs for dollar-denominated imports of oil and other goods.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states that weaker local currencies against the dollar add to the costs of dollar-denominated imports, and it does so at the country level for multiple nations."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-09-23",
+      "currency_log_return",
+      "increases import costs",
+      "Currency weakening raises import costs"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

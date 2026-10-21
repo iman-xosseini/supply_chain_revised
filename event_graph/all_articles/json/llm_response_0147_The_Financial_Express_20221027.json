@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "The Financial Express",
+    "date": "2022-10-27",
+    "url": "https://thefinancialexpress.com.bd/trade/supply-disruption-forewarned-amid-unabated-price-spiral-1666837168",
+    "body_preview": "Bangladesh Trade and Tariff Commission (BTTC) forewarned further supply disruption of key essential items on the domestic market for factors that include banks' reluctance in opening import LCs.\n\nAmong other factors is the prevailing supply scarcity of power and gas that stymied production.\n\nSources say the commission, as such, has submitted a set of observations and suggestions for government authorities to address the looming exigencies in the midst of quirky price rises.\n\nIt suggests reducing"
+  },
+  "llm_connections": [
+    {
+      "feature": "currency_log_return",
+      "event_summary": "Dollar prices rose sharply",
+      "edge_label": "increases import losses",
+      "evidence_quote": "edible oil, sugar, and wheat importers faced losses due to the increase in dollar prices by 23 per cent to 25 per cent",
+      "scope_justification": "The article explicitly links a recent dollar-price movement to losses for importers, matching exchange-rate volatility affecting import costs.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "edible oil, sugar, and wheat importers faced losses due to the increase in dollar prices by 23 per cent to 25 per cent",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that edible oil, sugar, and wheat importers faced losses due to a 23–25% increase in dollar prices, explicitly linking the dollar rise to importer losses. This is discussed at a sectoral/country level, not a single company, matching the broad scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-10-27",
+      "currency_log_return",
+      "increases import losses",
+      "Dollar prices rose sharply"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

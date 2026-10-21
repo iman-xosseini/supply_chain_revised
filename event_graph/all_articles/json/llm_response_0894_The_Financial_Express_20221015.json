@@ -1,0 +1,137 @@
+{
+  "article": {
+    "source": "The Financial Express",
+    "date": "2022-10-15",
+    "url": "https://thefinancialexpress.com.bd/views/views/currency-depreciation-and-balance-of-payments-1665848740",
+    "body_preview": "Bangladesh's balance of payments (BoP) captures the transactions between Bangladeshi residents and the rest of the world in a given period of time. Residents are defined broadly to include people who live in Bangladesh, engaged in businesses and other organisations that operate in Bangladesh.\n\nBalance of payments divides transactions into two broad accounts: current account (CA) and combined capital and financial account (CFA). In essence, the current account captures the net flow of money that "
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Taka depreciation raises inflation",
+      "edge_label": "increases price pressure",
+      "evidence_quote": "The depreciating taka will also contribute to higher inflation as the prices of imported goods and services rise.",
+      "scope_justification": "The article links Bangladesh's currency depreciation to higher prices across imported goods and services, matching the national inflation-rate scope.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "The depreciating taka will also contribute to higher inflation as the prices of imported goods and services rise.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article contains the exact quote stating that a depreciating taka will contribute to higher inflation due to rising import prices, explicitly linking currency depreciation to national inflation in Bangladesh."
+      }
+    },
+    {
+      "feature": "balance_of_trade",
+      "event_summary": "Taka depreciation shifts trade balance",
+      "edge_label": "changes net exports",
+      "evidence_quote": "the indirect effects of a currency depreciation increase the volume of exports and reduce volume of imports. This has an offsetting effect and tends to increase net exports",
+      "scope_justification": "Net exports represent the country-wide difference between exports and imports, which matches the defined balance-of-trade scope.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "the indirect effects of a currency depreciation increase the volume of exports and reduce volume of imports. This has an offsetting effect and tends to increase net exports",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that a currency depreciation increases export volumes and reduces import volumes, which tends to increase net exports. This explicitly links taka depreciation to changes in net exports at the country level."
+      }
+    },
+    {
+      "feature": "exports",
+      "event_summary": "Taka depreciation boosts exports",
+      "edge_label": "stimulates export growth",
+      "evidence_quote": "As the taka depreciates, one would expect that exports from Bangladesh would become more price competitive stimulating export growth.",
+      "scope_justification": "The claim concerns Bangladesh's aggregate exports becoming more competitive and growing, matching the national export-volume scope.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "As the taka depreciates, one would expect that exports from Bangladesh would become more price competitive stimulating export growth.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states that as the taka depreciates, Bangladeshi exports become more price competitive, stimulating export growth, though it notes possible offsets. This is discussed at the national (Bangladesh) export level."
+      }
+    },
+    {
+      "feature": "imports",
+      "event_summary": "Taka depreciation reduces imports",
+      "edge_label": "reduces import volume",
+      "evidence_quote": "the indirect effects of a currency depreciation increase the volume of exports and reduce volume of imports.",
+      "scope_justification": "The article explicitly discusses the volume of Bangladesh's imports in aggregate, matching the country-wide imports definition.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "the indirect effects of a currency depreciation increase the volume of exports and reduce volume of imports.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states that the indirect effects of a currency depreciation reduce the volume of imports. This is discussed in the context of Bangladesh’s taka depreciation and at the aggregate, country-wide level."
+      }
+    },
+    {
+      "feature": "currency_log_return",
+      "event_summary": "Taka depreciation raises import prices",
+      "edge_label": "increases import costs",
+      "evidence_quote": "the direct effect of a currency depreciation is to increase the price of imports relative to exports",
+      "scope_justification": "The article directly links an exchange-rate movement involving the taka to higher import prices, matching the feature's exchange-rate impact on import costs.",
+      "verification": {
+        "quote_similarity": 0.995,
+        "quote_best_match": "the direct effect of a currency depreciation is to increase the price of imports relative to exports,",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that a currency depreciation increases import prices (“the direct effect of a currency depreciation is to increase the price of imports relative to exports”) and elsewhere applies this to the taka specifically. This is an explicit causal link at the country level."
+      }
+    },
+    {
+      "feature": "currency_momentum_5d",
+      "event_summary": "Dollar appreciation drives depreciation",
+      "edge_label": "drives currency weakening",
+      "evidence_quote": "now as the US dollar is appreciating leading to the depreciation of the taka",
+      "scope_justification": "The article identifies a recent directional movement in the taka—depreciation—matching the feature's currency-trend scope.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "now as the US dollar is appreciating leading to the depreciation of the taka",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that the US dollar is appreciating, leading to depreciation of the taka, explicitly indicating causality at the country/currency level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-10-15",
+      "inflation_rate",
+      "increases price pressure",
+      "Taka depreciation raises inflation"
+    ],
+    [
+      "2022-10-15",
+      "balance_of_trade",
+      "changes net exports",
+      "Taka depreciation shifts trade balance"
+    ],
+    [
+      "2022-10-15",
+      "exports",
+      "stimulates export growth",
+      "Taka depreciation boosts exports"
+    ],
+    [
+      "2022-10-15",
+      "imports",
+      "reduces import volume",
+      "Taka depreciation reduces imports"
+    ],
+    [
+      "2022-10-15",
+      "currency_log_return",
+      "increases import costs",
+      "Taka depreciation raises import prices"
+    ],
+    [
+      "2022-10-15",
+      "currency_momentum_5d",
+      "drives currency weakening",
+      "Dollar appreciation drives depreciation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 6
+}

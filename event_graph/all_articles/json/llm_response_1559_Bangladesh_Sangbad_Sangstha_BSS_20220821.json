@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-08-21",
+    "url": "https://www.bssnews.net/business/78172",
+    "body_preview": "DHAKA, August 21, 2022 (BSS) - State Minister for Planning Dr Shamsul Alam\n\ntoday said that there is no crisis in the country's economy as Bangladesh is\n\nmoving ahead in a planned way while there is no weakness in the planning\n\nprocess.\n\n\"Bangladesh is under discomfort to some extent due to the global situation,\n\nbut the country is under no crisis,\" he said.\n\nThe State Minister was speaking at a discussion titled \"New Challenges in the\n\neconomy of Bangladesh\" as the chief guest organised by the "
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Fuel price hike instigates inflation",
+      "edge_label": "raises inflation",
+      "evidence_quote": "the price hike in fuel oil has slightly instigated the inflation",
+      "scope_justification": "The article explicitly describes inflation at the national-economy level, matching the feature’s definition of general price-level increases.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "the price hike in fuel oil has slightly instigated the inflation",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states, \"the price hike in fuel oil has slightly instigated the inflation,\" explicitly linking fuel price increases to inflation at the national level in Bangladesh."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-08-21",
+      "inflation_rate",
+      "raises inflation",
+      "Fuel price hike instigates inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

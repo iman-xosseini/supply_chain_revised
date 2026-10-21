@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-09-27",
+    "url": "https://www.bssnews.net/business/84863",
+    "body_preview": "DHAKA, Sept 27, 2022 (BSS) - Bangladesh expects to receive $12 billion to $ 15 billion loan support from the Asian Development Bank under its Country Partnership Strategy (CPS) (2021-2025), said Finance Minister AHM Mustafa Kamal.\n\nThe minister said this today after a bilateral meeting with ADB President Masatsugu Asakawa at the ADB headquarters in Manila as part of the annual meeting of the lending agency.\n\nKamal said the ADB has helped the developing countries including Bangladesh with quick v"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Global disruptions raise inflation",
+      "edge_label": "raises inflation",
+      "evidence_quote": "the COVID-19 pandemic and the current geopolitical condition has worsened the crisis of food, energy, fertilizer, fund scarcity and thus disrupted the global supply chain resulting in rise in worldwide inflation",
+      "scope_justification": "The article explicitly describes a worldwide rise in inflation, matching the feature's scope as a general increase in price levels.",
+      "verification": {
+        "quote_similarity": 0.995,
+        "quote_best_match": "the COVID-19 pandemic and the current geopolitical condition has worsened the crisis of food, energy, fertilizer, fund scarcity and thus disrupted the global supply chain resulting in rise in worldwide inflation,\"",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article contains the quoted sentence and explicitly links global supply chain disruptions (from the pandemic and geopolitical conditions) to a rise in worldwide inflation. The scope is global, matching the feature."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-09-27",
+      "inflation_rate",
+      "raises inflation",
+      "Global disruptions raise inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

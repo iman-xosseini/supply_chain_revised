@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "ANN",
+    "date": "2022-08-31",
+    "url": "https://asianews.network/bangladesh-government-doing-whatever-needed-to-reduce-sufferings-pm-sheikh-hasina/",
+    "body_preview": "DHAKA - Prime Minister Sheikh Hasina yesterday (August 30, 2022) categorically said that the government is doing whatever is needed to reduce the sufferings of the people due to the current economic situation.\n\n\"The Awami League government is ensuring that,\" she said while participating in a general discussion on a proposal brought by opposition Jatiya Party MP Mujibul Haque Chunnu.\n\nChunnu placed the proposal titled -- \"Parliament is of the opinion that short and long term sustainable measures "
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Export incentives widened",
+      "edge_label": "increases exports",
+      "evidence_quote": "the export incentives will be widened for the export oriented items to increase the export and diversify it.",
+      "scope_justification": "The article describes a national policy intended to increase overall exports, matching the feature's scope of goods sent internationally.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "the export incentives will be widened for the export oriented items to increase the export and diversify it.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states that export incentives will be widened 'to increase the export and diversify it,' indicating a causal intent. This is discussed at the national (country) level, matching the scope of overall exports."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-08-31",
+      "exports",
+      "increases exports",
+      "Export incentives widened"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

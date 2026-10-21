@@ -1,0 +1,37 @@
+{
+  "article": {
+    "source": "Reuters",
+    "date": "2022-08-10",
+    "url": "https://www.reuters.com/markets/asia/bangladesh-garment-export-growth-seen-slowing-normal-15-this-year-2022-08-10/",
+    "body_preview": "DHAKA, Aug 10 (Reuters) - Growth in Bangladesh's garment exports could drop to about 15% this year after an unusually strong expansion of more than 30% in 2021, two industry leaders told Reuters on Wednesday, as U.S. and European customers grapple with cost of living pressures.\n\nThe garment industry accounts for more than 80% of total exports for Bangladesh, which sells to clients such as Walmart (WMT.N), Gap Inc (GPS.N), H&M (HMb.ST), VF Corp (VFC.N), Zara and American Eagle Outfitters (AEO.N) "
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Customer pressures reduce exports",
+      "edge_label": "reduces export growth",
+      "evidence_quote": "Growth in Bangladesh's garment exports could drop to about 15% this year ... as U.S. and European customers grapple with cost of living pressures.",
+      "scope_justification": "The article explicitly links foreign customers' demand pressures to Bangladesh's internationally shipped garment exports, which are goods sent abroad.",
+      "verification": {
+        "quote_similarity": 0.711,
+        "quote_best_match": "- Growth in Bangladesh's garment exports could drop to about 15% this year after an unusually",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that export growth could drop 'as U.S. and European customers grapple with cost of living pressures,' directly linking customer pressures to reduced export growth, and it discusses Bangladesh’s garment exports at the national level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-08-10",
+      "exports",
+      "reduces export growth",
+      "Customer pressures reduce exports"
+    ]
+  ],
+  "features_queried": [
+    "balance_of_trade",
+    "stock_market_close",
+    "exports"
+  ],
+  "num_connections_found": 1
+}

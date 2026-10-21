@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "MSN International Edition",
+    "date": "2023-01-01",
+    "url": "https://www.msn.com/en-xl/asia/bangladesh/2022-was-a-year-of-turning-around-bgmea/ar-AA15Qt7e",
+    "body_preview": "Dhaka, Jan. 1 -- concluded 2022 was a year of turning around and rebuilding the economy, the Bangladesh Garment Manufacturers and Exporters Association (BGMEA) said Saturday as revellers in major city centres across the world ushered in the first new year without Covid-19 restrictions, since the pandemic began in 2020, with countdowns and fireworks.\n\n\"Despite all the challenges created by the century's biggest disaster, Covid-19, we proved our resilience and turned around,\" BGMEA Director Md Moh"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Global inflation shrinks purchasing power",
+      "edge_label": "reduces purchasing power",
+      "evidence_quote": "So, the demand for products and purchasing power in the international market is shrinking.",
+      "scope_justification": "The article explicitly links the reported global inflation increase to shrinking purchasing power, matching the feature's definition of price-level increases reducing purchasing power.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "So, the demand for products and purchasing power in the international market is shrinking.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states global inflation hit a record and immediately follows with “So, the demand for products and purchasing power in the international market is shrinking,” explicitly linking higher global inflation to reduced purchasing power at an international scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-01-01",
+      "inflation_rate",
+      "reduces purchasing power",
+      "Global inflation shrinks purchasing power"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

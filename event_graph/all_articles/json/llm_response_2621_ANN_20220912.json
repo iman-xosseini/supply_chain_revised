@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "ANN",
+    "date": "2022-09-12",
+    "url": "https://asianews.network/cotton-price-drop-cant-cheer-up-bangladesh-garment-makers/",
+    "body_preview": "DHAKA - International cotton prices have significantly fallen but brought little cheer to local spinners and garment manufacturers suffering from a drop in work orders from international retailers and brands.\n\nThe price of cotton fell to $1.01 to $1.04 per pound in international futures markets yesterday from $1.20 to $1.30 in May and June.\n\nThis resulted from a drop in demand for garment items in major export destinations like Europe because of high inflation stemming from the Russia-Ukraine wa"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Gas crisis affects exports",
+      "edge_label": "disrupts exports",
+      "evidence_quote": "the gas crisis to find a solution as exports were being affected",
+      "scope_justification": "The article explicitly states that a domestic production constraint was affecting exports from Bangladesh's export-oriented textile industry, matching the feature's international goods-flow scope.",
+      "verification": {
+        "quote_similarity": 0.992,
+        "quote_best_match": "the gas crisis to find a solution as exports were being affected.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article includes the exact quote and states that a gas crisis is prompting a meeting because exports were being affected, implying the gas crisis is disrupting exports. This is discussed at the sector/country level (Bangladesh’s export-oriented textile industry), matching the scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-09-12",
+      "exports",
+      "disrupts exports",
+      "Gas crisis affects exports"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

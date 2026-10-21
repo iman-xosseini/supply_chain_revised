@@ -1,0 +1,61 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-10-27",
+    "url": "https://www.bssnews.net/news-flash/90365",
+    "body_preview": "DHAKA, Oct 27, 2022 (BSS) - The shrinking value of the currencies of most developing economies is driving up food and fuel prices in ways that could deepen the food and energy crises that many of them already face, according to the World Bank's latest Commodity Markets Outlook report.\n\nIn U.S. dollar terms, the prices of most commodities have declined from their recent peaks amid concerns of an impending global recession, the report documents.\n\nFrom the Russian invasion of Ukraine in February 20"
+  },
+  "llm_connections": [
+    {
+      "feature": "currency_log_return",
+      "event_summary": "Currency depreciation raises oil prices",
+      "edge_label": "raises import costs",
+      "evidence_quote": "because of currency depreciations, almost 60 percent of oil-importing emerging-market and developing economies saw an increase in domestic currency oil prices",
+      "scope_justification": "The article describes exchange-rate depreciation increasing the domestic-currency cost of imported oil across oil-importing economies, matching exchange-rate effects on import costs.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "because of currency depreciations, almost 60 percent of oil-importing emerging-market and developing economies saw an increase in domestic currency oil prices",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states, “because of currency depreciations, almost 60 percent of oil-importing emerging-market and developing economies saw an increase in domestic currency oil prices,” which explicitly links currency depreciation to higher domestic oil prices across multiple countries."
+      }
+    },
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Commodity prices increase inflation",
+      "edge_label": "drives higher inflation",
+      "evidence_quote": "The combination of elevated commodity prices and persistent currency depreciations translates into higher inflation in many countries",
+      "scope_justification": "The article explicitly links commodity prices and currency depreciation to higher inflation across countries, matching the feature's general price-level scope.",
+      "verification": {
+        "quote_similarity": 0.989,
+        "quote_best_match": "\"The combination of elevated commodity prices and persistent currency depreciations translates into higher inflation in many countries,\"",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article includes the exact quote stating that elevated commodity prices (with currency depreciations) translate into higher inflation in many countries, explicitly asserting causality at a broad, country-level scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-10-27",
+      "currency_log_return",
+      "raises import costs",
+      "Currency depreciation raises oil prices"
+    ],
+    [
+      "2022-10-27",
+      "inflation_rate",
+      "drives higher inflation",
+      "Commodity prices increase inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 2
+}

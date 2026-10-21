@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2023-04-11",
+    "url": "https://www.bssnews.net/news-flash/120290",
+    "body_preview": "DHAKA, April 11, 2023 (BSS) - Prime Minister Sheikh Hasina today asked the authorities concerned to stress more on utilizing the untapped potentials of the 'Blue Economy'.\n\nThe Premier gave the directive while chairing a meeting on the Executive Committee of the National Economic Council (ECNEC) held at the NEC Conference Room in the city's Sher-e-Bangla Nagar area here today. Ministers, State Ministers, Planning Commission members and secretaries concerned attended the meeting.\n\nLater Planning "
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Fertilizer price hike",
+      "edge_label": "may increase inflation",
+      "evidence_quote": "whether the price hike of fertilizer would put an impact on inflation, Mannan said there might be an impact",
+      "scope_justification": "The article explicitly links a fertilizer price increase to inflation, matching the feature's scope of general price-level changes.",
+      "verification": {
+        "quote_similarity": 0.995,
+        "quote_best_match": "whether the price hike of fertilizer would put an impact on inflation, Mannan said there might be an impact,",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states, “When asked whether the price hike of fertilizer would put an impact on inflation, Mannan said there might be an impact,” which explicitly links a fertilizer price hike to potential inflation effects. The discussion pertains to national inflation, matching the general inflation_rate scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-04-11",
+      "inflation_rate",
+      "may increase inflation",
+      "Fertilizer price hike"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

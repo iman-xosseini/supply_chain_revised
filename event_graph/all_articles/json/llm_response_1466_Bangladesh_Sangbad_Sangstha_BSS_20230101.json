@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2023-01-01",
+    "url": "https://www.bssnews.net/news-flash/102717",
+    "body_preview": "DHAKA, Dec 31, 2022 (BSS) - Prime Minister Sheikh Hasina today asserted that the Bangladesh of 2041 will be a smart Bangladesh where each person will have technological knowledge and the country will not lag behind in the world arena.\n\n\"Our education and learning such as e-education, e-health, e-businesses, e-economy, e-governance will be technical knowledge-based,\" she said.\n\nThe premier said this while the nationwide opening free textbook distribution programme by handing over books to student"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Wars and pandemic raise prices",
+      "edge_label": "raises price levels",
+      "evidence_quote": "due to the coronavirus and Ukraine- Russia war, prices of all commodities have increased",
+      "scope_justification": "The article describes a broad increase in prices across all commodities, matching the country-wide general price-level scope of inflation.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "due to the coronavirus and Ukraine- Russia war, prices of all commodities have increased",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states that “due to the coronavirus and Ukraine-Russia war, prices of all commodities have increased,” indicating a causal link. This describes a broad, nationwide rise in prices consistent with inflation, matching the scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-01-01",
+      "inflation_rate",
+      "raises price levels",
+      "Wars and pandemic raise prices"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

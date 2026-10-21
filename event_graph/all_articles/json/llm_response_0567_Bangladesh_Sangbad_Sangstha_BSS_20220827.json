@@ -1,0 +1,61 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-08-27",
+    "url": "https://www.bssnews.net/news-flash/79191",
+    "body_preview": "DHAKA, Aug 27, 2022 (BSS) - Bangladesh is being affected by 'economic conditions elsewhere in the world' as the country is now facing soaring prices of energy and food following the Covid-19 pandemic and Russia-Ukraine war.\n\nThese have led to energy shortages and rising import bills that are, in some cases, straining the ability of the country of 160 million people to keep up with debt payments.\n\nThese observations came at a recent article published at UK-based Financial Times titled, \"Banglades"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Global shocks raise prices",
+      "edge_label": "drives price increases",
+      "evidence_quote": "Bangladesh is now facing soaring prices of energy and food following the Covid-19 pandemic and Russia-Ukraine war.",
+      "scope_justification": "The article explicitly links international shocks to broad price increases affecting Bangladesh, matching the feature's general price-level scope.",
+      "verification": {
+        "quote_similarity": 0.949,
+        "quote_best_match": "is now facing soaring prices of energy and food following the Covid-19 pandemic and Russia-Ukraine war.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states Bangladesh is facing soaring energy and food prices following the Covid-19 pandemic and Russia-Ukraine war, explicitly linking global shocks to price increases at the country level. This matches the causal claim and scope."
+      }
+    },
+    {
+      "feature": "exports",
+      "event_summary": "Buyer growth slows exports",
+      "edge_label": "reduces export performance",
+      "evidence_quote": "demand for Bangladesh's cornerstone industry's products will suffer due to slowing growth in major buyers in the US and European countries.",
+      "scope_justification": "The statement concerns Bangladesh's national export performance and attributes its expected weakening to reduced demand in major foreign markets.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "demand for Bangladesh's cornerstone industry's products will suffer due to slowing growth in major buyers in the US and European countries.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article includes the quoted line and adds that this will affect export performance going forward. It explicitly links slower growth in major buyer markets to reduced demand and consequent weaker export performance for Bangladesh at the national level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-08-27",
+      "inflation_rate",
+      "drives price increases",
+      "Global shocks raise prices"
+    ],
+    [
+      "2022-08-27",
+      "exports",
+      "reduces export performance",
+      "Buyer growth slows exports"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 2
+}

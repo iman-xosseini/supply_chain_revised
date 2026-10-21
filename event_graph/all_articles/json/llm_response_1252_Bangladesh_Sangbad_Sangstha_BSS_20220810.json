@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-08-10",
+    "url": "https://www.bssnews.net/business/76570",
+    "body_preview": "DHAKA, Aug 10, 2022 (BSS) - The Centre for Policy Dialogue (CPD) today proposed for re-fixing the fuel oil price alleging that the recent hike in fuel oil price has increased the living expenditures of low-income group people.\n\nThe civil society think tank also opined that the price hike has put a negative impact on the industrial and agricultural production as well.\n\nThe CPD came up with such recommendation at a discussion titled: \"Abnormal price hike of fuel oil: Could it be avoided at the mom"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Fuel oil price hike",
+      "edge_label": "raises inflation",
+      "evidence_quote": "This will raise further the inflation and put a multidimensional negative impact,",
+      "scope_justification": "The article explicitly states that the fuel oil price increase will raise inflation, matching the feature's scope of general price-level increases.",
+      "verification": {
+        "quote_similarity": 0.994,
+        "quote_best_match": "This will raise further the inflation and put a multidimensional negative impact,\"",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states that the fuel oil price hike will increase costs and 'raise further the inflation.' This is a clear causal claim at the national level, matching the feature's scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-08-10",
+      "inflation_rate",
+      "raises inflation",
+      "Fuel oil price hike"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

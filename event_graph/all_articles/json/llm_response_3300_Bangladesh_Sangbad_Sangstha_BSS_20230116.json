@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2023-01-16",
+    "url": "https://www.bssnews.net/business/105494",
+    "body_preview": "DHAKA, Jan 16, 2023 (BSS) - President of Dhaka Chamber of Commerce & Industry (DCCI) Barrister Md. Sameer Sattar today said that the just unveiled Monetary Policy Statements (MPS) for the January-June period of FY23 would help both the private and financial sector to turn around.\n\nHe said this MPS is primarily aimed at curbing inflation and to stabilize the foreign exchange reserve.\n\nSameer said this in the wake of the declared Monetary Policy for the January-June period of 2023 given yesterday "
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Monetary policy targets inflation",
+      "edge_label": "curbs inflation",
+      "evidence_quote": "He said this MPS is primarily aimed at curbing inflation",
+      "scope_justification": "The article explicitly links Bangladesh's national monetary policy to curbing inflation, matching the feature's country-wide general price-level scope.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "He said this MPS is primarily aimed at curbing inflation",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states, 'He said this MPS is primarily aimed at curbing inflation,' explicitly linking the monetary policy to reducing inflation. This refers to Bangladesh’s national monetary policy, matching the country-level scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-01-16",
+      "inflation_rate",
+      "curbs inflation",
+      "Monetary policy targets inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

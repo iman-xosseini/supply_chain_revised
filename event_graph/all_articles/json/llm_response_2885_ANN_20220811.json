@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "ANN",
+    "date": "2022-08-11",
+    "url": "https://asianews.network/bangladesh-fuel-price-hike-was-avoidable-report/",
+    "body_preview": "Bangladesh - Petroleum Corporation could have used the Tk 46,858 crore profit it made since 2015 to continue the subsidy on fuel and thus prevent the price hike, the Centre for Policy Dialogue said yesterday.\n\nThe BPC could also have offset the losses it has been incurring over the last six months, said the think-tank, asking the government to disclose what happened to the BPC's profits.\n\n\"It was earlier said that the profits were spent on or invested in various development works but we found it"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Fuel hike pushes inflation",
+      "edge_label": "increases inflationary pressure",
+      "evidence_quote": "The fuel price hike will push up the current 7.5 percent inflation and force people to use their savings",
+      "scope_justification": "The article explicitly links a nationwide fuel-price increase to higher overall inflation, matching the feature's general price-level scope.",
+      "verification": {
+        "quote_similarity": 0.986,
+        "quote_best_match": "\"The fuel price hike will push up the current 7.5 percent inflation and force people to use their savings\".",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article contains the exact quote stating the fuel price hike will push up the current 7.5% inflation. This explicitly establishes causality at the national inflation level, matching the feature’s scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-08-11",
+      "inflation_rate",
+      "increases inflationary pressure",
+      "Fuel hike pushes inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

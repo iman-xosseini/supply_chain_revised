@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2023-06-18",
+    "url": "https://www.bssnews.net/business/131961",
+    "body_preview": "DHAKA, June 18, 2023 (BSS) - The Centre for Policy Dialogue (CPD) today said that the government would face challenges for implementing the national budget for the next fiscal year (FY24).\n\nThe civil society think tank also opined that attaining the target of containing inflation within around 6 percent would be tough as the inflation rate has already crossed 9 percent.\n\nThe CPD came up with such observations at the \"CPD Budget Dialogue\" held at a city hotel. It said that the government should f"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Government pursues inflation controls",
+      "edge_label": "contains inflation",
+      "evidence_quote": "the government is trying its best to keep it under control",
+      "scope_justification": "The article discusses the aggregate inflation rate and the government's efforts to contain it, matching the feature's economy-wide price-level scope.",
+      "verification": {
+        "quote_similarity": 0.991,
+        "quote_best_match": "the government is trying its best to keep it under control.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that the government is trying its best to keep inflation under control, explicitly linking government actions to containing inflation at a national level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-06-18",
+      "inflation_rate",
+      "contains inflation",
+      "Government pursues inflation controls"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

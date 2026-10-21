@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-10-01",
+    "url": "https://www.bssnews.net/business/85713",
+    "body_preview": "DHAKA, Oct 1, 2022 (BSS) - The export of RMG items to European Union (EU) has witnessed a robust growth of 45 percent during the January-June period of this year compared to the same period last year.\n\nAccording to data from the Eurostat under the European Commission (EC), the import of RMG items to EU market during that six-month period increased by 25.03 percent on average where China supplied the bulk of the RMG items worth $12.22 billion having a growth of 21.78 percent.\n\nBangladesh gained t"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Worldwide price hike cuts incomes",
+      "edge_label": "reduces real income",
+      "evidence_quote": "the real income of the common people has declined due to the worldwide price hike of essential items.",
+      "scope_justification": "The article describes broad price increases reducing the real income of common consumers, matching the feature's definition of general inflation reducing purchasing power.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "the real income of the common people has declined due to the worldwide price hike of essential items.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states that real income declined due to the worldwide price hike of essential items. This directly links inflation to reduced real income at a broad, general-consumer scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-10-01",
+      "inflation_rate",
+      "reduces real income",
+      "Worldwide price hike cuts incomes"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

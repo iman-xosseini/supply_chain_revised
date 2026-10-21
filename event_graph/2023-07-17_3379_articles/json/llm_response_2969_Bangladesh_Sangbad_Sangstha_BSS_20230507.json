@@ -1,0 +1,37 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2023-05-07",
+    "url": "https://www.bssnews.net/business/124246",
+    "body_preview": "DHAKA, May 7, 2023 (BSS) - U.S. Ambassador to Bangladesh Peter Haas today met BGMEA President Faruque Hassan at BGMEA Complex at Uttara in the capital.\n\nDuring the visit, the envoy was accompanied by Leena Khan, Labor Attach', Department of Labor, Arturo Hines, Deputy Political Economic Counselor, Megan Francic, USDA/FAS, Agricultural Attach', Kaitlyn Denzler, USAID/DRG Labor Team Lead, Emelda Mullick, USAID/DRG, Labor Team, and Saifuzzaman Mehrab, Political and Economic Section, Labor Assistant"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "US-Bangladesh export support talks",
+      "edge_label": "supports export growth",
+      "evidence_quote": "particularly how the US could support Bangladesh in increasing apparel exports including high-end garments to the US market",
+      "scope_justification": "The article explicitly links potential US support to increasing Bangladesh's apparel exports, which are goods sent internationally.",
+      "verification": {
+        "quote_similarity": 0.996,
+        "quote_best_match": "particularly how the US could support Bangladesh in increasing apparel exports including high-end garments to the US market,",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states that discussions focused on how the US could support Bangladesh in increasing apparel exports to the US market, indicating a causal link between US support and export growth at the national apparel industry level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-05-07",
+      "exports",
+      "supports export growth",
+      "US-Bangladesh export support talks"
+    ]
+  ],
+  "features_queried": [
+    "balance_of_trade",
+    "stock_market_close",
+    "exports"
+  ],
+  "num_connections_found": 1
+}

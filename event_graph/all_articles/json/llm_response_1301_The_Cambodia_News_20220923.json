@@ -1,0 +1,61 @@
+{
+  "article": {
+    "source": "The Cambodia News",
+    "date": "2022-09-23",
+    "url": "https://www.thecambodianews.net/news/272789726/inflation-unrest-challenge-bangladeshs-miracle-economy",
+    "body_preview": "Dhaka, Bangladesh - Standing in line to try to buy food, Rekha Begum is distraught. Like many others in Bangladesh, she is struggling to find affordable daily essentials like rice, lentils and onions.\n\n'I went to two other places, but they told me they don't have supplies. Then I came here and stood at the end of the queue,' said Begum, 60, as she waited for nearly two hours to buy what she needed from a truck selling food at subsidized prices in the capital, Dhaka.\n\nBangladesh's economic miracl"
+  },
+  "llm_connections": [
+    {
+      "feature": "imports",
+      "event_summary": "Import limits imposed",
+      "edge_label": "constrains imports",
+      "evidence_quote": "imposed limits on imports of luxury goods and non-essential items",
+      "scope_justification": "The article describes a national government policy directly restricting the volume of imported goods, which matches the imports feature's country-wide scope.",
+      "verification": {
+        "quote_similarity": 0.992,
+        "quote_best_match": "imposed limits on imports of luxury goods and non-essential items,",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states authorities 'imposed limits on imports of luxury goods and non-essential items,' which explicitly means imports are constrained by a national policy. This matches the country-level scope."
+      }
+    },
+    {
+      "feature": "currency_log_return",
+      "event_summary": "Currency weakens against dollar",
+      "edge_label": "raises import costs",
+      "evidence_quote": "countries like Bangladesh, Sri Lanka and Laos - among many - have seen their currencies weaken against the dollar, adding to the costs for dollar-denominated imports of oil and other goods.",
+      "scope_justification": "The article explicitly links Bangladesh's exchange-rate weakening against the dollar to higher costs for dollar-denominated imports, matching the feature's exchange-rate and import-cost scope.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "countries like Bangladesh, Sri Lanka and Laos - among many - have seen their currencies weaken against the dollar, adding to the costs for dollar-denominated imports of oil and other goods.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states that currencies weakening against the dollar add to the costs of dollar-denominated imports, and it does so at the country level (e.g., Bangladesh). The quoted sentence appears verbatim in the text."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-09-23",
+      "imports",
+      "constrains imports",
+      "Import limits imposed"
+    ],
+    [
+      "2022-09-23",
+      "currency_log_return",
+      "raises import costs",
+      "Currency weakens against dollar"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 2
+}

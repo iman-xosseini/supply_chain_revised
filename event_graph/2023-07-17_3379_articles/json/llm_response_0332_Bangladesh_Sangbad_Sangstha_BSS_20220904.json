@@ -1,0 +1,37 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-09-04",
+    "url": "https://www.bssnews.net/business/80622",
+    "body_preview": "DHAKA, Sept 04, 2022 (BSS) - The country's merchandise export earnings\n\nmaintained a healthy growth in August, registering over 36.18 per cent rise\n\nto bag $4.61 billion year-on-year thanks to the good performance of the\n\napparel sector.\n\nBangladesh fetched $3.38 billion in August 2021, according to provisional\n\ndata from the Export Promotion Bureau (EPB) released today.\n\nThe export earnings in August this year were 7.14 per cent higher than the\n\ntarget ($4.3 billion) set by the Ministry of Comm"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Western demand reduces exports",
+      "edge_label": "reduces export earnings",
+      "evidence_quote": "With the rising inflation, consumer demand in the western market has been reducing and this has been reflected in the export scenario.",
+      "scope_justification": "The article explicitly links reduced western-market demand to Bangladesh's export scenario, matching the feature's focus on internationally sent goods driven by global demand.",
+      "verification": {
+        "quote_similarity": 0.996,
+        "quote_best_match": "\"With the rising inflation, consumer demand in the western market has been reducing and this has been reflected in the export scenario.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The quoted sentence appears verbatim and, alongside the preceding line about exports already being affected, strongly links reduced Western consumer demand to negative impacts on Bangladesh’s export scenario. The discussion is at the country-level for Bangladesh’s exports, matching the feature’s scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-09-04",
+      "exports",
+      "reduces export earnings",
+      "Western demand reduces exports"
+    ]
+  ],
+  "features_queried": [
+    "balance_of_trade",
+    "stock_market_close",
+    "exports"
+  ],
+  "num_connections_found": 1
+}

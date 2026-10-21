@@ -1,0 +1,80 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-08-21",
+    "url": "https://www.bssnews.net/business/78172",
+    "body_preview": "DHAKA, August 21, 2022 (BSS) - State Minister for Planning Dr Shamsul Alam\n\ntoday said that there is no crisis in the country's economy as Bangladesh is\n\nmoving ahead in a planned way while there is no weakness in the planning\n\nprocess.\n\n\"Bangladesh is under discomfort to some extent due to the global situation,\n\nbut the country is under no crisis,\" he said.\n\nThe State Minister was speaking at a discussion titled \"New Challenges in the\n\neconomy of Bangladesh\" as the chief guest organised by the "
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Fuel price hike raises inflation",
+      "edge_label": "increases inflation",
+      "evidence_quote": "the price hike in fuel oil has slightly instigated the inflation",
+      "scope_justification": "The article explicitly links a nationwide fuel-price increase to overall inflation, matching the feature's general price-level scope.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "the price hike in fuel oil has slightly instigated the inflation",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states, “the price hike in fuel oil has slightly instigated the inflation,” explicitly linking fuel price increases to overall inflation in Bangladesh, matching the national scope."
+      }
+    },
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Imports cause inflationary pressure",
+      "edge_label": "drives inflation",
+      "evidence_quote": "the inflationary pressure would continue as it has been caused totally from imports",
+      "scope_justification": "The statement directly attributes national inflationary pressure to imports, matching the feature's aggregate inflation scope.",
+      "verification": {
+        "quote_similarity": 0.994,
+        "quote_best_match": "the inflationary pressure would continue as it has been caused totally from imports.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article includes the exact quote stating inflationary pressure is caused totally from imports, explicitly establishing a causal link. This pertains to Bangladesh’s national inflation, matching the aggregate scope."
+      }
+    },
+    {
+      "feature": "currency_log_return",
+      "event_summary": "Policy stabilizes exchange rate",
+      "edge_label": "stabilizes currency",
+      "evidence_quote": "the Bangladesh Bank has taken various steps to contain inflation, bringing stability in the exchange rate",
+      "scope_justification": "The article discusses Bangladesh's national exchange-rate stability, which directly matches the feature's exchange-rate volatility scope.",
+      "verification": {
+        "quote_similarity": 0.995,
+        "quote_best_match": "the Bangladesh Bank has taken various steps to contain inflation, bringing stability in the exchange rate,",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly quotes that Bangladesh Bank’s steps are “bringing stability in the exchange rate,” indicating a causal link from policy actions to exchange-rate stability at the national level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-08-21",
+      "inflation_rate",
+      "increases inflation",
+      "Fuel price hike raises inflation"
+    ],
+    [
+      "2022-08-21",
+      "inflation_rate",
+      "drives inflation",
+      "Imports cause inflationary pressure"
+    ],
+    [
+      "2022-08-21",
+      "currency_log_return",
+      "stabilizes currency",
+      "Policy stabilizes exchange rate"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 3
+}

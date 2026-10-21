@@ -1,0 +1,61 @@
+{
+  "article": {
+    "source": "The Star ",
+    "date": "2023-06-01",
+    "url": "https://www.thestar.com.my/news/world/2023/06/02/roundup-bangladesh-unveils-71-bln-usd-national-budget-on-digital-economy-cashless-society",
+    "body_preview": "DHAKA, June 1 (Xinhua) -- The Bangladeshi government on Thursday unveiled a record 7.62-trillion-taka (71-billion-U.S. dollar) national budget for the 2023-24 fiscal year starting in July.\n\nThe government projected an economic growth of 7.5 percent in the annual budget.\n\nWith a focus on tackling inflation, job creation, the fourth industrial revolution and \"Smart Bangladesh,\" Finance Minister AHM Mustafa Kamal presented to the parliament the budget of Prime Minister Sheikh Hasina's government.\n\n"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Russia-Ukraine conflict",
+      "edge_label": "increases inflationary pressure",
+      "evidence_quote": "Although inflationary pressure increased due to the Russia-Ukraine conflict",
+      "scope_justification": "The article explicitly links the conflict to increased inflationary pressure at the national economy level, matching the aggregate CPI inflation-rate definition.",
+      "verification": {
+        "quote_similarity": 0.993,
+        "quote_best_match": "Although inflationary pressure increased due to the Russia-Ukraine conflict,",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states, “Although inflationary pressure increased due to the Russia-Ukraine conflict,” indicating a causal link. This is discussed in the context of Bangladesh’s national inflation, matching the aggregate inflation rate scope."
+      }
+    },
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Global commodity price decrease",
+      "edge_label": "reduces inflation",
+      "evidence_quote": "Due to the decrease in the prices of fuel, food and fertilizer in the global market, ... the inflation will remain much controlled",
+      "scope_justification": "The article directly connects broad global price changes and domestic measures to Bangladesh's expected average inflation rate, matching the national CPI scope.",
+      "verification": {
+        "quote_similarity": 0.814,
+        "quote_best_match": "\"Due to the decrease in the prices of fuel, food and fertilizer in the global market, along with",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that due to decreases in global prices of fuel, food, and fertilizer, inflation in Bangladesh will remain controlled, explicitly linking global price drops to lower national inflation. The quote appears nearly verbatim and the discussion is at the country level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-06-01",
+      "inflation_rate",
+      "increases inflationary pressure",
+      "Russia-Ukraine conflict"
+    ],
+    [
+      "2023-06-01",
+      "inflation_rate",
+      "reduces inflation",
+      "Global commodity price decrease"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 2
+}

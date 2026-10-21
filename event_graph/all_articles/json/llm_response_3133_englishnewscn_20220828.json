@@ -1,0 +1,61 @@
+{
+  "article": {
+    "source": "english.news.cn",
+    "date": "2022-08-28",
+    "url": "https://english.news.cn/asiapacific/20220828/4b8fcb5b86b541ab822a2c9312819401/c.html",
+    "body_preview": "DHAKA, Aug. 28 (Xinhua) -- Bangladesh is on track to end a U.S. dollar crisis soon in the country, Bangladesh Bank (BB) Governor Abdur Rouf Talukder said here Saturday.\n\n\"Dollar market stability depends virtually on our inflows of remittances, export incomes and payments of import bills,\" said the BB chief while attending the Annual Banking Conference 2022 at the Bangladesh Institute of Bank Management (BIBM) premises on Saturday.\n\nDollar prices remain stable when there's a balance between the i"
+  },
+  "llm_connections": [
+    {
+      "feature": "balance_of_trade",
+      "event_summary": "Increased imports widen deficit",
+      "edge_label": "widens trade deficit",
+      "evidence_quote": "Bangladesh's trade deficit ballooned to a record level of over 33 billion U.S. dollars ... on the back of increased imports",
+      "scope_justification": "The article explicitly describes country-wide imports causing the national trade deficit to increase, matching the aggregate imports-versus-exports scope of balance_of_trade.",
+      "verification": {
+        "quote_similarity": 0.86,
+        "quote_best_match": "Bangladesh's trade deficit ballooned to a record level of over 33 billion U.S. dollars in the fiscal year",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that Bangladesh's trade deficit 'ballooned... on the back of increased imports,' which directly ties increased imports to a wider national trade deficit. The scope is clearly country-level (Bangladesh), matching the balance_of_trade feature."
+      }
+    },
+    {
+      "feature": "currency_log_return",
+      "event_summary": "Imports drive taka depreciation",
+      "edge_label": "depreciates currency",
+      "evidence_quote": "Increasing imports and a widening trade deficit were cited as the most possible reasons for taka depreciation in recent months.",
+      "scope_justification": "The article links aggregate national import and trade-deficit conditions to movement in the USD-to-BDT exchange rate, matching the currency movement scope.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "Increasing imports and a widening trade deficit were cited as the most possible reasons for taka depreciation in recent months.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states, 'Increasing imports and a widening trade deficit were cited as the most possible reasons for taka depreciation in recent months,' explicitly linking higher imports to currency depreciation at the national level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-08-28",
+      "balance_of_trade",
+      "widens trade deficit",
+      "Increased imports widen deficit"
+    ],
+    [
+      "2022-08-28",
+      "currency_log_return",
+      "depreciates currency",
+      "Imports drive taka depreciation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 2
+}

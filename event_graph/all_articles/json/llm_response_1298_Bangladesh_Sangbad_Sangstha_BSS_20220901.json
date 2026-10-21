@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-09-01",
+    "url": "https://www.bssnews.net/business/80105",
+    "body_preview": "DHAKA, Sept 01, 2022 (BSS)-Federation of Bangladesh Chambers of Commerce and Industry (FBCCI) today sought cooperation from Japan International Cooperation Agency (JICA) in establishing lab facilities at land, sea and airports of the country.\n\nFBCCI Senior Vice President Mostofa Azad Chowdhury Babu today made this call during a meeting with the representatives of JICA and Bangladesh Food Safety Authority (BFSA) at the office of the federation here.\n\nHe said North-Eastern states of India have hug"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Accredited labs facilitate exports",
+      "edge_label": "facilitates exporting",
+      "evidence_quote": "Therefore, accredited lab facilities at land ports will facilitate exporting of these products to those states",
+      "scope_justification": "The article explicitly links port laboratory facilities to sending Bangladeshi food and agro products internationally, matching the exports feature's scope.",
+      "verification": {
+        "quote_similarity": 0.995,
+        "quote_best_match": "Therefore, accredited lab facilities at land ports will facilitate exporting of these products to those states,",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states that accredited lab facilities at land ports will facilitate exporting Bangladeshi food and agro products, and discusses this at a national/sector level rather than a single company."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-09-01",
+      "exports",
+      "facilitates exporting",
+      "Accredited labs facilitate exports"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

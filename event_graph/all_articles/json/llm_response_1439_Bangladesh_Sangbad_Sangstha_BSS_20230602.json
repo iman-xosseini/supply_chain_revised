@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2023-06-02",
+    "url": "https://www.bssnews.net/national-budget-2023-2024/128791",
+    "body_preview": "DHAKA, June 2, 2023 (BSS) - Bangladesh Bank Governor Abdur Rouf Talukder today ruled out any possibility of creating inflation in the country from the target of government borrowings including from bank borrowings set in the proposed budget for the next fiscal year (FY24).\n\n\"Currently, the inflation in the country is not because of the supply side, rather it is absolutely imported inflation,\" he said.\n\nThe central bank governor said this while replying to a question during the post budget press "
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Governor attributes inflation to imports",
+      "edge_label": "drives inflation",
+      "evidence_quote": "Currently, the inflation in the country is not because of the supply side, rather it is absolutely imported inflation",
+      "scope_justification": "The statement concerns inflation across the country, matching the national general price-level scope of the inflation-rate feature.",
+      "verification": {
+        "quote_similarity": 0.987,
+        "quote_best_match": "\"Currently, the inflation in the country is not because of the supply side, rather it is absolutely imported inflation,\"",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article includes the quote stating inflation is 'absolutely imported,' explicitly attributing national inflation to imports rather than domestic supply factors. This matches the country-level inflation rate scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-06-02",
+      "inflation_rate",
+      "drives inflation",
+      "Governor attributes inflation to imports"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

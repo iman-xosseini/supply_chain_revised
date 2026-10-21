@@ -1,0 +1,37 @@
+{
+  "article": {
+    "source": "english.news.cn",
+    "date": "2022-08-18",
+    "url": "https://english.news.cn/asiapacific/20220818/ad126543fd60451eb7281cc370315110/c.html",
+    "body_preview": "DHAKA, Aug. 18 (Xinhua) -- The central bank of Bangladesh has fixed a ceiling on U.S. dollar trading profit for money exchangers, amid a lingering greenback supply shortage and its appreciation against the country's currency taka.\n\nAfter a meeting with the Money Changers' Association in Dhaka, Bangladesh Bank (BB) spokesperson Serajul Islam told reporters that no money exchangers in the country can now charge over 1.5 taka against a U.S. dollar while buying and selling the greenback.\n\nDays earli"
+  },
+  "llm_connections": [
+    {
+      "feature": "balance_of_trade",
+      "event_summary": "Increased imports widened trade deficit",
+      "edge_label": "widens trade deficit",
+      "evidence_quote": "Bangladesh's trade deficit ballooned to a record level of over 33 billion U.S. dollars ... on the back of increased imports",
+      "scope_justification": "The article discusses Bangladesh's country-wide trade deficit and aggregate national import and export figures, matching the balance-of-trade definition.",
+      "verification": {
+        "quote_similarity": 0.852,
+        "quote_best_match": "Bangladesh's trade deficit ballooned to a record level of over 33 billion U.S. dollars in the",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that Bangladesh's trade deficit 'ballooned... on the back of increased imports,' explicitly linking increased imports to a wider trade deficit at the national level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-08-18",
+      "balance_of_trade",
+      "widens trade deficit",
+      "Increased imports widened trade deficit"
+    ]
+  ],
+  "features_queried": [
+    "balance_of_trade",
+    "stock_market_close",
+    "exports"
+  ],
+  "num_connections_found": 1
+}

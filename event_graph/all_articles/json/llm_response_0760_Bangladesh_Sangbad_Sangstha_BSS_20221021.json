@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-10-21",
+    "url": "https://www.bssnews.net/news-flash/89286",
+    "body_preview": "DHAKA, Oct 21, 2022 (BSS) - Prime Minister Sheikh Hasina will inaugurate 50 industrial units, projects and facilities in Economic Zones (EZs) on October 26 marking the 50 years of independence.\n\nTalking to BSS, Bangladesh Economic Zones Authority (BEZA) Executive Chairman Shaikh Yusuf Harun said the Prime Minister will virtually inaugurate 50 industrial units, projects and facilities in the EZs across the country and BEZA will have the event at eight venues.\n\n\"These include commercial operations"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Economic zones encourage exports",
+      "edge_label": "encourages exports",
+      "evidence_quote": "It is also expected to produce and export products worth $40 billion annually in these economic zones.",
+      "scope_justification": "The article explicitly links economic-zone development with exporting products internationally, matching the feature's focus on goods sent abroad.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "It is also expected to produce and export products worth $40 billion annually in these economic zones.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The quoted sentence appears verbatim. The article explicitly states that establishing economic zones aims to increase and diversify exports, and it expects $40B in exports annually from these zones, which is at the national EZ program level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-10-21",
+      "exports",
+      "encourages exports",
+      "Economic zones encourage exports"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

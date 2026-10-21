@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-08-14",
+    "url": "https://www.bssnews.net/business/77088",
+    "body_preview": "DHAKA, Aug 14, 2022 (BSS) - Speakers at a seminar today opined that the current economic stress is temporary as all major indicators of the country are steadily coming back on the track.\n\n\"Not only the Bangladesh economy but the whole world is going through a tough time in terms of economic stress, inflation, fuel price hike and supply chain disruptions. Bangladesh is not an exception of this global economic chain, but we are not in a position to be panicked at all,\" said State Minister for Plan"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Diesel price hike raises inflation",
+      "edge_label": "increases inflation",
+      "evidence_quote": "Recent Diesel price hike will inevitably increase the inflation no doubt",
+      "scope_justification": "The article explicitly links a nationwide fuel-price increase to inflation, matching the feature's aggregate consumer price-level scope.",
+      "verification": {
+        "quote_similarity": 0.993,
+        "quote_best_match": "Recent Diesel price hike will inevitably increase the inflation no doubt,",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article includes the exact quote stating that the recent diesel price hike will inevitably increase inflation, explicitly asserting a causal link. The discussion is in the context of Bangladesh’s overall economy, matching the national inflation scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-08-14",
+      "inflation_rate",
+      "increases inflation",
+      "Diesel price hike raises inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

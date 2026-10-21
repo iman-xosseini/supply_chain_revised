@@ -1,0 +1,61 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2023-01-09",
+    "url": "https://www.bssnews.net/business/104238",
+    "body_preview": "DHAKA, Jan 9, 2023 (BSS) - Commerce Minister Tipu Munshi today said that considering the graduation from the LDCs, the government is focusing on signing Preferential Trade Agreements (PTAs) and Free Trade Agreements (FTAs) with potential partners.\n\n\"But, to avail international support measures even after LDC graduation, we need to enhance our negotiation skills,\" he said.\n\nThe commerce minister said these when the newly elected Board of Directors of DCCI, led by its president Barrister Md. Samee"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "LDC graduation threatens exports",
+      "edge_label": "reduces export access",
+      "evidence_quote": "after the LDC graduation, Bangladesh would lose the preferential market access and would face 8 to 16 percent export tariff as a developing country in different export markets.",
+      "scope_justification": "The article discusses Bangladesh's exports across different international markets and explicitly links LDC graduation to export losses, matching the country-level exports feature.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "after the LDC graduation, Bangladesh would lose the preferential market access and would face 8 to 16 percent export tariff as a developing country in different export markets.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states that after LDC graduation Bangladesh would lose preferential market access and face 8–16% export tariffs, linking graduation to reduced export access. This is discussed at the country level for Bangladesh’s exports across international markets."
+      }
+    },
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Tax benefits curb inflation",
+      "edge_label": "controls inflation",
+      "evidence_quote": "in order to keep prices of essential commodities affordable and keep inflation under control during the Ramadan, the NBR may consider giving certain tax benefits",
+      "scope_justification": "The article explicitly links proposed tax benefits to controlling inflation, which matches the feature's focus on general price-level increases.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "in order to keep prices of essential commodities affordable and keep inflation under control during the Ramadan, the NBR may consider giving certain tax benefits",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that to keep prices affordable and inflation under control during Ramadan, the NBR may consider giving certain tax benefits, explicitly linking tax benefits to controlling inflation. This is discussed at a national policy level in Bangladesh."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-01-09",
+      "exports",
+      "reduces export access",
+      "LDC graduation threatens exports"
+    ],
+    [
+      "2023-01-09",
+      "inflation_rate",
+      "controls inflation",
+      "Tax benefits curb inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 2
+}

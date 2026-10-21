@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2023-02-24",
+    "url": "https://www.bssnews.net/news-flash/112237",
+    "body_preview": "CHATTOGRAM, Feb 24, 2023 (BSS) - The country would not face any shortage of essential commodities in the coming fasting month of Ramadan as the timely measures of the government have helped increase the imports of consumer goods significantly stabilizing the market with sufficient supply.\n\nAlso the adequate imports of commodities have helped wholesalers build sizable stocks ahead of the Ramadan, thanks to the government for easing opening letters of credit (LCs) for essential commodities to keep"
+  },
+  "llm_connections": [
+    {
+      "feature": "imports",
+      "event_summary": "Government measures increased imports",
+      "edge_label": "increases import volume",
+      "evidence_quote": "the timely measures of the government have helped increase the imports of consumer goods significantly",
+      "scope_justification": "The article explicitly describes increased imports of consumer goods at the country level and links them to government measures, including eased LCs, matching the feature's focus on goods brought into the country.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "the timely measures of the government have helped increase the imports of consumer goods significantly",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states that “the timely measures of the government have helped increase the imports of consumer goods significantly,” attributing increased imports to government action at the country level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-02-24",
+      "imports",
+      "increases import volume",
+      "Government measures increased imports"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

@@ -1,0 +1,56 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-09-21",
+    "url": "https://www.bssnews.net/business/83800",
+    "body_preview": "DHAKA, Sept 21, 2022 (BSS) - Country Director of the Asian Development Bank (ADB) to Bangladesh Edimon Ginting today noted that the overall trend of the country's economy is 'positive'.\n\n\"The overall trend of the economy is still positive. But, if you can make the right policy, then you can make the economy stronger going forward,\" he said while responding to a volley of questions at the Bangladesh Resident Mission of ADB in the capital.\n\nThe ADB country director was speaking at the launching of"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Ukraine war uncertainty persists",
+      "edge_label": "slows exports",
+      "evidence_quote": "The main risk to this growth projection is a slowdown in exports caused by global uncertainty over the prolonged war in Ukraine.",
+      "scope_justification": "The article explicitly links global uncertainty to a slowdown in Bangladesh's overall exports, matching the national goods-export scope of the feature.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "The main risk to this growth projection is a slowdown in exports caused by global uncertainty over the prolonged war in Ukraine.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The exact quote appears and explicitly links global uncertainty from the prolonged Ukraine war to a slowdown in exports. The context is Bangladesh’s national exports, matching the scope."
+      }
+    },
+    {
+      "feature": "exports",
+      "event_summary": "Advanced economies slow growth",
+      "edge_label": "weakens export prospects",
+      "evidence_quote": "The moderately lower growth forecast reflects slower domestic demand and weaker export prospects due to slower growth in advanced economies.",
+      "scope_justification": "The claim concerns Bangladesh's broad export prospects and attributes their weakening to slower growth in advanced economies, matching the feature's national exports scope.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "The moderately lower growth forecast reflects slower domestic demand and weaker export prospects due to slower growth in advanced economies.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article contains the exact quote stating that weaker export prospects are due to slower growth in advanced economies, explicitly establishing causality at the Bangladesh (national) level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-09-21",
+      "exports",
+      "slows exports",
+      "Ukraine war uncertainty persists"
+    ],
+    [
+      "2022-09-21",
+      "exports",
+      "weakens export prospects",
+      "Advanced economies slow growth"
+    ]
+  ],
+  "features_queried": [
+    "balance_of_trade",
+    "stock_market_close",
+    "exports"
+  ],
+  "num_connections_found": 2
+}

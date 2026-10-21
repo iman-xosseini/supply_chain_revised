@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "FashionUnited",
+    "date": "2022-11-15",
+    "url": "https://fashionunited.com/news/business/casestudy-further-commits-to-global-and-sustainable-goals-with-new-office-in-bangladesh/2022111450705",
+    "body_preview": "Bangladesh has come a long way in recent years. And no one knows this more than Casestudy Country Manager Saroj Barua. Dhaka today is buzzing with the return of the world's biggest brands, far from where it was a few years ago after the Rana Plaza disaster. Saroj says there has been a massive shift in the country's mindset. Compliance is taken seriously, and better work conditions and production methods are now in place. According to Saroj, happy workers in happy workplaces improves production. "
+  },
+  "llm_connections": [
+    {
+      "feature": "imports",
+      "event_summary": "Domestic raw-material production expands",
+      "edge_label": "reduces raw-material imports",
+      "evidence_quote": "Bangladesh now produces more raw materials too. Taking away its reliance on China to import these",
+      "scope_justification": "The article describes Bangladesh reducing its imports of raw materials, which are goods brought into the country and explicitly fall within the feature's raw-material import scope.",
+      "verification": {
+        "quote_similarity": 0.995,
+        "quote_best_match": "Bangladesh now produces more raw materials too. Taking away its reliance on China to import these,",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that Bangladesh now produces more raw materials, ‘taking away its reliance on China to import these,’ explicitly linking increased domestic production to reduced raw-material imports. This is discussed at the country level (Bangladesh), matching the scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-11-15",
+      "imports",
+      "reduces raw-material imports",
+      "Domestic raw-material production expands"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

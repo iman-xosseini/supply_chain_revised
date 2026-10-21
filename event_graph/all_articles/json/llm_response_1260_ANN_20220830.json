@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "ANN",
+    "date": "2022-08-30",
+    "url": "https://asianews.network/bangladesh-considering-buying-indias-surplus-fuel-foreign-secretary/",
+    "body_preview": "DHAKA - In light of the ongoing global energy crisis, Dhaka is seeking a long-term partnership with Delhi to buy its surplus fuel, said said Foreign Secretary Masud Bin Momen yesterday (August 29, 2022).\n\n\"India is in a better position on the fuel issue. So, we will try to go for a long-term deal with them if they have a surplus. But it will depend on how much surplus they have. They have their own supply and demand thing,\" he told reporters at the foreign ministry.\n\nHe expected the Indian gover"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Fuel prices raise essentials",
+      "edge_label": "raises price levels",
+      "evidence_quote": "price hike of essentials, largely triggered by hike in fuel prices",
+      "scope_justification": "The article explicitly describes fuel-price increases driving broader price increases across essential goods, matching the feature’s price-level scope.",
+      "verification": {
+        "quote_similarity": 0.992,
+        "quote_best_match": "price hike of essentials, largely triggered by hike in fuel prices.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states that the “price hike of essentials” was “largely triggered by hike in fuel prices.” This establishes a clear causal link at a national price-level scope consistent with inflation-related effects."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-08-30",
+      "inflation_rate",
+      "raises price levels",
+      "Fuel prices raise essentials"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

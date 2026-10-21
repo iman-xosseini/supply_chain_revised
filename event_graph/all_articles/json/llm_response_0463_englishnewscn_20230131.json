@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "english.news.cn",
+    "date": "2023-01-31",
+    "url": "https://english.news.cn/asiapacific/20230131/bde57097884a4c4594e576f2bf0445b8/c.html",
+    "body_preview": "DHAKA, Jan. 31 (Xinhua) -- In an apparent bid to ease the subsidy burden, the Bangladeshi government has again raised the prices of power at both the wholesale and retail levels.\n\nThe new rates will come into effect from Feb. 1, 2023, according to a notice from the ministry of power, energy and mineral resources.\n\nThe retail price of electricity will be raised by 5 percent for the second time in less than a month while the wholesale prices are seeing an increase of 8.06 percent, according to the"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Electricity prices raised again",
+      "edge_label": "pushes up inflation",
+      "evidence_quote": "Experts claimed the markup in power prices would likely push up the nation's inflation rate again.",
+      "scope_justification": "The article explicitly links nationwide power-price increases to the nation's inflation rate, matching the feature's national general price-level scope.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "Experts claimed the markup in power prices would likely push up the nation's inflation rate again.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article contains the exact quote stating that experts believe higher power prices would likely push up the nation's inflation rate, explicitly linking the price increase to national inflation. The scope is national, matching the feature’s level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-01-31",
+      "inflation_rate",
+      "pushes up inflation",
+      "Electricity prices raised again"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

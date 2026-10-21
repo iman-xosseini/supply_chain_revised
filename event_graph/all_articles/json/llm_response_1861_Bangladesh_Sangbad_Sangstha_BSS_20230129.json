@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2023-01-29",
+    "url": "https://www.bssnews.net/business/107779",
+    "body_preview": "DHAKA, Jan 29, 2023 (BSS) - Centre for Policy Dialogue (CPD) has underscored\n\nthe need for developing human capital to attract more local and foreign\n\ninvestment in the country.\n\n\"In order to ensure a breakthrough public and private investment (including\n\nFDI), digital and technological development, skill development, innovation\n\nand creativity improvement are essential,\" said CPD Research Director Dr\n\nKhondaler Golam Moazzem.\n\nHe said this while presenting a report titled \"Bangladesh Business\n\n"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Inflation pressures Bangladeshi businesses",
+      "edge_label": "pressures consumers and businesses",
+      "evidence_quote": "people in Bangladesh are also struggling with food price, fuel inflation. Individuals as well as businesses are facing pressure due to this,",
+      "scope_justification": "The article describes broad inflation-related price pressures affecting people and businesses in Bangladesh, matching the feature's country-wide general price-level scope.",
+      "verification": {
+        "quote_similarity": 0.996,
+        "quote_best_match": "people in Bangladesh are also struggling with food price, fuel inflation. Individuals as well as businesses are facing pressure due to this,\"",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The quoted sentence appears verbatim and explicitly states that food price and fuel inflation are causing pressure on individuals and businesses. The statement refers to people and businesses in Bangladesh, matching a country-level scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-01-29",
+      "inflation_rate",
+      "pressures consumers and businesses",
+      "Inflation pressures Bangladeshi businesses"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2023-06-16",
+    "url": "https://www.bssnews.net/business/131549",
+    "body_preview": "DHAKA, June 16, 2023 (BSS) - The Bangladesh Bank (BB) will announce its monetary policy statement (MPS) on Sunday for the first half of the financial year 2023-24.\n\nBB Governor Abdur Rouf Talukder will announce the MPS at a press conference at the central bank headquarters in the city, said a press release.\n\nThe governor will also brief journalists on the outcome of the current MPS in managing inflation, driving inflow of private sector credit and propelling economic growth.\n\nDeputy governors, t"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "MPS manages inflation",
+      "edge_label": "manages inflation",
+      "evidence_quote": "outcome of the current MPS in managing inflation",
+      "scope_justification": "The article explicitly links Bangladesh Bank’s monetary policy statement to managing national inflation, matching the feature’s economy-wide price-level scope.",
+      "verification": {
+        "quote_similarity": 0.99,
+        "quote_best_match": "outcome of the current MPS in managing inflation,",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states the governor will brief on the 'outcome of the current MPS in managing inflation,' explicitly linking the MPS to managing inflation at the national level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-06-16",
+      "inflation_rate",
+      "manages inflation",
+      "MPS manages inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

@@ -1,0 +1,37 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-09-12",
+    "url": "https://www.bssnews.net/business/82196",
+    "body_preview": "DHAKA, Sept 12, 2022 (BSS) - Bangladesh has an additional export potential of $20 billion in the EU and UK and it would rise further as China was losing its share in the global market.\n\n\"It is possible to increase its export by $20 billion in the EU and UK with the existing capacity of Bangladesh through improving efficiency,\" said Research and Policy Integration for Development (RAPID) Chairman Dr Mohammad Abdur Razzaque said.\n\nAccording to a study conducted by RAPID, Bangladesh's export potent"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Efficiency boosts export potential",
+      "edge_label": "increases exports",
+      "evidence_quote": "It is possible to increase its export by $20 billion in the EU and UK with the existing capacity of Bangladesh through improving efficiency",
+      "scope_justification": "The article directly describes increasing Bangladesh's international export volume to the EU and UK, matching the exports feature's scope of goods sent internationally.",
+      "verification": {
+        "quote_similarity": 0.989,
+        "quote_best_match": "\"It is possible to increase its export by $20 billion in the EU and UK with the existing capacity of Bangladesh through improving efficiency,\"",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article includes the exact quote stating exports could increase by $20B in the EU and UK 'through improving efficiency,' explicitly linking efficiency improvements to increased exports at the country level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-09-12",
+      "exports",
+      "increases exports",
+      "Efficiency boosts export potential"
+    ]
+  ],
+  "features_queried": [
+    "balance_of_trade",
+    "stock_market_close",
+    "exports"
+  ],
+  "num_connections_found": 1
+}

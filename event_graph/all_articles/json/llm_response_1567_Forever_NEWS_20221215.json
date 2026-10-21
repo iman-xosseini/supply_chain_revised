@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Forever NEWS",
+    "date": "2022-12-15",
+    "url": "https://www.forevernews.in/politics/hasina-asks-people-to-choose-between-peaceful-life-or-bnp-jamat-alliances-mischief-712083",
+    "body_preview": "By Sumi Khan\n\nDhaka, Dec 15 (IANS) Prime Minister Sheikh Hasina on Thursday asked the nation to decide between the Jamat-BNP who established only communalism, militancy, and politics of killing, or her Awami League, to go ahead with progress, and fulfil the dream of the Father of the Nation Bangabandhu Sheikh Mujibur Rahman by establishing a happy, prosperous, non-communal Bangladesh.\n\n\"Now, it is up to you, the people of the country, to choose what you want - a continuation of a peaceful dignif"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "War-driven commodity price increases",
+      "edge_label": "raises price levels",
+      "evidence_quote": "the prices of commodities in the international markets, induced by the Ukraine-Russia war, economic sanctions, and counter-sanctions",
+      "scope_justification": "The article links broad commodity price increases and rising daily-necessity prices to international events, matching the feature's scope of general price-level inflation.",
+      "verification": {
+        "quote_similarity": 0.996,
+        "quote_best_match": "the prices of commodities in the international markets, induced by the Ukraine-Russia war, economic sanctions, and counter-sanctions.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that the Ukraine-Russia war and related sanctions induced higher international commodity prices and transport costs, and presents these as the reason for rising prices of daily necessities in Bangladesh. This links war-driven commodity price increases to higher domestic price levels (inflation) at the national scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-12-15",
+      "inflation_rate",
+      "raises price levels",
+      "War-driven commodity price increases"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

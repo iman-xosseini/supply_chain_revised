@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "english.news.cn",
+    "date": "2023-04-05",
+    "url": "https://english.news.cn/asiapacific/20230405/ab3f77ea2272486bba5e2ef831fafe65/c.html",
+    "body_preview": "DHAKA, April 5 (Xinhua) -- Inflation in Bangladesh jumped to 9.33 percent in March mainly due to higher consumer prices in the country, the Bangladesh Bureau of Statistics (BBS) reported Tuesday.\n\nData showed month-on-month inflation in Bangladesh increased by 1.13 percent in March over February.\n\nIn March, the food inflation rocketed to 9.09 percent from 8.13 percent a month ago, while non-food inflation was 9.72 percent compared with 9.82 percent in February.\n\nBangladesh's inflation rose 8.78 "
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Consumer prices raise inflation",
+      "edge_label": "raises inflation",
+      "evidence_quote": "Inflation in Bangladesh jumped to 9.33 percent in March mainly due to higher consumer prices in the country",
+      "scope_justification": "The article explicitly describes a country-wide CPI inflation increase caused by higher consumer prices, matching the national inflation-rate definition.",
+      "verification": {
+        "quote_similarity": 0.995,
+        "quote_best_match": "Inflation in Bangladesh jumped to 9.33 percent in March mainly due to higher consumer prices in the country,",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that Bangladesh’s inflation jumped to 9.33% in March “mainly due to higher consumer prices,” explicitly linking higher consumer prices to the inflation increase at the national level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-04-05",
+      "inflation_rate",
+      "raises inflation",
+      "Consumer prices raise inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

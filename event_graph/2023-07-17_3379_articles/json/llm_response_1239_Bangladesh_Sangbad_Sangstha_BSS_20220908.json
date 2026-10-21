@@ -1,0 +1,37 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-09-08",
+    "url": "https://www.bssnews.net/business/81376",
+    "body_preview": "RAJSHAHI, Sept 8, 2022 (BSS)- Export prospects of jute produced in the region\n\nis very bright as its production side by side with demand of jute and jute\n\ngoods has gradually been rising for the last couple of years.\n\nKazi Saidur Rahman, Assistant Director of Export Promotion of Bangladesh\n\n(EPB), here said lion portions of jute produced in the country's northwest\n\nregion are being exported to nearby India.\n\nHe informed jute valued at around one crore US dollar were exported from the\n\nregion las"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Rising jute production and demand",
+      "edge_label": "raises export prospects",
+      "evidence_quote": "Export prospects of jute produced in the region is very bright as its production side by side with demand of jute and jute goods has gradually been rising",
+      "scope_justification": "The article explicitly links rising production and demand to the prospects for sending jute and jute goods internationally, matching the exports feature.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "Export prospects of jute produced in the region is very bright as its production side by side with demand of jute and jute goods has gradually been rising",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states that export prospects are bright because production and demand for jute and jute goods have been rising. This is discussed at the regional level, matching the feature’s context of exports from the region."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-09-08",
+      "exports",
+      "raises export prospects",
+      "Rising jute production and demand"
+    ]
+  ],
+  "features_queried": [
+    "balance_of_trade",
+    "stock_market_close",
+    "exports"
+  ],
+  "num_connections_found": 1
+}

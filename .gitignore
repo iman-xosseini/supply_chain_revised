@@ -1,0 +1,39 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+.venv_shap
+# Environment variables
+.env
+.vscode
+
+# Project files
+notebook/archive/
+notebook/tests/
+notebook/Questions_regarding_paper/
+notebook/working
+notebook/revision_after_review
+
+# data
+data/tradingeconomics
+data/FinalDataset/archive/
+data/processed/
+data/Weather Datasets/
+
+# serialized objects / trained models (large, regenerable)
+*.pkl
+*.pickle
+*.joblib
+
+# models
+models/*
+!models/models_performance.csv
+
+# reviews
+paper_reviews/

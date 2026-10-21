@@ -1,0 +1,61 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2023-06-01",
+    "url": "https://www.bssnews.net/national-budget-2023-2024/128488",
+    "body_preview": "DHAKA, June 01, 2023 (BSS) - Finance Minister AHM Mustafa Kamal today said the government will focus on sustaining the economic recovery by successfully implementing the ongoing stimulus packages.\n\n\"We have completely overcome the effects of the pandemic. Therefore, in this budget, our aim will be to sustain the economic recovery by successfully implementing the ongoing stimulus packages,\" he said.\n\nThe minister said this while placing over Taka 7.61 lakh crore national budget for FY23-24 at the"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Post-war inflation surge",
+      "edge_label": "increases inflation",
+      "evidence_quote": "the increase in import costs due to post-war global inflation and the depreciation of the country's foreign exchange rate led to a surge of average inflation to 9.5 percent",
+      "scope_justification": "The article explicitly describes a national average inflation rate, matching the feature's aggregate consumer-price-level scope.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "the increase in import costs due to post-war global inflation and the depreciation of the country's foreign exchange rate led to a surge of average inflation to 9.5 percent",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that post-war global inflation (via higher import costs) and currency depreciation “led to a surge of average inflation to 9.5 percent,” explicitly linking the event to higher national inflation. The quote appears nearly verbatim and refers to Bangladesh’s average inflation rate, matching the national scope."
+      }
+    },
+    {
+      "feature": "currency_log_return",
+      "event_summary": "Currency depreciation raises costs",
+      "edge_label": "raises import costs",
+      "evidence_quote": "the increase in import costs due to post-war global inflation and the depreciation of the country's foreign exchange rate",
+      "scope_justification": "The article links a country-wide exchange-rate depreciation directly to increased import costs, matching the feature's exchange-rate movement and import-cost scope.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "the increase in import costs due to post-war global inflation and the depreciation of the country's foreign exchange rate",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states that import costs increased due to post-war global inflation and the depreciation of the country's foreign exchange rate, at a national (Bangladesh) level. This directly supports the causal link between currency depreciation and higher import costs."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-06-01",
+      "inflation_rate",
+      "increases inflation",
+      "Post-war inflation surge"
+    ],
+    [
+      "2023-06-01",
+      "currency_log_return",
+      "raises import costs",
+      "Currency depreciation raises costs"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 2
+}

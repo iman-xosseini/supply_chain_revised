@@ -1,0 +1,99 @@
+{
+  "article": {
+    "source": "ANN",
+    "date": "2023-07-04",
+    "url": "https://asianews.network/bangladeshs-inflation-climbs-to-12-year-high/",
+    "body_preview": "DHAKA - Average inflation in Bangladesh surpassed the government's target for the just-concluded fiscal year by a large margin as higher prices of goods and services continue to linger for the economic crisis at home and abroad.\n\nThe Consumer Price Index (CPI) rose 9.02 per cent in 2022-23 against the government's revised target of 7.5 per cent. This was the highest average inflation rate in 12 years, according to the Bangladesh Bureau of Statistics (BBS).\n\nThis was much higher than the 5-6 per "
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Crisis-driven price surge",
+      "edge_label": "raises inflation",
+      "evidence_quote": "higher prices of goods and services continue to linger for the economic crisis at home and abroad",
+      "scope_justification": "The article explicitly links economy-wide prices during domestic and international crises to Bangladesh's general inflation rate measured by CPI.",
+      "verification": {
+        "quote_similarity": 0.995,
+        "quote_best_match": "higher prices of goods and services continue to linger for the economic crisis at home and abroad.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that average inflation surpassed the target \"as higher prices of goods and services continue to linger for the economic crisis at home and abroad,\" explicitly linking crisis-driven price pressures to higher national inflation in Bangladesh."
+      }
+    },
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Demand-boosting policies fuel inflation",
+      "edge_label": "adds inflationary pressure",
+      "evidence_quote": "These policies further added to inflationary pressures.",
+      "scope_justification": "The quoted policies concern domestic credit, interest-rate controls, and the fiscal deficit, while the resulting effect is explicitly stated as broader inflationary pressure.",
+      "verification": {
+        "quote_similarity": 0.991,
+        "quote_best_match": "These policies further added to inflationary pressures.\"",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states that government policies boosting demand (via increased domestic credit, interest-rate controls, and a higher fiscal deficit) 'further added to inflationary pressures.' This pertains to Bangladesh’s overall inflation, matching the feature’s scope."
+      }
+    },
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Currency depreciation raises prices",
+      "edge_label": "increases inflation",
+      "evidence_quote": "higher prices of imported items and a larger depreciation of the taka",
+      "scope_justification": "The article identifies national-level imported-price increases and taka depreciation as factors behind elevated domestic commodity prices and inflation.",
+      "verification": {
+        "quote_similarity": 0.993,
+        "quote_best_match": "higher prices of imported items and a larger depreciation of the taka,",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states that a larger depreciation of the taka is among factors blamed for elevated domestic commodity prices and inflation in Bangladesh. This is discussed at the national level, matching the scope of the inflation_rate feature."
+      }
+    },
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Reduced purchasing power lowers demand",
+      "edge_label": "reduces inflation",
+      "evidence_quote": "the decline in the purchasing power of consumers has started to pinch demand for non-food items",
+      "scope_justification": "The article directly connects economy-wide consumer purchasing power and demand reduction with a decline in headline inflation through lower non-food inflation.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "the decline in the purchasing power of consumers has started to pinch demand for non-food items",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The quoted sentence appears verbatim. The article links reduced purchasing power to lower demand for non-food items and states headline inflation declined due to a drop in non-food inflation, strongly implying the demand reduction contributed to lower inflation at the national level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-07-04",
+      "inflation_rate",
+      "raises inflation",
+      "Crisis-driven price surge"
+    ],
+    [
+      "2023-07-04",
+      "inflation_rate",
+      "adds inflationary pressure",
+      "Demand-boosting policies fuel inflation"
+    ],
+    [
+      "2023-07-04",
+      "inflation_rate",
+      "increases inflation",
+      "Currency depreciation raises prices"
+    ],
+    [
+      "2023-07-04",
+      "inflation_rate",
+      "reduces inflation",
+      "Reduced purchasing power lowers demand"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 4
+}

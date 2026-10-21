@@ -1,0 +1,37 @@
+{
+  "article": {
+    "source": "ANN",
+    "date": "2022-08-12",
+    "url": "https://asianews.network/can-bangladesh-ensure-a-soft-landing/",
+    "body_preview": "DHAKA - Economists are fond of drawing analogies from flying. Thus, when economies attain sufficient, sustained growth, they \"take off.\" When external conditions help them grow faster, they are pushed by \"tailwinds.\" Conversely, if unfavourable conditions force them to slow, they face the \"headwinds.\" When economies are unstable, it is \"bumpy.\" When they have to slow down quickly and significantly, we question whether they will have an orderly slowdown, a \"soft landing,\" or a disruptive one, a \""
+  },
+  "llm_connections": [
+    {
+      "feature": "balance_of_trade",
+      "event_summary": "Higher prices widen trade deficit",
+      "edge_label": "widens trade deficit",
+      "evidence_quote": "High oil, LNG, cooking oil and food prices, and an overvalued foreign exchange rate, increased our import bill in the last year to USD 84 billion, the trade deficit to USD 32 billion",
+      "scope_justification": "The article explicitly reports Bangladesh's country-wide trade deficit, which matches the definition as the difference between national imports and exports.",
+      "verification": {
+        "quote_similarity": 0.997,
+        "quote_best_match": "High oil, LNG, cooking oil and food prices, and an overvalued foreign exchange rate, increased our import bill in the last year to USD 84 billion, the trade deficit to USD 32 billion,",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that high prices (along with an overvalued exchange rate) increased the import bill and the trade deficit to specific national figures, explicitly linking higher prices to a wider trade deficit at the country level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-08-12",
+      "balance_of_trade",
+      "widens trade deficit",
+      "Higher prices widen trade deficit"
+    ]
+  ],
+  "features_queried": [
+    "balance_of_trade",
+    "stock_market_close",
+    "exports"
+  ],
+  "num_connections_found": 1
+}

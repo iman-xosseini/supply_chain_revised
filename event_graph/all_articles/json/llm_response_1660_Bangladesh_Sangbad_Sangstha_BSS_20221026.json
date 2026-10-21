@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-10-26",
+    "url": "https://www.bssnews.net/news-flash/90236",
+    "body_preview": "DHAKA, Oct 26, 2022 (BSS) - Chinese Ambassador to Bangladesh Li Jiming today said Beijing's basic intention is to resolve all regional disputes in an \"Asian Way\" instead of heeding western suggestions to ensure peace and stability in this region.\n\n\"We (China) believe, we should solve our regional problems in Asian way ... not by (following) standard practice of European way (here),\" he said.\n\nThe Chinese envoy was speaking at \"DCAB Talk\" organized by Diplomatic Correspondents Association of Bang"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Zero tariffs boost exports",
+      "edge_label": "boosts exports",
+      "evidence_quote": "With the 98 per cent zero-tariff treatment entering into force this September, it is expected that Bangladesh's export to China would be boosted",
+      "scope_justification": "The article explicitly links a trade policy change to Bangladesh's internationally shipped goods, matching the exports feature's focus on goods sent abroad.",
+      "verification": {
+        "quote_similarity": 0.997,
+        "quote_best_match": "With the 98 per cent zero-tariff treatment entering into force this September, it is expected that Bangladesh's export to China would be boosted,",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that with 98% zero-tariff treatment entering into force, it is expected Bangladesh’s exports to China would be boosted, explicitly implying a causal effect at the country level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-10-26",
+      "exports",
+      "boosts exports",
+      "Zero tariffs boost exports"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

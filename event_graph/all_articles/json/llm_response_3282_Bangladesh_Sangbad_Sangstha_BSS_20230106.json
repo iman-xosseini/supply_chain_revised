@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2023-01-06",
+    "url": "https://www.bssnews.net/news/103741",
+    "body_preview": "DHAKA, Jan 6, 2022 (BSS) - Prime Minister Sheikh Hasina addressed the nation this evening on completion of the fourth year of her government.\n\nThe full text of her televised address is as follows:\n\nBismillahir Rahmanir Rahim\n\nDear Countrymen,\n\nAssalamu Alaikum.\n\nOn the occasion of the fourth anniversary of the formation of the government after being elected by the people in the 11th National Parliamentary Elections, I extend my sincere greetings and congratulations to the countrymen and the expa"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "War-driven domestic price increases",
+      "edge_label": "raises price levels",
+      "evidence_quote": "As a result, the price of goods has also increased in our country.",
+      "scope_justification": "The article describes a country-wide increase in goods prices, matching the feature's definition of a general rise in price levels.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "As a result, the price of goods has also increased in our country.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states that due to Russia-Ukraine-related sanctions and higher transport costs, prices of goods in the country have increased, including the sentence: 'As a result, the price of goods has also increased in our country.' This refers to a country-wide rise in prices, matching the inflation scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-01-06",
+      "inflation_rate",
+      "raises price levels",
+      "War-driven domestic price increases"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

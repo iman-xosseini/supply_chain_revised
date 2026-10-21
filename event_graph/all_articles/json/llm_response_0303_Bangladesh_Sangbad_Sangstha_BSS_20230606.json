@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2023-06-06",
+    "url": "https://www.bssnews.net/news-flash/129497",
+    "body_preview": "DHAKA, June 6, 2023 (BSS) - Prime Minister Sheikh Hasina today urged the authorities concerned to expedite the formulation and implementation of various projects under the Government to Government (G2G) initiatives.\n\nThe Prime Minister gave the directive while chairing a meeting of the Executive Committee of the National Economic Council (ECNEC) as its chairperson held at the NEC conference room in the city's Sher-e-Bangla Nagar area.\n\nBriefing reporters after the meeting, Planning Minister MA M"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Smooth supply chain contains inflation",
+      "edge_label": "contains inflation",
+      "evidence_quote": "We'll have to keep the process (supply chain) smooth and ensure that no destructive element can hinder the process. Otherwise, it will be hard to contain it",
+      "scope_justification": "The article links maintaining the national supply chain process to containing overall inflation, matching the feature's economy-wide price-level scope.",
+      "verification": {
+        "quote_similarity": 0.997,
+        "quote_best_match": "\"We'll have to keep the process (supply chain) smooth and ensure that no destructive element can hinder the process. Otherwise, it will be hard to contain it",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The quoted sentence appears in the article and clearly links maintaining a smooth supply chain to containing inflation. The discussion is at the national (Bangladesh) economy-wide level, matching the feature’s scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-06-06",
+      "inflation_rate",
+      "contains inflation",
+      "Smooth supply chain contains inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

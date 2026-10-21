@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-09-14",
+    "url": "https://www.bssnews.net/business/82588",
+    "body_preview": "CHATTOGRAM, Sept 14, 2022 (BSS) - Jute and Textiles Minister Golam Dastgir\n\nGazi Birpratik, MP said all closed mills under Bangladesh Jute Mill\n\nCorporation (BJMC) will be opened in phases.\n\n\"The rental-based mills of BJMC have started production and export of jute\n\nproducts under private management. These mills have created new employment\n\nopportunities for many people in the country,\" he said.\n\nGolam Dastgir Gazi said this while talking to the journalists after visiting\n\nthe city's Amin Jute M"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Leased mills start exports",
+      "edge_label": "enables jute exports",
+      "evidence_quote": "The rental-based mills of BJMC have started production and export of jute products under private management.",
+      "scope_justification": "The article explicitly describes goods being sent internationally, matching the exports feature's definition.",
+      "verification": {
+        "quote_similarity": 0.995,
+        "quote_best_match": "\"The rental-based mills of BJMC have started production and export of jute products under private management.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The quoted sentence appears verbatim and directly states that the rental-based (leased) BJMC mills have started exporting, which explicitly results in jute exports. The scope concerns export activity of these mills, fitting the exports feature."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-09-14",
+      "exports",
+      "enables jute exports",
+      "Leased mills start exports"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

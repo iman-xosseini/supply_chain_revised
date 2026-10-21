@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Daily Sun",
+    "date": "2023-02-06",
+    "url": "https://www.daily-sun.com/post/672502/General-pointtopoint-inflation-eases-further-to-8.57",
+    "body_preview": "DHAKA - The general point-to-point inflation rate in January eased further as it fell to 8.57 percentage points down from 8.71 percentage points last December mainly because of the downtrend in food and non-food inflation.\n\nThe general point-to-point inflation rate in November last was 8.85 percentage points, according to the monthly consumer price (CPI) index of the Bangladesh Bureau of Statistics (BBS).\n\nOn the other hand, the point-to-point non-food inflation also declined slightly to 9.84 pe"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Food and non-food disinflation",
+      "edge_label": "reduces inflation",
+      "evidence_quote": "The general point-to-point inflation rate in January eased further ... mainly because of the downtrend in food and non-food inflation.",
+      "scope_justification": "The article explicitly links declines in food and non-food inflation to the national general point-to-point CPI inflation rate.",
+      "verification": {
+        "quote_similarity": 0.69,
+        "quote_best_match": "percentage points last December mainly because of the downtrend in food and non-food inflation.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that general inflation eased mainly because of a downtrend in food and non-food inflation, explicitly linking the categories’ disinflation to the national CPI. The scope is country-level Bangladesh, matching the feature."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-02-06",
+      "inflation_rate",
+      "reduces inflation",
+      "Food and non-food disinflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

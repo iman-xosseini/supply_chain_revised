@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2023-01-06",
+    "url": "https://www.bssnews.net/news/103741",
+    "body_preview": "DHAKA, Jan 6, 2022 (BSS) - Prime Minister Sheikh Hasina addressed the nation this evening on completion of the fourth year of her government.\n\nThe full text of her televised address is as follows:\n\nBismillahir Rahmanir Rahim\n\nDear Countrymen,\n\nAssalamu Alaikum.\n\nOn the occasion of the fourth anniversary of the formation of the government after being elected by the people in the 11th National Parliamentary Elections, I extend my sincere greetings and congratulations to the countrymen and the expa"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "War-driven commodity price increase",
+      "edge_label": "increases price levels",
+      "evidence_quote": "Due to sanctions of Western countries and counter sanctions of Russia, the prices of daily commodities including food and fuel have increased abnormally.",
+      "scope_justification": "The article describes broad increases in daily commodity prices in Bangladesh, matching the national general-price scope of the inflation-rate feature.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "Due to sanctions of Western countries and counter sanctions of Russia, the prices of daily commodities including food and fuel have increased abnormally.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that due to Western sanctions and Russian counter-sanctions related to the Russia-Ukraine war, prices of daily commodities increased abnormally, and consequently prices of goods increased in Bangladesh. This explicitly links the war-driven factors to higher general price levels at the national scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-01-06",
+      "inflation_rate",
+      "increases price levels",
+      "War-driven commodity price increase"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

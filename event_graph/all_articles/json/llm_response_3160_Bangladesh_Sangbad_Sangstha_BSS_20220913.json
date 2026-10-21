@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-09-13",
+    "url": "https://www.bssnews.net/business/82382",
+    "body_preview": "DHAKA, Sept 13, 2022 (BSS) - Bangladesh-built 6100 DWT, a high-speed multi-\n\npurpose container ship, has completed its technical handover export process\n\nto the United Kingdom buyer \"Enzian Shipping Company Ltd.\"\n\nThe ship has a built-in Ananda Shipyard located at Meghna Ghat of Sonargaon\n\nUpazila of Narayanganj, said a press release.\n\nThe handing-over ceremony was held today in the Inter-Continental hotel\n\ngraced by the State Minister for Shipping Khalid Mahmud Chowdhury as the\n\nchief guest.\n\nT"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Ship exported to UK",
+      "edge_label": "adds to exports",
+      "evidence_quote": "Bangladesh exported a modern multipurpose container ship to the United Kingdom today.",
+      "scope_justification": "The article explicitly describes an internationally sent manufactured good, matching the feature's definition of goods sent internationally.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "Bangladesh exported a modern multipurpose container ship to the United Kingdom today.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states, “Bangladesh exported a modern multipurpose container ship to the United Kingdom today,” which directly implies an export event, thereby adding to exports at the country level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-09-13",
+      "exports",
+      "adds to exports",
+      "Ship exported to UK"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

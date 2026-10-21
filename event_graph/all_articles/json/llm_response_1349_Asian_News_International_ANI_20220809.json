@@ -1,0 +1,61 @@
+{
+  "article": {
+    "source": "Asian News International (ANI)",
+    "date": "2022-08-09",
+    "url": "https://www.aninews.in/news/world/asia/bangladesh-textile-faces-major-challanges-amid-global-recession20220810013320/",
+    "body_preview": "Dhaka [Bangladesh], August 10 (ANI): Bangladesh's textile industry is currently facing major challenges due to the global recession and inflation as retailers in both European and US markets are either deferring the shipments of finished products or delaying orders due to soaring inflation.\n\nThe world's second-largest garment exporter after China is facing prolonged challenges including power shortage domestically affecting production on one hand while its major markets are postponing shipments "
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Demand constraints reduce exports",
+      "edge_label": "constricts export growth",
+      "evidence_quote": "Since then the RMG exports could not pick up to the desired level of growth due to constricted demand",
+      "scope_justification": "The article directly describes Bangladesh's RMG goods sent internationally and states that constrained demand limited their export growth.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "Since then the RMG exports could not pick up to the desired level of growth due to constricted demand",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states, 'Since then the RMG exports could not pick up to the desired level of growth due to constricted demand,' explicitly linking constrained demand to limited export growth for Bangladesh’s RMG sector. This is at the country/sector level, matching the scope."
+      }
+    },
+    {
+      "feature": "exports",
+      "event_summary": "Covid disruptions cut exports",
+      "edge_label": "reduces export volume",
+      "evidence_quote": "In the first week of April 2020, RMG exports declined by almost 84 per cent.",
+      "scope_justification": "RMG exports are internationally shipped goods, so the explicitly reported decline directly matches the exports feature's scope.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "In the first week of April 2020, RMG exports declined by almost 84 per cent.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states, “In the first week of April 2020, RMG exports declined by almost 84 per cent,” and links this drop to the onset of Covid-19 through order cancellations and Covid-related obstacles. The discussion is at the national RMG export level, matching the scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-08-09",
+      "exports",
+      "constricts export growth",
+      "Demand constraints reduce exports"
+    ],
+    [
+      "2022-08-09",
+      "exports",
+      "reduces export volume",
+      "Covid disruptions cut exports"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 2
+}

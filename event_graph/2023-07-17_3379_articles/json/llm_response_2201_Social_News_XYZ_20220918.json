@@ -1,0 +1,75 @@
+{
+  "article": {
+    "source": "Social News XYZ",
+    "date": "2022-09-18",
+    "url": "https://www.socialnews.xyz/2022/09/18/bangladesh-eyes-100-billion-usd-export-earnings-by-2026/",
+    "body_preview": "Dhaka, Sep 18 (SocialNews.XYZ) Bangladesh has embarked on a high growth path with an aim to double its export earnings in just four years, country's Commerce Minister Tipu Munshi said.\n\nAddressing a meeting with the Overseas Correspondents Association of Bangladesh (OCAB) at the National Press Club in Dhaka on Saturday, he said the government has planned an export target of 100 billion US dollars by 2026.\n\n\"We're planning an export target of 80 billion US dollars by 2024 and 100 billion US dolla"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Export initiatives target growth",
+      "edge_label": "increases exports",
+      "evidence_quote": "the government is taking special initiatives to increase the export of 10 products including ICT, leather, plastic, light engineering and jute.",
+      "scope_justification": "The article explicitly links government initiatives to increasing exports, matching the feature's definition of goods sent internationally, although it specifies selected product categories.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "the government is taking special initiatives to increase the export of 10 products including ICT, leather, plastic, light engineering and jute.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The quoted sentence appears verbatim and explicitly links government initiatives to increasing exports. The context is national-level export policy for Bangladesh, matching the scope."
+      }
+    },
+    {
+      "feature": "exports",
+      "event_summary": "China raises duty-free access",
+      "edge_label": "expands export opportunities",
+      "evidence_quote": "China has already announced to raise duty-free access to 98 per cent Bangladeshi products.",
+      "scope_justification": "The article presents expanded duty-free access for Bangladeshi goods as improving the country's export prospects, directly concerning internationally sent goods.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "China has already announced to raise duty-free access to 98 per cent Bangladeshi products.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article includes the quoted line about China raising duty-free access to 98% of Bangladeshi products and links it to a brighter outlook and potential to export more garments, implying increased export opportunities at the country level."
+      }
+    },
+    {
+      "feature": "exports",
+      "event_summary": "China garment relocation increases chances",
+      "edge_label": "increases export chances",
+      "evidence_quote": "China's garment industry is relocating. As a result, our chances have increased.",
+      "scope_justification": "The stated result concerns Bangladesh's opportunities in garment exports, which are goods sent internationally and therefore fall within the exports feature.",
+      "verification": {
+        "quote_similarity": 0.994,
+        "quote_best_match": "China's garment industry is relocating. \"As a result, our chances have increased.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article includes the exact quote: 'China's garment industry is relocating. As a result, our chances have increased.' This explicitly links China's garment relocation to increased opportunities for Bangladesh, discussed at the national export/garment sector level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-09-18",
+      "exports",
+      "increases exports",
+      "Export initiatives target growth"
+    ],
+    [
+      "2022-09-18",
+      "exports",
+      "expands export opportunities",
+      "China raises duty-free access"
+    ],
+    [
+      "2022-09-18",
+      "exports",
+      "increases export chances",
+      "China garment relocation increases chances"
+    ]
+  ],
+  "features_queried": [
+    "balance_of_trade",
+    "stock_market_close",
+    "exports"
+  ],
+  "num_connections_found": 3
+}

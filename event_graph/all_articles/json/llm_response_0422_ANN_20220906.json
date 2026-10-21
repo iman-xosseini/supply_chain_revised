@@ -1,0 +1,80 @@
+{
+  "article": {
+    "source": "ANN",
+    "date": "2022-09-06",
+    "url": "https://asianews.network/understanding-the-proposed-bangladesh-india-agreement/",
+    "body_preview": "DHAKA - Bangladesh and India enjoy cooperation and warm relations in almost every area. Throughout history, both countries have cultivated an economic dependency through export relations. At present, both the countries are experiencing high growth and stable rise. To consolidate their growth and dependency, they have embarked on signing a comprehensive economic partnership agreement, titled Bangladesh-India Comprehensive Economic Partnership Agreement (CEPA).\n\nCurrently, both countries are diplo"
+  },
+  "llm_connections": [
+    {
+      "feature": "balance_of_trade",
+      "event_summary": "CEPA targets trade-gap reduction",
+      "edge_label": "reduces trade gap",
+      "evidence_quote": "The main target of the proposed CEPA is to reduce the huge trade gap between Bangladesh and India",
+      "scope_justification": "The article explicitly addresses the bilateral trade gap, matching the country-level difference between imports and exports represented by the balance of trade.",
+      "verification": {
+        "quote_similarity": 0.974,
+        "quote_best_match": "main target of the proposed CEPA is to reduce the huge trade gap between Bangladesh and India,",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states verbatim that the main target of CEPA is to reduce the huge trade gap between Bangladesh and India, explicitly linking CEPA to reducing the bilateral trade gap (country-level balance of trade)."
+      }
+    },
+    {
+      "feature": "exports",
+      "event_summary": "CEPA boosts export momentum",
+      "edge_label": "boosts export activity",
+      "evidence_quote": "the trading regime between the two countries, including imports, exports, related rules and regulations, will get new momentum",
+      "scope_justification": "The article explicitly identifies exports within the bilateral trading regime and states that CEPA will increase its momentum, matching internationally sent goods at the country level.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "the trading regime between the two countries, including imports, exports, related rules and regulations, will get new momentum",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that under CEPA, the bilateral trading regime, including exports, will get new momentum, explicitly linking the agreement to increased export momentum at the country-to-country level."
+      }
+    },
+    {
+      "feature": "imports",
+      "event_summary": "CEPA boosts import momentum",
+      "edge_label": "boosts import activity",
+      "evidence_quote": "the trading regime between the two countries, including imports, exports, related rules and regulations, will get new momentum",
+      "scope_justification": "The article explicitly identifies imports within the bilateral trading regime and states that CEPA will increase its momentum, matching country-level goods brought in from abroad.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "the trading regime between the two countries, including imports, exports, related rules and regulations, will get new momentum",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that under CEPA, the trading regime between the two countries, including imports, will get new momentum, explicitly linking CEPA to increased import momentum. This is discussed at the bilateral, country-level scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-09-06",
+      "balance_of_trade",
+      "reduces trade gap",
+      "CEPA targets trade-gap reduction"
+    ],
+    [
+      "2022-09-06",
+      "exports",
+      "boosts export activity",
+      "CEPA boosts export momentum"
+    ],
+    [
+      "2022-09-06",
+      "imports",
+      "boosts import activity",
+      "CEPA boosts import momentum"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 3
+}

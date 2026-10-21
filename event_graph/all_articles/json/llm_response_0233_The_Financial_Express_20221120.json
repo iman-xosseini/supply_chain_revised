@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "The Financial Express",
+    "date": "2022-11-20",
+    "url": "https://thefinancialexpress.com.bd/trade/lng-import-to-go-up-25pc-in-dec-1668912258",
+    "body_preview": "Bangladesh will increase liquefied natural gas (LNG) import by around 25 per cent in December compared to its November and October imports respectively to feed growing demand for natural gas in industries, despite financial tightening.\n\nThe government will import a total of five LNG cargoes from long-term suppliers during December against its import of four LNG cargoes each during October and November, says a senior official of the state-run Petrobangla.\n\nFed on the higher imports, the quantity "
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Gas squeeze threatens exports",
+      "edge_label": "threatens export flow",
+      "evidence_quote": "growing concern that production squeeze would have on supplies on the already-overheated domestic market and on export",
+      "scope_justification": "The article links a national gas-supply squeeze to export activity and identifies export earnings as a country-level source of foreign-exchange reserves.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "growing concern that production squeeze would have on supplies on the already-overheated domestic market and on export",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that authorities scaled down gas to power plants due to concern that a production squeeze would affect the domestic market and exports, which are key to foreign-exchange reserves. This explicitly links the gas/production squeeze to a threat to national export flows."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-11-20",
+      "exports",
+      "threatens export flow",
+      "Gas squeeze threatens exports"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

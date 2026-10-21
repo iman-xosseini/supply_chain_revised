@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2023-03-02",
+    "url": "https://www.bssnews.net/news-flash/113445",
+    "body_preview": "DHAKA, March 2, 2023 (BSS) - Information and Broadcasting Minister and Awami League Joint General Secretary Dr Hasan Mahmud today said despite the recent hike in the price of electricity in the country, the tariff of power still remains less than in many countries.\n\n\"The increase in electricity price has exceeded cent per cent in the United Kingdom. It (price) has exceeded 20 to 100 per cent in European Union countries . . . It is 21 per cent in Germany and 95 per cent in Belgium. In this contex"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "War drives global inflation",
+      "edge_label": "drives inflation",
+      "evidence_quote": "He said inflation has taken place all over the world due to the Russia-Ukraine war.",
+      "scope_justification": "The article explicitly links the Russia-Ukraine war to country-level and global inflation, matching the feature's scope as a general rise in price levels.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "He said inflation has taken place all over the world due to the Russia-Ukraine war.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states, 'inflation has taken place all over the world due to the Russia-Ukraine war,' which directly matches the quote, explicitly asserts causality, and addresses global inflation consistent with the feature's scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-03-02",
+      "inflation_rate",
+      "drives inflation",
+      "War drives global inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

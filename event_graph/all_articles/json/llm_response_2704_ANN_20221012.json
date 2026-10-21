@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "ANN",
+    "date": "2022-10-12",
+    "url": "https://asianews.network/bangladesh-wants-an-end-to-russia-ukraine-war-momen/",
+    "body_preview": "DHAKA - Bangladesh wants an end to the Russia-Ukraine war that is causing endless sufferings to humanity, especially the poor countries, women and children, said Foreign Minister Abdul Momen.\n\n\"Our position is clear. We want the end of the war through resolution. Because, due to war, the poor countries, women, and children are being affected more. Inflation is high, disruption in the supply chain. So, we don't want war. ... If there is indication of ending war in any resolution, Bangladesh will "
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "War raises inflation",
+      "edge_label": "raises inflation",
+      "evidence_quote": "Because, due to war, the poor countries, women, and children are being affected more. Inflation is high",
+      "scope_justification": "The article explicitly links the war to high inflation, matching the feature's scope of general price-level increases.",
+      "verification": {
+        "quote_similarity": 0.995,
+        "quote_best_match": "Because, due to war, the poor countries, women, and children are being affected more. Inflation is high,",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article includes the line that due to the war, people are affected and 'Inflation is high,' linking war to high inflation. This establishes an explicit causal link at a general (macro) level, matching the feature's scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-10-12",
+      "inflation_rate",
+      "raises inflation",
+      "War raises inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

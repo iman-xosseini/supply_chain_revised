@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-11-08",
+    "url": "https://www.bssnews.net/news-flash/92719",
+    "body_preview": "DHAKA, Nov 8, 2022 (BSS) - The general point-to-point inflation in the country eased further to 8.91 per cent in October down from 9.10 per cent in September.\n\nThe country's general point-to-point inflation increased to 9.52 percentage points in August. However, it declined to 9.10 percentage points in September.\n\nQuoting the data from the Bangladesh Bureau of Statistics (BBS), Planning Minister MA Mannan disclosed this after the 6th meeting of the Executive Committee of the National Economic Co"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Expected Aman harvest lowers inflation",
+      "edge_label": "reduces inflation",
+      "evidence_quote": "Hopefully, there will be a good Aman harvest and thus the inflation will decline further.",
+      "scope_justification": "The article links a national Aman harvest to further decline in Bangladesh's general inflation rate, matching the country-wide CPI scope.",
+      "verification": {
+        "quote_similarity": 0.989,
+        "quote_best_match": "\"Hopefully, there will be a good Aman harvest and thus the inflation will decline further.\"",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article contains the exact quote linking a good Aman harvest to further declines in inflation, using 'thus' to indicate causality, and discusses Bangladesh’s national inflation, matching the country-wide scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-11-08",
+      "inflation_rate",
+      "reduces inflation",
+      "Expected Aman harvest lowers inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

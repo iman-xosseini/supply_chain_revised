@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-08-30",
+    "url": "https://www.bssnews.net/business/79740",
+    "body_preview": "DHAKA, August 30, 2022 (BSS) - The Federation of Bangladesh Chambers of\n\nCommerce and Industries (FBCCI) has welcomed the decision for price re-\n\nadjustment of fuel oil as it would decrease the pressure on the national\n\neconomy despite the global crisis.\n\nTherefore, FBCCI president Md Jashim Uddin welcomed the decision of price\n\nreduction of diesel, petrol, octane and kerosene just after a day of cut in\n\nimport duty and withdrawal of advance tax.\n\nJashim thanked Prime Minister Sheikh Hasina for "
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Fuel price readjustment",
+      "edge_label": "helps tame inflation",
+      "evidence_quote": "FBCCI believes that this will positively impact taming inflation.",
+      "scope_justification": "The article explicitly links the fuel-price readjustment to taming inflation, matching the feature's economy-wide general price-level scope.",
+      "verification": {
+        "quote_similarity": 0.985,
+        "quote_best_match": "\"FBCCI believes that this will positively impact taming inflation.\"",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article contains the exact quote and directly links the fuel price re-adjustment to helping tame inflation. The discussion is at the national/economy-wide level, matching the scope of inflation rate."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-08-30",
+      "inflation_rate",
+      "helps tame inflation",
+      "Fuel price readjustment"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

@@ -1,0 +1,61 @@
+{
+  "article": {
+    "source": "LatestLY",
+    "date": "2022-09-23",
+    "url": "https://www.latestly.com/agency-news/world-news-inflation-unrest-challenge-bangladeshs-miracle-economy-4239077.html",
+    "body_preview": "Dhaka, Sep 23 (AP) Standing in line to try to buy food, Rekha Begum is distraught. Like many others in Bangladesh, she is struggling to find affordable daily essentials like rice, lentils and onions.\n\n\"I went to two other places, but they told me they don't have supplies. Then I came here and stood at the end of the queue,\" said Begum, 60, as she waited for nearly two hours to buy what she needed from a truck selling food at subsidised prices in the capital Dhaka.\n\nAlso Read | India Takes Dig at"
+  },
+  "llm_connections": [
+    {
+      "feature": "balance_of_trade",
+      "event_summary": "Imports rise as exports fluctuate",
+      "edge_label": "widens external deficit",
+      "evidence_quote": "Imports in the last fiscal year, ending in June, 2022, rose to USD 84 billion, while exports have fluctuated, leaving a record current account deficit",
+      "scope_justification": "The article reports aggregate Bangladesh-wide import and export values and links them to a national external deficit, matching the feature’s country-wide trade-flow scope.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "Imports in the last fiscal year, ending in June, 2022, rose to USD 84 billion, while exports have fluctuated, leaving a record current account deficit",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states: “Imports ... rose to USD 84 billion, while exports have fluctuated, leaving a record current account deficit of USD 17 billion,” which explicitly links the import rise and export fluctuations to a larger external deficit at the national (Bangladesh) level."
+      }
+    },
+    {
+      "feature": "currency_log_return",
+      "event_summary": "Currencies weaken against dollar",
+      "edge_label": "increases import costs",
+      "evidence_quote": "countries like Bangladesh, Sri Lanka and Laos -- among many -- have seen their currencies weaken against the dollar, adding to the costs for dollar-denominated imports",
+      "scope_justification": "The article explicitly connects national currency weakening against the dollar with higher costs for imported goods, matching the feature’s exchange-rate and import-cost scope.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "countries like Bangladesh, Sri Lanka and Laos -- among many -- have seen their currencies weaken against the dollar, adding to the costs for dollar-denominated imports",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that currencies in countries like Bangladesh, Sri Lanka, and Laos have weakened against the dollar, adding to the costs for dollar-denominated imports, explicitly linking currency weakening to higher import costs at a country level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-09-23",
+      "balance_of_trade",
+      "widens external deficit",
+      "Imports rise as exports fluctuate"
+    ],
+    [
+      "2022-09-23",
+      "currency_log_return",
+      "increases import costs",
+      "Currencies weaken against dollar"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 2
+}

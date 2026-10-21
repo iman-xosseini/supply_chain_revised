@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "ANN",
+    "date": "2022-08-10",
+    "url": "https://asianews.network/protect-farmers-to-ensure-food-security/",
+    "body_preview": "DHAKA - In early June, when presenting the budget to parliament, the finance minister emphasised the importance of boosting food production and ensuring food security. Although the final budget was criticised for not introducing proper measures to increase production, it was evident from his speech that the government acknowledges the importance that agricultural production holds for this country. Why then, we must ask, is it showing apathy towards farmers, without whose labour it is impossible "
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Transportation costs raise food prices",
+      "edge_label": "pushes up prices",
+      "evidence_quote": "Already, high costs of transportation are pushing up prices of vegetables and other foods brought into the cities from across the country.",
+      "scope_justification": "The article explicitly describes rising consumer prices for essentials and food, matching the inflation feature's focus on increases in general price levels affecting purchasing power.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "Already, high costs of transportation are pushing up prices of vegetables and other foods brought into the cities from across the country.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states that high transportation costs are pushing up prices of vegetables and other foods. This is discussed in a nationwide context of rising essential prices and a cost of living crisis, aligning with inflation-related price increases."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-08-10",
+      "inflation_rate",
+      "pushes up prices",
+      "Transportation costs raise food prices"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

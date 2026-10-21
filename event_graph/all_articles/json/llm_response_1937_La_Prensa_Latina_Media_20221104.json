@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "La Prensa Latina Media",
+    "date": "2022-11-04",
+    "url": "https://www.laprensalatina.com/china-offers-bangladesh-ray-of-light-in-darkness/",
+    "body_preview": "Dhaka, Nov 4 (EFE).- China has offered Bangladesh help in meeting increased energy demand as it grapples with an escalating power crisis that has left homes and industries in the dark.\n\nIn July, Bangladesh banned imports of liquefied natural gas and shut down all diesel-fired power facilities due to price hikes.\n\nIt affected electricity output, causing Prime Minister Sheikh Hasina's government to undertake a series of austerity measures to reduce power use.\n\nChinese ambassador to Bangladesh Li J"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Power shortages disrupt textile exports",
+      "edge_label": "disrupts export shipments",
+      "evidence_quote": "due to gas and power supply shortages, textile production was affected, leading to delayed shipment of export items and cancellation of orders in some cases.",
+      "scope_justification": "The article explicitly links disruptions in textiles, which account for more than 82 percent of Bangladesh's exports, to delayed shipments and canceled international orders.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "due to gas and power supply shortages, textile production was affected, leading to delayed shipment of export items and cancellation of orders in some cases.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The quoted sentence appears verbatim and explicitly links gas and power shortages to delayed shipments and canceled orders in the textile sector. The article notes textiles are over 82% of Bangladesh’s exports, aligning the discussion with country-level export impacts."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-11-04",
+      "exports",
+      "disrupts export shipments",
+      "Power shortages disrupt textile exports"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

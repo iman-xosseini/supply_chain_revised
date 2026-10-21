@@ -1,0 +1,7 @@
+{
+  "start_date": "2023-07-11",
+  "end_date": "2023-08-09",
+  "top_n": 20,
+  "model_name": "~openai/gpt-mini-latest",
+  "explanation": "The strongest chain is **Weather** feeding into recent sales momentum and then **Macroeconomics**, so rain and broader weather swings can quickly alter demand and then the wider business backdrop. News on **currency log return** is mixed: weaker taka and dollar shortages raise import costs, while a unified exchange-rate regime stabilizes them; the cost pressure dominates and can echo through **Operations and Logistics** and sales momentum. On **balance of trade**, higher imports widen the gap despite CEPA’s reduction goal. Monitor **Weather**, hedge **Macroeconomics**, and tighten **Operations and Logistics** plans; this is historical and news-based guidance, not certainty."
+}

@@ -1,0 +1,37 @@
+{
+  "article": {
+    "source": "BruneiDirect",
+    "date": "2022-08-28",
+    "url": "https://brudirect.com/news.php?id=151953",
+    "body_preview": "Bangladesh is on track to end a U.S. dollar crisis soon in the country, Bangladesh Bank (BB) Governor Abdur Rouf Talukder said here Saturday.\n\n\"Dollar market stability depends virtually on our inflows of remittances, export incomes and payments of import bills,\" said the BB chief while attending the Annual Banking Conference 2022 at the Bangladesh Institute of Bank Management (BIBM) premises on Saturday.\n\nDollar prices remain stable when there's a balance between the inflows and outflows, Talukd"
+  },
+  "llm_connections": [
+    {
+      "feature": "balance_of_trade",
+      "event_summary": "Increased imports widened trade deficit",
+      "edge_label": "widens trade deficit",
+      "evidence_quote": "Bangladesh's trade deficit ballooned to a record level of over 33 billion U.S. dollars ... on the back of increased imports",
+      "scope_justification": "The article describes Bangladesh-wide imports, exports, and the national trade deficit, matching the country-wide import-export difference defined by this feature.",
+      "verification": {
+        "quote_similarity": 0.86,
+        "quote_best_match": "Bangladesh's trade deficit ballooned to a record level of over 33 billion U.S. dollars in the fiscal year",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that Bangladesh's trade deficit ballooned 'on the back of increased imports,' explicitly linking higher imports to a wider national trade deficit. The quote appears in the text and the scope is country-level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-08-28",
+      "balance_of_trade",
+      "widens trade deficit",
+      "Increased imports widened trade deficit"
+    ]
+  ],
+  "features_queried": [
+    "balance_of_trade",
+    "stock_market_close",
+    "exports"
+  ],
+  "num_connections_found": 1
+}

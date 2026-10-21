@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-08-14",
+    "url": "https://www.bssnews.net/news-flash/77053",
+    "body_preview": "DHAKA, Aug 14, 2022 (BSS) - Prime Minister Sheikh Hasina today said the opposition parties could stage movements in the democratic process, but they should also understand that excessive movement will cause loss of the country and increase sufferings of the people.\n\n\"We realise people's sufferings (for price hike of fuels and electricity rationing). . Many people including the opposition, will try to take its advantage, but if they do excess in the name of movement, then people's sufferings will"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Businesses raise prices",
+      "edge_label": "raises price levels",
+      "evidence_quote": "There is a section of unscrupulous businessmen who hike the prices unnecessarily.",
+      "scope_justification": "The article describes unnecessary price increases affecting prices generally, matching the feature's scope of a broad rise in price levels.",
+      "verification": {
+        "quote_similarity": 0.994,
+        "quote_best_match": "\"There is a section of unscrupulous businessmen who hike the prices unnecessarily.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The exact quote appears, and the article asserts that a group of businessmen are hiking prices, leading to increases in prices broadly (“prices of everything”). This strongly implies their actions raise overall price levels at a general (countrywide) scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-08-14",
+      "inflation_rate",
+      "raises price levels",
+      "Businesses raise prices"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

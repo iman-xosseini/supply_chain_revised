@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-10-21",
+    "url": "https://www.bssnews.net/news-flash/89286",
+    "body_preview": "DHAKA, Oct 21, 2022 (BSS) - Prime Minister Sheikh Hasina will inaugurate 50 industrial units, projects and facilities in Economic Zones (EZs) on October 26 marking the 50 years of independence.\n\nTalking to BSS, Bangladesh Economic Zones Authority (BEZA) Executive Chairman Shaikh Yusuf Harun said the Prime Minister will virtually inaugurate 50 industrial units, projects and facilities in the EZs across the country and BEZA will have the event at eight venues.\n\n\"These include commercial operations"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Economic zones encourage exports",
+      "edge_label": "increases exports",
+      "evidence_quote": "with a view to encouraging rapid economic development through increase and diversification of industry, employment, production and export.",
+      "scope_justification": "The article explicitly links economic-zone development to increased and diversified exports, matching the feature's scope of goods sent internationally.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "with a view to encouraging rapid economic development through increase and diversification of industry, employment, production and export.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states BEZA aims to establish economic zones “with a view to encouraging rapid economic development through increase and diversification of… export,” explicitly linking EZs to increased exports. This is discussed at the national economic zone program level, matching the scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-10-21",
+      "exports",
+      "increases exports",
+      "Economic zones encourage exports"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

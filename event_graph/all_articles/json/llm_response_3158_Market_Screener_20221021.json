@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Market Screener",
+    "date": "2022-10-21",
+    "url": "https://www.marketscreener.com//quote/stock/WALMART-INC-4841/news/IMF-to-start-Bangladesh-loan-talks-42062164/",
+    "body_preview": "DHAKA, Oct 21 (Reuters) - An International Monetary Fund (IMF) delegation will visit Bangladesh next week for talks over a loan programme, the IMF and officials said on Friday, after the country became the third in South Asia to seek such support.\n\nIt is battling rising prices of energy and food worsened by the war in Ukraine, and dwindling foreign exchange reserves are forcing it to turn to global lenders.\n\nThe IMF delegation will visit from Oct. 26 to Nov. 9 to start discussions on economic an"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "War worsens rising prices",
+      "edge_label": "raises price levels",
+      "evidence_quote": "It is battling rising prices of energy and food worsened by the war in Ukraine",
+      "scope_justification": "The article describes broad national energy and food price increases, matching the feature's general price-level and purchasing-power scope.",
+      "verification": {
+        "quote_similarity": 0.994,
+        "quote_best_match": "It is battling rising prices of energy and food worsened by the war in Ukraine,",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that Bangladesh is battling rising energy and food prices worsened by the war in Ukraine, explicitly linking the war to higher prices at the national level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-10-21",
+      "inflation_rate",
+      "raises price levels",
+      "War worsens rising prices"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

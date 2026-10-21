@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "english.news.cn",
+    "date": "2023-01-18",
+    "url": "https://english.news.cn/asiapacific/20230118/eb7d604b8baf42d9bff7bea157abb145/c.html",
+    "body_preview": "DHAKA, Jan. 18 (Xinhua) -- Merely a couple of days after increasing electricity prices, the Bangladeshi government Wednesday hiked gas prices for commercial users in an apparent bid to unlock funding from the IMF or the International Monetary Fund.\n\nThe overall rate of increase is from a minimum 14.49 percent to a maximum 178.88 percent.\n\nThe gas price for industrial units of all sizes has been set at a flat rate of 30 taka per cubic meter, said a gazette notification issued by the Ministry of P"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Gas price markup raises inflation",
+      "edge_label": "pushes up inflation",
+      "evidence_quote": "Experts here claimed the markup in the retail gas price would likely push up the nation's inflation rate again.",
+      "scope_justification": "The article explicitly links a nationwide gas price increase to the nation's overall inflation rate, matching the feature's general price-level scope.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "Experts here claimed the markup in the retail gas price would likely push up the nation's inflation rate again.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states, “Experts here claimed the markup in the retail gas price would likely push up the nation's inflation rate again,” which explicitly links the gas price increase to higher national inflation. The scope is national, matching the feature’s country-level inflation rate."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-01-18",
+      "inflation_rate",
+      "pushes up inflation",
+      "Gas price markup raises inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

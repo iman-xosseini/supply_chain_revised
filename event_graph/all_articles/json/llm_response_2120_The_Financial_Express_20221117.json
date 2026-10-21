@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "The Financial Express",
+    "date": "2022-11-17",
+    "url": "https://thefinancialexpress.com.bd/national/dhaka-wasa-employees-getting-performance-bonus-within-the-law-1668681994",
+    "body_preview": "The Dhaka Water Supply and Sewerage Authority (WASA) have claimed that there is no violation of any existing laws and rules in giving performance bonus to its employees.\n\nIt is usual customs of the organisation to grant performance bonus to its employees since 2011, and the authority are granting the bonus within the purview of the relevant laws and rules.\n\nIn a report submitted in the High Court the Dhaka WASA also said it is giving the performance bonus to its employees for reaching pre-establ"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Inflation drives tariff increase",
+      "edge_label": "raises water tariff",
+      "evidence_quote": "Increasing the price was mandatory due to the fluctuation rate of inflation",
+      "scope_justification": "The article explicitly identifies inflation as the cause of a price increase, matching the feature's focus on general price-level changes.",
+      "verification": {
+        "quote_similarity": 0.993,
+        "quote_best_match": "Increasing the price was mandatory due to the fluctuation rate of inflation,",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states, “Increasing the price was mandatory due to the fluctuation rate of inflation,” directly linking inflation to a water tariff increase by Dhaka WASA. The scope is appropriate as it addresses general inflation affecting a specific organization's tariff decision."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-11-17",
+      "inflation_rate",
+      "raises water tariff",
+      "Inflation drives tariff increase"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

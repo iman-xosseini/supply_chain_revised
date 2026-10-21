@@ -1,0 +1,37 @@
+{
+  "article": {
+    "source": "Investing.com India",
+    "date": "2022-09-18",
+    "url": "https://in.investing.com/news/bangladesh-eyes-100-billion-usd-export-earnings-by-2026-3347541",
+    "body_preview": "Dhaka, Sep 18 (IANS) Bangladesh has embarked on a high growth path with an aim to double its export earnings in just four years, country's Commerce Minister Tipu Munshi said.\n\nAddressing a meeting with the Overseas Correspondents Association of Bangladesh (OCAB) at the National Press Club in Dhaka on Saturday, he said the government has planned an export target of 100 billion US dollars by 2026.\n\n\"We're planning an export target of 80 billion US dollars by 2024 and 100 billion US dollars in 2026"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Export initiatives target growth",
+      "edge_label": "increases exports",
+      "evidence_quote": "the government is taking special initiatives to increase the export of 10 products including ICT, leather, plastic, light engineering and jute.",
+      "scope_justification": "The article explicitly describes national government initiatives intended to increase goods exports, matching the feature's scope of goods sent internationally.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "the government is taking special initiatives to increase the export of 10 products including ICT, leather, plastic, light engineering and jute.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article contains the quoted line and explicitly links government 'special initiatives' to increasing exports of 10 products. It discusses Bangladesh’s national export strategy, matching the country-level scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-09-18",
+      "exports",
+      "increases exports",
+      "Export initiatives target growth"
+    ]
+  ],
+  "features_queried": [
+    "balance_of_trade",
+    "stock_market_close",
+    "exports"
+  ],
+  "num_connections_found": 1
+}

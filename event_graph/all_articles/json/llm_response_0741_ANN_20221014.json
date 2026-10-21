@@ -1,0 +1,80 @@
+{
+  "article": {
+    "source": "ANN",
+    "date": "2022-10-14",
+    "url": "https://asianews.network/can-bangladesh-government-tame-raging-inflation/",
+    "body_preview": "DHAKA - We're worried by the continuing inflationary trend which seems poised to hit a boiling point, with data released by the Bangladesh Bureau of Statistics (BBS) saying that inflation hit a 10-year high in August. Overall, inflation surged to 9.52 percent in August, then dropping to a still-high 9.10 percent in September. Ordinary people, however, don't need BBS figures to know how badly prices have been spiralling out of control in recent months. Their daily suffering stands as living proof"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Supply disruptions increased food prices",
+      "edge_label": "raises inflation",
+      "evidence_quote": "inflation ... has been out of control for the past several months due to higher food prices amid global supply chain disruptions",
+      "scope_justification": "The article explicitly links national inflation to higher food prices and supply disruptions, matching the feature's economy-wide general price-level scope.",
+      "verification": {
+        "quote_similarity": 0.942,
+        "quote_best_match": "has been out of control for the past several months due to higher food prices amid global supply chain disruptions",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states inflation has been out of control 'due to higher food prices amid global supply chain disruptions,' explicitly linking supply disruptions/higher food prices to rising inflation. It discusses Bangladesh’s national inflation, matching the economy-wide scope."
+      }
+    },
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Fuel hike worsened inflation",
+      "edge_label": "increases prices",
+      "evidence_quote": "the recent fuel price hike in the country has, as anticipated, only made things worse",
+      "scope_justification": "The article describes a country-wide fuel price increase worsening the broader inflation crisis, matching the feature's general price-level scope.",
+      "verification": {
+        "quote_similarity": 0.994,
+        "quote_best_match": "the recent fuel price hike in the country has, as anticipated, only made things worse.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The quoted sentence appears verbatim and explicitly states that the recent country-wide fuel price hike has made inflation worse, noting a cascading effect on other prices. The discussion is at the national level, matching the general inflation rate scope."
+      }
+    },
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Load-shedding increased commodity prices",
+      "edge_label": "raises consumer prices",
+      "evidence_quote": "frequent load-shedding that is only increasing production costs and commodity prices for end consumers",
+      "scope_justification": "The article connects energy-sector problems to higher production and commodity prices for consumers across the economy, matching general inflation rather than a single product.",
+      "verification": {
+        "quote_similarity": 0.995,
+        "quote_best_match": "frequent load-shedding that is only increasing production costs and commodity prices for end consumers.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states that frequent load-shedding is increasing production costs and commodity prices for end consumers, and it discusses inflation at the national level in Bangladesh. This matches the claimed causal link and scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-10-14",
+      "inflation_rate",
+      "raises inflation",
+      "Supply disruptions increased food prices"
+    ],
+    [
+      "2022-10-14",
+      "inflation_rate",
+      "increases prices",
+      "Fuel hike worsened inflation"
+    ],
+    [
+      "2022-10-14",
+      "inflation_rate",
+      "raises consumer prices",
+      "Load-shedding increased commodity prices"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 3
+}

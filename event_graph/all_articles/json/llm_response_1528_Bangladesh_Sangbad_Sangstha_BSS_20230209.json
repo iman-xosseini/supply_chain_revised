@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2023-02-09",
+    "url": "https://www.bssnews.net/news-flash/109790",
+    "body_preview": "DHAKA, Feb 09, 2023 (BSS) - Principal Secretary to Prime Minister Tofazzel Hossain Miah today informed that the government has already taken an initiative to formulate a logistics policy to ensure more competitiveness of Bangladeshi products in world market.\n\n\"We have to work seriously on logistics. In Bangladesh, we still don't have a logistics policy. But Prime Minister Sheikh Hasina has recently formed a committee under the leadership of the principal secretary with the participation of the p"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "War reduces export demand",
+      "edge_label": "reduces export demand",
+      "evidence_quote": "The domino effect of the Russian-Ukraine war has contributed to instability in the region and reduced demand for exports from countries like Bangladesh",
+      "scope_justification": "The article explicitly discusses reduced demand for exports from Bangladesh, matching the feature's country-level international goods scope and demand-driven context.",
+      "verification": {
+        "quote_similarity": 0.997,
+        "quote_best_match": "The domino effect of the Russian-Ukraine war has contributed to instability in the region and reduced demand for exports from countries like Bangladesh,",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article contains the quoted sentence stating that the Russia-Ukraine war reduced demand for exports from countries like Bangladesh, explicitly indicating causality. It discusses exports at the country level for Bangladesh, matching the scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-02-09",
+      "exports",
+      "reduces export demand",
+      "War reduces export demand"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

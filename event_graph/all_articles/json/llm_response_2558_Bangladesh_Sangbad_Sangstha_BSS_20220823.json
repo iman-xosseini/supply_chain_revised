@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-08-23",
+    "url": "https://www.bssnews.net/news/78541",
+    "body_preview": "DHAKA, Aug 23, 2022 (BSS) - Awami League (AL) Presidium Member and Agriculture Minister Dr Muhammad Abdur Razzaque today said the government is trying its best to reduce the price of consumer goods as those have been increased due to global crisis.\n\n\"We admit that people are suffering. Those with low income are finding it difficult to run their families. However, the government is trying its best to alleviate the suffering of the people. The government is trying to reduce the price of everything"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Global crisis raises prices",
+      "edge_label": "raises price levels",
+      "evidence_quote": "consumer goods as those have been increased due to global crisis.",
+      "scope_justification": "The article describes price increases affecting consumer goods and products across the country, matching the feature's scope of broader price-level increases.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "consumer goods as those have been increased due to global crisis.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that consumer goods prices have increased 'due to global crisis' and also notes prices of products in the country have risen for this reason, explicitly linking the global crisis to higher prices at a national level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-08-23",
+      "inflation_rate",
+      "raises price levels",
+      "Global crisis raises prices"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

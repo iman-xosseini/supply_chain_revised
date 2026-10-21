@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2023-01-02",
+    "url": "https://www.bssnews.net/business/103064",
+    "body_preview": "DHAKA, Jan 2, 2023 (BSS) - The general point to point inflation rate in\n\nDecember last year eased further as it fell to 8.71 percentage point mainly\n\nbecause of the downtrend in food and non-food inflation.\n\nThe general point to point inflation rate in November last was 8.85\n\npercentage, according to the monthly consumer price (CPI) index of the\n\nBangladesh Bureau of Statistics (BBS).\n\nThe point to point food inflation came down at 7.91 percent in December from\n\n8.14 percent in November.\n\nOn the"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "General inflation eased",
+      "edge_label": "reduces inflation rate",
+      "evidence_quote": "The general point to point inflation rate in December last year eased further as it fell to 8.71 percentage point mainly because of the downtrend in food and non-food inflation.",
+      "scope_justification": "The article explicitly describes a national general CPI inflation rate and attributes its decline to lower food and non-food inflation, matching the feature's overall price-level scope.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "The general point to point inflation rate in December last year eased further as it fell to 8.71 percentage point mainly because of the downtrend in food and non-food inflation.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The exact quoted sentence appears in the article and explicitly attributes the easing of general inflation to a downtrend in food and non-food inflation. The discussion is at the national CPI level, matching the feature’s scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-01-02",
+      "inflation_rate",
+      "reduces inflation rate",
+      "General inflation eased"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

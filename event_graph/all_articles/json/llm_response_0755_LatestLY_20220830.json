@@ -1,0 +1,61 @@
+{
+  "article": {
+    "source": "LatestLY",
+    "date": "2022-08-30",
+    "url": "https://www.latestly.com/agency-news/world-news-pm-sheikh-hasina-dispels-possibility-of-sri-lanka-like-economic-crisis-in-bangladesh-4145396.html",
+    "body_preview": "Dhaka, Aug 30 (PTI) Prime Minister Sheikh Hasina said on Tuesday that Bangladesh would never plunge into a Sri Lanka-like economic crisis as her government was steering the country's development in a planned way.\n\nAddressing an event of her ruling Awami League here, Hasina said her government took every development project considering their economic return and the national budgets were prepared in a planned way as well to evade economic disasters and facilitate smooth development.\n\nAlso Read | P"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Fuel price hike causes inflation",
+      "edge_label": "raises inflation",
+      "evidence_quote": "people were now suffering due to the inflation, largely caused by fuel price hike",
+      "scope_justification": "The article attributes broader national inflation affecting people to a fuel price increase, matching the feature's aggregate general-price-level scope.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "people were now suffering due to the inflation, largely caused by fuel price hike",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article includes the quote stating inflation was largely caused by a fuel price hike, explicitly linking fuel prices to national inflation in Bangladesh. This matches the country-level scope of the feature."
+      }
+    },
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Currency depreciation raises inflation",
+      "edge_label": "mounts inflation pressure",
+      "evidence_quote": "further depreciation of its currency would mount domestic inflation pressures",
+      "scope_justification": "The statement directly links national currency depreciation to domestic inflation pressure, matching the feature's country-wide price-level scope.",
+      "verification": {
+        "quote_similarity": 0.994,
+        "quote_best_match": "further depreciation of its currency would mount domestic inflation pressures,",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states, via S&P's caution, that further depreciation of Bangladesh's currency would mount domestic inflation pressures, indicating a clear cause-effect at the national level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-08-30",
+      "inflation_rate",
+      "raises inflation",
+      "Fuel price hike causes inflation"
+    ],
+    [
+      "2022-08-30",
+      "inflation_rate",
+      "mounts inflation pressure",
+      "Currency depreciation raises inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 2
+}

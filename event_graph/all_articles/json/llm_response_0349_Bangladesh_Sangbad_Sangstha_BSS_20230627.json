@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2023-06-27",
+    "url": "https://www.bssnews.net/news-flash/133483",
+    "body_preview": "DHAKA, June 27, 2023 (BSS) - President Mohammed Shahabuddin and Prime Minister Sheikh Hasina today greeted countrymen as well as the Muslims across the globe on the occasion of the holy Eid-ul-Azha to be observed on June 29.\n\nOn the eve of the day, they issued separate messages praying that the holy Eid-ul-Azha brings good for all with the rise of the ideology of sacrifice.\n\nIn his message, the President said: \"Hazrat Ibrahim (AS) has set an incomparable example of love, obedience and sacrifice "
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Pandemic and wars raise inflation",
+      "edge_label": "raises inflation",
+      "evidence_quote": "Global inflation is on the rise due to the impact of the Corona pandemic and war-conflicts in different parts of the world",
+      "scope_justification": "The article explicitly describes inflation as a global rise in price levels, matching the feature's definition of general inflation.",
+      "verification": {
+        "quote_similarity": 0.996,
+        "quote_best_match": "Global inflation is on the rise due to the impact of the Corona pandemic and war-conflicts in different parts of the world,",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states, “Global inflation is on the rise due to the impact of the Corona pandemic and war-conflicts,” explicitly linking the pandemic and wars to rising inflation at a global scope, which matches the claimed feature."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-06-27",
+      "inflation_rate",
+      "raises inflation",
+      "Pandemic and wars raise inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

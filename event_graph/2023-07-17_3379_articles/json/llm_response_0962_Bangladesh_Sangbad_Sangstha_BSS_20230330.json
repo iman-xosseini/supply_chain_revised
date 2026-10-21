@@ -1,0 +1,75 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2023-03-30",
+    "url": "https://www.bssnews.net/business/118337",
+    "body_preview": "DHAKA, March 30, 2023 (BSS) - The export of apparel items from Bangladesh to the European Union (EU) increased by 35.69 percent in 2022 compared to 2021.\n\nThe import of apparels by EU from the world grew by 20.97 percent during this time. The EU imported $22.89 billion worth of clothing from Bangladesh in 2022, as per the statistics of Eurostat.\n\nWith 22.20 percent share of the EU's total RMG import, Bangladesh remains the 2nd largest apparel import source for the EU.\n\nTalking to BSS, Director o"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Post-COVID buyers boosted exports",
+      "edge_label": "increases export demand",
+      "evidence_quote": "The main reason behind this was that the first six months were the post COVID-19 period for which the buyers purchased many RMG items.",
+      "scope_justification": "The article directly links post-COVID buyer purchases to Bangladesh's apparel exports, which are goods sent internationally.",
+      "verification": {
+        "quote_similarity": 0.996,
+        "quote_best_match": "\"The main reason behind this was that the first six months were the post COVID-19 period for which the buyers purchased many RMG items.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article contains the quoted sentence and explicitly ties the post-COVID period—when buyers purchased many RMG items—to the high export trend in the first half of the year. This discussion is at the national (Bangladesh-to-EU) export scope."
+      }
+    },
+    {
+      "feature": "exports",
+      "event_summary": "China lockdown supported exports",
+      "edge_label": "supports export growth",
+      "evidence_quote": "Furthermore, we did well since there was lockdown in China",
+      "scope_justification": "The statement explicitly connects China's lockdown with Bangladesh's international apparel export performance.",
+      "verification": {
+        "quote_similarity": 0.983,
+        "quote_best_match": "Furthermore, we did well since there was lockdown in China,\"",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article includes the quote 'we did well since there was lockdown in China,' explicitly linking China's lockdown to improved Bangladeshi export performance. The context is country-level exports to the EU, matching the feature’s scope."
+      }
+    },
+    {
+      "feature": "exports",
+      "event_summary": "War and inflation reduced exports",
+      "edge_label": "reduces export demand",
+      "evidence_quote": "leading to low demand for apparel items. \"It also put an impact on our exports,\"",
+      "scope_justification": "The article explicitly links EU-wide war and inflation effects to lower apparel demand and an impact on Bangladesh's apparel exports.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "leading to low demand for apparel items. \"It also put an impact on our exports,\"",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states that the Russia-Ukraine war and increased inflation in the EU led to low demand for apparel items and impacted Bangladesh’s exports. The quoted phrasing appears in the text and matches the country-level export scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-03-30",
+      "exports",
+      "increases export demand",
+      "Post-COVID buyers boosted exports"
+    ],
+    [
+      "2023-03-30",
+      "exports",
+      "supports export growth",
+      "China lockdown supported exports"
+    ],
+    [
+      "2023-03-30",
+      "exports",
+      "reduces export demand",
+      "War and inflation reduced exports"
+    ]
+  ],
+  "features_queried": [
+    "balance_of_trade",
+    "stock_market_close",
+    "exports"
+  ],
+  "num_connections_found": 3
+}

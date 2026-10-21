@@ -1,0 +1,37 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-10-30",
+    "url": "https://www.bssnews.net/business/90957",
+    "body_preview": "DHAKA, Oct 30, 2022 (BSS) - Bangladesh Garment Manufacturers and Exporters Association (BGMEA) today said the export earnings target from readymade garments set by the government for the FY23 is unlikely to be achieved due to the high inflation in major markets and shortage of energy in the country.\n\n\"Export earnings target from RMG for the current fiscal year will not be achieved as global buyers have been placing the decreasing volume of orders due to inflation,\" BGMEA President Faruque Hassan"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Crisis threatens apparel exports",
+      "edge_label": "reduces export volume",
+      "evidence_quote": "Faruque said the readymade garment exports in October might have registered nearly 20 per cent negative growth compared to that of the same month last year.",
+      "scope_justification": "The article directly describes a decline in internationally shipped RMG goods, which falls within the exports feature's definition.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "Faruque said the readymade garment exports in October might have registered nearly 20 per cent negative growth compared to that of the same month last year.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The quoted sentence appears verbatim. The article explicitly links crises (inflation and energy shortages) to reduced RMG exports/earnings and decreasing order volumes. It addresses Bangladesh’s RMG exports at the national level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-10-30",
+      "exports",
+      "reduces export volume",
+      "Crisis threatens apparel exports"
+    ]
+  ],
+  "features_queried": [
+    "balance_of_trade",
+    "stock_market_close",
+    "exports"
+  ],
+  "num_connections_found": 1
+}

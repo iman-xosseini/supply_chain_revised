@@ -1,0 +1,61 @@
+{
+  "article": {
+    "source": "La Prensa Latina Media",
+    "date": "2023-01-16",
+    "url": "https://www.laprensalatina.com/imf-board-to-consider-bangladesh-loan-package-this-month/",
+    "body_preview": "Dhaka, Jan 9 (EFE).- The International Monetary Fund (IMF) said Monday its Executive Board was expected on Jan.30 to consider a $4.5 billion credit plan for Bangladesh to help the country deal with the financial crisis.\n\nThe Washington-based global lender issued a statement in this regard after its Deputy Managing Director Antoinette M. Sayeh held a meeting with Bangladesh Prime Minister Sheikh Hasina at her office.\n\nBangladesh and the IMF team reached \"a staff-level agreement\" in October to sup"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Fuel prices drove inflation",
+      "edge_label": "drives inflation higher",
+      "evidence_quote": "The authorities raised the price of fuel by almost 51 percent in August, which further drove inflation to 9.52 percent that month.",
+      "scope_justification": "The article directly links a nationwide fuel-price increase to Bangladesh's overall inflation rate, matching the national price-level scope of the feature.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "The authorities raised the price of fuel by almost 51 percent in August, which further drove inflation to 9.52 percent that month.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article includes the exact quote stating that a 51% fuel price increase in August 'further drove inflation to 9.52 percent,' explicitly linking fuel prices to national inflation in Bangladesh."
+      }
+    },
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Electricity prices threaten inflation",
+      "edge_label": "raises inflation risk",
+      "evidence_quote": "increased the average retail electricity price by five percent, raising fears of a further increase in inflation.",
+      "scope_justification": "The article explicitly connects a nationwide average retail electricity-price increase with a potential further rise in Bangladesh's overall inflation rate.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "increased the average retail electricity price by five percent, raising fears of a further increase in inflation.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that the government increased average retail electricity prices by five percent, 'raising fears of a further increase in inflation,' explicitly linking the price hike to increased inflation risk. The discussion is at the national level for Bangladesh’s overall inflation rate."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-01-16",
+      "inflation_rate",
+      "drives inflation higher",
+      "Fuel prices drove inflation"
+    ],
+    [
+      "2023-01-16",
+      "inflation_rate",
+      "raises inflation risk",
+      "Electricity prices threaten inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 2
+}

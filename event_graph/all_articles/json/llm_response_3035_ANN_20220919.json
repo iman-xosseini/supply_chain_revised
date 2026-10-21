@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "ANN",
+    "date": "2022-09-19",
+    "url": "https://asianews.network/bangladesh-needs-to-rely-less-on-eu-us-markets/",
+    "body_preview": "DHAKA - In the US and Europe, a recession is coming. As an apparel maker, I can already feel the early signs of a storm heading our way. Orders have been decreasing for many of us in the industry since this summer, after picking up dramatically at the back end of last year.\n\nThe issues around a recession are well-documented. High and rising inflation in the US and much of Europe; soaring energy prices that are placing businesses and households under huge financial strain; fallout from the pandem"
+  },
+  "llm_connections": [
+    {
+      "feature": "imports",
+      "event_summary": "Growing middle classes increase imports",
+      "edge_label": "increases imports",
+      "evidence_quote": "As middle class populations grow, spending power increases. Countries with higher middle class populations have a higher propensity to import foreign goods.",
+      "scope_justification": "The article explicitly predicts increasing aggregate imports into China and India, matching the feature's country-wide volume-of-goods scope.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "As middle class populations grow, spending power increases. Countries with higher middle class populations have a higher propensity to import foreign goods.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states, “As middle class populations grow, spending power increases. Countries with higher middle class populations have a higher propensity to import foreign goods,” and predicts imports into China and India will increase. This explicitly links growing middle classes to higher country-level imports."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-09-19",
+      "imports",
+      "increases imports",
+      "Growing middle classes increase imports"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

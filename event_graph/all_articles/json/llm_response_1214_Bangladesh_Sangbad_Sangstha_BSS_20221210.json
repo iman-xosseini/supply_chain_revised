@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-12-10",
+    "url": "https://www.bssnews.net/news-flash/99235",
+    "body_preview": "DHAKA, Dec 10, 2022 (BSS) - Finance Minister AHM Mustafa Kamal today said\n\nthat the International Monetary Fund (IMF) lauded highly the achievements of\n\nBangladesh terming it as \"extraordinary\".\n\n\"Few weeks back, an IMF mission visited Bangladesh to see the position of\n\nBangladesh in the economic fronts. Then they made such comments,\" he said.\n\nThe Finance Minister said this while addressing a function marking the\n\nNational VAT Day held at a city hotel. National Board of Revenue (NBR)\n\nChairman "
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Diversified manufacturing boosts exports",
+      "edge_label": "boosts export volume",
+      "evidence_quote": "diversified products can also be manufactured to boost the export basket",
+      "scope_justification": "The statement links national manufacturing diversification to Bangladesh's overall export basket, matching the aggregate goods-export scope of the feature.",
+      "verification": {
+        "quote_similarity": 0.993,
+        "quote_best_match": "diversified products can also be manufactured to boost the export basket.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states that manufacturing diversified products can boost the export basket, and this is discussed at the national level for Bangladesh."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-12-10",
+      "exports",
+      "boosts export volume",
+      "Diversified manufacturing boosts exports"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

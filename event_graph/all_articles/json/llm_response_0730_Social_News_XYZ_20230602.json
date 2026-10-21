@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Social News XYZ",
+    "date": "2023-06-02",
+    "url": "https://www.socialnews.xyz/2023/06/02/bdesh-unveils-71bn-budget-on-digital-economy-cashless-society/",
+    "body_preview": "Dhaka, June 2 (SocialNews.XYZ) The Bangladesh government has unveiled a record 7.62 trillion taka ($71 billion) national budget for the 2023-24 fiscal year starting in July.\n\nThe government projected an economic growth of 7.5 per cent in the annual budget, reports Xinhua news agency.\n\nWith a focus on tackling inflation, job creation, the fourth industrial revolution and \"Smart Bangladesh\", Finance Minister AHM Mustafa Kamal presented the budget to Parliament.\n\n\"On the whole, we expect to return "
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Global price decreases curb inflation",
+      "edge_label": "reduces inflation",
+      "evidence_quote": "Due to the decrease in the prices of fuel, food and fertilizer in the global market ... the inflation will remain much controlled",
+      "scope_justification": "The article explicitly links global price changes and government supply measures to Bangladesh's projected annual average inflation rate, matching the country-wide price-level scope.",
+      "verification": {
+        "quote_similarity": 0.809,
+        "quote_best_match": "\"Due to the decrease in the prices of fuel, food and fertilizer in the global market, along with",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that due to decreases in global prices of fuel, food, and fertilizer (along with domestic measures), inflation will remain controlled in Bangladesh, directly linking global price declines to lower national inflation."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-06-02",
+      "inflation_rate",
+      "reduces inflation",
+      "Global price decreases curb inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

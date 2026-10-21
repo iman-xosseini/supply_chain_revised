@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "ANN",
+    "date": "2022-10-26",
+    "url": "https://asianews.network/inflation-and-immorality-rising-hand-in-hand/",
+    "body_preview": "DHAKA - The latest key food item to stray further out of the reach of citizens is sugar. Reportedly, the price of sugar has jumped to Tk 100-110 per kg, up from Tk 90-95 per kg a couple of weeks ago in the retail markets. This is in stark contrast to the new rates set by the government, according to which loose sugar should cost Tk 90 per kg and packaged sugar should be sold at Tk 95 per kg in the retail market. Supply of sugar has also decreased as importers face many complications when opening"
+  },
+  "llm_connections": [
+    {
+      "feature": "currency_log_return",
+      "event_summary": "Dollar appreciation raises import costs",
+      "edge_label": "increases import cost",
+      "evidence_quote": "the hiked price of the US dollar against the Bangladeshi taka, which made importing crude sugar much more expensive",
+      "scope_justification": "The article explicitly links a USD-BDT exchange-rate movement to higher import costs, matching the feature's exchange-rate impact scope.",
+      "verification": {
+        "quote_similarity": 0.996,
+        "quote_best_match": "the hiked price of the US dollar against the Bangladeshi taka, which made importing crude sugar much more expensive.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that the hiked price of the US dollar against the Bangladeshi taka made importing crude sugar much more expensive, explicitly linking exchange-rate appreciation to higher import costs at the national level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-10-26",
+      "currency_log_return",
+      "increases import cost",
+      "Dollar appreciation raises import costs"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

@@ -1,0 +1,37 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-10-30",
+    "url": "https://www.bssnews.net/agriculture-news/90903",
+    "body_preview": "RANGPUR, Oct 30, 2022 (BSS) - The government has fixed an all-time record\n\ntarget of producing 23,39,930 tonnes of potato from 92,675 hectares of land\n\nfor all five districts in Rangpur agriculture region during the current Rabi\n\nseason.\n\nOfficials of the Department of Agricultural Extension (DAE) said farmers\n\nhave started sowing potato seeds after harvesting short duration varieties of\n\nAman rice to harvest those from late November and earn more profits like in\n\nthe previous years.\n\nTalking to"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Agro-industry expansion proposal",
+      "edge_label": "enhances exports",
+      "evidence_quote": "stressed on establishing more agro-based industries in Rangpur region for preserving, producing and enhancing export of potato products",
+      "scope_justification": "The article explicitly links proposed agro-based industries to exporting potato products, which are goods sent internationally.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "stressed on establishing more agro-based industries in Rangpur region for preserving, producing and enhancing export of potato products",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that establishing more agro-based industries in Rangpur is aimed at 'enhancing export of potato products,' explicitly linking the proposal to increased exports. This is discussed at a regional export level, which aligns with the feature of exports."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-10-30",
+      "exports",
+      "enhances exports",
+      "Agro-industry expansion proposal"
+    ]
+  ],
+  "features_queried": [
+    "balance_of_trade",
+    "stock_market_close",
+    "exports"
+  ],
+  "num_connections_found": 1
+}

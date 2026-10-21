@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-08-13",
+    "url": "https://www.bssnews.net/news-flash/76944",
+    "body_preview": "DHAKA, Aug 13, 2022 (BSS) - Awami League General Secretary Obaidul Quader today said that Prime Minister Sheikh Hasina is working relentlessly to overcome the negative impacts of the current situation created due to the price hike of several items, including fuel, across the globe.\n\n\"Today, the people of Bangladesh are facing hardship due to the negative impact of global crisis. The price of many commodities has gone up. But the premier (Sheikh Hasina) is spending sleepless nights as she is tryi"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Global commodity price hikes",
+      "edge_label": "raises price levels",
+      "evidence_quote": "The price of many commodities has gone up. But the premier ... is spending sleepless nights as she is trying sincerely to give her people relief from this crisis.",
+      "scope_justification": "The article describes broad price increases across many commodities and their hardship for people, matching the feature’s general price-level scope.",
+      "verification": {
+        "quote_similarity": 0.946,
+        "quote_best_match": "The price of many commodities has gone up. But the premier (Sheikh Hasina) is spending sleepless nights as she is trying sincerely to give her people relief from this crisis.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that a situation was created due to global price hikes and notes that the price of many commodities has gone up, linking global commodity price increases to broader price level rises in Bangladesh. The quoted sentence appears verbatim and the scope is national/general."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-08-13",
+      "inflation_rate",
+      "raises price levels",
+      "Global commodity price hikes"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

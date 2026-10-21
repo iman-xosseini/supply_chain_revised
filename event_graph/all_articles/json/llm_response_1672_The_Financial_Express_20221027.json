@@ -1,0 +1,61 @@
+{
+  "article": {
+    "source": "The Financial Express",
+    "date": "2022-10-27",
+    "url": "https://thefinancialexpress.com.bd/trade/supply-disruption-forewarned-amid-unabated-price-spiral-1666837168",
+    "body_preview": "Bangladesh Trade and Tariff Commission (BTTC) forewarned further supply disruption of key essential items on the domestic market for factors that include banks' reluctance in opening import LCs.\n\nAmong other factors is the prevailing supply scarcity of power and gas that stymied production.\n\nSources say the commission, as such, has submitted a set of observations and suggestions for government authorities to address the looming exigencies in the midst of quirky price rises.\n\nIt suggests reducing"
+  },
+  "llm_connections": [
+    {
+      "feature": "currency_log_return",
+      "event_summary": "Dollar prices increase",
+      "edge_label": "raises importers' losses",
+      "evidence_quote": "edible oil, sugar, and wheat importers faced losses due to the increase in dollar prices by 23 per cent to 25 per cent",
+      "scope_justification": "The article explicitly links a recent increase in dollar prices to losses for importers, matching exchange-rate movement affecting import costs.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "edible oil, sugar, and wheat importers faced losses due to the increase in dollar prices by 23 per cent to 25 per cent",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that importers 'faced losses due to the increase in dollar prices by 23 per cent to 25 per cent,' explicitly linking higher dollar prices to importer losses at a country-wide level."
+      }
+    },
+    {
+      "feature": "currency_momentum_5d",
+      "event_summary": "Dollar prices rise recently",
+      "edge_label": "increases import losses",
+      "evidence_quote": "the increase in dollar prices by 23 per cent to 25 per cent in the last three months",
+      "scope_justification": "The article reports a recent currency-price increase over three months, which falls within the feature's defined days-or-months trend horizon.",
+      "verification": {
+        "quote_similarity": 0.994,
+        "quote_best_match": "the increase in dollar prices by 23 per cent to 25 per cent in the last three months.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that importers faced losses due to an increase in dollar prices by 23–25% in the last three months, explicitly linking the dollar rise to import losses. The quote appears verbatim and the scope is economy-wide across key import categories, not a single company."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-10-27",
+      "currency_log_return",
+      "raises importers' losses",
+      "Dollar prices increase"
+    ],
+    [
+      "2022-10-27",
+      "currency_momentum_5d",
+      "increases import losses",
+      "Dollar prices rise recently"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 2
+}

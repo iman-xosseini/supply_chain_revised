@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Social News XYZ",
+    "date": "2022-11-15",
+    "url": "https://www.socialnews.xyz/2022/11/15/bdesh-issues-directives-to-navigate-through-challenges-next-yr/",
+    "body_preview": "Dhaka, Nov 15 (SocialNews.XYZ) Amid an ongoing economic crisis, the Bangladesh cabinet has issued half a dozen directives for the country to navigate through the domestic and external challenges posing serious threats to the macroeconomic stability next year.\n\nAfter a cabinet meeting on Monday with Prime Minister Sheikh Hasina, Cabinet Secretary Khandker Anwarul Islam told journalists that the directives include on relaxation of taxes on food imports, augmenting food production domestically and "
+  },
+  "llm_connections": [
+    {
+      "feature": "currency_momentum_5d",
+      "event_summary": "US dollar surge weakens taka",
+      "edge_label": "weakens currency",
+      "evidence_quote": "the Bangladeshi taka's weakness driven by the USD's surge in recent months",
+      "scope_justification": "The article explicitly describes a recent-month trend in the national currency's strength, matching the feature's exchange-rate momentum scope.",
+      "verification": {
+        "quote_similarity": 0.993,
+        "quote_best_match": "the Bangladeshi taka's weakness driven by the USD's surge in recent months.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that the Bangladeshi taka's weakness was driven by the USD's surge, explicitly linking the USD surge to taka weakening. This is quoted verbatim and is discussed at the national currency level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-11-15",
+      "currency_momentum_5d",
+      "weakens currency",
+      "US dollar surge weakens taka"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

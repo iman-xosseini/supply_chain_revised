@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2023-05-27",
+    "url": "https://www.bssnews.net/business/127672",
+    "body_preview": "DHAKA, May 27, 2023 (BSS) - The Centre for Policy Dialogue (CPD) today recommended for raising the coordination between monetary policy and fiscal policy alongside ensuring institutional reforms to tame inflation and maintain stability in the financial sector.\n\nThe civil society think tank came up with the recommendation at a press conference to reveal the \"Bangladesh's economy 2022-23: Third interim review\" held at its office in the capital's Dhanmondi area.\n\nWhile presenting the written review"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Commodity prices drive inflation",
+      "edge_label": "drives internal inflation",
+      "evidence_quote": "Global price hike of commodities is liable for internal inflation",
+      "scope_justification": "The article explicitly links broad commodity price increases to internal inflation, matching the feature's country-level general rise in prices.",
+      "verification": {
+        "quote_similarity": 0.992,
+        "quote_best_match": "Global price hike of commodities is liable for internal inflation,",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states, “Global price hike of commodities is liable for internal inflation,” explicitly linking commodity price increases to inflation. This is discussed in the Bangladesh country context, matching the feature’s scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-05-27",
+      "inflation_rate",
+      "drives internal inflation",
+      "Commodity prices drive inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

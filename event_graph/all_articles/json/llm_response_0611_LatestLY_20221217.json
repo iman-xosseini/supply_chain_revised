@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "LatestLY",
+    "date": "2022-12-17",
+    "url": "https://www.latestly.com/agency-news/world-news-bangladesh-made-tremendous-progress-under-sheikh-hasina-report-4601196.html",
+    "body_preview": "Dhaka [Bangladesh], December 17 (ANI): The last 14 years of the Awami League Government under Sheikh Hasina has been transformative for Bangladesh, reported Asian Lite International.\n\nWithin this relatively short period of time, Bangladesh has gone from being a low-income and least-developed country to a lower-middle-income-developing country.\n\nAlso Read | China: Government Orders Online Classes in Shanghai As COVID-19 Cases Soar Across Country.\n\nFrom pulling millions of people out of the clutch"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Ports developed to facilitate exports",
+      "edge_label": "facilitates exports",
+      "evidence_quote": "The government has developed sea, river and land ports for facilitating export and internal trade.",
+      "scope_justification": "The article describes national development of multiple port types specifically to facilitate export activity, matching the feature's scope of internationally sent goods.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "The government has developed sea, river and land ports for facilitating export and internal trade.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states, “The government has developed sea, river and land ports for facilitating export and internal trade,” which appears verbatim, explicitly linking port development to facilitating exports at a national (government) level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-12-17",
+      "exports",
+      "facilitates exports",
+      "Ports developed to facilitate exports"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

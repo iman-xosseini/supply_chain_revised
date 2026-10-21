@@ -1,0 +1,7 @@
+{
+  "start_date": "2023-07-11",
+  "end_date": "2023-08-09",
+  "top_n": 20,
+  "model_name": "~openai/gpt-mini-latest",
+  "explanation": "The strongest chain appears to run from **Operations and Logistics** to recent sales momentum and back again: when operations tighten or slip, sales demand tends to follow. Right now, **currency movements** are lifting import and purchase costs, while exchange-rate stabilization and trade-balance improvement push the other way; the cost pressures dominate and can strain **Operations and Logistics**. Monitor **currency movements**, **Operations and Logistics**, and recent sales momentum, and adjust buying and stock plans. These links come from historical data and news signals, so treat them as informed guidance, not certainty."
+}

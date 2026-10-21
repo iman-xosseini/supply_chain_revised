@@ -1,0 +1,61 @@
+{
+  "article": {
+    "source": "MSN International Edition",
+    "date": "2022-10-07",
+    "url": "https://www.msn.com/en-xl/asia/bangladesh/imf-further-downgrades-projections-for-world-economy-in-2023/ar-AA12GcHZ",
+    "body_preview": "Bangladesh, Oct. 7 -- Two principal economists painted very different pictures Thursday of what the global economy will look like in the coming years.\n\nKristalina Georgieva, managing director of the International Monetary Fund, told an audience at Georgetown University on Thursday that the IMF is once again lowering its projections for global economic growth in 2023, projecting world economic growth lower by $4 trillion through 2026.\n\n\"Things are more likely to get worse before it gets better,\" "
+  },
+  "llm_connections": [
+    {
+      "feature": "interest_rate_value",
+      "event_summary": "Inflation prompts rate hikes",
+      "edge_label": "raises interest rates",
+      "evidence_quote": "The bleak IMF projections come as central banks around the world raise interest rates in hopes of taming rising inflation.",
+      "scope_justification": "The article explicitly discusses central-bank interest-rate increases, matching the feature's central-bank borrowing-cost scope.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "The bleak IMF projections come as central banks around the world raise interest rates in hopes of taming rising inflation.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The exact quote appears in the article and explicitly states that central banks are raising interest rates to tame rising inflation. The discussion is at the global central-bank level, matching the feature’s scope."
+      }
+    },
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Rate hikes target inflation",
+      "edge_label": "aims to tame inflation",
+      "evidence_quote": "central banks around the world raise interest rates in hopes of taming rising inflation",
+      "scope_justification": "The claim directly concerns rising inflation at the broad economy-wide level, matching the feature's general price-level scope.",
+      "verification": {
+        "quote_similarity": 0.994,
+        "quote_best_match": "central banks around the world raise interest rates in hopes of taming rising inflation.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that central banks are raising interest rates 'in hopes of taming rising inflation,' explicitly linking rate hikes to the aim of reducing inflation at a broad, global economic level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-10-07",
+      "interest_rate_value",
+      "raises interest rates",
+      "Inflation prompts rate hikes"
+    ],
+    [
+      "2022-10-07",
+      "inflation_rate",
+      "aims to tame inflation",
+      "Rate hikes target inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 2
+}

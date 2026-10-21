@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-11-14",
+    "url": "https://www.bssnews.net/news-flash/93834",
+    "body_preview": "DHAKA, Nov 14, 2022 (BSS) - Prime Minister Sheikh Hasina today reiterated her call to the countrymen to boost food production to address any future food challenge emerged from persisting international situations.\n\nSheikh Hasina made the call while she was chairing the regular cabinet meeting held at the Prime Minister's Office here.\n\nAt the meeting, the Premier and the Cabinet issued a series of observations and instructions on deferent issues alongside food production, as the year 2023 is likel"
+  },
+  "llm_connections": [
+    {
+      "feature": "currency_log_return",
+      "event_summary": "Foreign-exchange crisis raises payments",
+      "edge_label": "raises import payment cost",
+      "evidence_quote": "So, Taka has to be given more while making payment and getting less when receiving money",
+      "scope_justification": "The article describes a country-level exchange-rate deterioration that increases payment requirements for countries with high imports, matching exchange-rate effects on import costs.",
+      "verification": {
+        "quote_similarity": 0.994,
+        "quote_best_match": "So, Taka has to be given more while making payment and getting less when receiving money,",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The quoted sentence appears verbatim and is linked with 'So' to the prior mention of an FX crisis and Fed rate hikes, explicitly implying that more Taka is needed for payments. The discussion is at the national (Bangladesh) level and relates to countries with high imports, matching the country-level import payment cost context."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-11-14",
+      "currency_log_return",
+      "raises import payment cost",
+      "Foreign-exchange crisis raises payments"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

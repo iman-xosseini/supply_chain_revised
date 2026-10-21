@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Market Screener",
+    "date": "2022-08-10",
+    "url": "https://www.marketscreener.com//quote/stock/HENNES-MAURITZ-AB-6491104/news/Bangladesh-garment-export-growth-seen-slowing-to-normal-15-this-year-41267174/",
+    "body_preview": "DHAKA (Reuters) - Growth in Bangladesh's garment exports could drop to about 15% this year after an unusually strong expansion of more than 30% in 2021, two industry leaders told Reuters on Wednesday, as U.S. and European customers grapple with cost of living pressures.\n\nThe garment industry accounts for more than 80% of total exports for Bangladesh, which sells to clients such as Walmart, Gap Inc, H&M, VF Corp, Zara and American Eagle Outfitters - some of which have already flagged weak sales a"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Customers reduce export growth",
+      "edge_label": "reduces export growth",
+      "evidence_quote": "Growth in Bangladesh's garment exports could drop to about 15% this year ... as U.S. and European customers grapple with cost of living pressures.",
+      "scope_justification": "The article explicitly links international customer demand conditions to Bangladesh's garment export growth, a major component of the country's total exports.",
+      "verification": {
+        "quote_similarity": 0.711,
+        "quote_best_match": "- Growth in Bangladesh's garment exports could drop to about 15% this year after an unusually",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that growth in Bangladesh’s garment exports could drop as U.S. and European customers face cost-of-living pressures, explicitly linking customer conditions to export growth. The discussion is at the national industry level (Bangladesh’s garment exports), matching the feature’s scope of exports in context."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-08-10",
+      "exports",
+      "reduces export growth",
+      "Customers reduce export growth"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

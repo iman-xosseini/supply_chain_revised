@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2023-01-06",
+    "url": "https://www.bssnews.net/news-flash/103740",
+    "body_preview": "DHAKA, Jan 6, 2023 (BSS) - Prime Minister Sheikh Hasina today called upon the pro-democratic and rule of law-believing political parties and organizations not to instigate the propaganda being hatched on the social media to hinder the country's constitutional process.\n\n\"I am urging the political parties and organisations, believing in democracy and the rule of law, not to favour and provoke any weird idea that can impede the country's constitutional process,\" she said.\n\nThe premier also sought c"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Pandemic and war increase inflation",
+      "edge_label": "raises inflation",
+      "evidence_quote": "increased inflation rate steaming from the Covid-19 pandemic and the Russia-Ukraine war",
+      "scope_justification": "The article explicitly identifies an increase in the national inflation rate, matching the feature's economy-wide price-level scope.",
+      "verification": {
+        "quote_similarity": 0.994,
+        "quote_best_match": "increased inflation rate steaming from the Covid-19 pandemic and the Russia-Ukraine war,",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states there was an 'increased inflation rate steaming from the Covid-19 pandemic and the Russia-Ukraine war,' directly linking the events to higher inflation. This is discussed in a macroeconomic context consistent with an economy-wide (national/global) inflation rate."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-01-06",
+      "inflation_rate",
+      "raises inflation",
+      "Pandemic and war increase inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

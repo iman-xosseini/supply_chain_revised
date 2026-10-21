@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Market Screener",
+    "date": "2023-06-06",
+    "url": "https://www.marketscreener.com/news/latest/Heatwave-in-Bangladesh-leads-to-school-closures-power-cuts--44047560/",
+    "body_preview": "DHAKA (Reuters) - A searing heatwave in Bangladesh spurred the closure of primary schools this week and triggered frequent power cuts, worsening conditions for residents unable to run fans to cool themselves as weather officials warned relief was not imminent.\n\nThe maximum temperature soared to nearly 41 degrees Celsius (105.8 Fahrenheit) from 32 degrees Celsius 10 days ago. The Bangladesh Meteorological Department warned that there was no end in sight for the heat.\n\nScientists have said climate"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Power cuts hurt export sector",
+      "edge_label": "disrupts exports",
+      "evidence_quote": "power cuts that have hurt its economy in recent months, including its crucial apparel sector that accounts for more than 80% of its exports",
+      "scope_justification": "The article links national power cuts to the apparel sector, which represents more than 80% of the country's exports, matching the country-wide exports scope.",
+      "verification": {
+        "quote_similarity": 0.996,
+        "quote_best_match": "power cuts that have hurt its economy in recent months, including its crucial apparel sector that accounts for more than 80% of its exports.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states that power cuts have hurt the economy, including the apparel sector, which accounts for over 80% of Bangladesh’s exports. This strongly implies power cuts are harming the export sector at a national level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-06-06",
+      "exports",
+      "disrupts exports",
+      "Power cuts hurt export sector"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "The Daily Star",
+    "date": "2023-01-19",
+    "url": "https://www.thedailystar.net/business/economy/news/balance-payments-deficit-go-thru-the-roof-fiscal-year-3224946",
+    "body_preview": "Bangladesh's balance of payments (BoP) deficit would widen massively in the current fiscal year than the central bank had earlier projected owing to escalated imports, lower remittances and export receipts, and higher accumulation of debts.\n\nThe BoP summarises the economic transactions of an economy with the rest of the world. These transactions include exports and imports of goods, services and financial assets, along with transfer payments such as foreign aid.\n\nIn June when the Bangladesh Bank"
+  },
+  "llm_connections": [
+    {
+      "feature": "imports",
+      "event_summary": "Import restrictions tightened",
+      "edge_label": "discourages imports",
+      "evidence_quote": "The central bank has already taken measures to discourage the imports of luxury and non-essential commodities",
+      "scope_justification": "The article describes national-level measures intended to reduce aggregate imports, matching the feature's country-wide volume-of-goods scope.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "The central bank has already taken measures to discourage the imports of luxury and non-essential commodities",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states the central bank took measures 'to discourage the imports of luxury and non-essential commodities' by enhancing LC margin requirements, which is a tightening that aims to reduce imports at the national level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-01-19",
+      "imports",
+      "discourages imports",
+      "Import restrictions tightened"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

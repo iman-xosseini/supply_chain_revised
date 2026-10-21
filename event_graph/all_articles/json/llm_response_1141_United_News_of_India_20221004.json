@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "United News of India",
+    "date": "2022-10-04",
+    "url": "http://www.uniindia.com/none-can-hurt-religious-sentiments-of-any-one-hasina/world/news/2835848.html",
+    "body_preview": "Dhaka, Oct 4 (UNI) Bangladesh Prime Minister Sheikh Hasina on Tuesday urged the countrymen to abstain from saying anything hurtful to religious sentiments and magnifying any incident that goes against any religion, rather look at the punitive measures taken by the government.\n\n\"None can hurt the religious sentiments of any religion. None can say anything hurtful to the religious sentiments. It is applicable to any religion. Because it is one's faith, one's faith in God,\" she said.\n\nThe premier s"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "War sanctions increase inflation",
+      "edge_label": "increases inflation",
+      "evidence_quote": "Regarding the Russia-Ukraine war, sanctions and counter-sanctions, she said not only the people of Bangladesh but people around the whole world are suffering. She said that inflation has increased.",
+      "scope_justification": "The article discusses inflation affecting Bangladesh and people worldwide, matching the feature's aggregate general price-level scope.",
+      "verification": {
+        "quote_similarity": 0.995,
+        "quote_best_match": "Regarding the Russia-Ukraine war, sanctions and counter-sanctions, she said not only the people of Bangladesh but people around the whole world are suffering. She said that inflation has increased,",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states, in reference to the Russia-Ukraine war and related sanctions, that people are suffering and that inflation has increased, strongly implying the sanctions/war context as the cause. It discusses inflation at a national and global level, matching the general inflation scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-10-04",
+      "inflation_rate",
+      "increases inflation",
+      "War sanctions increase inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

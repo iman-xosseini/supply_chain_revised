@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-08-14",
+    "url": "https://www.bssnews.net/news-flash/77053",
+    "body_preview": "DHAKA, Aug 14, 2022 (BSS) - Prime Minister Sheikh Hasina today said the opposition parties could stage movements in the democratic process, but they should also understand that excessive movement will cause loss of the country and increase sufferings of the people.\n\n\"We realise people's sufferings (for price hike of fuels and electricity rationing). . Many people including the opposition, will try to take its advantage, but if they do excess in the name of movement, then people's sufferings will"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Businesses raise prices broadly",
+      "edge_label": "raises price levels",
+      "evidence_quote": "a section of people who increased the prices of everything taking the advantage of war and fuel oil price hike",
+      "scope_justification": "The article describes countrywide increases in the prices of everything and resulting public suffering, matching the feature's general price-level scope.",
+      "verification": {
+        "quote_similarity": 0.995,
+        "quote_best_match": "a section of people who increased the prices of everything taking the advantage of war and fuel oil price hike.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that “a section of people… increased the prices of everything,” and also refers to “unscrupulous businessmen who hike the prices unnecessarily,” directly attributing broad price increases to these actors. This is discussed at a national scope with references to widespread public suffering, matching the feature’s general price-level scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-08-14",
+      "inflation_rate",
+      "raises price levels",
+      "Businesses raise prices broadly"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

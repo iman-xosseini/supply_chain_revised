@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Asian News International (ANI)",
+    "date": "2022-12-17",
+    "url": "https://www.aninews.in/news/world/asia/bangladesh-made-tremendous-progress-under-sheikh-hasina-report20221217231018/",
+    "body_preview": "Dhaka [Bangladesh], December 17 (ANI): The last 14 years of the Awami League Government under Sheikh Hasina has been transformative for Bangladesh, reported Asian Lite International.\n\nWithin this relatively short period of time, Bangladesh has gone from being a low-income and least-developed country to a lower-middle-income-developing country.\n\nFrom pulling millions of people out of the clutches of poverty and exhibiting over 6.6 per cent average economic growth to sheltering over a million disp"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "National port development",
+      "edge_label": "facilitates exports",
+      "evidence_quote": "The government has developed sea, river and land ports for facilitating export and internal trade.",
+      "scope_justification": "The article describes nationwide development of multiple port types to facilitate exports, matching the country-level scope of goods sent internationally.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "The government has developed sea, river and land ports for facilitating export and internal trade.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states that the government developed sea, river, and land ports to facilitate export and internal trade, indicating a causal link. This is presented at the national level, matching the country-wide scope of exports."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-12-17",
+      "exports",
+      "facilitates exports",
+      "National port development"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

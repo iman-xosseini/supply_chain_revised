@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2023-02-03",
+    "url": "https://www.bssnews.net/business/108761",
+    "body_preview": "DHAKA, Feb 3, 2023 (BSS) - Ambiente 2023, an internationally unique platform for consumer goods, began today at Frankfurt, Germany.\n\nSome 55 Bangladeshi companies have taken part to showcase their products at the five-day leading global consumer goods show, said a press release here today.\n\nAbu Mukhles Alamgir Hossain, Director (Fair and Display) of the Export Promotion Bureau (EPB), said they have been providing subsidised stalls to increase the exports of handicrafts, decorative items and kitc"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Subsidised stalls boost exports",
+      "edge_label": "increases exports",
+      "evidence_quote": "they have been providing subsidised stalls to increase the exports of handicrafts, decorative items and kitchen accessories",
+      "scope_justification": "The article explicitly links exhibition support to increased international shipments of Bangladeshi goods, matching the exports feature's focus on goods sent internationally.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "they have been providing subsidised stalls to increase the exports of handicrafts, decorative items and kitchen accessories",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that EPB has been providing subsidised stalls to increase exports of certain Bangladeshi goods, explicitly linking the stalls to boosting exports. This is discussed at a sector/country level rather than a single company."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-02-03",
+      "exports",
+      "increases exports",
+      "Subsidised stalls boost exports"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

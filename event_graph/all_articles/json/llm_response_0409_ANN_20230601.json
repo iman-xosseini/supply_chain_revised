@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "ANN",
+    "date": "2023-06-01",
+    "url": "https://asianews.network/voices-of-poor-remain-unheard-in-bangladesh-policymaking/",
+    "body_preview": "DHAKA - The voices of disadvantaged groups, the poor and small entrepreneurs have remained unheard when it comes to policy-making as fiscal policies have been captured by vested sections of society, alleged Towfiqul Islam Khan, a senior research fellow of the Centre for Policy Dialogue.\n\nThe government is currently implementing a loan programme of the International Monetary Fund and this requires the country to take several measures to cut subsidy expenditures, reduce tax exemptions, and enhance"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Market manipulation sustains inflation",
+      "edge_label": "drives higher inflation",
+      "evidence_quote": "Owing to deepening manipulation, the prices of essential commodities have remained high in Bangladesh ... and the government is struggling to contain higher inflation.",
+      "scope_justification": "The article explicitly links Bangladesh-wide higher inflation to persistently high commodity prices, matching the feature's national price-level scope.",
+      "verification": {
+        "quote_similarity": 0.832,
+        "quote_best_match": "owing to deepening manipulation, the prices of essential commodities have remained high in Bangladesh despite their drops in the international markets and the government is struggling to contain higher",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The quoted sentence appears in the article. It ties deepening market manipulation to sustained high essential commodity prices and notes the government is struggling to contain higher inflation, strongly implying manipulation is contributing to elevated inflation at the national level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-06-01",
+      "inflation_rate",
+      "drives higher inflation",
+      "Market manipulation sustains inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

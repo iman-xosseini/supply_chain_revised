@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "LatestLY",
+    "date": "2022-08-10",
+    "url": "https://www.latestly.com/agency-news/world-news-bangladesh-textile-faces-major-challanges-amid-global-recession-4063541.html",
+    "body_preview": "Dhaka [Bangladesh], August 10 (ANI): Bangladesh's textile industry is currently facing major challenges due to the global recession and inflation as retailers in both European and US markets are either deferring the shipments of finished products or delaying orders due to soaring inflation.\n\nThe world's second-largest garment exporter after China is facing prolonged challenges including power shortage domestically affecting production on one hand while its major markets are postponing shipments "
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Constricted demand slows exports",
+      "edge_label": "depresses exports",
+      "evidence_quote": "Since then the RMG exports could not pick up to the desired level of growth due to constricted demand",
+      "scope_justification": "The article explicitly links reduced international demand to Bangladesh's RMG export performance, matching the feature's focus on goods sent internationally and driven by global demand.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "Since then the RMG exports could not pick up to the desired level of growth due to constricted demand",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states, \"Since then the RMG exports could not pick up to the desired level of growth due to constricted demand...\" explicitly linking constricted demand to weaker export performance. This is discussed at the Bangladesh RMG sector level, matching the scope of exports rather than a single company."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-08-10",
+      "exports",
+      "depresses exports",
+      "Constricted demand slows exports"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

@@ -1,0 +1,37 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-10-12",
+    "url": "https://www.bssnews.net/special-stories/87468",
+    "body_preview": "RAJSHAHI, Oct 12, 2022 (BSS)- Prospect of exporting mangoes from Rajshahi region is very bright as both acreage and yearly yield of the delicious fruit has been rising gradually for the last couple of years in the region.\n\nTriple-cropping paddy fields are gradually being converted into mango orchards commercially because the seasonal fruit is being adjudged as more profitable compared to the grain crops at present.\n\nShamsul Wadud, Additional Director of Department of Agriculture Extension (DAE),"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Export facilities boost mango shipments",
+      "edge_label": "boosts export volume",
+      "evidence_quote": "If we get requisite facilities in the fields of export, the volume of mango export will be boosted up to a greater extent",
+      "scope_justification": "The article explicitly links export facilities to the volume of mangoes sent internationally, matching the feature's definition of internationally shipped goods.",
+      "verification": {
+        "quote_similarity": 0.988,
+        "quote_best_match": "\"If we get requisite facilities in the fields of export, the volume of mango export will be boosted up to a greater extent,\"",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The exact quote appears in the article and explicitly claims that obtaining requisite export facilities would increase the volume of mango exports. The discussion is at the regional export level (Rajshahi) and concerns international shipments, matching the feature’s scope of exports."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-10-12",
+      "exports",
+      "boosts export volume",
+      "Export facilities boost mango shipments"
+    ]
+  ],
+  "features_queried": [
+    "balance_of_trade",
+    "stock_market_close",
+    "exports"
+  ],
+  "num_connections_found": 1
+}

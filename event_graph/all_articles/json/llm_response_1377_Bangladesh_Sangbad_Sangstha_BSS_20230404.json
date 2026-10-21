@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2023-04-04",
+    "url": "https://www.bssnews.net/business/119209",
+    "body_preview": "DHAKA, April 4, 2023 (BSS) - The general point to point inflation rate in March increased as it reached 9.33 percentage points up from 8.78 percentage points in February mainly because of the slight rise in food inflation.\n\nThe general point to point inflation rate in January last was 8.57\n\npercentage points, according to the monthly consumer price (CPI) index of the Bangladesh Bureau of Statistics (BBS).\n\nThe point to point food inflation in March increased to 9.09 percentage points up from 8.1"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Food inflation raises overall inflation",
+      "edge_label": "raises inflation rate",
+      "evidence_quote": "The general point to point inflation rate in March increased ... mainly because of the slight rise in food inflation.",
+      "scope_justification": "The article reports a national general CPI inflation rate and explicitly attributes its increase to rising food inflation.",
+      "verification": {
+        "quote_similarity": 0.714,
+        "quote_best_match": "The general point to point inflation rate in March increased as it reached 9.33",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states that the general inflation rate increased mainly because of a slight rise in food inflation, and this is at the national CPI level for Bangladesh."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-04-04",
+      "inflation_rate",
+      "raises inflation rate",
+      "Food inflation raises overall inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

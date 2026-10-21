@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "ANN",
+    "date": "2022-09-23",
+    "url": "https://asianews.network/44-cases-filed-over-market-manipulation-of-essential-good-prices/",
+    "body_preview": "DHAKA - Bangladesh Competition Commission has filed 44 cases against a host of individuals and organisations, accusing them of creating an artificial crisis that led to abnormal hikes in prices of items like rice, flour, eggs, poultry and toiletries.\n\nAbdus Sabur, secretary of BCC, told The Daily Star that the cases were filed on Wednesday on various charges under Section 15 of the Competition Act, 2012, and the hearing will begin on September 26.\n\nAction will be taken against them as per the la"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Artificial crisis raises prices",
+      "edge_label": "increases price levels",
+      "evidence_quote": "creating an artificial crisis that led to abnormal hikes in prices of items like rice, flour, eggs, poultry and toiletries.",
+      "scope_justification": "The article describes price increases across multiple essential goods and a higher living cost, matching a broad rise in consumer price levels rather than a single commodity.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "creating an artificial crisis that led to abnormal hikes in prices of items like rice, flour, eggs, poultry and toiletries.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states that an artificial crisis 'led to abnormal hikes in prices' across multiple essential goods, and discusses broader market instability and higher living costs in Bangladesh, matching a country-level price increase. The quoted evidence appears verbatim."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-09-23",
+      "inflation_rate",
+      "increases price levels",
+      "Artificial crisis raises prices"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

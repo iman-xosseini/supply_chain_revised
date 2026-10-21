@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2023-01-03",
+    "url": "https://www.bssnews.net/news/103272",
+    "body_preview": "DHAKA, Jan 3, 2023 (BSS) - With the global pandemic, the cost of education has risen, resulting in many families in debt just so their children can pursue education.\n\nCosts such as tuition, private tuition, stationeries, and many more are attached to both private and public schools, said a press release of BRAC here today.\n\nWith the current state of rising inflation, education has become a burden to many families, the release added.\n\nWhile South Asia has made tremendous progress in education acc"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Rising inflation burdens families",
+      "edge_label": "increases education burden",
+      "evidence_quote": "With the current state of rising inflation, education has become a burden to many families",
+      "scope_justification": "The article explicitly identifies rising inflation as a general price-level condition affecting many families, matching the inflation-rate definition.",
+      "verification": {
+        "quote_similarity": 0.994,
+        "quote_best_match": "With the current state of rising inflation, education has become a burden to many families,",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states, 'With the current state of rising inflation, education has become a burden to many families,' which explicitly links rising inflation to increased education burden. The context is national/general, matching the scope of an inflation rate affecting many families."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-01-03",
+      "inflation_rate",
+      "increases education burden",
+      "Rising inflation burdens families"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

@@ -1,0 +1,7 @@
+{
+  "start_date": "2023-07-11",
+  "end_date": "2023-07-17",
+  "top_n": 20,
+  "model_name": "google/gemini-3.5-flash-lite",
+  "explanation": "**Operations and Logistics** accounts for 85.4% of the predictive importance and is associated with downward pressure on daily sales volume, with 45.4% of its influence pushing upward. **Sales** contributes 13.2% and aligns with downward movement, while **Macroeconomics**, **Products**, and **Weather** collectively provide negligible contributions under 1.0% that warrant less immediate attention. **Sub-Groups** contributes 0.2% and raises the forecast entirely. Planning teams should closely monitor operational metrics alongside sales trends. Because these reported relationships reflect predictive associations rather than direct causes, historical-sales signals may exhibit autocorrelation."
+}

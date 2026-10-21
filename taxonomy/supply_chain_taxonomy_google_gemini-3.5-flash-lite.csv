@@ -1,0 +1,143 @@
+feature_name,child,level
+Supply Chain Dataset,Calendar and Events,1
+Supply Chain Dataset,External Factors,1
+Supply Chain Dataset,Operations and Logistics,1
+Supply Chain Dataset,Product Taxonomy,1
+Calendar and Events,Category,2
+Calendar and Events,Holiday Name,2
+Calendar and Events,Holiday Type,2
+Calendar and Events,Scope or Location,2
+External Factors,Macroeconomics,2
+External Factors,Weather,2
+Operations and Logistics,Delivery,2
+Operations and Logistics,Factory_Issue,2
+Operations and Logistics,Production,2
+Operations and Logistics,Sales,2
+Operations and Logistics,Station,2
+Operations and Logistics,delivery_sales_ratio,2
+Operations and Logistics,factory_issue_rate,2
+Operations and Logistics,inventory_proxy,2
+Operations and Logistics,production_sales_ratio,2
+Product Taxonomy,Groups,2
+Product Taxonomy,Products,2
+Product Taxonomy,Sub-Groups,2
+Category,category_bank_holiday,3
+Category,category_cultural_event,3
+Category,category_cultural_holiday,3
+Category,category_national_holiday,3
+Category,category_no_event,3
+Category,category_religious_holiday,3
+Category,category_religious_period,3
+Category,category_school_university,3
+Category,category_weather_event,3
+Groups,Group_A,3
+Groups,Group_E,3
+Groups,Group_M,3
+Groups,Group_P,3
+Groups,Group_S,3
+Groups,Group_nan,3
+Holiday Name,holiday_name_Ashura,3
+Holiday Name,holiday_name_Bank Holiday,3
+Holiday Name,holiday_name_Bengali New Year,3
+Holiday Name,holiday_name_Buddha Purnima,3
+Holiday Name,holiday_name_Eid al-Fitr,3
+Holiday Name,holiday_name_Eid-ul-Azha,3
+Holiday Name,holiday_name_Independence Day,3
+Holiday Name,holiday_name_Jumatul Bidah,3
+Holiday Name,holiday_name_Language Mother Day,3
+Holiday Name,holiday_name_May Day,3
+Holiday Name,holiday_name_Shab e-barat,3
+Holiday Name,holiday_name_Shab-e-Qadr,3
+Holiday Name,holiday_name_Sheikh Mujibur Rahman's birthday,3
+Holiday Name,holiday_name_nan,3
+Holiday Type,holiday_type_National Holiday,3
+Holiday Type,holiday_type_Not a National Holiday,3
+Holiday Type,holiday_type_nan,3
+Macroeconomics,balance_of_trade,3
+Macroeconomics,currency_log_return,3
+Macroeconomics,currency_momentum_5d,3
+Macroeconomics,exports,3
+Macroeconomics,imports,3
+Macroeconomics,inflation_rate,3
+Macroeconomics,interest_rate_value,3
+Macroeconomics,stock_market_close,3
+Products,Product_AT5X5K,3
+Products,Product_ATN01K24P,3
+Products,Product_ATN02K12P,3
+Products,Product_ATPA1K24P,3
+Products,Product_ATPPCH5X5K,3
+Products,Product_ATWWP001K24P,3
+Products,Product_ATWWP002K12P,3
+Products,Product_EEA200G24P,3
+Products,Product_EEA500G12P,3
+Products,Product_MAC1K25P,3
+Products,Product_MAHS025K,3
+Products,Product_MAP1K25P,3
+Products,Product_MAPA1K24P,3
+Products,Product_MAR01K24P,3
+Products,Product_MAR02K12P,3
+Products,Product_MASR025K,3
+Products,Product_POP001L12P,3
+Products,Product_POP001L12P.1,3
+Products,Product_POP002L09P,3
+Products,Product_POP005L04P,3
+Products,Product_POP015K,3
+Products,Product_POP500M24P,3
+Products,Product_POPF01L12P,3
+Products,Product_POV001L24P,3
+Products,Product_POV002L09P,3
+Products,Product_POV005L04P,3
+Products,Product_POV500M24P,3
+Products,Product_SE200G24P,3
+Products,Product_SE500G24P,3
+Products,Product_SO0001L12P,3
+Products,Product_SO0002L09P,3
+Products,Product_SO0005L04P,3
+Products,Product_SO0500M24P,3
+Products,Product_SOP001L12P,3
+Products,Product_SOS001L12P,3
+Products,Product_SOS002L09P,3
+Products,Product_SOS003L04P,3
+Products,Product_SOS005L04P,3
+Products,Product_SOS008L02P,3
+Products,Product_SOS250M48P,3
+Products,Product_SOS500M24P,3
+Sales,Sales_lag_1,3
+Sales,Sales_lag_14,3
+Sales,Sales_lag_2,3
+Sales,Sales_lag_21,3
+Sales,Sales_lag_28,3
+Sales,Sales_lag_3,3
+Sales,Sales_lag_7,3
+Scope or Location,scope_or_location_Chattogram division & south-east,3
+Scope or Location,scope_or_location_Nationwide,3
+Scope or Location,scope_or_location_Nationwide (strongest in Buddhist communities),3
+Scope or Location,scope_or_location_Nationwide (strongest in cities),3
+Scope or Location,scope_or_location_Tongi near Dhaka,3
+Scope or Location,scope_or_location_Urban centres (esp. Dhaka),3
+Scope or Location,scope_or_location_nan,3
+Sub-Groups,Sub-Group_AT,3
+Sub-Groups,Sub-Group_ATN,3
+Sub-Groups,Sub-Group_ATPA,3
+Sub-Groups,Sub-Group_ATPPCH,3
+Sub-Groups,Sub-Group_ATWWP,3
+Sub-Groups,Sub-Group_EEA,3
+Sub-Groups,Sub-Group_MAC,3
+Sub-Groups,Sub-Group_MAHS,3
+Sub-Groups,Sub-Group_MAP,3
+Sub-Groups,Sub-Group_MAPA,3
+Sub-Groups,Sub-Group_MAR,3
+Sub-Groups,Sub-Group_MASR,3
+Sub-Groups,Sub-Group_POP,3
+Sub-Groups,Sub-Group_POPF,3
+Sub-Groups,Sub-Group_POV,3
+Sub-Groups,Sub-Group_SE,3
+Sub-Groups,Sub-Group_SO,3
+Sub-Groups,Sub-Group_SOP,3
+Sub-Groups,Sub-Group_SOS,3
+Sub-Groups,Sub-Group_nan,3
+Weather,Humidity,3
+Weather,Rainfall,3
+Weather,Sunshine,3
+Weather,Temperature,3
+Rainfall,typical_rain_mm,4

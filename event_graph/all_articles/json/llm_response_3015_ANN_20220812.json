@@ -1,0 +1,99 @@
+{
+  "article": {
+    "source": "ANN",
+    "date": "2022-08-12",
+    "url": "https://asianews.network/can-bangladesh-ensure-a-soft-landing/",
+    "body_preview": "DHAKA - Economists are fond of drawing analogies from flying. Thus, when economies attain sufficient, sustained growth, they \"take off.\" When external conditions help them grow faster, they are pushed by \"tailwinds.\" Conversely, if unfavourable conditions force them to slow, they face the \"headwinds.\" When economies are unstable, it is \"bumpy.\" When they have to slow down quickly and significantly, we question whether they will have an orderly slowdown, a \"soft landing,\" or a disruptive one, a \""
+  },
+  "llm_connections": [
+    {
+      "feature": "interest_rate_value",
+      "event_summary": "Turkey keeps interest rates low",
+      "edge_label": "holds rates low",
+      "evidence_quote": "“Erdoganomics” has compelled the central bank to keep the interest rates low.",
+      "scope_justification": "The article explicitly links presidential economic policy to a central bank interest-rate level, matching the feature's borrowing-cost scope.",
+      "verification": {
+        "quote_similarity": 0.974,
+        "quote_best_match": "\"Erdoganomics\" has compelled the central bank to keep the interest rates low.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states, “Erdoganomics has compelled the central bank to keep the interest rates low,” explicitly linking policy to low interest rates at the country level in Turkey."
+      }
+    },
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Turkey's inflation-depreciation cycle",
+      "edge_label": "drives inflation",
+      "evidence_quote": "a vicious inflation-depreciation cycle that has led to 70 percent inflation rates",
+      "scope_justification": "This describes a national economy's general inflation rate, matching the feature's economy-wide price-level scope.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "a vicious inflation-depreciation cycle that has led to 70 percent inflation rates",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states Turkey is experiencing “a vicious inflation-depreciation cycle that has led to 70 percent inflation rates,” explicitly linking the cycle to national inflation. The discussion is at the country-wide economic level."
+      }
+    },
+    {
+      "feature": "balance_of_trade",
+      "event_summary": "Bangladesh's cost shock widens deficit",
+      "edge_label": "widens trade deficit",
+      "evidence_quote": "High oil, LNG, cooking oil and food prices, and an overvalued foreign exchange rate, increased our import bill ... the trade deficit to USD 32 billion",
+      "scope_justification": "The article explicitly reports Bangladesh's country-wide trade deficit, which matches the aggregate difference between imports and exports.",
+      "verification": {
+        "quote_similarity": 0.905,
+        "quote_best_match": "High oil, LNG, cooking oil and food prices, and an overvalued foreign exchange rate, increased our import bill in the last year to USD 84 billion,",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that high commodity prices and an overvalued exchange rate increased Bangladesh’s import bill and the trade deficit to USD 32 billion, explicitly linking the cost shock to a wider trade deficit at the country level."
+      }
+    },
+    {
+      "feature": "imports",
+      "event_summary": "Government targets lower imports",
+      "edge_label": "curbs imports",
+      "evidence_quote": "To reduce imports and protect reserves, the government has reduced power supply by 1,000-1,500MW",
+      "scope_justification": "The statement refers directly to reducing Bangladesh's aggregate imports rather than a single commodity or firm.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "To reduce imports and protect reserves, the government has reduced power supply by 1,000-1,500MW",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The exact sentence appears in the article and explicitly states that the government reduced power supply in order to reduce imports, indicating a causal relationship at the national (aggregate imports) level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-08-12",
+      "interest_rate_value",
+      "holds rates low",
+      "Turkey keeps interest rates low"
+    ],
+    [
+      "2022-08-12",
+      "inflation_rate",
+      "drives inflation",
+      "Turkey's inflation-depreciation cycle"
+    ],
+    [
+      "2022-08-12",
+      "balance_of_trade",
+      "widens trade deficit",
+      "Bangladesh's cost shock widens deficit"
+    ],
+    [
+      "2022-08-12",
+      "imports",
+      "curbs imports",
+      "Government targets lower imports"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 4
+}

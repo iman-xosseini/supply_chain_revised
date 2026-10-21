@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-10-27",
+    "url": "https://www.bssnews.net/news/90406",
+    "body_preview": "DHAKA, Oct 27, 2022 (BSS) - Experts today observed that digitalisation of agriculture is an urgent now to ensure the Bangladesh's food security.\n\nWith a growing population and facing climate change challenges, digital agriculture can deliver Bangladesh with the boost in productivity that is needs to secure food and nutrition security for decades to come, they told one of the main conclusions of a workshop here.\n\nTo discuss digital opportunities in agriculture, the event was arranged at BARC audi"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Agricultural digitalisation initiative",
+      "edge_label": "boosts food exports",
+      "evidence_quote": "He said digitalisation of agriculture will boost productivity, helping to meet increasing demand for food as the population grows, and to fulfill ambitions for increased food exports.",
+      "scope_justification": "The article explicitly links Bangladesh-wide agricultural digitalisation to increased food exports, which are goods sent internationally within the exports feature's scope.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "He said digitalisation of agriculture will boost productivity, helping to meet increasing demand for food as the population grows, and to fulfill ambitions for increased food exports.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states that digitalisation of agriculture will boost productivity and help fulfill ambitions for increased food exports. This is presented at the Bangladesh national level, matching the scope of exports."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-10-27",
+      "exports",
+      "boosts food exports",
+      "Agricultural digitalisation initiative"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

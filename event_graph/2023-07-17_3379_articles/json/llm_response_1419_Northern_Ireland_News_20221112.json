@@ -1,0 +1,37 @@
+{
+  "article": {
+    "source": "Northern Ireland News",
+    "date": "2022-11-12",
+    "url": "https://www.northernirelandnews.com/news/273080528/interview-bangladesh-feels-pinch-of-us-feds-rate-hikes-says-economist",
+    "body_preview": "DHAKA, Nov. 12 (Xinhua) -- The economic woes associated with the ballooning U.S. debt are spilling over to many countries around the world and countries like Bangladesh have felt the pinch of the U.S. Federal Reserve's aggressive interest rate hikes, a leading Bangladeshi economist has warned.\n\nWith the U.S. national debt already exceeding 31 trillion U.S. dollars and due to the U.S. rate hikes, the global economy has shrunk amid dire problems including currency devaluation, inflation and food c"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "U.S./European economic downturn",
+      "edge_label": "threatens exports",
+      "evidence_quote": "If the U.S. and European economies markedly fall, the Bangladeshi economy will take a hard hit as the country's exports are highly dependent on the United States and European countries",
+      "scope_justification": "The article explicitly discusses Bangladesh's country-wide exports and their dependence on U.S. and European economies, matching the national export-volume scope.",
+      "verification": {
+        "quote_similarity": 0.997,
+        "quote_best_match": "If the U.S. and European economies markedly fall, the Bangladeshi economy will take a hard hit as the country's exports are highly dependent on the United States and European countries,",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The quoted sentence appears verbatim and explicitly links a downturn in U.S./European economies to negative impacts on Bangladesh via its exports, which are said to be highly dependent on those markets. The discussion is at the national (country-wide exports) level, matching the scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-11-12",
+      "exports",
+      "threatens exports",
+      "U.S./European economic downturn"
+    ]
+  ],
+  "features_queried": [
+    "balance_of_trade",
+    "stock_market_close",
+    "exports"
+  ],
+  "num_connections_found": 1
+}

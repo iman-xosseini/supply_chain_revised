@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "english.news.cn",
+    "date": "2023-02-02",
+    "url": "https://english.news.cn/asiapacific/20230203/6130f1fdc4984b23a6ec9be430d24b44/c.html",
+    "body_preview": "DHAKA, Feb. 2 (Xinhua) -- The price of Liquefied Petroleum Gas (LPG) in Bangladesh has been hiked by 22.15 taka per kg to 124.85 taka.\n\nBangladesh Energy Regulatory Commission (BERC) in Dhaka announced the latest LPG price through a press release on Thursday.\n\nThe new price will be effective from Thursday 6:00 p.m. local time.\n\nThe 12 kg cylinder LPG price, which was 1,232 taka in January, would now stand at 1,498 taka after the hike. The move to raise LPG price came after the electricity price "
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Energy price markup raises inflation",
+      "edge_label": "pushes up inflation",
+      "evidence_quote": "Experts claimed the markup in the retail power and energy prices would likely push up the nation's inflation rate again.",
+      "scope_justification": "The article explicitly links nationwide retail power and energy price increases to the nation’s overall inflation rate, matching the aggregate CPI scope.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "Experts claimed the markup in the retail power and energy prices would likely push up the nation's inflation rate again.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article contains the exact quote stating that experts claim retail power and energy price markups would likely push up the nation's inflation rate, explicitly expressing a causal link at the national level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-02-02",
+      "inflation_rate",
+      "pushes up inflation",
+      "Energy price markup raises inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

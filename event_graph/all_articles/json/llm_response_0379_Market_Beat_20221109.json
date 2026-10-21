@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Market Beat",
+    "date": "2022-11-09",
+    "url": "https://www.marketbeat.com/articles/imf-bangladesh-reach-preliminary-deal-for-45b-in-loans-2022-11-09/",
+    "body_preview": "DHAKA,Bangladesh (AP) -- The International Monetary Fund reached a preliminary agreement on Wednesday with Bangladesh to provide $4.5 billion to help the country weather disruptions caused by the war in Ukraine and manage risks from climate change.\n\nThe agreement is subject to approval by the IMF's executive board, which is expected within weeks. Bangladesh sought the loans as its foreign currency reserves were dwindling due to a weakening currency and soaring costs for imports.\n\nThe IMF said in"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Ukraine war disrupted recovery",
+      "edge_label": "increases inflation",
+      "evidence_quote": "Russia's war in Ukraine, leading to a sharp widening of the current account deficit, a rapid decline of foreign exchange reserves, rising inflation and slowing growth",
+      "scope_justification": "The article explicitly links a national-level geopolitical disruption to rising inflation, matching the feature's country-wide general price-level scope.",
+      "verification": {
+        "quote_similarity": 0.994,
+        "quote_best_match": "Russia's war in Ukraine, leading to a sharp widening of the current account deficit, a rapid decline of foreign exchange reserves, rising inflation and slowing growth,\"",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that Russia's war in Ukraine led to outcomes including 'rising inflation' in Bangladesh, explicitly establishing causality at the national level. The quoted wording appears verbatim and matches the country-wide inflation scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-11-09",
+      "inflation_rate",
+      "increases inflation",
+      "Ukraine war disrupted recovery"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

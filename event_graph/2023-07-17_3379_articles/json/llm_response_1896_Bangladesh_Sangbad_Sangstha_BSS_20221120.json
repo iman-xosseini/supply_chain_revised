@@ -1,0 +1,37 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-11-20",
+    "url": "https://www.bssnews.net/news-flash/95150",
+    "body_preview": "DHAKA, Nov 20, 2022 (BSS) - Agriculture Minister Dr Abdur Razzaque today said that the government has taken various steps to fulfil the prerequisites for exporting agricultural goods to the main markets of developed countries, including the USA, the UK, Europe and Japan.\n\n\"We are working to increase the export of agricultural products to the main markets of developed countries, including the USA, the UK, Europe and Japan. Many steps have been taken to fulfil the prerequisites set by those countr"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Government export-prerequisite measures",
+      "edge_label": "supports export growth",
+      "evidence_quote": "We are working to increase the export of agricultural products to the main markets of developed countries",
+      "scope_justification": "The article explicitly links government measures to increasing internationally sent agricultural goods, which falls within the feature's definition of exports.",
+      "verification": {
+        "quote_similarity": 0.991,
+        "quote_best_match": "\"We are working to increase the export of agricultural products to the main markets of developed countries,",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The quote appears nearly verbatim. The article explicitly ties government steps to fulfill export prerequisites with the goal of increasing agricultural exports, implying a causal intent. The discussion is at the national (country) level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-11-20",
+      "exports",
+      "supports export growth",
+      "Government export-prerequisite measures"
+    ]
+  ],
+  "features_queried": [
+    "balance_of_trade",
+    "stock_market_close",
+    "exports"
+  ],
+  "num_connections_found": 1
+}

@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Investing.com India",
+    "date": "2022-09-18",
+    "url": "https://in.investing.com/news/bangladesh-eyes-100-billion-usd-export-earnings-by-2026-3347541",
+    "body_preview": "Dhaka, Sep 18 (IANS) Bangladesh has embarked on a high growth path with an aim to double its export earnings in just four years, country's Commerce Minister Tipu Munshi said.\n\nAddressing a meeting with the Overseas Correspondents Association of Bangladesh (OCAB) at the National Press Club in Dhaka on Saturday, he said the government has planned an export target of 100 billion US dollars by 2026.\n\n\"We're planning an export target of 80 billion US dollars by 2024 and 100 billion US dollars in 2026"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "RMG receives export priority",
+      "edge_label": "supports export growth",
+      "evidence_quote": "ready-made garments (RMG), including knitwear and woven, would be given a special priority as always to achieve goods export target.",
+      "scope_justification": "The statement links a national government priority for RMG to Bangladesh's overall goods export target, matching the country-wide exports scope.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "ready-made garments (RMG), including knitwear and woven, would be given a special priority as always to achieve goods export target.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states that RMG will be given special priority \"to achieve goods export target,\" directly linking the priority to improving national exports. The quote appears verbatim and the scope is country-level export targets."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-09-18",
+      "exports",
+      "supports export growth",
+      "RMG receives export priority"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

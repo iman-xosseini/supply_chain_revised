@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "english.news.cn",
+    "date": "2023-04-05",
+    "url": "https://english.news.cn/asiapacific/20230405/afe6ab21febd429aab8007b8b86b85e7/c.html",
+    "body_preview": "DHAKA, April 5 (Xinhua) -- Bangladesh made a rapid recovery from the COVID-19 pandemic supported by prudent macroeconomic policies, but its economy faces challenges of global economic uncertainty, inflationary pressure, energy shortages, a balance-of-payments deficit, and a revenue shortfall, the World Bank has said in a report.\n\nThe Bangladesh Development Update entitled \"Trade Reform: An Urgent Agenda\" released on Tuesday said that accelerating the implementation of structural reforms, includi"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Rising inflation slows growth",
+      "edge_label": "slows economic growth",
+      "evidence_quote": "real GDP growth is expected to decelerate to 5.2 percent ... due to rising inflation",
+      "scope_justification": "The article explicitly discusses rising inflation at the national-economy level, matching the feature's definition of general price-level increases.",
+      "verification": {
+        "quote_similarity": 0.825,
+        "quote_best_match": "real GDP growth is expected to decelerate to 5.2 percent in",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that Bangladesh’s real GDP growth is expected to decelerate 'due to rising inflation' (among other factors), explicitly linking rising inflation to slower economic growth at the national level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-04-05",
+      "inflation_rate",
+      "slows economic growth",
+      "Rising inflation slows growth"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

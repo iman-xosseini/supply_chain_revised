@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-09-27",
+    "url": "https://www.bssnews.net/news-flash/84861",
+    "body_preview": "DHAKA, Sept 27, 2022 (BSS) - President M Abdul Hamid today wished long life, sound health, peace-progress and continued wellbeing of Prime Minister Sheikh Hasina on the occasion of her 76th birthday to be celebrated tomorrow.\n\n\"I extend my heartiest greetings and warm congratulations to Bangladesh Awami League President and Prime Minister Sheikh Hasina,\" he said in a message on the eve of her birthday.\n\nSheikh Hasina was born on September 28 in 1947 at Tungipara in Gopalganj in a traditional pol"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Russia-Ukraine crisis raises inflation",
+      "edge_label": "raises inflation",
+      "evidence_quote": "The Russia-Ukraine crisis and the consequent rise in global inflation have pushed the world into new challenges amid pandemic,",
+      "scope_justification": "The article explicitly describes a broad, global rise in prices, matching the feature's general inflation-rate concept rather than a narrow commodity-specific price change.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "The Russia-Ukraine crisis and the consequent rise in global inflation have pushed the world into new challenges amid pandemic,",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states 'The Russia-Ukraine crisis and the consequent rise in global inflation,' explicitly linking the crisis to a rise in global inflation. This matches the general inflation-rate feature at a global scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-09-27",
+      "inflation_rate",
+      "raises inflation",
+      "Russia-Ukraine crisis raises inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

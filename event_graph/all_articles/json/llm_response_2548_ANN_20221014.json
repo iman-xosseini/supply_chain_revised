@@ -1,0 +1,61 @@
+{
+  "article": {
+    "source": "ANN",
+    "date": "2022-10-14",
+    "url": "https://asianews.network/can-bangladesh-government-tame-raging-inflation/",
+    "body_preview": "DHAKA - We're worried by the continuing inflationary trend which seems poised to hit a boiling point, with data released by the Bangladesh Bureau of Statistics (BBS) saying that inflation hit a 10-year high in August. Overall, inflation surged to 9.52 percent in August, then dropping to a still-high 9.10 percent in September. Ordinary people, however, don't need BBS figures to know how badly prices have been spiralling out of control in recent months. Their daily suffering stands as living proof"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Supply disruptions raise inflation",
+      "edge_label": "increases price levels",
+      "evidence_quote": "Inflation ... has been out of control ... due to higher food prices amid global supply chain disruptions and trade uncertainties arising from the Russia-Ukraine war.",
+      "scope_justification": "The article directly links national inflation to broadly higher food prices and supply disruptions, matching the aggregate CPI price-level definition.",
+      "verification": {
+        "quote_similarity": 0.871,
+        "quote_best_match": "has been out of control for the past several months due to higher food prices amid global supply chain disruptions and trade uncertainties arising from the Russia-Ukraine war.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states that inflation has been out of control due to higher food prices amid global supply chain disruptions and trade uncertainties from the Russia-Ukraine war, and it discusses Bangladesh’s national inflation rates, matching the scope."
+      }
+    },
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Fuel hike worsens inflation",
+      "edge_label": "raises commodity prices",
+      "evidence_quote": "the recent fuel price hike in the country has, as anticipated, only made things worse.",
+      "scope_justification": "The national fuel-price increase is explicitly described as worsening the ongoing inflation crisis and affecting prices broadly, matching the general price-level scope.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "the recent fuel price hike in the country has, as anticipated, only made things worse.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The exact quote appears, and the article explicitly states that the recent national fuel price hike worsened inflation and had a cascading effect on commodity prices, matching the country-level scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-10-14",
+      "inflation_rate",
+      "increases price levels",
+      "Supply disruptions raise inflation"
+    ],
+    [
+      "2022-10-14",
+      "inflation_rate",
+      "raises commodity prices",
+      "Fuel hike worsens inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 2
+}

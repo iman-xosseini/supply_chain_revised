@@ -1,0 +1,37 @@
+{
+  "article": {
+    "source": "The Daily Star",
+    "date": "2023-01-01",
+    "url": "https://www.thedailystar.net/business/economy/news/ensure-stable-energy-prices-economic-recovery-3210341",
+    "body_preview": "The Dhaka Chamber of Commerce and Industry (DCCI) today urged the government to focus on ensuring uninterrupted and affordable energy for both local and export-oriented manufacturing units to further accelerate Bangladesh's economic recovery in 2023.\n\nAlso, emphasis should be placed on improving the ease of doing business and developing an infrastructural environment that is conducive for attracting local and foreign investment, according to a press release from the trade body.\n\nIn addition, the"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "FTA initiatives support exports",
+      "edge_label": "supports export growth",
+      "evidence_quote": "take initiatives to sign free trade agreements with various markets and regional economic blocs in order to continue the existing export growth",
+      "scope_justification": "The article explicitly links national-level trade agreements with continued growth in Bangladesh's exports, matching the feature's country-wide volume of goods sent internationally.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "take initiatives to sign free trade agreements with various markets and regional economic blocs in order to continue the existing export growth",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states the government should sign free trade agreements \"in order to continue the existing export growth,\" explicitly linking FTAs to national export growth. The scope is country-level exports for Bangladesh."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-01-01",
+      "exports",
+      "supports export growth",
+      "FTA initiatives support exports"
+    ]
+  ],
+  "features_queried": [
+    "balance_of_trade",
+    "stock_market_close",
+    "exports"
+  ],
+  "num_connections_found": 1
+}

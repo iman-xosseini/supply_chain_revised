@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-10-15",
+    "url": "https://www.bssnews.net/business/88156",
+    "body_preview": "DHAKA, Oct 15, 2022 (BSS) - South Asian countries must think about further enhancing sub-regional cooperation when all global powers are rethinking their value chains in the post-pandemic world scenario.\n\nSpeakers expressed such views at a conference of South Asian Federation of Accountants (SAFA) 2022 hosted by the Institute of Chartered Accountants of Bangladesh (ICAB) at a city hotel today.\n\nThey said COVID-19 induced economic slowdown disrupted the global supply chains which has been further"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "High liquidity drives inflation",
+      "edge_label": "drives price increases",
+      "evidence_quote": "Global economies have been experiencing inflation from the high supply of liquidity",
+      "scope_justification": "The article explicitly describes economy-wide inflation caused by excess liquidity, matching the feature's general price-level scope.",
+      "verification": {
+        "quote_similarity": 0.994,
+        "quote_best_match": "Global economies have been experiencing inflation from the high supply of liquidity,",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states, “Global economies have been experiencing inflation from the high supply of liquidity,” explicitly linking high liquidity to inflation and subsequent price increases. This is discussed at the macro (global economies) level, matching the economy-wide inflation scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-10-15",
+      "inflation_rate",
+      "drives price increases",
+      "High liquidity drives inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-10-06",
+    "url": "https://www.bssnews.net/business/86606",
+    "body_preview": "DHAKA, Oct 6, 2022 (BSS) - Beset with Sri Lanka's economic crisis, Pakistan's\n\ncatastrophic floods, a global slowdown, and impacts of the war in Ukraine,\n\nSouth Asia faces an unprecedented combination of shocks on top of the\n\nlingering scars of the COVID-19 pandemic.\n\nGrowth in the region is dampening, says the World Bank in its twice-a-year\n\nupdate, underscoring the need for countries to build resilience.\n\nReleased today, the latest South Asia Economic Focus, Coping with Shocks:\n\nMigration and "
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Global prices raise inflation",
+      "edge_label": "raises inflation",
+      "evidence_quote": "Inflation in South Asia, caused by elevated global food and energy prices and trade restrictions",
+      "scope_justification": "The article directly describes a broad rise in consumer price levels across South Asia and its resulting squeeze on real income, matching the inflation-rate concept.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "Inflation in South Asia, caused by elevated global food and energy prices and trade restrictions",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states, 'Inflation in South Asia, caused by elevated global food and energy prices and trade restrictions,' explicitly linking global prices to higher inflation. This is discussed at the regional (South Asia) level, matching the scope of an inflation rate measure."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-10-06",
+      "inflation_rate",
+      "raises inflation",
+      "Global prices raise inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

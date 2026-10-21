@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2023-01-04",
+    "url": "https://www.bssnews.net/news-flash/103425",
+    "body_preview": "DHAKA, Jan 4, 2023 (BSS) - Prime Minister Sheikh Hasina today called upon the expatriate Bangladeshis to send remittance through the banking channels instead of hundi and make investments in Bangladesh.\n\n\"I request you all (expatriates) - please don't send remittances through hundi and take steps to send those directly to the banks,\" she said as expatriate Awami League leaders from various countries, including the USA and the UK, met her at her office here.\n\nUrging the expatriate leaders to make"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Global recession increases inflation",
+      "edge_label": "increases inflation",
+      "evidence_quote": "the inflation rate across the globe has increased due to the global economic recession",
+      "scope_justification": "The article explicitly describes an economy-wide rise in general price levels, matching the feature’s broad inflation-rate scope.",
+      "verification": {
+        "quote_similarity": 0.994,
+        "quote_best_match": "the inflation rate across the globe has increased due to the global economic recession.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states, “the inflation rate across the globe has increased due to the global economic recession,” which explicitly links the global recession to higher global inflation. The scope is global/economy-wide, matching the inflation_rate feature’s broad level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-01-04",
+      "inflation_rate",
+      "increases inflation",
+      "Global recession increases inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

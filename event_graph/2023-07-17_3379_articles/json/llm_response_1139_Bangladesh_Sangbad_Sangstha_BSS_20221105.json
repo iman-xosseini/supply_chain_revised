@@ -1,0 +1,37 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-11-05",
+    "url": "https://www.bssnews.net/business/92126",
+    "body_preview": "DHAKA, Nov 5, 2022 (BSS) - President of the Federation of Bangladesh Chambers of Commerce and Industry (FBCCI) Md Jashim Uddin today said that domestic industries would fall in difficulties if the current lending rate is increased.\n\nHe said this while speaking at 'ERF's Dialogue' as the chief guest, organized by the Economic Reporters' Forum (ERF), at its auditorium in the capital today.\n\nJashim said that the interest rate of bank loans cannot be increased for the sake of expanding investment an"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Energy shortages disrupt deliveries",
+      "edge_label": "disrupts export deliveries",
+      "evidence_quote": "if the businesses do not get gas and electricity now, they would fail to deliver products according to the orders of foreign buyers.",
+      "scope_justification": "The article explicitly links industrial energy shortages to failures in delivering goods to foreign buyers, matching the international-goods scope of exports.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "if the businesses do not get gas and electricity now, they would fail to deliver products according to the orders of foreign buyers.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article contains the exact quote stating that without gas and electricity, businesses would fail to deliver products to foreign buyers, explicitly linking energy shortages to disrupted export deliveries at a national industry level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-11-05",
+      "exports",
+      "disrupts export deliveries",
+      "Energy shortages disrupt deliveries"
+    ]
+  ],
+  "features_queried": [
+    "balance_of_trade",
+    "stock_market_close",
+    "exports"
+  ],
+  "num_connections_found": 1
+}

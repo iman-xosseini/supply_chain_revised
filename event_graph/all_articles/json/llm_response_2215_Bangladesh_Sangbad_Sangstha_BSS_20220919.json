@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-09-19",
+    "url": "https://www.bssnews.net/news/83380",
+    "body_preview": "DHAKA, Sept 19, 2022 (BSS) - Environment, Forest and Climate Change Md Shahab Uddin today said the government is working to protect ozone layer aiming to save the earth planet from impacts of harmful ultraviolet rays.\n\n\"All the programmes and projects, adopted under the Montreal Protocol for ozone layer protection, are being approved and implemented on time by the government with special importance,\" he told a discussion here.\n\nThe Department of Environment (DoE) arranged the meeting at its offi"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "HCFC phase-out expands exports",
+      "edge_label": "opens export opportunities",
+      "evidence_quote": "As a result, Bangladesh will enter a new era in the field of air cooler production. The door of export of manufactured products will be opened abroad",
+      "scope_justification": "The article explicitly links a Bangladesh-wide HCFC phase-out program to increased international export opportunities for manufactured air-cooling products.",
+      "verification": {
+        "quote_similarity": 0.99,
+        "quote_best_match": "\"As a result, Bangladesh will enter a new era in the field of air cooler production. The door of export of manufactured products will be opened abroad,\"",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The quoted line appears verbatim. The article explicitly links implementing the HCFC phase-out plan to resulting export opportunities, stating this will open the door to exports, and it is framed at the national (Bangladesh) level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-09-19",
+      "exports",
+      "opens export opportunities",
+      "HCFC phase-out expands exports"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

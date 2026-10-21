@@ -1,0 +1,7 @@
+{
+  "start_date": "2023-07-11",
+  "end_date": "2023-07-17",
+  "top_n": 20,
+  "model_name": "google/gemini-3.5-flash-lite",
+  "explanation": "**Weather** appears to influence **Macroeconomics**, which feeds through into recent sales momentum. This unfolds amid shifting **export activity**, where inflation and customer pressures reduce demand and gas issues disrupt shipments, while economic zones, ports, and mechanization concurrently boost exports, with positive drivers currently dominating broader macroeconomic conditions. Commercial leads should monitor **Weather** for supply shifts, track **Macroeconomics** for demand signals, and audit **export activity** to protect throughput. These relationships are inferred from historical data and news signals, serving as informed guidance rather than certainty."
+}

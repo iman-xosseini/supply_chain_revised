@@ -1,0 +1,37 @@
+{
+  "article": {
+    "source": "ANN",
+    "date": "2022-09-12",
+    "url": "https://asianews.network/cotton-price-drop-cant-cheer-up-bangladesh-garment-makers/",
+    "body_preview": "DHAKA - International cotton prices have significantly fallen but brought little cheer to local spinners and garment manufacturers suffering from a drop in work orders from international retailers and brands.\n\nThe price of cotton fell to $1.01 to $1.04 per pound in international futures markets yesterday from $1.20 to $1.30 in May and June.\n\nThis resulted from a drop in demand for garment items in major export destinations like Europe because of high inflation stemming from the Russia-Ukraine wa"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Gas crisis limits production",
+      "edge_label": "constrains exports",
+      "evidence_quote": "the gas crisis was a major challenge for textile millers as they cannot run their mills at full capacity",
+      "scope_justification": "The article explicitly links a Bangladesh-wide textile manufacturing constraint to affected exports, matching the feature’s international goods-shipment scope.",
+      "verification": {
+        "quote_similarity": 0.995,
+        "quote_best_match": "the gas crisis was a major challenge for textile millers as they cannot run their mills at full capacity.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The quoted sentence appears verbatim. The article explicitly links the gas crisis causing mills to run below capacity and states they are meeting on the gas crisis because exports are being affected, indicating causality. The discussion is at the national textile sector level, matching the exports scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-09-12",
+      "exports",
+      "constrains exports",
+      "Gas crisis limits production"
+    ]
+  ],
+  "features_queried": [
+    "balance_of_trade",
+    "stock_market_close",
+    "exports"
+  ],
+  "num_connections_found": 1
+}

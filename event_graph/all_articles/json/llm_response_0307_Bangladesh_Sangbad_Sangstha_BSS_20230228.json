@@ -1,0 +1,61 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2023-02-28",
+    "url": "https://www.bssnews.net/business/112993",
+    "body_preview": "DHAKA, Feb 28, 2023 (BSS) - Metropolitan Chamber of Commerce and Industry (MCCI) has observed that Bangladesh's economy has been showing some signs of improvement.\n\nIn a report titled 'Review of Economic Situation in Bangladesh October - December 2022 (Q2 of FY23)', MCCI today mentioned that Bangladesh's robust economic recovery from the COVID-19 pandemic has been interrupted by the war in Russia-Ukraine, resultant supply-chain disruptions, global oil-and food-price spikes, slowdown in external "
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Inflation interrupted economic recovery",
+      "edge_label": "interrupts recovery",
+      "evidence_quote": "Bangladesh's robust economic recovery from the COVID-19 pandemic has been interrupted by ... rise in inflation",
+      "scope_justification": "The article describes a national rise in inflation affecting Bangladesh's overall economic recovery, matching the country-wide CPI concept.",
+      "verification": {
+        "quote_similarity": 0.9,
+        "quote_best_match": "Bangladesh's robust economic recovery from the COVID-19 pandemic has been interrupted by the war in",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states that Bangladesh’s economic recovery was interrupted by a rise in inflation among other factors. This is discussed at the national level, matching the country-wide inflation rate scope."
+      }
+    },
+    {
+      "feature": "exports",
+      "event_summary": "Export earnings aided recovery",
+      "edge_label": "facilitates recovery",
+      "evidence_quote": "Export earnings have facilitated economic recovery.",
+      "scope_justification": "The article refers to national export earnings contributing to overall economic recovery, matching the aggregate international-goods export feature.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "Export earnings have facilitated economic recovery.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states 'Export earnings have facilitated economic recovery,' directly linking national export earnings to Bangladesh’s economic recovery. This matches the country-level scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-02-28",
+      "inflation_rate",
+      "interrupts recovery",
+      "Inflation interrupted economic recovery"
+    ],
+    [
+      "2023-02-28",
+      "exports",
+      "facilitates recovery",
+      "Export earnings aided recovery"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 2
+}

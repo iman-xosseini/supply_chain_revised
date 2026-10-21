@@ -1,0 +1,61 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-09-06",
+    "url": "https://www.bssnews.net/news/80963",
+    "body_preview": "DHAKA, Sept 6, 2022 (BSS) - Planning Minister MA Mannan today expressed his hope that the general point to point inflation in the country is likely to ease from October due to the various measures taken by the government.\n\n\"The inflation is likely to remain a bit higher in September as it was in August. After that hopefully inflation is likely to ease from October,\" he said.\n\nThe Planning Minister said this while responding to a volley of questions at the \"DJFB Development Dialogue\" as the chief"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Record food reserves ease inflation",
+      "edge_label": "eases inflation",
+      "evidence_quote": "Explaining the reasons for possible easing of inflation in the coming months, Mannan said the current food reserve of the country is at a record height",
+      "scope_justification": "The article explicitly links a country-wide food reserve level to the expected easing of general national inflation.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "Explaining the reasons for possible easing of inflation in the coming months, Mannan said the current food reserve of the country is at a record height",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article includes the quoted line and explicitly presents record-high national food reserves as a reason for expected easing of general inflation. Both are discussed at the country level."
+      }
+    },
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Rice prices reduce inflation",
+      "edge_label": "reduces inflation",
+      "evidence_quote": "the price of rice is gradually coming down in the market with a hope of good Aman harvest",
+      "scope_justification": "The article presents declining rice prices and an anticipated national harvest as reasons for easing the country’s general inflation rate.",
+      "verification": {
+        "quote_similarity": 0.994,
+        "quote_best_match": "the price of rice is gradually coming down in the market with a hope of good Aman harvest.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that inflation is expected to ease and explicitly lists falling rice prices as a reason. This is discussed at the national level in the context of general inflation in Bangladesh."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-09-06",
+      "inflation_rate",
+      "eases inflation",
+      "Record food reserves ease inflation"
+    ],
+    [
+      "2022-09-06",
+      "inflation_rate",
+      "reduces inflation",
+      "Rice prices reduce inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 2
+}

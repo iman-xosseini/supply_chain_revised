@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "english.news.cn",
+    "date": "2022-10-12",
+    "url": "https://english.news.cn/asiapacific/20221012/d346fd271c2e4b13bbbe75312a94cad8/c.html",
+    "body_preview": "DHAKA, Oct. 12 (Xinhua) -- Inflation in Bangladesh accelerated to 9.52 percent in August, the highest in 10 years, mainly driven by higher food prices, the Bangladesh Bureau of Statistics (BBS) has reported.\n\nIn addition, the country's overall inflation eased slightly to 9.10 percent in September, according to Planning Minister MA Mannan on Tuesday.\n\nData showed that food inflation soared to 9.94 percent in August, the highest since April of 2012, and eased slightly to 9.08 percent in September."
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Food prices drive inflation",
+      "edge_label": "drives inflation",
+      "evidence_quote": "Inflation in Bangladesh accelerated to 9.52 percent in August, the highest in 10 years, mainly driven by higher food prices",
+      "scope_justification": "The article explicitly reports Bangladesh's national inflation rate and identifies higher food prices as its cause, matching the feature's CPI-wide scope.",
+      "verification": {
+        "quote_similarity": 0.996,
+        "quote_best_match": "Inflation in Bangladesh accelerated to 9.52 percent in August, the highest in 10 years, mainly driven by higher food prices,",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that Bangladesh’s inflation ‘accelerated… mainly driven by higher food prices,’ explicitly linking food prices to national inflation. The scope is country-level CPI for Bangladesh, matching the feature."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-10-12",
+      "inflation_rate",
+      "drives inflation",
+      "Food prices drive inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

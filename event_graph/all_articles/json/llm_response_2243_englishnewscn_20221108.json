@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "english.news.cn",
+    "date": "2022-11-08",
+    "url": "https://english.news.cn/asiapacific/20221108/4fc87ff13a91432f990bef759f103e50/c.html",
+    "body_preview": "DHAKA, Nov. 8 (Xinhua) -- Bangladesh's inflation decreased to 8.91 percent in October from 9.10 percent in September.\n\nBangladeshi Planning Minister MA Mannan on Tuesday revealed the inflation data in October released by the Bangladesh Bureau of Statistics (BBS) at a press conference.\n\nAccording to the Consumer Price Index (CPI) released by the BBS, the food inflation declined to 8.5 percent in October from 9.08 percent in the previous month.\n\nNon-food items inflation, however, increased to 9.58"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Government addresses supply-demand inconsistencies",
+      "edge_label": "contains rising inflation",
+      "evidence_quote": "the government said it is committed to containing the rising trend of inflation by addressing inconsistencies between supply and demand.",
+      "scope_justification": "The statement directly concerns Bangladesh's overall inflation rate, matching the feature's country-wide CPI scope.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "the government said it is committed to containing the rising trend of inflation by addressing inconsistencies between supply and demand.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states the government aims to contain rising inflation by addressing supply-demand inconsistencies, directly expressing a causal link at the national inflation (CPI) level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-11-08",
+      "inflation_rate",
+      "contains rising inflation",
+      "Government addresses supply-demand inconsistencies"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

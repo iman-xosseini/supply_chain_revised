@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2023-03-25",
+    "url": "https://www.bssnews.net/news/117507",
+    "body_preview": "DHAKA, March 25, 2023 (BSS) - Information and Broadcasting Minister and Awami League Joint General Secretary Dr Hasan Mahmud today said BNP wants to destroy the sanctity of Ramadan by announcing movement in the holy month of fasting.\n\n\"In the past, we never saw any announcement of movement in the holy month of Ramadan. Because, every party refrains from holding political programme maintaining sanctity of Ramadan,\" he said.\n\nHasan added: \"During Ramadan, political parties hold iftar party and hol"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "War-driven product price increases",
+      "edge_label": "raises price levels",
+      "evidence_quote": "prices of products have increased in the wake of global context due to the war in Ukraine",
+      "scope_justification": "The article explicitly describes price increases across products, matching the feature's focus on rising general price levels.",
+      "verification": {
+        "quote_similarity": 0.994,
+        "quote_best_match": "prices of products have increased in the wake of global context due to the war in Ukraine,",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that prices of products have increased due to the war in Ukraine, directly attributing higher price levels to the war. It discusses general price increases in Bangladesh, matching the inflation scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-03-25",
+      "inflation_rate",
+      "raises price levels",
+      "War-driven product price increases"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

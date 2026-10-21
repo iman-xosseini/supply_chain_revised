@@ -1,0 +1,61 @@
+{
+  "article": {
+    "source": "The Daily Star",
+    "date": "2023-06-18",
+    "url": "https://www.thedailystar.net/business/news/bb-follow-tight-monetary-policy-3349396",
+    "body_preview": "The Bangladesh Bank (BB) will follow contractionary monetary policy in July-December of 2023-24 fiscal year.\n\nThe banking regulator today said it would follow a contractionary monetary policy in the first half of the upcoming fiscal year in efforts to contain inflation by reducing demand in the economy.\n\n\"Conforming to the tight monetary policy, the BB has decided to increase the policy rate,\" it said in its monetary policy for 2023-24.\n\nThe central bank hiked the policy rate, or repo rate, by 5"
+  },
+  "llm_connections": [
+    {
+      "feature": "interest_rate_value",
+      "event_summary": "Central bank raises repo rate",
+      "edge_label": "raises policy rate",
+      "evidence_quote": "The central bank hiked the policy rate, or repo rate, by 50 basis points to 6.5 per cent",
+      "scope_justification": "The article explicitly reports a national central-bank repo rate change, matching the feature's defined borrowing-cost measure.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "The central bank hiked the policy rate, or repo rate, by 50 basis points to 6.5 per cent",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states that the central bank hiked the policy (repo) rate to 6.5%, matching the provided quote. It clearly links the action (raising the policy rate) to the resulting interest rate value. The scope is national, referring to Bangladesh Bank’s repo rate."
+      }
+    },
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Tight policy targets inflation",
+      "edge_label": "aims to contain inflation",
+      "evidence_quote": "it would follow a contractionary monetary policy in the first half of the upcoming fiscal year in efforts to contain inflation by reducing demand in the economy.",
+      "scope_justification": "The article directly links nationwide contractionary monetary policy and reduced economic demand to containing the general inflation rate.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "it would follow a contractionary monetary policy in the first half of the upcoming fiscal year in efforts to contain inflation by reducing demand in the economy.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states that the Bangladesh Bank will pursue contractionary monetary policy to contain inflation by reducing demand. This is a nationwide policy targeting the general inflation rate, matching the scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-06-18",
+      "interest_rate_value",
+      "raises policy rate",
+      "Central bank raises repo rate"
+    ],
+    [
+      "2023-06-18",
+      "inflation_rate",
+      "aims to contain inflation",
+      "Tight policy targets inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 2
+}

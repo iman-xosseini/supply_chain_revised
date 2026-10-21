@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "english.news.cn",
+    "date": "2022-08-25",
+    "url": "https://english.news.cn/asiapacific/20220825/6cafe843e3c34179a07d239d8c40f214/c.html",
+    "body_preview": "DHAKA, Aug. 25 (Xinhua) -- Security has been tightened in parts of Bangladesh's capital Dhaka as a coalition of left-wing political parties led by the Left Democratic Alliance (LDA) staged a half-day strike on Thursday.\n\nThe LDA, a combination of seven left-leaning political parties, called the nationwide strike for Thursday, protesting against an increase in fuel, fertilizer prices and prices of essential commodities.\n\nSecurity forces dispersed protesters as they tried to hold marches along maj"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Fuel price hike worsens inflation",
+      "edge_label": "worsens inflation",
+      "evidence_quote": "Experts said the fuel price hike would worsen inflation",
+      "scope_justification": "The article directly links Bangladesh's retail fuel price increase to the country's overall inflation rate, matching the feature's general price-level scope.",
+      "verification": {
+        "quote_similarity": 0.991,
+        "quote_best_match": "Experts said the fuel price hike would worsen inflation,",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article contains the exact quote stating experts said the fuel price hike would worsen inflation, explicitly linking the hike to inflation at the national level in Bangladesh."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-08-25",
+      "inflation_rate",
+      "worsens inflation",
+      "Fuel price hike worsens inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "GULF NEWS",
+    "date": "2022-11-09",
+    "url": "https://gulfnews.com/world/asia/imf-agrees-45-billion-bangladesh-support-programme-1.1668000317556",
+    "body_preview": "London/Dhaka: The International Monetary Fund (IMF) provisionally agreed a $4.5-billion support programme on Wednesday for Bangladesh, with the country's finance minister saying the deal would help prevent economic instability escalating into a crisis.\n\nBangladesh's $416-billion economy has been one of the world's fastest growing for years. But rising energy and food prices, sparked by Russia's invasion of Ukraine, along with shrinking foreign exchange reserves, have swelled its import bill and "
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Bangladesh adopts anti-inflation measures",
+      "edge_label": "contains inflation",
+      "evidence_quote": "The IMF said Bangladesh has put together a programme to foster growth that includes measures to contain inflation",
+      "scope_justification": "The article explicitly addresses inflation at the national level, matching the feature's definition of general price-level increases measured by CPI.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "The IMF said Bangladesh has put together a programme to foster growth that includes measures to contain inflation",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that Bangladesh’s program includes “measures to contain inflation,” which explicitly links the adopted measures to containing inflation at the national level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-11-09",
+      "inflation_rate",
+      "contains inflation",
+      "Bangladesh adopts anti-inflation measures"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

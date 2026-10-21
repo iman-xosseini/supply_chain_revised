@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2023-01-14",
+    "url": "https://www.bssnews.net/news-flash/105179",
+    "body_preview": "DHAKA, Jan 14, 2023 (BSS) - Bangladesh Bank (BB) will announce its Monetary Policy Statement (MPS) tomorrow (Sunday) for the second half of the financial year 2022-23 (FY23).\n\nBB Governor Abdur Rouf Talukder will formally announce the MPS at a press conference at the central bank headquarters in the capital, a press release said here today.\n\nThe governor will also brief journalists on the outcome of the current MPS in managing inflation, driving inflow of private sector credit and propelling eco"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "MPS manages inflation",
+      "edge_label": "manages inflation",
+      "evidence_quote": "The governor will also brief journalists on the outcome of the current MPS in managing inflation",
+      "scope_justification": "The article explicitly discusses the national monetary policy statement's effect on inflation, matching the feature's economy-wide price-level scope.",
+      "verification": {
+        "quote_similarity": 0.995,
+        "quote_best_match": "The governor will also brief journalists on the outcome of the current MPS in managing inflation,",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states the governor will brief on the outcome of the current MPS in managing inflation, which explicitly links the MPS to influencing inflation. This is at the national level, matching the economy-wide inflation rate scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-01-14",
+      "inflation_rate",
+      "manages inflation",
+      "MPS manages inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

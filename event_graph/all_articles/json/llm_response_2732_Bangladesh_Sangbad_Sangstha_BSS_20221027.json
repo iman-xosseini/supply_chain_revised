@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-10-27",
+    "url": "https://www.bssnews.net/news-flash/90365",
+    "body_preview": "DHAKA, Oct 27, 2022 (BSS) - The shrinking value of the currencies of most developing economies is driving up food and fuel prices in ways that could deepen the food and energy crises that many of them already face, according to the World Bank's latest Commodity Markets Outlook report.\n\nIn U.S. dollar terms, the prices of most commodities have declined from their recent peaks amid concerns of an impending global recession, the report documents.\n\nFrom the Russian invasion of Ukraine in February 20"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Commodity prices raise inflation",
+      "edge_label": "raises inflation",
+      "evidence_quote": "The combination of elevated commodity prices and persistent currency depreciations translates into higher inflation in many countries",
+      "scope_justification": "The article explicitly describes higher inflation across countries, matching the feature's country-wide general price-level scope.",
+      "verification": {
+        "quote_similarity": 0.989,
+        "quote_best_match": "\"The combination of elevated commodity prices and persistent currency depreciations translates into higher inflation in many countries,\"",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The exact quote appears in the article and explicitly states that elevated commodity prices (along with currency depreciations) translate into higher inflation. The discussion is at the country/region level, matching the general inflation rate scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-10-27",
+      "inflation_rate",
+      "raises inflation",
+      "Commodity prices raise inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

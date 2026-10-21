@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Asian News International (ANI)",
+    "date": "2022-08-10",
+    "url": "https://www.aninews.in/news/world/asia/bangladesh-imports-through-benapole-port-affected-by-fuel-price-hike20220810114221/",
+    "body_preview": "Dhaka [Bangladesh], August 10 (ANI): The sudden sharp rise in fuel prices in Bangladesh is affecting imports through the Benapole land port as transport companies are demanding higher fares.\n\nImporters and other concerned authorities claim that previously truck fares were set at Tk18,000-22,000, but now companies and truck drivers are demanding over Tk28,000.\n\nDue to this, many importers were unable to clear their goods from the port despite paying the import duty, reported Bangla Tribune.\n\nAnim"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Fuel hike increases inflation",
+      "edge_label": "increases inflation",
+      "evidence_quote": "The rate at which fuel prices are increased is immediately affecting all sectors, including the manufacturing and transport sectors, and increases inflation.",
+      "scope_justification": "The article explicitly describes a nationwide fuel-price increase raising general inflation, matching the feature's economy-wide price-level scope.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "The rate at which fuel prices are increased is immediately affecting all sectors, including the manufacturing and transport sectors, and increases inflation.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article includes the exact quote stating that increased fuel prices affect all sectors and increase inflation, explicitly establishing causality. The discussion is at a nationwide level in Bangladesh, matching the economy-wide inflation scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-08-10",
+      "inflation_rate",
+      "increases inflation",
+      "Fuel hike increases inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

@@ -1,0 +1,37 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-08-27",
+    "url": "https://www.bssnews.net/news-flash/79191",
+    "body_preview": "DHAKA, Aug 27, 2022 (BSS) - Bangladesh is being affected by 'economic conditions elsewhere in the world' as the country is now facing soaring prices of energy and food following the Covid-19 pandemic and Russia-Ukraine war.\n\nThese have led to energy shortages and rising import bills that are, in some cases, straining the ability of the country of 160 million people to keep up with debt payments.\n\nThese observations came at a recent article published at UK-based Financial Times titled, \"Banglades"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Slowing buyer growth harms exports",
+      "edge_label": "reduces export performance",
+      "evidence_quote": "This is definitely going to affect export performance going forward",
+      "scope_justification": "The article explicitly links slowing demand in major foreign buyers to Bangladesh's export performance, matching the feature's scope of goods sent internationally.",
+      "verification": {
+        "quote_similarity": 0.978,
+        "quote_best_match": "\"This is definitely going to affect export performance going forward,\"",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article quotes the IMF: slowing growth in major buyer countries will reduce demand and 'definitely' affect Bangladesh’s export performance. This explicitly links foreign buyer growth to country-level export performance."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-08-27",
+      "exports",
+      "reduces export performance",
+      "Slowing buyer growth harms exports"
+    ]
+  ],
+  "features_queried": [
+    "balance_of_trade",
+    "stock_market_close",
+    "exports"
+  ],
+  "num_connections_found": 1
+}

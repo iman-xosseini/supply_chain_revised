@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "ANN",
+    "date": "2022-11-22",
+    "url": "https://asianews.network/bangladeshs-electricity-prices-up-19-92-at-producers-end/",
+    "body_preview": "DHAKA - Electricity price at the producers' end was yesterday hiked by 19.92 percent, a development that is expected to fuel inflation as the distributors ultimately pass on the burden to end users.\n\nFrom next month, the six state-owned distributor companies will buy electricity from the Bangladesh Power Development Board at Tk 6.20 per kilowatt hour (kWh), up from Tk 5.17 at present, as per the decision of the Bangladesh Energy Regulatory Commission (BERC).\n\nThe hike in bulk electricity price -"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Bulk electricity price hike",
+      "edge_label": "fuels inflation",
+      "evidence_quote": "a development that is expected to fuel inflation as the distributors ultimately pass on the burden to end users",
+      "scope_justification": "The article explicitly states that the electricity price increase is expected to raise general inflation, matching the feature's scope of economy-wide price-level increases.",
+      "verification": {
+        "quote_similarity": 0.996,
+        "quote_best_match": "a development that is expected to fuel inflation as the distributors ultimately pass on the burden to end users.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states that the bulk electricity price hike is expected to fuel inflation as costs are passed to end users, and this refers to general (economy-wide) inflation in Bangladesh."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-11-22",
+      "inflation_rate",
+      "fuels inflation",
+      "Bulk electricity price hike"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

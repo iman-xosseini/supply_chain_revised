@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-09-08",
+    "url": "https://www.bssnews.net/business/81376",
+    "body_preview": "RAJSHAHI, Sept 8, 2022 (BSS)- Export prospects of jute produced in the region\n\nis very bright as its production side by side with demand of jute and jute\n\ngoods has gradually been rising for the last couple of years.\n\nKazi Saidur Rahman, Assistant Director of Export Promotion of Bangladesh\n\n(EPB), here said lion portions of jute produced in the country's northwest\n\nregion are being exported to nearby India.\n\nHe informed jute valued at around one crore US dollar were exported from the\n\nregion las"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Processed jute goods exported",
+      "edge_label": "enables processed exports",
+      "evidence_quote": "Indian businessmen import jute from the region and export jute goods to many other foreign countries after processing.",
+      "scope_justification": "The article explicitly describes jute goods being sent to foreign countries after regional jute is processed, matching the feature's scope of goods exported internationally.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "Indian businessmen import jute from the region and export jute goods to many other foreign countries after processing.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states verbatim that Indian businessmen export jute goods to many countries after processing, explicitly linking processing to subsequent exports and discussing it at an international, non-single-entity scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-09-08",
+      "exports",
+      "enables processed exports",
+      "Processed jute goods exported"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

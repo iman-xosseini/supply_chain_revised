@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Daily Sun",
+    "date": "2023-07-20",
+    "url": "https://www.daily-sun.com/post/701238/Bangladeshs-export-to-India-can-grow-by-300pc:-ICCB",
+    "body_preview": "DHAKA - Minimizing various trade barriers, Bangladesh's export to India can grow by 300 percent if it can just fetch only one percent of total Indian imports, observed International Chamber of Commerce Bangladesh (ICCB).\n\nIn its quarterly news bulletin (April-June 2023 issue), ICCB mentioned that despite huge potential, bilateral trade between India and Bangladesh was only US$11 billion in FY22, out of which export from Bangladesh to India was only $1.27 billion.\n\nICCB also observed that South A"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Reduced trade barriers boost exports",
+      "edge_label": "boosts export volume",
+      "evidence_quote": "Minimizing various trade barriers, Bangladesh's export to India can grow by 300 percent",
+      "scope_justification": "The article explicitly links reduced trade barriers to growth in Bangladesh's international export volume, matching the exports feature.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "Minimizing various trade barriers, Bangladesh's export to India can grow by 300 percent",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states, “Minimizing various trade barriers, Bangladesh's export to India can grow by 300 percent,” explicitly linking reduced trade barriers to higher exports. This is at the national level (Bangladesh’s exports to India), matching the claimed scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-07-20",
+      "exports",
+      "boosts export volume",
+      "Reduced trade barriers boost exports"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

@@ -1,0 +1,61 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2023-05-27",
+    "url": "https://www.bssnews.net/business/127672",
+    "body_preview": "DHAKA, May 27, 2023 (BSS) - The Centre for Policy Dialogue (CPD) today recommended for raising the coordination between monetary policy and fiscal policy alongside ensuring institutional reforms to tame inflation and maintain stability in the financial sector.\n\nThe civil society think tank came up with the recommendation at a press conference to reveal the \"Bangladesh's economy 2022-23: Third interim review\" held at its office in the capital's Dhanmondi area.\n\nWhile presenting the written review"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Global commodity price hikes",
+      "edge_label": "raises internal inflation",
+      "evidence_quote": "Global price hike of commodities is liable for internal inflation",
+      "scope_justification": "The article explicitly links broad commodity price increases to Bangladesh's internal inflation, matching the feature's national general price-level scope.",
+      "verification": {
+        "quote_similarity": 0.992,
+        "quote_best_match": "Global price hike of commodities is liable for internal inflation,",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states, “Global price hike of commodities is liable for internal inflation,” explicitly linking global commodity price increases to Bangladesh’s internal inflation. This is a clear causal claim at the national level."
+      }
+    },
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Poor financial policies",
+      "edge_label": "instigates inflation",
+      "evidence_quote": "some poor financial policies are also instigating the inflation",
+      "scope_justification": "The statement directly identifies financial policies as causing inflation, which corresponds to the feature's general rise in national price levels.",
+      "verification": {
+        "quote_similarity": 0.984,
+        "quote_best_match": "some poor financial policies are also instigating the inflation,\"",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states, “some poor financial policies are also instigating the inflation,” explicitly linking poor financial policies to rising inflation. The context is Bangladesh’s national economy, matching the feature’s scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-05-27",
+      "inflation_rate",
+      "raises internal inflation",
+      "Global commodity price hikes"
+    ],
+    [
+      "2023-05-27",
+      "inflation_rate",
+      "instigates inflation",
+      "Poor financial policies"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 2
+}

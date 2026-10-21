@@ -1,0 +1,61 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2023-02-22",
+    "url": "https://www.bssnews.net/business/112047",
+    "body_preview": "DHAKA, Feb 22, 2023 (BSS) - Speakers at a meeting today said that Bangladesh, being a Commonwealth member state, has a huge scope for boosting export of agricultural items to the UK market through availing duty free and quota free access facilities.\n\nBut for this, they suggested the government and the policy makers to ensure international standard accredited lab certificates, diversification in export items, quality control from production stage to shipment, packaging and supplying bacteria free"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Duty-free access boosts exports",
+      "edge_label": "boosts export volume",
+      "evidence_quote": "huge scope for boosting export of agricultural items to the UK market through availing duty free and quota free access facilities",
+      "scope_justification": "The article directly links Bangladesh’s international shipment of agricultural goods to the UK with expanded export activity, matching the exports feature.",
+      "verification": {
+        "quote_similarity": 0.996,
+        "quote_best_match": "huge scope for boosting export of agricultural items to the UK market through availing duty free and quota free access facilities.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that Bangladesh has a huge scope to boost agricultural exports to the UK through availing duty- and quota-free access, explicitly implying a causal link. This is discussed at the country-level for Bangladesh’s exports."
+      }
+    },
+    {
+      "feature": "exports",
+      "event_summary": "BSTI capacity raises exports",
+      "edge_label": "raises export volume",
+      "evidence_quote": "the export of agricultural items could be raised up to $5 billion if the capacity of the Bangladesh Standards and Testing Institute (BSTI) could be enhanced",
+      "scope_justification": "The statement explicitly connects enhanced national standards-testing capacity with increased goods exported internationally from Bangladesh, matching the exports feature.",
+      "verification": {
+        "quote_similarity": 0.997,
+        "quote_best_match": "the export of agricultural items could be raised up to $5 billion if the capacity of the Bangladesh Standards and Testing Institute (BSTI) could be enhanced.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that exports of agricultural items could rise to $5 billion if BSTI’s capacity is enhanced, explicitly linking enhanced BSTI capacity to increased export volume at the national level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-02-22",
+      "exports",
+      "boosts export volume",
+      "Duty-free access boosts exports"
+    ],
+    [
+      "2023-02-22",
+      "exports",
+      "raises export volume",
+      "BSTI capacity raises exports"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 2
+}

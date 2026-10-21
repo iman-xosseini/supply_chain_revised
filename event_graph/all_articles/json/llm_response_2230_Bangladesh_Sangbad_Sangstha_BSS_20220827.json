@@ -1,0 +1,61 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-08-27",
+    "url": "https://www.bssnews.net/news-flash/79203",
+    "body_preview": "DHAKA, August 27, 2022 (BSS) - Bangladesh Bank (BB) Governor Abdur Rouf\n\nTalukder today hoped that the general point to point inflation in the country\n\nis likely ease within the next two to three months.\n\n\"I hope that the inflation will ease within the next two to three months,\" he\n\nsaid.\n\nThe central bank Governor said this while responding to queries of reporters\n\nat the opening ceremony of the two-day Annual Banking Conference, organised\n\nby the Bangladesh Institute of Bank Management (BIBM),"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Imports drive current inflation",
+      "edge_label": "drives inflation",
+      "evidence_quote": "The current inflation is due to imports. We've to import oil and fertiliser.",
+      "scope_justification": "The article explicitly attributes the country's general current inflation to imports, matching the national CPI-level scope of the feature.",
+      "verification": {
+        "quote_similarity": 0.993,
+        "quote_best_match": "\"The current inflation is due to imports. We've to import oil and fertiliser.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article includes the exact quote stating, 'The current inflation is due to imports,' explicitly linking imports to national inflation. The discussion concerns country-level inflation in Bangladesh, matching the feature's scope."
+      }
+    },
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Policy efforts curb inflation",
+      "edge_label": "reduces inflation",
+      "evidence_quote": "The government and Bangladesh Bank's efforts to increase domestic supply and rein in inflation would bear better results in the coming months.",
+      "scope_justification": "The stated government and central-bank efforts target inflation nationally, matching the feature's general price-level scope.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "the government and Bangladesh Bank's efforts to increase domestic supply and rein in inflation would bear better results in the coming months.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The quoted sentence appears verbatim. It states that government and Bangladesh Bank efforts to increase supply and rein in inflation will yield better results, implying these policies will reduce inflation. The discussion is at the national Bangladesh level, matching the inflation_rate scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-08-27",
+      "inflation_rate",
+      "drives inflation",
+      "Imports drive current inflation"
+    ],
+    [
+      "2022-08-27",
+      "inflation_rate",
+      "reduces inflation",
+      "Policy efforts curb inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 2
+}

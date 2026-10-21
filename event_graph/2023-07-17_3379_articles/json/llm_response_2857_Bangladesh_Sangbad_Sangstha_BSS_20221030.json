@@ -1,0 +1,37 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-10-30",
+    "url": "https://www.bssnews.net/business/90945",
+    "body_preview": "DHAKA, Oct 30, 2022 (BSS) - State Minister for Planning Dr Shamsul Alam today said that the government is giving utmost priority to controlling inflation in the country and it is taking necessary measures to this end.\n\n\"The trend of inflation whatever you're witnessing now is mainly import-based while the inflation has increased mainly because of the hike in the import cost,\" he said.\n\nThe state minister said this while addressing a launch event on \"Realizing Development Aspirations with Domesti"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Export-boosting steps proposed",
+      "edge_label": "boosts exports",
+      "evidence_quote": "He proposed for fixing uniform exchange rate as well as undertaking necessary steps for boosting export and remittance.",
+      "scope_justification": "The article refers to national-level measures intended to increase Bangladesh's exports, matching the feature's scope of goods sent internationally.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "He proposed for fixing uniform exchange rate as well as undertaking necessary steps for boosting export and remittance.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The quoted sentence appears verbatim and explicitly states that the proposed steps are for boosting exports, indicating a cause-effect. The discussion is at the national policy level for Bangladesh."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-10-30",
+      "exports",
+      "boosts exports",
+      "Export-boosting steps proposed"
+    ]
+  ],
+  "features_queried": [
+    "balance_of_trade",
+    "stock_market_close",
+    "exports"
+  ],
+  "num_connections_found": 1
+}

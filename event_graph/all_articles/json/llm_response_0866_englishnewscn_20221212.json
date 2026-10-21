@@ -1,0 +1,61 @@
+{
+  "article": {
+    "source": "english.news.cn",
+    "date": "2022-12-12",
+    "url": "https://english.news.cn/asiapacific/20221212/9e1af0e3b6484d30a4de050e7eb14329/c.html",
+    "body_preview": "DHAKA, Dec. 12 (Xinhua) -- In the wake of soaring inflation, the central bank of Bangladesh has instructed all the commercial banks in the country to relax the opening margin rate for the settlement of Letters of Credit (LC) against eight food items.\n\nBangladesh Bank said Sunday in a circular that the instruction is aimed at keeping the prices of the food items within reach of consumers during the upcoming Islamic holy month of Ramadan.\n\nThe items are edible oil, sugar, chickpeas, pulses, beans,"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "LC margin eases inflation",
+      "edge_label": "eases retail inflation",
+      "evidence_quote": "The bank said keeping the LC margin at the lowest level for the products would slow down the rise in food prices and help ease retail inflation during Ramadan.",
+      "scope_justification": "The article explicitly links the banking measure to retail inflation, matching the feature's focus on economy-wide consumer price increases.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "The bank said keeping the LC margin at the lowest level for the products would slow down the rise in food prices and help ease retail inflation during Ramadan.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article includes the exact quote stating that keeping the LC margin at the lowest level would help ease retail inflation during Ramadan, explicitly linking the policy to inflation. This is presented at a national/retail inflation scope consistent with the feature."
+      }
+    },
+    {
+      "feature": "imports",
+      "event_summary": "LC margins limit imports",
+      "edge_label": "limits imports",
+      "evidence_quote": "The bank also fixed the opening margin rate for the settlement of letters of credit at 75 percent in a bid to limit imports to save the depleting reserves of foreign currency.",
+      "scope_justification": "The article describes a nationwide central-bank measure applied to all commercial banks and explicitly states that it is intended to limit imports.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "The bank also fixed the opening margin rate for the settlement of letters of credit at 75 percent in a bid to limit imports to save the depleting reserves of foreign currency.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The exact quote appears in the article and explicitly states the LC margin was set at 75% 'in a bid to limit imports.' The measure is issued by Bangladesh Bank to all commercial banks, matching the nationwide scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-12-12",
+      "inflation_rate",
+      "eases retail inflation",
+      "LC margin eases inflation"
+    ],
+    [
+      "2022-12-12",
+      "imports",
+      "limits imports",
+      "LC margins limit imports"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 2
+}

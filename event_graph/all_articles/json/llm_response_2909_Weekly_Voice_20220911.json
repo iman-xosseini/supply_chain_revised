@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Weekly Voice",
+    "date": "2022-09-11",
+    "url": "https://weeklyvoice.com/bangladesh-launches-essentials-sales-drive-at-subsidised-rates-for-10-mn-families/",
+    "body_preview": "Dhaka, Sep 11 (VOICE) The Bangladeshi government on Sunday launched a special sales drive of essentials at subsidised rates across the South Asian country to help millions of low-income families cope with soaring prices.\n\nSenior Secretary of Bangladesh's Commerce Ministry, Tapan Kanti Ghosh inaugurated the special sales drive at a dealer point in the national capital Dhaka.\n\nThe drive run by the state-owned Trading Corporation of Bangladesh (TCB) is aimed at selling essentials at subsidised pric"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Higher prices push inflation",
+      "edge_label": "pushes up inflation",
+      "evidence_quote": "higher energy and commodity prices are pushing up inflation in the country",
+      "scope_justification": "The article explicitly links nationwide energy and commodity price increases to inflation, matching the feature's country-wide general price-level scope.",
+      "verification": {
+        "quote_similarity": 0.993,
+        "quote_best_match": "higher energy and commodity prices are pushing up inflation in the country.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states, 'higher energy and commodity prices are pushing up inflation in the country,' which explicitly links rising energy and commodity prices to national inflation in Bangladesh. This matches the country-level scope of the inflation rate feature."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-09-11",
+      "inflation_rate",
+      "pushes up inflation",
+      "Higher prices push inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

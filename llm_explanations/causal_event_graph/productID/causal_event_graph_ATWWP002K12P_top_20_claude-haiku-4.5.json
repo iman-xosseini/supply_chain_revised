@@ -1,0 +1,7 @@
+{
+  "start_date": "2023-07-11",
+  "end_date": "2023-08-09",
+  "top_n": 20,
+  "model_name": "anthropic/claude-haiku-4.5",
+  "explanation": "**Operations and Logistics** drives recent sales momentum, which reshapes **Macroeconomics** and **Weather**—a reinforcing cycle. Currently, **export activity** faces mixed pressures: trade barriers and port development boost shipments, while gas crises and customer pressures constrain them, with headwinds dominating. This export weakness signals **Macroeconomic** stress that constrains logistics capacity. Monitor **Operations and Logistics** throughput as the primary leading indicator; track **export activity** volumes to confirm whether trade headwinds persist; and watch **Macroeconomics** indicators for demand contraction signals. These relationships are inferred from historical patterns and news signals and should guide rather than dictate planning."
+}

@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2023-01-29",
+    "url": "https://www.bssnews.net/business/107827",
+    "body_preview": "DHAKA, Jan 29, 2023 (BSS) - Speakers at a discussion today laid emphasis on formulating Monetary Policy with a proper understanding of the functioning of the market system in the economy.\n\n\"Monetary policy needs to be formulated with a proper understanding of the functioning of the market system in the economy. Otherwise, its impact on the economy will be profound,\" said Dr Ahsan H. Mansur, Executive Director of the Policy Research Institute, as the chief guest at the discussion.\n\nHighlighting I"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Global disruptions cause inflation",
+      "edge_label": "causes inflation",
+      "evidence_quote": "inflation has been caused by disruptions in the global supply chain.",
+      "scope_justification": "The article explicitly discusses inflation as a general price-level outcome, matching the aggregate CPI-based scope of the feature.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "inflation has been caused by disruptions in the global supply chain.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states, via the moderator quoting an economist, that 'inflation has been caused by disruptions in the global supply chain,' which is an explicit causal claim about inflation at a general/macro level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-01-29",
+      "inflation_rate",
+      "causes inflation",
+      "Global disruptions cause inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

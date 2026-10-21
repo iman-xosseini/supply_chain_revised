@@ -1,0 +1,130 @@
+feature_name,child,level
+Environmental,Humidity,1
+Environmental,Rainfall,1
+Environmental,Sunshine,1
+Environmental,Temperature,1
+Environmental,typical_rain_mm,1
+Financial_Market,currency_log_return,1
+Financial_Market,currency_momentum_5d,1
+Financial_Market,stock_market_close,1
+Geographic_Scope,scope_or_location_Chattogram division & south-east,1
+Geographic_Scope,scope_or_location_Nationwide,1
+Geographic_Scope,scope_or_location_Nationwide (strongest in Buddhist communities),1
+Geographic_Scope,scope_or_location_Nationwide (strongest in cities),1
+Geographic_Scope,scope_or_location_Tongi near Dhaka,1
+Geographic_Scope,scope_or_location_Urban centres (esp. Dhaka),1
+Geographic_Scope,scope_or_location_nan,1
+Grouping,Group_A,1
+Grouping,Group_E,1
+Grouping,Group_M,1
+Grouping,Group_P,1
+Grouping,Group_S,1
+Grouping,Group_nan,1
+Holiday_Category,holiday_type_National Holiday,1
+Holiday_Category,holiday_type_Not a National Holiday,1
+Holiday_Category,holiday_type_nan,1
+Holiday_Category_Detail,category_bank_holiday,1
+Holiday_Category_Detail,category_cultural_event,1
+Holiday_Category_Detail,category_cultural_holiday,1
+Holiday_Category_Detail,category_national_holiday,1
+Holiday_Category_Detail,category_no_event,1
+Holiday_Category_Detail,category_religious_holiday,1
+Holiday_Category_Detail,category_religious_period,1
+Holiday_Category_Detail,category_school_university,1
+Holiday_Category_Detail,category_weather_event,1
+Holiday_Name,holiday_name_Ashura,1
+Holiday_Name,holiday_name_Bank Holiday,1
+Holiday_Name,holiday_name_Bengali New Year,1
+Holiday_Name,holiday_name_Buddha Purnima,1
+Holiday_Name,holiday_name_Eid al-Fitr,1
+Holiday_Name,holiday_name_Eid-ul-Azha,1
+Holiday_Name,holiday_name_Independence Day,1
+Holiday_Name,holiday_name_Jumatul Bidah,1
+Holiday_Name,holiday_name_Language Mother Day,1
+Holiday_Name,holiday_name_May Day,1
+Holiday_Name,holiday_name_Shab e-barat,1
+Holiday_Name,holiday_name_Shab-e-Qadr,1
+Holiday_Name,holiday_name_Sheikh Mujibur Rahman's birthday,1
+Holiday_Name,holiday_name_nan,1
+Macroeconomic,balance_of_trade,1
+Macroeconomic,exports,1
+Macroeconomic,imports,1
+Macroeconomic,inflation_rate,1
+Macroeconomic,interest_rate_value,1
+Product_Group,Product_AT5X5K,1
+Product_Group,Product_ATN01K24P,1
+Product_Group,Product_ATN02K12P,1
+Product_Group,Product_ATPA1K24P,1
+Product_Group,Product_ATPPCH5X5K,1
+Product_Group,Product_ATWWP001K24P,1
+Product_Group,Product_ATWWP002K12P,1
+Product_Group,Product_EEA200G24P,1
+Product_Group,Product_EEA500G12P,1
+Product_Group,Product_MAC1K25P,1
+Product_Group,Product_MAHS025K,1
+Product_Group,Product_MAP1K25P,1
+Product_Group,Product_MAPA1K24P,1
+Product_Group,Product_MAR01K24P,1
+Product_Group,Product_MAR02K12P,1
+Product_Group,Product_MASR025K,1
+Product_Group,Product_POP001L12P,1
+Product_Group,Product_POP001L12P.1,1
+Product_Group,Product_POP002L09P,1
+Product_Group,Product_POP005L04P,1
+Product_Group,Product_POP015K,1
+Product_Group,Product_POP500M24P,1
+Product_Group,Product_POPF01L12P,1
+Product_Group,Product_POV001L24P,1
+Product_Group,Product_POV002L09P,1
+Product_Group,Product_POV005L04P,1
+Product_Group,Product_POV500M24P,1
+Product_Group,Product_SE200G24P,1
+Product_Group,Product_SE500G24P,1
+Product_Group,Product_SO0001L12P,1
+Product_Group,Product_SO0002L09P,1
+Product_Group,Product_SO0005L04P,1
+Product_Group,Product_SO0500M24P,1
+Product_Group,Product_SOP001L12P,1
+Product_Group,Product_SOS001L12P,1
+Product_Group,Product_SOS002L09P,1
+Product_Group,Product_SOS003L04P,1
+Product_Group,Product_SOS005L04P,1
+Product_Group,Product_SOS008L02P,1
+Product_Group,Product_SOS250M48P,1
+Product_Group,Product_SOS500M24P,1
+Sub-Group,Sub-Group_AT,1
+Sub-Group,Sub-Group_ATN,1
+Sub-Group,Sub-Group_ATPA,1
+Sub-Group,Sub-Group_ATPPCH,1
+Sub-Group,Sub-Group_ATWWP,1
+Sub-Group,Sub-Group_EEA,1
+Sub-Group,Sub-Group_MAC,1
+Sub-Group,Sub-Group_MAHS,1
+Sub-Group,Sub-Group_MAP,1
+Sub-Group,Sub-Group_MAPA,1
+Sub-Group,Sub-Group_MAR,1
+Sub-Group,Sub-Group_MASR,1
+Sub-Group,Sub-Group_POP,1
+Sub-Group,Sub-Group_POPF,1
+Sub-Group,Sub-Group_POV,1
+Sub-Group,Sub-Group_SE,1
+Sub-Group,Sub-Group_SO,1
+Sub-Group,Sub-Group_SOP,1
+Sub-Group,Sub-Group_SOS,1
+Sub-Group,Sub-Group_nan,1
+Supply-Chain,Delivery,1
+Supply-Chain,Factory_Issue,1
+Supply-Chain,Production,1
+Supply-Chain,Sales,1
+Supply-Chain,Station,1
+Delivery,inventory_proxy,2
+Production,factory_issue_rate,2
+Sales,Sales_lag_1,2
+Sales,Sales_lag_14,2
+Sales,Sales_lag_2,2
+Sales,Sales_lag_21,2
+Sales,Sales_lag_28,2
+Sales,Sales_lag_3,2
+Sales,Sales_lag_7,2
+Sales,delivery_sales_ratio,2
+Sales,production_sales_ratio,2

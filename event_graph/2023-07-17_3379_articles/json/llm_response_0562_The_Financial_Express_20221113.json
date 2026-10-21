@@ -1,0 +1,37 @@
+{
+  "article": {
+    "source": "The Financial Express",
+    "date": "2022-11-13",
+    "url": "https://www.financialexpress.com/opinion/learn-from-bt-cotton/2810943/",
+    "body_preview": "Even Bangladesh has marched ahead with Bt brinjal. More than 70 countries have accepted use of GM crops.\n\nAs soon as the government took the decision to release India's first genetically modified (GM) food crop -- Dhara Mustard Hybrid-11 (DMH-11) -- for 'environment release', some activists approached the Supreme Court seeking a ban on it for various reasons. The Supreme Court has ordered status quo till the next hearing, on November 17. The opposition to GM food crops is not new. There has been"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Bt cotton boosted cotton exports",
+      "edge_label": "boosts exports",
+      "evidence_quote": "And it made India the second-largest producer after China -- and second-largest exporter after the the US -- of cotton in the world today.",
+      "scope_justification": "The article explicitly links Bt cotton to India's national export position for cotton, a good sent internationally.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "And it made India the second-largest producer after China -- and second-largest exporter after the the US -- of cotton in the world today.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article includes the quote stating that 'it made India... second-largest exporter,' where 'it' refers to the Bt cotton decision. This explicitly links Bt cotton to an increase in India's cotton export status at the national level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-11-13",
+      "exports",
+      "boosts exports",
+      "Bt cotton boosted cotton exports"
+    ]
+  ],
+  "features_queried": [
+    "balance_of_trade",
+    "stock_market_close",
+    "exports"
+  ],
+  "num_connections_found": 1
+}

@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "MSN International Edition",
+    "date": "2023-01-14",
+    "url": "https://www.msn.com/en-xl/asia/bangladesh/bb-set-to-announce-new-monetary-policy/ar-AA16jjFB",
+    "body_preview": "Dhaka, Jan. 13 -- Bangladesh Bank (BB) is going to announce a new monetary policy on Sunday in line with the advice of the International Monetary Fund (IMF).\n\nBangladesh requested the IMF for a loan of $4.5 billion last July, and the global lending agency agreed to give it to Bangladesh subject to conditions.\n\nBefore lending, the IMF gave several conditions for reforming Bangladesh's financial sector including setting a monetary policy for every quarter of a fiscal year.\n\nIn line with the IMF co"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Exchange-rate fall raises inflation",
+      "edge_label": "raises inflation",
+      "evidence_quote": "While the exchange rate will fall, inflation would go up and liabilities of external payment would definitely increase, he said.",
+      "scope_justification": "The article explicitly links a national exchange-rate movement to rising inflation, matching the country-level general price-level scope of the feature.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "While the exchange rate will fall, inflation would go up and liabilities of external payment would definitely increase, he said.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article includes the exact quote stating that if the exchange rate falls, inflation would go up, explicitly linking exchange rate decline to higher inflation at the national level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-01-14",
+      "inflation_rate",
+      "raises inflation",
+      "Exchange-rate fall raises inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

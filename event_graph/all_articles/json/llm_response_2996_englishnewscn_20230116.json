@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "english.news.cn",
+    "date": "2023-01-16",
+    "url": "https://english.news.cn/20230116/cf019e7e90f642aca8d15a448464c99c/c.html",
+    "body_preview": "DHAKA, Jan. 16 (Xinhua) -- The International Monetary Fund (IMF) said on Monday it is set to approve a 4.5-billion-U.S. dollar loan later this month to support Bangladesh's reform agenda.\n\n\"The IMF executive board is expected to consider approving the program with Bangladesh on Jan. 30,\" said IMF Deputy Managing Director Antoinette Monsio Sayeh, who is on a five-day visit to the South Asian country.\n\nBangladesh and the IMF recently reached a staff-level agreement under the Extended Credit Facili"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Policies keep inflation stable",
+      "edge_label": "stabilizes inflation",
+      "evidence_quote": "The IMF official said macroeconomic policies in recent years have helped Bangladesh keep inflation stable",
+      "scope_justification": "The statement directly concerns Bangladesh's overall inflation level, matching the feature's national CPI-based definition.",
+      "verification": {
+        "quote_similarity": 0.995,
+        "quote_best_match": "The IMF official said macroeconomic policies in recent years have helped Bangladesh keep inflation stable,",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that macroeconomic policies have helped Bangladesh keep inflation stable, explicitly linking policies to inflation stability at the national level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-01-16",
+      "inflation_rate",
+      "stabilizes inflation",
+      "Policies keep inflation stable"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-11-09",
+    "url": "https://www.bssnews.net/news-flash/92935",
+    "body_preview": "DHAKA, Nov 09, 2022 (BSS) - The government and visiting team of the International Monetary Fund (IMF) have reached a staff-level agreement to support Bangladesh's reform policies under a new 42-month ECF/EFF arrangement of about US$3.2 billion, and a concurrent RSF arrangement of about $1.3 billion.\n\nThe staff-level agreement is subject to IMF management approval and executive board endorsement, which is expected in the coming weeks, said Rahul Anand, who led the 10-member IMF staff mission, at "
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Russia-Ukraine war raises inflation",
+      "edge_label": "raises inflation",
+      "evidence_quote": "Russia-Ukraine war, leading to a sharp widening of the current account deficit, rapid decline in the foreign exchange reserves, rising inflation and slowing growth.",
+      "scope_justification": "The article explicitly describes rising national-level inflation, matching the feature's definition of general price-level increases.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "Russia-Ukraine war, leading to a sharp widening of the current account deficit, rapid decline in the foreign exchange reserves, rising inflation and slowing growth.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that the Russia-Ukraine war led to rising inflation, explicitly using 'leading to' in the Bangladesh context. The quoted text appears verbatim and pertains to national-level inflation in Bangladesh."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-11-09",
+      "inflation_rate",
+      "raises inflation",
+      "Russia-Ukraine war raises inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

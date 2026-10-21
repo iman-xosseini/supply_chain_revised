@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-10-06",
+    "url": "https://www.bssnews.net/business/86606",
+    "body_preview": "DHAKA, Oct 6, 2022 (BSS) - Beset with Sri Lanka's economic crisis, Pakistan's\n\ncatastrophic floods, a global slowdown, and impacts of the war in Ukraine,\n\nSouth Asia faces an unprecedented combination of shocks on top of the\n\nlingering scars of the COVID-19 pandemic.\n\nGrowth in the region is dampening, says the World Bank in its twice-a-year\n\nupdate, underscoring the need for countries to build resilience.\n\nReleased today, the latest South Asia Economic Focus, Coping with Shocks:\n\nMigration and "
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Global prices raise inflation",
+      "edge_label": "raises price levels",
+      "evidence_quote": "Inflation in South Asia, caused by elevated global food and energy prices and trade restrictions that worsened food insecurity in the region",
+      "scope_justification": "The article explicitly describes inflation as a broad rise in price levels across South Asia, matching the feature's general CPI-based scope.",
+      "verification": {
+        "quote_similarity": 0.996,
+        "quote_best_match": "Inflation in South Asia, caused by elevated global food and energy prices and trade restrictions that worsened food insecurity in the region,",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that inflation in South Asia is caused by elevated global food and energy prices, matching the provided quote and establishing explicit causality at the regional (CPI) level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-10-06",
+      "inflation_rate",
+      "raises price levels",
+      "Global prices raise inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

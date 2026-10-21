@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-10-06",
+    "url": "https://www.bssnews.net/news-flash/86584",
+    "body_preview": "DHAKA, Oct 6, 2022 (BSS) - Prime Minister Sheikh Hasina today assured the countrymen that there is nothing to be worried as Bangladesh's economy is in a quite strong position.\n\n\"Bangladesh's economy, in terms of midterm and long-term aspects, is at no risk. I can ensure all of you that there is nothing to worry,\" she said.\n\nThe premier made this assurance while addressing a press conference about the outcome of her recently concluded official visit to the United Kingdom and the United States of "
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "War sanctions raise inflation",
+      "edge_label": "increases inflation",
+      "evidence_quote": "sanction and counter sanction, prime minister said not only the people of Bangladesh rather people around the whole world are suffering. She said that inflation has increased",
+      "scope_justification": "The article links the Russia-Ukraine war and related sanctions to increased inflation affecting Bangladesh and people worldwide, matching the feature's aggregate price-level scope.",
+      "verification": {
+        "quote_similarity": 0.997,
+        "quote_best_match": "sanction and counter sanction, prime minister said not only the people of Bangladesh rather people around the whole world are suffering. She said that inflation has increased,",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states, in the context of the Russia-Ukraine war and related sanctions, that people are suffering and that inflation has increased, linking these events to higher inflation. It addresses inflation at a broad (global and national) level, matching the aggregate price-level scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-10-06",
+      "inflation_rate",
+      "increases inflation",
+      "War sanctions raise inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

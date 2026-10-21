@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2023-05-02",
+    "url": "https://www.bssnews.net/news/123425",
+    "body_preview": "DHAKA, May 2, 2023 (BSS) - Indian high commissioner in Dhaka Pranay Verma today said improved and uninterrupted connectivity could increase export of Bangladeshi products to India by 300 percent.\n\n\"Studies indicate that seamless connectivity between India and Bangladesh has the potential to increase national income by 17 percent in Bangladesh and 8 percent in India,\" he said.\n\nThe Indian envoy was speaking at a seminar titled \"Multimodal Connectivity between India and Bangladesh\" organised by Un"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Connectivity boosts exports",
+      "edge_label": "increases export volume",
+      "evidence_quote": "improved and uninterrupted connectivity could increase export of Bangladeshi products to India by 300 percent",
+      "scope_justification": "The article explicitly links connectivity to increased exports of Bangladeshi goods internationally, matching the feature's scope of goods sent abroad.",
+      "verification": {
+        "quote_similarity": 0.995,
+        "quote_best_match": "improved and uninterrupted connectivity could increase export of Bangladeshi products to India by 300 percent.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states that improved and uninterrupted connectivity could increase exports of Bangladeshi products to India by 300 percent. This directly asserts a causal link at a country-level export scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-05-02",
+      "exports",
+      "increases export volume",
+      "Connectivity boosts exports"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

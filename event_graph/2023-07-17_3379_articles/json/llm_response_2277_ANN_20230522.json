@@ -1,0 +1,37 @@
+{
+  "article": {
+    "source": "ANN",
+    "date": "2023-05-22",
+    "url": "https://asianews.network/bangladesh-needs-to-be-more-cost-competitive-to-boost-exports-to-japan-experts/",
+    "body_preview": "DHAKA - Bangladesh needs better cost competitiveness and less complexities in its taxation and foreign exchange policies to boost exports to Japan while also attracting more investment from the country, according to experts.\n\n\"The business environment in Bangladesh needs improvement to attract more foreign direct investment from Japan and explore the potential of an economic partnership agreement between the two countries,\" said Japanese Ambassador Iwama Kiminori.\n\nKiminori was speaking at a sem"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Tax and FX policy improvements",
+      "edge_label": "boosts exports",
+      "evidence_quote": "Bangladesh needs better cost competitiveness and less complexities in its taxation and foreign exchange policies to boost exports to Japan",
+      "scope_justification": "The article explicitly links nationwide policy and cost improvements to Bangladesh's international goods exports to Japan, matching the exports feature's international trade scope.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "Bangladesh needs better cost competitiveness and less complexities in its taxation and foreign exchange policies to boost exports to Japan",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states that reducing complexities in taxation and foreign exchange policies is needed 'to boost exports to Japan.' This clearly expresses a causal link at the country level regarding Bangladesh’s exports to Japan."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-05-22",
+      "exports",
+      "boosts exports",
+      "Tax and FX policy improvements"
+    ]
+  ],
+  "features_queried": [
+    "balance_of_trade",
+    "stock_market_close",
+    "exports"
+  ],
+  "num_connections_found": 1
+}

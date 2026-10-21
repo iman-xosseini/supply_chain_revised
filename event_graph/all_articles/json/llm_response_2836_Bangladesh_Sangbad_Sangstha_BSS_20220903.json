@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-09-03",
+    "url": "https://www.bssnews.net/business/80454",
+    "body_preview": "DHAKA, Sept 3, 2022 (BSS) - Experts at a national workshop today suggested the government to gradually reduce incentives and subsidies in exports which are not consistent with the rules and regulations of the World Trade Organization (WTO) and thus incentivizing the export sector in an alternate way through developing a strategy.\n\nThe suggestions came from a national workshop on the sub-committee on \"Internal revenue mobilization and tariff rationalization\" held at the Ministry of Finance in the"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Cash incentive withdrawal risk",
+      "edge_label": "reduces competitive edge",
+      "evidence_quote": "the withdrawal of cash incentive can reduce competitive edge in exports",
+      "scope_justification": "The statement concerns Bangladesh’s national export sector and explicitly describes a policy change affecting the competitiveness of internationally shipped goods.",
+      "verification": {
+        "quote_similarity": 0.993,
+        "quote_best_match": "the withdrawal of cash incentive can reduce competitive edge in exports.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article contains the exact line that withdrawal of cash incentives can reduce competitive edge in exports, explicitly stating a causal link. The context is Bangladesh’s national export sector, matching the scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-09-03",
+      "exports",
+      "reduces competitive edge",
+      "Cash incentive withdrawal risk"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

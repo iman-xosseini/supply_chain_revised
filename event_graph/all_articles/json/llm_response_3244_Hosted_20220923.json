@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Hosted",
+    "date": "2022-09-23",
+    "url": "http://hosted.ap.org/article/33c74e143358d10db75eb3511e385732/inflation-unrest-challenge-bangladeshs-miracle-economy",
+    "body_preview": "DHAKA, Bangladesh (AP) -- Standing in line to try to buy food, Rekha Begum is distraught. Like many others in Bangladesh, she is struggling to find affordable daily essentials like rice, lentils and onions.\n\n\"I went to two other places, but they told me they don't have supplies. Then I came here and stood at the end of the queue,\" said Begum, 60, as she waited for nearly two hours to buy what she needed from a truck selling food at subsidized prices in the capital, Dhaka.\n\nBangladesh's economic "
+  },
+  "llm_connections": [
+    {
+      "feature": "currency_log_return",
+      "event_summary": "Currency weakening raises import costs",
+      "edge_label": "increases import costs",
+      "evidence_quote": "Bangladesh ... [has] seen their currencies weaken against the dollar, adding to the costs for dollar-denominated imports of oil and other goods.",
+      "scope_justification": "The article describes a national exchange-rate weakening against the dollar and explicitly links it to higher costs for dollar-denominated imports, matching the feature's exchange-rate and import-cost scope.",
+      "verification": {
+        "quote_similarity": 0.929,
+        "quote_best_match": "many -- have seen their currencies weaken against the dollar, adding to the costs for dollar-denominated imports of oil and other goods.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states that currencies weakening against the dollar add to the costs of dollar-denominated imports, and it discusses this at the country level (Bangladesh and similar countries). The quoted sentence appears near-verbatim in the text."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-09-23",
+      "currency_log_return",
+      "increases import costs",
+      "Currency weakening raises import costs"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

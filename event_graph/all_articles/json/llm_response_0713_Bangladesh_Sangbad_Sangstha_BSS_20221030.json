@@ -1,0 +1,80 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-10-30",
+    "url": "https://www.bssnews.net/business/90945",
+    "body_preview": "DHAKA, Oct 30, 2022 (BSS) - State Minister for Planning Dr Shamsul Alam today said that the government is giving utmost priority to controlling inflation in the country and it is taking necessary measures to this end.\n\n\"The trend of inflation whatever you're witnessing now is mainly import-based while the inflation has increased mainly because of the hike in the import cost,\" he said.\n\nThe state minister said this while addressing a launch event on \"Realizing Development Aspirations with Domesti"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Import costs increase inflation",
+      "edge_label": "increases inflation",
+      "evidence_quote": "the inflation has increased mainly because of the hike in the import cost",
+      "scope_justification": "The article explicitly links higher import costs to the country’s general inflation, matching the feature’s national CPI-level price-rise scope.",
+      "verification": {
+        "quote_similarity": 0.986,
+        "quote_best_match": "the inflation has increased mainly because of the hike in the import cost,\"",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states that inflation increased mainly because of higher import costs, and discusses inflation at the national level in Bangladesh, matching the claimed scope."
+      }
+    },
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Government reduces import duty",
+      "edge_label": "curbs inflation",
+      "evidence_quote": "in order to curb inflation, the government has reduced duty on import of essential items",
+      "scope_justification": "The measure is explicitly described as targeting inflation at the national level, matching the feature’s general price-level scope.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "in order to curb inflation, the government has reduced duty on import of essential items",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states, 'in order to curb inflation, the government has reduced duty on import of essential items,' linking the policy to reducing inflation at the national level."
+      }
+    },
+    {
+      "feature": "currency_log_return",
+      "event_summary": "Government stabilizes exchange rate",
+      "edge_label": "stabilizes exchange rate",
+      "evidence_quote": "necessary steps are being taken to make stable the exchange rate of foreign currencies",
+      "scope_justification": "The article explicitly discusses national foreign-exchange-rate stability, which matches the feature’s exchange-rate volatility scope.",
+      "verification": {
+        "quote_similarity": 0.994,
+        "quote_best_match": "necessary steps are being taken to make stable the exchange rate of foreign currencies.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states the government is taking steps to make the exchange rate stable, directly implying government action causes exchange-rate stabilization, and it is discussed at the national level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-10-30",
+      "inflation_rate",
+      "increases inflation",
+      "Import costs increase inflation"
+    ],
+    [
+      "2022-10-30",
+      "inflation_rate",
+      "curbs inflation",
+      "Government reduces import duty"
+    ],
+    [
+      "2022-10-30",
+      "currency_log_return",
+      "stabilizes exchange rate",
+      "Government stabilizes exchange rate"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 3
+}

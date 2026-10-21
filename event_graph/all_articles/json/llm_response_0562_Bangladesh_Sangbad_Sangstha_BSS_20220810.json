@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-08-10",
+    "url": "https://www.bssnews.net/news-flash/76573",
+    "body_preview": "DHAKA, Aug 10, 2022 (BSS) - Finance Minister AHM\n\nMustafa Kamal today said that the government is\n\nevaluating the impact of the hike in fuel price on the\n\nlivelihoods of common people.\n\n\"Necessary steps will be taken in consultation with the\n\nhigh-ups of the government based on the evaluation,\" he\n\nsaid while talking to reporters at his secretariat office.\n\nReplying to a volley of questions on the impact of fuel\n\nprice hikes on the low-income group of people, he said\n\nthat when there is a price "
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Fuel hike raises essentials prices",
+      "edge_label": "increases price levels",
+      "evidence_quote": "when there is a price hike in fuel, the price of essentials increases affecting the poor section of people.",
+      "scope_justification": "The article explicitly links a fuel-price increase to higher prices for essentials and separately discusses protecting people from possible inflation, matching a price-level increase affecting consumers.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "when there is a price hike in fuel, the price of essentials increases affecting the poor section of people.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The quoted sentence appears verbatim and explicitly states that fuel price hikes cause increases in the prices of essentials. This is a price-level effect discussed at a national scope by the finance minister, aligning with the inflation-related feature."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-08-10",
+      "inflation_rate",
+      "increases price levels",
+      "Fuel hike raises essentials prices"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

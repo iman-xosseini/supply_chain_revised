@@ -1,0 +1,80 @@
+{
+  "article": {
+    "source": "Daily Sun",
+    "date": "2023-06-18",
+    "url": "https://www.daily-sun.com/post/695700/BB-announces-contractionary-MPS-with-focus-on-taming-inflation",
+    "body_preview": "DHAKA- Unveiling a 'contractionary' monetary policy statement (MPS), Bangladesh Bank (BB) has projected domestic credit growth ceiling at 15.3 percent in the fiscal 2023-24 (FY24) accommodating 11 percent credit growth in private sector and 30 percent in public sector.\n\n\"The global economy has undergone significant challenges over the past three and a half years, including the impact of the COVID-19 pandemic that began in December 2019, followed by the Russia-Ukraine conflict that started in Feb"
+  },
+  "llm_connections": [
+    {
+      "feature": "interest_rate_value",
+      "event_summary": "Contractionary policy raises borrowing costs",
+      "edge_label": "raises borrowing costs",
+      "evidence_quote": "This measure aims to raise the cost of borrowing, which is expected to have a limiting impact on CPI inflation",
+      "scope_justification": "The article directly discusses the central bank’s monetary-policy measure raising borrowing costs, matching the feature’s central-bank interest-rate and financing-cost scope.",
+      "verification": {
+        "quote_similarity": 0.995,
+        "quote_best_match": "This measure aims to raise the cost of borrowing, which is expected to have a limiting impact on CPI inflation,",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The exact quote appears in the article and explicitly states that adopting a contractionary monetary policy aims to raise borrowing costs. The discussion is at the national central bank level (Bangladesh Bank), matching the feature’s scope."
+      }
+    },
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Borrowing costs limit inflation",
+      "edge_label": "limits CPI inflation",
+      "evidence_quote": "This measure aims to raise the cost of borrowing, which is expected to have a limiting impact on CPI inflation",
+      "scope_justification": "The article explicitly identifies CPI inflation as the national price-level outcome expected to be limited by higher borrowing costs.",
+      "verification": {
+        "quote_similarity": 0.995,
+        "quote_best_match": "This measure aims to raise the cost of borrowing, which is expected to have a limiting impact on CPI inflation,",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states: “This measure aims to raise the cost of borrowing, which is expected to have a limiting impact on CPI inflation.” This directly links higher borrowing costs to limiting CPI inflation at a national level in Bangladesh."
+      }
+    },
+    {
+      "feature": "currency_log_return",
+      "event_summary": "Unified exchange-rate regime",
+      "edge_label": "stabilizes exchange rates",
+      "evidence_quote": "BB will no longer quote specific rates for buying or selling foreign exchanges, promoting stability in the foreign exchange market",
+      "scope_justification": "The article addresses national foreign-exchange-rate stability, including BDT and USD, matching the feature’s exchange-rate volatility scope.",
+      "verification": {
+        "quote_similarity": 0.996,
+        "quote_best_match": "BB will no longer quote specific rates for buying or selling foreign exchanges, promoting stability in the foreign exchange market,",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states that ceasing to quote specific FX rates (as part of adopting a unified, market-driven exchange-rate regime) will promote stability in the foreign exchange market. This is at the national (BDT vs USD/others) scope, matching exchange-rate stability."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-06-18",
+      "interest_rate_value",
+      "raises borrowing costs",
+      "Contractionary policy raises borrowing costs"
+    ],
+    [
+      "2023-06-18",
+      "inflation_rate",
+      "limits CPI inflation",
+      "Borrowing costs limit inflation"
+    ],
+    [
+      "2023-06-18",
+      "currency_log_return",
+      "stabilizes exchange rates",
+      "Unified exchange-rate regime"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 3
+}

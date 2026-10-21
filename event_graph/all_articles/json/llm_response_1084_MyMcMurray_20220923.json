@@ -1,0 +1,61 @@
+{
+  "article": {
+    "source": "MyMcMurray",
+    "date": "2022-09-23",
+    "url": "https://www.mymcmurray.com/2022/09/22/inflation-unrest-challenge-bangladeshs-miracle-economy/",
+    "body_preview": "DHAKA, Bangladesh (AP) -- Standing in line to try to buy food, Rekha Begum is distraught. Like many others in Bangladesh, she is struggling to find affordable daily essentials like rice, lentils and onions.\n\n\"I went to two other places, but they told me they don't have supplies. Then I came here and stood at the end of the queue,\" said Begum, 60, as she waited for nearly two hours to buy what she needed from a truck selling food at subsidized prices in the capital, Dhaka.\n\nBangladesh's economic "
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Ukraine war raises commodity prices",
+      "edge_label": "raises price levels",
+      "evidence_quote": "The war in Ukraine has pushed higher prices of many commodities",
+      "scope_justification": "The article describes broad price increases across many commodities, matching the feature's general price-level scope rather than a single product.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "The war in Ukraine has pushed higher prices of many commodities",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states, “The war in Ukraine has pushed higher prices of many commodities,” explicitly linking the war to broader price increases. This pertains to general price levels across many commodities, consistent with an inflation/price-level scope."
+      }
+    },
+    {
+      "feature": "currency_log_return",
+      "event_summary": "Bangladesh currency weakens against dollar",
+      "edge_label": "raises import costs",
+      "evidence_quote": "countries like Bangladesh, Sri Lanka and Laos -- among many -- have seen their currencies weaken against the dollar, adding to the costs for dollar-denominated imports",
+      "scope_justification": "The article explicitly links Bangladesh's exchange-rate weakening against the dollar to higher import costs, matching the feature's exchange-rate impact scope.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "countries like Bangladesh, Sri Lanka and Laos -- among many -- have seen their currencies weaken against the dollar, adding to the costs for dollar-denominated imports",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that countries like Bangladesh have seen their currencies weaken against the dollar, adding to the costs for dollar-denominated imports. This explicitly links Bangladesh’s weaker currency to higher import costs at the country level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-09-23",
+      "inflation_rate",
+      "raises price levels",
+      "Ukraine war raises commodity prices"
+    ],
+    [
+      "2022-09-23",
+      "currency_log_return",
+      "raises import costs",
+      "Bangladesh currency weakens against dollar"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 2
+}

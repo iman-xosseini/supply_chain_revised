@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2023-03-30",
+    "url": "https://www.bssnews.net/news-flash/118307",
+    "body_preview": "DHAKA, March 30, 2023 (BSS)-Awami League General Secretary Obaidul Quader today said the mentality of those, who question about the country's independence even after 52 years, is still confined in the shackles of subjugation.\n\n\"BNP never believes in the country's independence. In fact, the mentality of those, who raise questions about the country's independence even after 52 years, is still confined in the chains of subjugation,\" he said in a statement.\n\nQuader, also the road transport and bridg"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Ukraine war raises inflation",
+      "edge_label": "raises inflation rate",
+      "evidence_quote": "the global economy is going through a deep crisis now due to the Ukraine-Russia war and that is why inflation goes up at an alarming rate across the world",
+      "scope_justification": "The article explicitly describes inflation increasing at the broad global level and separately states that Bangladesh's people are suffering from inflationary pressure, matching a general price-level indicator.",
+      "verification": {
+        "quote_similarity": 0.997,
+        "quote_best_match": "the global economy is going through a deep crisis now due to the Ukraine-Russia war and that is why inflation goes up at an alarming rate across the world.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states that due to the Ukraine-Russia war, the global economy is in crisis and ‘that is why inflation goes up at an alarming rate across the world,’ establishing a causal link at a global scope that matches the feature."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-03-30",
+      "inflation_rate",
+      "raises inflation rate",
+      "Ukraine war raises inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "The Daily Star",
+    "date": "2023-03-07",
+    "url": "https://www.thedailystar.net/business/news/economic-association-all-out-efforts-cut-inequality-3265556",
+    "body_preview": "The Bangladesh Economic Association (BEA) today urged the budget planners to employ all possible ways to reduce the inequality related to wealth, income, health, and education.\n\nThe coronavirus pandemic has turned Bangladesh into a country with a high level of income inequality. And the Russia-Ukraine war has deepened the inequality, said Prof Md Aynul Islam, general secretary of the BEA.\n\nHe placed the proposals during a meeting with the National Board of Revenue (NBR) at the latter's headquart"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Higher inflation strains households",
+      "edge_label": "reduces purchasing power",
+      "evidence_quote": "Households are finding it difficult to maintain family expenses owing to higher inflation.",
+      "scope_justification": "The article describes higher inflation affecting households’ ability to meet expenses, matching the feature’s definition of general price increases reducing consumer purchasing power.",
+      "verification": {
+        "quote_similarity": 0.994,
+        "quote_best_match": "\"Households are finding it difficult to maintain family expenses owing to higher inflation.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states that households are finding it difficult to maintain expenses owing to higher inflation, directly linking inflation to household strain. This is discussed in the national context of Bangladesh."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-03-07",
+      "inflation_rate",
+      "reduces purchasing power",
+      "Higher inflation strains households"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

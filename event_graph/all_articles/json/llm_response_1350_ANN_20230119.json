@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "ANN",
+    "date": "2023-01-19",
+    "url": "https://asianews.network/big-hike-in-gas-prices-for-bangladeshs-power-plants-industry/",
+    "body_preview": "DHAKA - The government yesterday raised the retail price of gas by 14.5 percent to 178.9 percent for industries, power plants and commercial establishments, who together account for 78 percent of gas use in Bangladesh, as it looks to lessen its unsustainable subsidy burden amid a narrow fiscal space.\n\nThe development is set to fuel a fresh round of inflation, which declined for the fourth straight month in December last year.\n\nFrom next month, the price of gas used for power generation will be T"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Gas tariff hike fuels inflation",
+      "edge_label": "fuels inflation",
+      "evidence_quote": "The development is set to fuel a fresh round of inflation, which declined for the fourth straight month in December last year.",
+      "scope_justification": "The article explicitly links the nationwide gas-price increase to inflation, matching the feature's general price-level scope.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "The development is set to fuel a fresh round of inflation, which declined for the fourth straight month in December last year.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The quoted sentence appears verbatim, explicitly stating that the gas price hike will fuel inflation. The discussion is about nationwide inflation in Bangladesh, matching the feature's scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-01-19",
+      "inflation_rate",
+      "fuels inflation",
+      "Gas tariff hike fuels inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

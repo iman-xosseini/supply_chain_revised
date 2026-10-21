@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "ANN",
+    "date": "2022-09-23",
+    "url": "https://asianews.network/44-cases-filed-over-market-manipulation-of-essential-good-prices/",
+    "body_preview": "DHAKA - Bangladesh Competition Commission has filed 44 cases against a host of individuals and organisations, accusing them of creating an artificial crisis that led to abnormal hikes in prices of items like rice, flour, eggs, poultry and toiletries.\n\nAbdus Sabur, secretary of BCC, told The Daily Star that the cases were filed on Wednesday on various charges under Section 15 of the Competition Act, 2012, and the hearing will begin on September 26.\n\nAction will be taken against them as per the la"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Essential goods prices rose",
+      "edge_label": "reduces purchasing power",
+      "evidence_quote": "Over the past several months, the market has seen an unusual rise in prices of rice, oil, flour, eggs, chicken, soap, detergent and toothpaste, which shot up the living cost of people.",
+      "scope_justification": "The article describes broad price increases across numerous essential goods and their effect on living costs, matching the general price-level and purchasing-power scope of inflation.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "Over the past several months, the market has seen an unusual rise in prices of rice, oil, flour, eggs, chicken, soap, detergent and toothpaste, which shot up the living cost of people.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The quoted sentence appears verbatim and states that rising essential goods prices 'shot up the living cost of people,' further described as 'hurting the pockets of consumers,' which strongly implies reduced purchasing power at a broad, country-level scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-09-23",
+      "inflation_rate",
+      "reduces purchasing power",
+      "Essential goods prices rose"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-08-27",
+    "url": "https://www.bssnews.net/news-flash/79203",
+    "body_preview": "DHAKA, August 27, 2022 (BSS) - Bangladesh Bank (BB) Governor Abdur Rouf\n\nTalukder today hoped that the general point to point inflation in the country\n\nis likely ease within the next two to three months.\n\n\"I hope that the inflation will ease within the next two to three months,\" he\n\nsaid.\n\nThe central bank Governor said this while responding to queries of reporters\n\nat the opening ceremony of the two-day Annual Banking Conference, organised\n\nby the Bangladesh Institute of Bank Management (BIBM),"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Imported inflation persists",
+      "edge_label": "raises inflation",
+      "evidence_quote": "The current inflation is due to imports.",
+      "scope_justification": "The article explicitly refers to the country’s general point-to-point inflation, matching the national price-level scope of the inflation-rate feature.",
+      "verification": {
+        "quote_similarity": 0.988,
+        "quote_best_match": "\"The current inflation is due to imports.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states verbatim, 'The current inflation is due to imports,' explicitly linking imports to higher inflation. It discusses national inflation ('in the country'), matching the scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-08-27",
+      "inflation_rate",
+      "raises inflation",
+      "Imported inflation persists"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

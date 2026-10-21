@@ -1,0 +1,61 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-09-21",
+    "url": "https://www.bssnews.net/business/83800",
+    "body_preview": "DHAKA, Sept 21, 2022 (BSS) - Country Director of the Asian Development Bank (ADB) to Bangladesh Edimon Ginting today noted that the overall trend of the country's economy is 'positive'.\n\n\"The overall trend of the economy is still positive. But, if you can make the right policy, then you can make the economy stronger going forward,\" he said while responding to a volley of questions at the Bangladesh Resident Mission of ADB in the capital.\n\nThe ADB country director was speaking at the launching of"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Global uncertainty slows exports",
+      "edge_label": "slows export growth",
+      "evidence_quote": "The main risk to this growth projection is a slowdown in exports caused by global uncertainty over the prolonged war in Ukraine.",
+      "scope_justification": "The article explicitly addresses Bangladesh's aggregate exports and states that global uncertainty causes their slowdown, matching the national export-volume definition.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "The main risk to this growth projection is a slowdown in exports caused by global uncertainty over the prolonged war in Ukraine.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article contains the exact quote stating exports may slow due to global uncertainty over the war in Ukraine, explicitly establishing causality at the national (Bangladesh) level."
+      }
+    },
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Fuel-price adjustments raise inflation",
+      "edge_label": "raises inflation",
+      "evidence_quote": "Inflation is expected to accelerate from 6.2 percent in FY2022 to 6.7 percent in FY2023 as price pressures increase due to the upward adjustment of domestic administered prices for all",
+      "scope_justification": "The article describes Bangladesh's nationwide inflation rate and attributes its increase to broad domestic fuel-price adjustments, matching the general price-level scope.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "Inflation is expected to accelerate from 6.2 percent in FY2022 to 6.7 percent in FY2023 as price pressures increase due to the upward adjustment of domestic administered prices for all",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that inflation will accelerate due to the upward adjustment of domestic administered fuel prices (and rising global commodity prices). This explicitly links fuel-price adjustments to higher nationwide inflation in Bangladesh."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-09-21",
+      "exports",
+      "slows export growth",
+      "Global uncertainty slows exports"
+    ],
+    [
+      "2022-09-21",
+      "inflation_rate",
+      "raises inflation",
+      "Fuel-price adjustments raise inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 2
+}

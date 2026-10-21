@@ -1,0 +1,37 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2023-05-30",
+    "url": "https://www.bssnews.net/business/128189",
+    "body_preview": "DHAKA, May 30, 2023 (BSS) - A delegation from Cotton USA met with Bangladesh\n\nGarment Manufacturers and Exporters Association (BGMEA) President Faruque\n\nHassan today to discuss potential collaboration on creating trade\n\nopportunities that would be beneficial for both sides.\n\nThe team included William R. Bettendorf, Director, Supply Chain Marketing and\n\nSouth Asia; Stephanie Thiers-Ratcliffe, Director, European Brands and\n\nRetailers; and Ali Arsalan, Bangladesh Consultant, Cotton USA.\n\nBGMEA Dire"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Proposed garment duty-free access",
+      "edge_label": "enables more exports",
+      "evidence_quote": "if the U.S. government allows duty-free access of the garments made of the cotton imported from the US, it would allow the US importers to purchase more clothing from Bangladesh.",
+      "scope_justification": "The stated increase in U.S. purchases of clothing from Bangladesh directly concerns a greater volume of goods sent internationally, matching the exports definition.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "if the U.S. government allows duty-free access of the garments made of the cotton imported from the US, it would allow the US importers to purchase more clothing from Bangladesh.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article contains the exact quote stating that allowing duty-free access would let U.S. importers purchase more clothing from Bangladesh, explicitly linking the policy change to increased purchases (i.e., exports) at a country-level scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-05-30",
+      "exports",
+      "enables more exports",
+      "Proposed garment duty-free access"
+    ]
+  ],
+  "features_queried": [
+    "balance_of_trade",
+    "stock_market_close",
+    "exports"
+  ],
+  "num_connections_found": 1
+}

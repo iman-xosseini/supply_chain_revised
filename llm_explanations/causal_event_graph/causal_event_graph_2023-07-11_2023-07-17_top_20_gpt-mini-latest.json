@@ -1,0 +1,7 @@
+{
+  "start_date": "2023-07-11",
+  "end_date": "2023-07-17",
+  "top_n": 20,
+  "model_name": "~openai/gpt-mini-latest",
+  "explanation": "The key chain appears to run from **Weather** into **Operations and Logistics**, then into **recent sales momentum**: weather can disrupt operations, which then feeds into demand. News on **export activity** points both ways, with export initiatives, zones and ports supporting growth, while gas-crisis, inflation and customer-pressure news weigh on it; the downside currently seems stronger. Also watch **stock market performance** for broader demand sentiment. Monitor **Weather** risk, safeguard **Operations and Logistics** capacity, and refresh **recent sales momentum** forecasts and inventory plans. These links come from historical data and news signals, so treat them as informed guidance, not certainty."
+}

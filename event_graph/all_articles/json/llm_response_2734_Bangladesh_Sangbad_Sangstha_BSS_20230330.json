@@ -1,0 +1,61 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2023-03-30",
+    "url": "https://www.bssnews.net/business/118337",
+    "body_preview": "DHAKA, March 30, 2023 (BSS) - The export of apparel items from Bangladesh to the European Union (EU) increased by 35.69 percent in 2022 compared to 2021.\n\nThe import of apparels by EU from the world grew by 20.97 percent during this time. The EU imported $22.89 billion worth of clothing from Bangladesh in 2022, as per the statistics of Eurostat.\n\nWith 22.20 percent share of the EU's total RMG import, Bangladesh remains the 2nd largest apparel import source for the EU.\n\nTalking to BSS, Director o"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "EU inflation reduced apparel exports",
+      "edge_label": "reduces exports",
+      "evidence_quote": "the inflation also increased in the EU market leading to low demand for apparel items. \"It also put an impact on our exports,\"",
+      "scope_justification": "The article explicitly links EU inflation and reduced apparel demand to Bangladesh's international apparel exports, matching the feature's scope of goods sent internationally.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "the inflation also increased in the EU market leading to low demand for apparel items. \"It also put an impact on our exports,\"",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that EU inflation led to low demand for apparel and that this impacted Bangladesh’s exports, linking inflation to reduced exports. The quote provided appears verbatim and the discussion is at the country-level for Bangladesh’s apparel exports to the EU."
+      }
+    },
+    {
+      "feature": "exports",
+      "event_summary": "Post-COVID purchases boosted exports",
+      "edge_label": "boosts exports",
+      "evidence_quote": "the first six months were the post COVID-19 period for which the buyers purchased many RMG items",
+      "scope_justification": "The article directly attributes Bangladesh's high export trend in apparel goods to increased buyer purchases, which concerns goods sent internationally.",
+      "verification": {
+        "quote_similarity": 0.995,
+        "quote_best_match": "the first six months were the post COVID-19 period for which the buyers purchased many RMG items.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The exact quote appears, and the BGMEA director explicitly links the high Jan–Jun export trend to post-COVID buyer purchases, indicating causation. The discussion is at the Bangladesh-to-EU apparel export level, matching the scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-03-30",
+      "exports",
+      "reduces exports",
+      "EU inflation reduced apparel exports"
+    ],
+    [
+      "2023-03-30",
+      "exports",
+      "boosts exports",
+      "Post-COVID purchases boosted exports"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 2
+}

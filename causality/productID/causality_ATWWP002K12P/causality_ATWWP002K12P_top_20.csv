@@ -1,0 +1,404 @@
+cause,effect,lag,coefficient,direction
+Factory_Issue,Delivery,1,123349710282035.16,positive
+factory_issue_rate,Delivery,1,-123349710282032.17,negative
+Factory_Issue,Production,1,-90840754706781.0,negative
+factory_issue_rate,Production,1,90840754706778.27,positive
+Factory_Issue,holiday_type_National Holiday,1,-84382433614214.81,negative
+factory_issue_rate,holiday_type_National Holiday,1,84382433614213.98,positive
+balance_of_trade,Delivery,1,-39520337992296.88,negative
+exports,Delivery,1,-39520337992295.74,negative
+Factory_Issue,delivery_sales_ratio,1,33629068943801.4,positive
+factory_issue_rate,delivery_sales_ratio,1,-33629068943801.184,negative
+balance_of_trade,exports,1,-23075179556460.285,negative
+exports,Factory_Issue,1,-21938445292847.465,negative
+balance_of_trade,Factory_Issue,1,-21938445292847.145,negative
+Factory_Issue,Sales_lag_14,1,-20118978184853.2,negative
+factory_issue_rate,Sales_lag_14,1,20118978184852.805,positive
+exports,Production,1,19573270543151.348,positive
+balance_of_trade,Production,1,19573270543150.54,positive
+Factory_Issue,Sales_lag_28,1,18117957852635.57,positive
+factory_issue_rate,Sales_lag_28,1,-18117957852635.508,negative
+Factory_Issue,exports,1,17344072402904.643,positive
+factory_issue_rate,exports,1,-17344072402904.34,negative
+factory_issue_rate,Factory_Issue,1,-17270254507040.557,negative
+Factory_Issue,Sales_lag_7,1,-15024483787979.086,negative
+factory_issue_rate,Sales_lag_7,1,15024483787978.295,positive
+balance_of_trade,Sales_lag_14,1,14747826264805.057,positive
+exports,Sales_lag_14,1,14747826264804.088,positive
+balance_of_trade,delivery_sales_ratio,1,-13055149422978.924,negative
+exports,delivery_sales_ratio,1,-13055149422977.934,negative
+Factory_Issue,Temperature,1,-11650867483974.523,negative
+factory_issue_rate,Temperature,1,11650867483973.832,positive
+balance_of_trade,Temperature,1,-10812991230440.69,negative
+exports,Temperature,1,-10812991230439.438,negative
+exports,Sales,1,-10559635957178.291,negative
+balance_of_trade,Sales,1,-10559635957177.678,negative
+Factory_Issue,inventory_proxy,1,10237385033768.29,positive
+factory_issue_rate,inventory_proxy,1,-10237385033767.982,negative
+balance_of_trade,Sales_lag_21,1,-8292664424062.504,negative
+exports,Sales_lag_21,1,-8292664424062.207,negative
+exports,holiday_type_National Holiday,1,8062438863660.836,positive
+balance_of_trade,holiday_type_National Holiday,1,8062438863660.356,positive
+Factory_Issue,Sales_lag_21,1,7688328652927.251,positive
+factory_issue_rate,Sales_lag_21,1,-7688328652926.692,negative
+exports,Sales_lag_7,1,6767944921779.27,positive
+balance_of_trade,Sales_lag_7,1,6767944921779.096,positive
+exports,stock_market_close,1,-5256785694331.648,negative
+balance_of_trade,stock_market_close,1,-5256785694331.453,negative
+balance_of_trade,factory_issue_rate,1,4756576619897.474,positive
+exports,factory_issue_rate,1,4756576619897.41,positive
+Factory_Issue,Sales,1,-4542358551432.445,negative
+factory_issue_rate,Sales,1,4542358551431.097,positive
+exports,Sales_lag_28,1,-3867375296092.8184,negative
+balance_of_trade,Sales_lag_28,1,-3867375296092.597,negative
+balance_of_trade,typical_rain_mm,1,3841323471486.741,positive
+exports,typical_rain_mm,1,3841323471486.5396,positive
+Factory_Issue,typical_rain_mm,1,3242504531667.357,positive
+factory_issue_rate,typical_rain_mm,1,-3242504531666.6904,negative
+factory_issue_rate,stock_market_close,1,2287901985582.579,positive
+Factory_Issue,stock_market_close,1,-2287901985582.008,negative
+Factory_Issue,factory_issue_rate,1,1469551681436.8186,positive
+balance_of_trade,Sales_lag_3,1,1255367828382.708,positive
+exports,Sales_lag_3,1,1255367828382.708,positive
+Production,holiday_type_National Holiday,1,-993054527723.7856,negative
+production_sales_ratio,holiday_type_National Holiday,1,993054527723.7235,positive
+production_sales_ratio,Delivery,1,-912757198677.6034,negative
+Production,Delivery,1,912757198676.6738,positive
+production_sales_ratio,Production,1,857394200578.9562,positive
+production_sales_ratio,Temperature,1,368838280504.8556,positive
+Production,Temperature,1,-368838280504.8092,negative
+exports,inventory_proxy,1,-288335497684.52563,negative
+balance_of_trade,inventory_proxy,1,-288335497684.42194,negative
+production_sales_ratio,Sales,1,267062464002.30176,positive
+Production,Sales,1,-267062464001.64825,negative
+production_sales_ratio,exports,1,212036916566.92636,positive
+Production,exports,1,-212036916566.88757,negative
+production_sales_ratio,delivery_sales_ratio,1,-204534000147.2345,negative
+Production,delivery_sales_ratio,1,204534000147.20923,positive
+production_sales_ratio,Factory_Issue,1,190956012068.5494,positive
+Production,Factory_Issue,1,-190956012068.2769,negative
+Production,Sales_lag_28,1,171713585503.0508,positive
+production_sales_ratio,Sales_lag_28,1,-171713585502.32196,negative
+production_sales_ratio,inventory_proxy,1,-133881608899.0345,negative
+Production,inventory_proxy,1,133881608898.98872,positive
+production_sales_ratio,stock_market_close,1,133311562499.81699,positive
+Production,stock_market_close,1,-133311562496.77289,negative
+production_sales_ratio,typical_rain_mm,1,-118815646978.88411,negative
+Production,typical_rain_mm,1,118815646977.653,positive
+production_sales_ratio,factory_issue_rate,1,-112442544736.67656,negative
+Production,factory_issue_rate,1,112442544736.50122,positive
+Production,Sales_lag_7,1,-73207256426.58392,negative
+production_sales_ratio,Sales_lag_7,1,73207256426.50902,positive
+production_sales_ratio,Sales_lag_21,1,56372751635.65012,positive
+Production,Sales_lag_21,1,-56372751634.61825,negative
+exports,balance_of_trade,1,31888844749.920853,positive
+Production,Sales_lag_3,1,24483222844.55641,positive
+production_sales_ratio,Sales_lag_3,1,-24483222844.556244,negative
+Factory_Issue,balance_of_trade,1,-23968716291.73909,negative
+factory_issue_rate,balance_of_trade,1,23968716291.736717,positive
+production_sales_ratio,Sales_lag_14,1,-12429025582.177486,negative
+Production,Sales_lag_14,1,12429025582.056128,positive
+Factory_Issue,Sales_lag_3,1,6716378548.553679,positive
+factory_issue_rate,Sales_lag_3,1,-6716378548.55322,negative
+factory_issue_rate,production_sales_ratio,1,6414541410.2734375,positive
+Factory_Issue,production_sales_ratio,1,-6414541410.2578125,negative
+exports,production_sales_ratio,1,-1016124117.6123047,negative
+balance_of_trade,production_sales_ratio,1,-1016124117.6103516,negative
+Production,balance_of_trade,1,293025339.0807004,positive
+production_sales_ratio,balance_of_trade,1,-293025339.07968587,negative
+Production,production_sales_ratio,1,-107141085.01800537,negative
+Sales_lag_3,Factory_Issue,0,22.623227860088996,positive
+Sales_lag_2,Factory_Issue,1,-22.400238750468056,negative
+Sales_lag_3,inventory_proxy,0,-3.866348669844073,negative
+Sales_lag_2,inventory_proxy,1,3.848920829059948,positive
+Sales_lag_21,Production,1,3.315389787220404,positive
+inventory_proxy,Sales,1,3.2164720424947033,positive
+Sales_lag_21,Delivery,1,-3.197025549155731,negative
+inventory_proxy,Sales,0,-2.5504311178895827,negative
+inventory_proxy,typical_rain_mm,0,-1.837715590245915,negative
+Factory_Issue,typical_rain_mm,0,1.724310998746666,positive
+inventory_proxy,Temperature,1,1.7228803558152563,positive
+Sales_lag_21,Sales,1,1.6397226490073435,positive
+inventory_proxy,Delivery,1,1.5979947168469515,positive
+Factory_Issue,stock_market_close,0,-1.5858926225213357,negative
+exports,Delivery,0,-1.5615314688569035,negative
+Factory_Issue,Sales,0,-1.5598214536695707,negative
+inventory_proxy,Production,1,-1.5012790602815183,negative
+stock_market_close,typical_rain_mm,0,1.4524944639229693,positive
+Factory_Issue,Sales_lag_1,1,-1.367392864169077,negative
+factory_issue_rate,Sales_lag_1,1,1.3673928641690338,positive
+typical_rain_mm,Delivery,1,1.338758188883329,positive
+Sales_lag_14,typical_rain_mm,1,-1.3305395971519594,negative
+typical_rain_mm,Production,1,-1.2543879880346767,negative
+production_sales_ratio,stock_market_close,0,1.2461286877059397,positive
+Sales_lag_21,stock_market_close,0,-1.1787783867569346,negative
+Production,typical_rain_mm,0,1.1506100142260922,positive
+inventory_proxy,Factory_Issue,0,1.146237764682481,positive
+holiday_type_National Holiday,typical_rain_mm,0,1.1252338646597961,positive
+Sales_lag_21,Delivery,0,1.0225537334109744,positive
+Sales_lag_21,stock_market_close,1,-1.0002172948529535,negative
+Sales_lag_1,Sales_lag_2,1,1.0000000000000002,positive
+Sales,Sales_lag_1,1,0.9999999999999964,positive
+Production,production_sales_ratio,0,0.9997847419964869,positive
+exports,balance_of_trade,0,-0.9986180456507011,negative
+Sales_lag_2,Sales_lag_3,1,0.9972093168461074,positive
+Sales_lag_1,typical_rain_mm,1,0.968754534850762,positive
+balance_of_trade,typical_rain_mm,0,-0.9524282023823496,negative
+Delivery,Temperature,1,-0.9267833340540961,negative
+Sales_lag_21,Sales_lag_14,1,0.9260540496075518,positive
+Factory_Issue,Temperature,0,-0.9045730927786141,negative
+typical_rain_mm,Sales,1,-0.8689730193209529,negative
+Factory_Issue,factory_issue_rate,0,0.8623737384150438,positive
+production_sales_ratio,typical_rain_mm,0,-0.860753116231676,negative
+Sales_lag_14,typical_rain_mm,0,-0.8587666616302382,negative
+Sales_lag_21,Sales_lag_7,1,0.8442892812284737,positive
+Sales,Sales_lag_14,1,0.8160447974892797,positive
+holiday_type_National Holiday,Delivery,1,-0.8022280652677006,negative
+Sales,Temperature,1,0.7923139752308467,positive
+Sales_lag_28,stock_market_close,1,0.7903768122031151,positive
+Sales_lag_21,Temperature,1,0.7832461718350023,positive
+Production,stock_market_close,0,-0.7809011339495455,negative
+Temperature,typical_rain_mm,1,-0.7646966025198504,negative
+Sales_lag_21,holiday_type_National Holiday,1,0.7576144591585068,positive
+Sales_lag_14,Temperature,0,-0.7520724933478155,negative
+Sales_lag_28,delivery_sales_ratio,1,-0.742783207660395,negative
+delivery_sales_ratio,stock_market_close,1,0.7391259685424516,positive
+inventory_proxy,Temperature,0,-0.7327781334528725,negative
+Sales_lag_7,Production,0,-0.729619986805605,negative
+Sales_lag_28,typical_rain_mm,1,-0.7284288111337011,negative
+Sales_lag_28,typical_rain_mm,0,-0.717249887482012,negative
+exports,Temperature,0,-0.7160215613376295,negative
+exports,Factory_Issue,0,-0.707087766953938,negative
+balance_of_trade,stock_market_close,0,0.7024119210605186,positive
+Delivery,delivery_sales_ratio,1,0.687866972963785,positive
+Sales_lag_21,Temperature,0,0.6794337835074339,positive
+inventory_proxy,typical_rain_mm,1,0.6757770790592211,positive
+Sales_lag_2,Delivery,1,0.6660531349982088,positive
+exports,Production,0,0.6615563615772759,positive
+holiday_type_National Holiday,Production,1,0.651786172549241,positive
+balance_of_trade,Factory_Issue,0,-0.6511882591910512,negative
+Sales_lag_28,Production,1,-0.6356510458544006,negative
+inventory_proxy,factory_issue_rate,0,0.6346575882910677,positive
+inventory_proxy,Sales_lag_14,1,0.6296518328703128,positive
+Production,Delivery,0,0.6239355685956914,positive
+delivery_sales_ratio,Delivery,0,0.6221171788721442,positive
+holiday_type_National Holiday,Sales,1,0.617899850727922,positive
+Delivery,Temperature,0,-0.6067180188096795,negative
+typical_rain_mm,Temperature,1,-0.5987836304661037,negative
+Sales_lag_7,Delivery,0,0.5903063331380664,positive
+delivery_sales_ratio,typical_rain_mm,0,-0.588160182267244,negative
+Sales_lag_28,Sales,1,-0.5843848816947166,negative
+inventory_proxy,Sales_lag_7,1,-0.5803894745705809,negative
+inventory_proxy,stock_market_close,1,0.5743629912551405,positive
+Sales_lag_21,Factory_Issue,0,0.5702414887413209,positive
+Sales,typical_rain_mm,1,0.5667769362126533,positive
+Delivery,Sales_lag_14,1,-0.5563245784230559,negative
+delivery_sales_ratio,Temperature,1,0.5444699929275276,positive
+inventory_proxy,holiday_type_National Holiday,1,-0.5442900532407106,negative
+typical_rain_mm,Sales_lag_14,1,-0.5430509239279683,negative
+Sales_lag_7,typical_rain_mm,0,-0.5425077608440568,negative
+holiday_type_National Holiday,Production,0,-0.5419643258936274,negative
+Sales_lag_3,Sales,1,0.5330097688443018,positive
+inventory_proxy,factory_issue_rate,1,-0.526601566701028,negative
+holiday_type_National Holiday,Temperature,1,0.5238484406025138,positive
+inventory_proxy,Sales_lag_28,1,0.5126302535869163,positive
+Sales_lag_21,Sales,0,0.5057746555079717,positive
+Sales_lag_7,exports,1,-0.5017526791752681,negative
+Sales,stock_market_close,0,0.49078886756823525,positive
+Sales_lag_7,delivery_sales_ratio,1,-0.4792980058259094,negative
+Sales_lag_3,typical_rain_mm,1,-0.47126923600432885,negative
+Sales_lag_3,Delivery,1,0.46916883191467756,positive
+Sales_lag_21,inventory_proxy,1,-0.461904472645459,negative
+Sales_lag_7,stock_market_close,1,0.4598654427874269,positive
+Delivery,typical_rain_mm,0,0.45710490177539126,positive
+Sales_lag_3,holiday_type_National Holiday,1,-0.45571737935266254,negative
+Sales_lag_14,stock_market_close,1,0.4514988374232624,positive
+typical_rain_mm,Sales_lag_7,1,-0.4499257746834975,negative
+typical_rain_mm,holiday_type_National Holiday,1,-0.4454850054773441,negative
+Production,inventory_proxy,0,0.4418839239306938,positive
+Temperature,delivery_sales_ratio,1,-0.43517931099242496,negative
+inventory_proxy,Sales_lag_21,1,-0.4302245468828926,negative
+Sales_lag_7,stock_market_close,0,0.4275778035656139,positive
+delivery_sales_ratio,Production,0,-0.42644195108076005,negative
+Sales_lag_2,Temperature,1,0.41700470544072415,positive
+exports,stock_market_close,0,0.41566092081106076,positive
+Sales_lag_21,Factory_Issue,1,0.4144943210753833,positive
+Sales_lag_3,Factory_Issue,1,0.4124039219997609,positive
+stock_market_close,Temperature,1,-0.4061884122596228,negative
+holiday_type_National Holiday,Delivery,0,0.40578257448544564,positive
+Sales_lag_28,Sales_lag_21,1,-0.39065084216350404,negative
+production_sales_ratio,Factory_Issue,0,-0.38964812716630204,negative
+stock_market_close,Sales_lag_14,1,-0.386450188982054,negative
+Sales_lag_14,Delivery,1,0.3843365687316826,positive
+Sales_lag_28,Sales_lag_14,1,-0.38247987021840557,negative
+holiday_type_National Holiday,Sales_lag_14,1,0.3818683348113676,positive
+Production,factory_issue_rate,0,-0.38124126950742077,negative
+delivery_sales_ratio,Sales,0,-0.3796144818542294,negative
+Sales_lag_14,Delivery,0,0.37429576238835227,positive
+Sales_lag_7,Sales_lag_14,1,0.3732954181300641,positive
+Sales_lag_28,Delivery,0,0.36522061837103753,positive
+Sales_lag_1,stock_market_close,1,-0.3648902200579454,negative
+Sales_lag_14,Temperature,1,-0.36357666887425266,negative
+Sales_lag_14,Production,0,-0.35855548458004954,negative
+delivery_sales_ratio,Sales_lag_14,1,0.3568451787693026,positive
+inventory_proxy,Factory_Issue,1,-0.3554108440862621,negative
+inventory_proxy,delivery_sales_ratio,1,-0.3541923631546249,negative
+Sales_lag_28,stock_market_close,0,-0.3539208038341126,negative
+Delivery,Sales_lag_21,1,0.3513690100953569,positive
+Sales_lag_14,Production,1,-0.33990233124811137,negative
+delivery_sales_ratio,Production,1,-0.3387412767543716,negative
+Sales_lag_3,Temperature,1,0.33679651320343296,positive
+production_sales_ratio,Sales,0,0.33214136620220946,positive
+Sales_lag_1,Sales,1,-0.3290592492071004,negative
+Sales_lag_21,factory_issue_rate,1,0.31655685561637564,positive
+Sales_lag_3,exports,1,0.3133516234107967,positive
+holiday_type_National Holiday,delivery_sales_ratio,1,-0.3096294567638794,negative
+Delivery,stock_market_close,1,-0.30733206581308986,negative
+Sales_lag_7,Sales,0,-0.3066769930546806,negative
+Sales_lag_3,Production,1,-0.3058448883985723,negative
+typical_rain_mm,inventory_proxy,1,0.2953862208620935,positive
+Sales,delivery_sales_ratio,1,0.2873901145325422,positive
+holiday_type_National Holiday,typical_rain_mm,1,-0.28656162194789275,negative
+Sales_lag_7,Delivery,1,-0.28587762233755865,negative
+stock_market_close,typical_rain_mm,1,-0.2832267358505966,negative
+typical_rain_mm,delivery_sales_ratio,1,0.2746017872644353,positive
+Sales_lag_28,inventory_proxy,1,0.27332599794508605,positive
+Sales_lag_3,Sales_lag_21,1,-0.26777972505177144,negative
+Delivery,inventory_proxy,1,-0.2628820481834985,negative
+delivery_sales_ratio,stock_market_close,0,0.2610654557781105,positive
+Sales_lag_7,Sales,1,-0.25550804682770417,negative
+delivery_sales_ratio,Temperature,0,0.25265692937257883,positive
+Sales_lag_7,Sales_lag_21,1,-0.24978463606826098,negative
+Sales_lag_7,Production,1,-0.24960909142016086,negative
+Sales_lag_14,Sales,0,-0.24754076586193124,negative
+Sales_lag_1,Sales_lag_7,1,-0.24384120869351328,negative
+delivery_sales_ratio,typical_rain_mm,1,-0.241982073691598,negative
+holiday_type_National Holiday,inventory_proxy,1,-0.23751293155122666,negative
+typical_rain_mm,Factory_Issue,1,-0.23596906624700867,negative
+Sales_lag_28,Factory_Issue,1,-0.2325243242215633,negative
+Sales,Sales_lag_7,1,-0.23130043512550605,negative
+stock_market_close,exports,1,0.23022103408617078,positive
+holiday_type_National Holiday,Sales_lag_28,1,-0.22619884528217085,negative
+balance_of_trade,Sales,0,-0.2248549789914585,negative
+Sales_lag_28,exports,1,-0.22366456095985773,negative
+Sales_lag_21,factory_issue_rate,0,0.2230745883992574,positive
+Sales_lag_21,Sales_lag_28,1,-0.2191857079915452,negative
+Sales,Temperature,0,0.21545056396647677,positive
+Sales_lag_21,inventory_proxy,0,0.21436862801819934,positive
+Temperature,Production,1,-0.2131814830571948,negative
+Temperature,Sales_lag_21,1,-0.2127870175914455,negative
+Sales_lag_7,typical_rain_mm,1,-0.20842640085180045,negative
+Sales_lag_28,holiday_type_National Holiday,1,0.20741445245687817,positive
+Delivery,typical_rain_mm,1,-0.2073763743115933,negative
+typical_rain_mm,Sales_lag_28,1,0.20602879938744087,positive
+Sales_lag_2,Production,1,-0.20184373059327082,negative
+Delivery,Sales,0,0.2014230710412502,positive
+Sales_lag_21,exports,1,-0.19930477125650353,negative
+Temperature,Sales,1,0.1991098097873797,positive
+holiday_type_National Holiday,Sales_lag_7,1,0.19658809541315828,positive
+holiday_type_National Holiday,stock_market_close,0,-0.19393062033441275,negative
+delivery_sales_ratio,inventory_proxy,1,0.19296010732132024,positive
+holiday_type_National Holiday,stock_market_close,1,-0.19065344543485446,negative
+Sales_lag_28,inventory_proxy,0,-0.18807096181409777,negative
+Sales,Delivery,1,0.1807906581131258,positive
+Sales_lag_7,inventory_proxy,1,0.18003638947109069,positive
+delivery_sales_ratio,Sales_lag_21,1,-0.1798916904711764,negative
+holiday_type_National Holiday,exports,1,0.17942233044423325,positive
+Delivery,Production,1,0.1781880517934353,positive
+Delivery,stock_market_close,0,0.17779369444142998,positive
+Delivery,exports,1,0.17767663488257457,positive
+Temperature,Delivery,1,-0.17761302612904178,negative
+balance_of_trade,Sales_lag_1,1,-0.17675610470176634,negative
+exports,Sales_lag_1,1,-0.17675610470175324,negative
+Sales_lag_7,Temperature,1,0.17446729458954,positive
+holiday_type_National Holiday,Factory_Issue,1,0.16942549942848895,positive
+Temperature,holiday_type_National Holiday,1,-0.16929496551613135,negative
+Sales_lag_28,Delivery,1,-0.16718019450851296,negative
+Sales_lag_1,Factory_Issue,1,-0.16632053867008575,negative
+Sales_lag_28,factory_issue_rate,1,-0.1658923817603262,negative
+stock_market_close,inventory_proxy,1,-0.16255175014038206,negative
+Sales,Factory_Issue,1,0.1597781320553442,positive
+Production,Sales,0,0.1571309903512196,positive
+Delivery,Factory_Issue,1,-0.15243740511480366,negative
+Sales_lag_2,typical_rain_mm,1,0.15163748436022126,positive
+Sales_lag_2,Sales_lag_14,1,-0.1509880729535768,negative
+stock_market_close,Sales,1,0.14795691529819632,positive
+Sales_lag_3,delivery_sales_ratio,1,-0.14151109506847662,negative
+Sales_lag_14,Factory_Issue,0,-0.14147722467165189,negative
+Sales_lag_3,Sales_lag_14,1,0.13850507601385426,positive
+Delivery,Sales_lag_28,1,-0.13611595933095172,negative
+Sales_lag_2,Sales,1,0.13590052914728262,positive
+typical_rain_mm,stock_market_close,1,-0.13267576257100083,negative
+holiday_type_National Holiday,Sales_lag_21,1,-0.13206621112032213,negative
+Sales,holiday_type_National Holiday,1,-0.13196456536959053,negative
+Sales_lag_1,Production,1,-0.13087643282959058,negative
+Sales_lag_3,stock_market_close,1,-0.13047405024922054,negative
+Sales_lag_14,delivery_sales_ratio,1,-0.13047138330294322,negative
+Sales_lag_14,Sales_lag_21,1,-0.13001608586348923,negative
+typical_rain_mm,Sales_lag_21,1,0.1289265189143767,positive
+Sales_lag_2,holiday_type_National Holiday,1,-0.12886108968683938,negative
+delivery_sales_ratio,Factory_Issue,0,-0.1247843632351537,negative
+Sales_lag_1,Temperature,1,0.12288852087152423,positive
+typical_rain_mm,exports,1,-0.12244718435546363,negative
+Sales_lag_2,exports,1,0.11614250614077146,positive
+Temperature,stock_market_close,0,-0.1160784817613219,negative
+Sales_lag_3,factory_issue_rate,1,0.11555455125697599,positive
+Temperature,exports,1,-0.11544949626628231,negative
+typical_rain_mm,factory_issue_rate,1,-0.1140935786735026,negative
+Sales_lag_14,Sales_lag_28,1,0.11334101776869543,positive
+Sales_lag_2,stock_market_close,1,-0.1123580581555859,negative
+Sales_lag_21,typical_rain_mm,1,-0.11114808605545554,negative
+stock_market_close,Sales_lag_21,1,0.10988837468786888,positive
+holiday_type_National Holiday,factory_issue_rate,1,0.1098215521308883,positive
+Sales,Sales_lag_28,1,-0.10929032682120778,negative
+Sales_lag_7,inventory_proxy,0,0.10907166774504817,positive
+Sales_lag_7,Sales_lag_28,1,-0.1070419773564669,negative
+delivery_sales_ratio,Sales_lag_21,0,-0.10640590634202687,negative
+Sales_lag_14,holiday_type_National Holiday,1,-0.10585753702869091,negative
+production_sales_ratio,factory_issue_rate,0,0.10557632724987748,positive
+balance_of_trade,factory_issue_rate,0,-0.10507142402854448,negative
+Sales_lag_7,Temperature,0,-0.10169784480368095,negative
+Sales_lag_14,Factory_Issue,1,0.10122412959900955,positive
+Sales_lag_1,Sales_lag_28,1,-0.10022501497141087,negative
+Delivery,Sales_lag_7,1,-0.09794084555552908,negative
+Temperature,stock_market_close,1,-0.0974214099946844,negative
+Sales_lag_14,exports,1,0.09585523165932346,positive
+Sales_lag_7,Factory_Issue,1,-0.0937457113595841,negative
+Sales_lag_28,Temperature,1,-0.09330826255220964,negative
+stock_market_close,factory_issue_rate,0,0.0913781839812045,positive
+Temperature,Sales_lag_7,1,0.09122973576447012,positive
+Sales_lag_3,Sales_lag_28,1,0.09056050071735199,positive
+delivery_sales_ratio,exports,1,-0.08542343194351254,negative
+Sales_lag_1,holiday_type_National Holiday,1,0.08409414324583118,positive
+stock_market_close,Production,1,0.08383451872031916,positive
+Sales_lag_7,holiday_type_National Holiday,1,0.08358575987185307,positive
+holiday_type_National Holiday,inventory_proxy,0,0.08059389635906433,positive
+Sales_lag_7,factory_issue_rate,0,-0.07991112436414456,negative
+Sales_lag_7,factory_issue_rate,1,-0.07988719273141605,negative
+delivery_sales_ratio,inventory_proxy,0,0.07783658373457332,positive
+Sales_lag_1,exports,1,-0.07778062614611361,negative
+delivery_sales_ratio,factory_issue_rate,0,-0.0756019508710325,negative
+holiday_type_National Holiday,Sales_lag_21,0,-0.07347491857119223,negative
+Temperature,Factory_Issue,1,0.07211974279368608,positive
+Sales_lag_21,delivery_sales_ratio,1,0.07064503067322679,positive
+exports,factory_issue_rate,0,-0.06914954457223464,negative
+Sales_lag_1,inventory_proxy,1,0.06773888599971677,positive
+delivery_sales_ratio,Factory_Issue,1,0.06760607935154529,positive
+Delivery,holiday_type_National Holiday,1,-0.06671764385311477,negative
+Sales,Production,1,0.06579887312149234,positive
+Sales_lag_1,delivery_sales_ratio,1,0.06424119311492098,positive
+Sales_lag_7,Factory_Issue,0,-0.06384941901163313,negative
+delivery_sales_ratio,factory_issue_rate,1,-0.06384543959067869,negative
+stock_market_close,Delivery,1,0.06315336741054746,positive
+Sales_lag_1,Sales_lag_14,1,0.06233767542447335,positive
+Sales_lag_28,Factory_Issue,0,-0.06190878543854644,negative
+Temperature,inventory_proxy,1,-0.061432641347903785,negative
+holiday_type_National Holiday,Factory_Issue,0,0.06127289721610802,positive
+Sales_lag_2,delivery_sales_ratio,1,-0.05740774259552754,negative
+Sales,stock_market_close,1,-0.056252801929911604,negative
+inventory_proxy,exports,1,-0.05609123866225661,negative
+Sales_lag_14,inventory_proxy,1,0.05425423734903615,positive
+holiday_type_National Holiday,Sales,0,-0.054072615409830604,negative
+Sales,factory_issue_rate,1,0.05234703178622958,positive
+delivery_sales_ratio,Sales,1,-0.05146164343057458,negative
+Sales_lag_14,inventory_proxy,0,-0.050561176562596594,negative

@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-10-17",
+    "url": "https://www.bssnews.net/business/88464",
+    "body_preview": "DHAKA, Oct 17, 2022 (BSS) - Country's both the bourses, Dhaka Stock Exchange (DSE) and Chittagong Stock Exchange (CSE) today plunged further due to mainly price fall in large-cap securities.\n\nDSEX, the benchmark index of the Dhaka Stock Exchange (DSE), slid 65 points, or 1.01 per cent, at 6,413 at the end of the day. The DS30, the index that consists of blue-chip companies, went down 0.93 per cent to 2,277, while the DSES, the Shariah-complaint index, plummeted 0.80 per cent to 1,406.\n\nTurnover "
+  },
+  "llm_connections": [
+    {
+      "feature": "stock_market_close",
+      "event_summary": "Large-cap securities price fall",
+      "edge_label": "drives market decline",
+      "evidence_quote": "Country's both the bourses, Dhaka Stock Exchange (DSE) and Chittagong Stock Exchange (CSE) today plunged further due to mainly price fall in large-cap securities.",
+      "scope_justification": "The article explicitly describes declines in the country’s overall stock-market indices, matching the feature’s equity-market performance scope.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "Country's both the bourses, Dhaka Stock Exchange (DSE) and Chittagong Stock Exchange (CSE) today plunged further due to mainly price fall in large-cap securities.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states that both Bangladeshi bourses plunged mainly due to price falls in large-cap securities, directly linking the event to the market decline at the country’s stock-market level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-10-17",
+      "stock_market_close",
+      "drives market decline",
+      "Large-cap securities price fall"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Daily Mirror",
+    "date": "2023-02-05",
+    "url": "https://www.dailymirror.lk/opinion/Energy-companies-should-share-their-profits-with-badly-affected-countries-Bangladeshi-Foreign-Minister-Dr-A-K-Abdul-Momen/231-253586",
+    "body_preview": "Bangladeshi Foreign Minister Dr. A. K. Abdul Momen who was in Sri Lanka in view of the 75th Independence Day celebrations speaks to Daily Mirror on the current status of bilateral ties, way forward and secret behind success of Bangladesh which transformed itself from being a country of food deficit to one of the fastest growing economies in the world.\n\nQ In what ways have bilateral ties evolved during the last few years?\n\nI should say our bilateral relations are very good. It is getting more and"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Energy prices drive inflation",
+      "edge_label": "raises price levels",
+      "evidence_quote": "In this area, prices shoot up resulting in inflation in the country.",
+      "scope_justification": "The article explicitly links rising energy prices to inflation across the country, matching the national general-price-level scope of the feature.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "In this area, prices shoot up resulting in inflation in the country.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article contains the exact quote linking energy-related price increases to national inflation, explicitly stating a cause-and-effect relationship at the country level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-02-05",
+      "inflation_rate",
+      "raises price levels",
+      "Energy prices drive inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

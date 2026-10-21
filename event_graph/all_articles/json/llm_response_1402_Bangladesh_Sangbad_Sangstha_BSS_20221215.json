@@ -1,0 +1,61 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-12-15",
+    "url": "https://www.bssnews.net/news/100289",
+    "body_preview": "DHAKA, Dec 15, 2022 (BSS) - Prime Minister Sheikh Hasina addressed the nation this evening on the occasion of the great Victory Day 2022.\n\nThe full text of her televised address is as follows:\n\nOn the occasion of the great Victory Day 2022, I am extending heartiest greetings to all the citizens of Bangladesh staying home and abroad.\n\nI am recalling with profound respect the greatest Bangalee of all times Father of the Nation Bangabandhu Sheikh Mujibur Rahman. Under his leadership, we achieved th"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "War raised commodity prices",
+      "edge_label": "increases price levels",
+      "evidence_quote": "The prices of almost all consumer goods including fuel oil, edible oil, wheat, sugar, maize, pulses, chemical fertilizers have increased at an abnormal rate in the international market.",
+      "scope_justification": "The article describes an economy-wide rise across almost all listed consumer goods, matching the feature's broad price-level scope rather than a single commodity.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "The prices of almost all consumer goods including fuel oil, edible oil, wheat, sugar, maize, pulses, chemical fertilizers have increased at an abnormal rate in the international market.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The quoted sentence appears verbatim. The article explicitly links the Russia-Ukraine war and related sanctions to widespread price increases, implying a causal effect on overall price levels. The discussion covers prices of almost all consumer goods (economy-wide), matching the inflation scope."
+      }
+    },
+    {
+      "feature": "imports",
+      "event_summary": "Pandemic suspended imports",
+      "edge_label": "suspends imports",
+      "evidence_quote": "Imports of all types of heavy machinery, foreign travel and imports of other goods were largely suspended during the period of coronavirus pandemic.",
+      "scope_justification": "The statement covers imports across all types of goods and therefore matches the feature's country-wide import-volume scope.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "Imports of all types of heavy machinery, foreign travel and imports of other goods were largely suspended during the period of coronavirus pandemic.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that imports were largely suspended during the coronavirus pandemic, strongly implying the pandemic caused the suspension. The quote appears verbatim and refers to country-level imports."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-12-15",
+      "inflation_rate",
+      "increases price levels",
+      "War raised commodity prices"
+    ],
+    [
+      "2022-12-15",
+      "imports",
+      "suspends imports",
+      "Pandemic suspended imports"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 2
+}

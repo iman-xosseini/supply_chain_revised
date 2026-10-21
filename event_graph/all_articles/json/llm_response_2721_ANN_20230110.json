@@ -1,0 +1,99 @@
+{
+  "article": {
+    "source": "ANN",
+    "date": "2023-01-10",
+    "url": "https://asianews.network/overcoming-looming-economic-challenges-in-2023/",
+    "body_preview": "DHAKA - In 2023, several economies globally will face recession, while three large economies - the US, the EU and China - will continue to slow down, as the International Monetary Fund (IMF) observed on the eve of the new year. In October 2022, the IMF projected global economic growth to decrease from 3.2 percent in 2022 to 2.7 percent in 2023. This has been causing difficulties across countries and affecting the living standards of low-income households.\n\nFor Bangladesh, though inflation has su"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Global inflation raised prices",
+      "edge_label": "increases price levels",
+      "evidence_quote": "Global inflation has also passed onto locally produced items due to high fuel, transport and logistical costs.",
+      "scope_justification": "The article describes inflation affecting locally produced goods and national consumer prices, matching the aggregate price-level scope of the inflation-rate feature.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "Global inflation has also passed onto locally produced items due to high fuel, transport and logistical costs.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The exact quote appears in the article and explicitly states that global inflation has been transmitted to locally produced items via higher fuel, transport, and logistics costs, implying higher domestic prices. This is discussed at the national level in the context of Bangladesh’s inflation."
+      }
+    },
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Fuel hikes increased living costs",
+      "edge_label": "pushes up living costs",
+      "evidence_quote": "This hike is apprehended to be passed on to consumers and push up their cost of living further.",
+      "scope_justification": "The stated effect is a broader increase in consumers’ cost of living, which matches the feature’s scope of general price increases affecting purchasing power.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "This hike is apprehended to be passed on to consumers and push up their cost of living further.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The quoted sentence appears verbatim, and the article explicitly links price hikes (fuel and electricity) to higher consumer cost of living. This is discussed at the national (Bangladesh) level, matching the feature’s broad scope."
+      }
+    },
+    {
+      "feature": "currency_log_return",
+      "event_summary": "Dollar shortage weakened taka",
+      "edge_label": "drives currency depreciation",
+      "evidence_quote": "The supply shortage of dollars in the market has led to a free fall of the taka against the US dollar.",
+      "scope_justification": "This explicitly describes a national exchange-rate movement between the taka and US dollar, matching the currency-return feature’s exchange-rate scope.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "The supply shortage of dollars in the market has led to a free fall of the taka against the US dollar.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states, 'The supply shortage of dollars in the market has led to a free fall of the taka against the US dollar,' which directly links dollar shortage to taka depreciation at the national currency level."
+      }
+    },
+    {
+      "feature": "currency_momentum_5d",
+      "event_summary": "Dollar shortage weakened taka",
+      "edge_label": "weakens currency trend",
+      "evidence_quote": "The supply shortage of dollars in the market has led to a free fall of the taka against the US dollar.",
+      "scope_justification": "The described ‘free fall’ is an explicit recent downward trend in the taka’s strength against the dollar, matching the currency-momentum definition.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "The supply shortage of dollars in the market has led to a free fall of the taka against the US dollar.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states that a supply shortage of dollars led to a free fall of the taka, directly linking the event to a weakening currency trend at the country level. The provided quote appears verbatim."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-01-10",
+      "inflation_rate",
+      "increases price levels",
+      "Global inflation raised prices"
+    ],
+    [
+      "2023-01-10",
+      "inflation_rate",
+      "pushes up living costs",
+      "Fuel hikes increased living costs"
+    ],
+    [
+      "2023-01-10",
+      "currency_log_return",
+      "drives currency depreciation",
+      "Dollar shortage weakened taka"
+    ],
+    [
+      "2023-01-10",
+      "currency_momentum_5d",
+      "weakens currency trend",
+      "Dollar shortage weakened taka"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 4
+}

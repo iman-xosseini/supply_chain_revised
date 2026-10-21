@@ -1,0 +1,37 @@
+{
+  "article": {
+    "source": "ANN",
+    "date": "2022-09-12",
+    "url": "https://asianews.network/cotton-price-drop-cant-cheer-up-bangladesh-garment-makers/",
+    "body_preview": "DHAKA - International cotton prices have significantly fallen but brought little cheer to local spinners and garment manufacturers suffering from a drop in work orders from international retailers and brands.\n\nThe price of cotton fell to $1.01 to $1.04 per pound in international futures markets yesterday from $1.20 to $1.30 in May and June.\n\nThis resulted from a drop in demand for garment items in major export destinations like Europe because of high inflation stemming from the Russia-Ukraine wa"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Gas crisis affects exports",
+      "edge_label": "disrupts exports",
+      "evidence_quote": "the gas crisis to find a solution as exports were being affected",
+      "scope_justification": "The article explicitly states that the gas crisis affected exports from export-oriented industry, matching the feature's scope of goods sent internationally.",
+      "verification": {
+        "quote_similarity": 0.992,
+        "quote_best_match": "the gas crisis to find a solution as exports were being affected.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states they were meeting 'on the gas crisis to find a solution as exports were being affected,' directly linking the gas crisis to impacts on exports. This is discussed at the sector/national level (export-oriented industries), matching the scope of exports."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-09-12",
+      "exports",
+      "disrupts exports",
+      "Gas crisis affects exports"
+    ]
+  ],
+  "features_queried": [
+    "balance_of_trade",
+    "stock_market_close",
+    "exports"
+  ],
+  "num_connections_found": 1
+}

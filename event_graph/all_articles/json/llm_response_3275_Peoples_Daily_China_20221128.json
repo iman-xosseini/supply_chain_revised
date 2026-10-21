@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "People's Daily, China",
+    "date": "2022-11-28",
+    "url": "http://en.people.cn/n3/2022/1128/c90000-10177256.html",
+    "body_preview": "DHAKA, Nov. 28 (Xinhua) -- In an apparent bid to conserve eroding forex reserves, Bangladeshi prime minister Sheikh Hasina has directed the country's relevant authorities to squeeze imports of luxury items.\n\nSheikh Hasina, however, stressed the need for importing more essentials. She gave the directives at a secretary-level meeting held in the Bangladeshi capital Dhaka on Sunday.\n\nBangladeshi cabinet secretary Khandker Anwarul Islam briefed journalists about the premier's directives after the hi"
+  },
+  "llm_connections": [
+    {
+      "feature": "imports",
+      "event_summary": "Luxury import restrictions imposed",
+      "edge_label": "discourages imports",
+      "evidence_quote": "increase import tariffs on 40 luxury goods to discourage the import of such products",
+      "scope_justification": "The article explicitly describes a national government measure intended to reduce imports, directly matching the feature's country-level goods-import scope.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "increase import tariffs on 40 luxury goods to discourage the import of such products",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that Hasina asked to increase import tariffs on 40 luxury goods 'to discourage the import of such products,' explicitly linking the policy to reduced imports at the national level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-11-28",
+      "imports",
+      "discourages imports",
+      "Luxury import restrictions imposed"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

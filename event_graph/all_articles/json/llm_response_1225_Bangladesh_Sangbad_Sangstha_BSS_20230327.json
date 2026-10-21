@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2023-03-27",
+    "url": "https://www.bssnews.net/business/117792",
+    "body_preview": "DHAKA, March 27, 2023 (BSS) - The Centre for Policy Dialogue (CPD) has proposed for raising the tax free income ceiling for individual taxpayers by Taka 50,000 to Taka 3.50 lakh to offset the shock of inflationary pressures on the commoners.\n\nThe civil society think tank also proposed for providing 'special increment' to the lower tier employees both at the public and private institutions.\n\nExecutive Director of CPD Dr Fahmida Khatun said this while presenting its budget recommendations for FY24"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Essential prices reduce purchasing power",
+      "edge_label": "reduces purchasing power",
+      "evidence_quote": "due to increase in the price of essentials especially the food items, the purchasing power of common people has declined",
+      "scope_justification": "The article explicitly links broad inflationary price increases, including food prices, to reduced purchasing power, matching the feature's definition of rising prices affecting consumers.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "due to increase in the price of essentials especially the food items, the purchasing power of common people has declined",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states, 'due to increase in the price of essentials especially the food items, the purchasing power of common people has declined,' explicitly linking price increases (inflation) to reduced purchasing power at a broad, population level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-03-27",
+      "inflation_rate",
+      "reduces purchasing power",
+      "Essential prices reduce purchasing power"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

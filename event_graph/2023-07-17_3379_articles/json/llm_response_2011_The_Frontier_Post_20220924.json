@@ -1,0 +1,37 @@
+{
+  "article": {
+    "source": "The Frontier Post",
+    "date": "2022-09-24",
+    "url": "https://thefrontierpost.com/bangladeshi-garment-producers-gear-up-to-tap-into-gulf-market/",
+    "body_preview": "DHAKA (Arabnews): Bangladeshi garment manufacturers are seeking to boost business with Gulf countries amid a sales slowdown in their traditional export destinations such as the US and EU.\n\nThe garment industry makes up more than 80 percent of the total exports of Bangladesh, the world's second-largest supplier of clothes after China.\n\nThe country's garment exports reached $42.6 billion during the July 2021-June 2022 fiscal year, with the EU accounting for 60 percent of this amount, and 20 percen"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Gulf expansion could increase exports",
+      "edge_label": "boosts exports",
+      "evidence_quote": "Azim estimated that the South Asian nation could increase exports significantly, expanding also to other countries of the Gulf Cooperation Council.",
+      "scope_justification": "The article explicitly links expanded international garment-market access with increased Bangladeshi exports, matching the feature's scope of goods sent internationally.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "Azim estimated that the South Asian nation could increase exports significantly, expanding also to other countries of the Gulf Cooperation Council.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The quoted sentence appears verbatim and explicitly links expanding into GCC markets with increasing Bangladesh’s exports. The discussion is at the national export level, matching the scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-09-24",
+      "exports",
+      "boosts exports",
+      "Gulf expansion could increase exports"
+    ]
+  ],
+  "features_queried": [
+    "balance_of_trade",
+    "stock_market_close",
+    "exports"
+  ],
+  "num_connections_found": 1
+}

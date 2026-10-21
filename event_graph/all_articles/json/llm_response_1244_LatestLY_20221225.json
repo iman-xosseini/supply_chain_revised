@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "LatestLY",
+    "date": "2022-12-25",
+    "url": "https://www.latestly.com/agency-news/world-news-bangladesh-pm-sheikh-hasina-says-she-accepted-awami-leagues-leadership-in-view-of-global-situation-4633097.html",
+    "body_preview": "Dhaka [Bangladesh], December 25 (ANI): Bangladesh PM Sheikh Hasina on Sunday said she accepted leadership of the Awami League in view of the global economic situation, The Daily Star reported.\n\nShe made the statement while exchanging greetings with party leaders and activists at Ganabhaban after being elected as Awami League's President for the 10th time.\n\nAlso Read | Pushpa Kamal Dahal Appointed As Nepal Prime Minister; Third-Term for Communist Party Leader.\n\n\"One must not take (leadership) res"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Extra food export proposal",
+      "edge_label": "increases exports",
+      "evidence_quote": "If we can produce extra food, we can export those, mitigating our own demands",
+      "scope_justification": "The statement directly links Bangladesh’s additional domestically produced goods—food—to international exports, matching the feature’s definition of goods sent internationally.",
+      "verification": {
+        "quote_similarity": 0.987,
+        "quote_best_match": "If we can produce extra food, we can export those, mitigating our own demands,\"",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The quoted sentence appears verbatim and explicitly links producing extra food to exporting it, implying increased national exports. The discussion is at the country level (Bangladesh)."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-12-25",
+      "exports",
+      "increases exports",
+      "Extra food export proposal"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

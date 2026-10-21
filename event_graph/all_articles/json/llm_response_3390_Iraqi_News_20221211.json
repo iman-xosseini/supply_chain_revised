@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Iraqi News",
+    "date": "2022-12-11",
+    "url": "https://www.iraqinews.com/world/bangladesh-opposition-mounts-huge-protest-mps-quit/",
+    "body_preview": "Dhaka - Nearly 100,000 supporters of Bangladesh's main opposition party descended on Dhaka Saturday to protest against the government of Prime Minister Sheikh Hasina and demand new elections.\n\n\"Sheikh Hasina is a vote thief,\" they chanted at the Golapbagh sports ground where the rally was held as the crowd spilled into surrounding streets.\n\nAll seven opposition Bangladesh Nationalist Party (BNP) MPs announced their resignations from parliament at the event, which will leave the legislature large"
+  },
+  "llm_connections": [
+    {
+      "feature": "currency_log_return",
+      "event_summary": "Taka depreciation raises import costs",
+      "edge_label": "increases import costs",
+      "evidence_quote": "The Bangladeshi taka has depreciated by up to 25 percent, driving up the cost of food imports",
+      "scope_justification": "The article explicitly links a national exchange-rate movement to higher import costs, matching the feature's exchange-rate and import-cost scope.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "The Bangladeshi taka has depreciated by up to 25 percent, driving up the cost of food imports",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states, 'The Bangladeshi taka has depreciated by up to 25 percent, driving up the cost of food imports,' explicitly linking national currency depreciation to higher import costs at a country level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-12-11",
+      "currency_log_return",
+      "increases import costs",
+      "Taka depreciation raises import costs"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

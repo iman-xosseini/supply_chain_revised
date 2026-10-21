@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "The Daily Star",
+    "date": "2022-09-21",
+    "url": "https://www.thedailystar.net/business/economy/news/epzs-make-history-export-investment-jobs-3124381",
+    "body_preview": "Bangladesh's export processing zones (EPZs) passed a spectacular period last fiscal year.\n\nThe industrial zones under Bangladesh Export Processing Zones Authority (Bepza) hit records in attracting investment, making exports and creating employment in fiscal year 2021-22, according to the official data.\n\nBepza, which promotes and attracts foreign investments to the EPZs, said total exports from all the eight EPZs crossed the $8 billion mark for the first time in its 40 years of operations.\n\nOvera"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Pandemic disrupted EPZ exports",
+      "edge_label": "disrupts exports",
+      "evidence_quote": "Bepza said exports rebounded sharply after the disruptions caused by the pandemic that emerged in Bangladesh in March 2020.",
+      "scope_justification": "The article reports aggregate international export performance across all eight EPZs, matching the feature's focus on the volume of goods sent internationally.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "Bepza said exports rebounded sharply after the disruptions caused by the pandemic that emerged in Bangladesh in March 2020.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states that exports rebounded after disruptions caused by the pandemic, implying the pandemic disrupted EPZ exports. It discusses exports at the level of all eight EPZs, matching the claimed scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-09-21",
+      "exports",
+      "disrupts exports",
+      "Pandemic disrupted EPZ exports"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

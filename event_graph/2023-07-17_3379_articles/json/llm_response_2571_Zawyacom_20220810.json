@@ -1,0 +1,37 @@
+{
+  "article": {
+    "source": "Zawya.com",
+    "date": "2022-08-10",
+    "url": "https://www.zawya.com/en/world/indian-sub-continent/bangladesh-garment-export-growth-seen-slowing-to-normal-15-this-year-yonjssns",
+    "body_preview": "DHAKA - Growth in Bangladesh's garment exports could drop to about 15% this year after an unusually strong expansion of more than 30% in 2021, two industry leaders told Reuters on Wednesday, as U.S. and European customers grapple with cost of living pressures.\n\nThe garment industry accounts for more than 80% of total exports for Bangladesh, which sells to clients such as Walmart , Gap Inc, H&M, VF Corp, Zara and American Eagle Outfitters - some of which have already flagged weak sales as their c"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Customer cost pressures",
+      "edge_label": "reduces export growth",
+      "evidence_quote": "Growth in Bangladesh's garment exports could drop to about 15% this year ... as U.S. and European customers grapple with cost of living pressures.",
+      "scope_justification": "The article describes Bangladesh-wide garment export growth, and garments account for more than 80% of the country's total exports, matching the national exports scope.",
+      "verification": {
+        "quote_similarity": 0.711,
+        "quote_best_match": "- Growth in Bangladesh's garment exports could drop to about 15% this year after an unusually",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states that Bangladesh’s garment export growth could drop as U.S. and European customers face cost-of-living pressures. This is discussed at a national, sector-wide level (garment exports), which aligns with the feature’s scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-08-10",
+      "exports",
+      "reduces export growth",
+      "Customer cost pressures"
+    ]
+  ],
+  "features_queried": [
+    "balance_of_trade",
+    "stock_market_close",
+    "exports"
+  ],
+  "num_connections_found": 1
+}

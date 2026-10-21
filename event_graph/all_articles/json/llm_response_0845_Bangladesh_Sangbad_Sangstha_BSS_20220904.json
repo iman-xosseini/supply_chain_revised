@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-09-04",
+    "url": "https://www.bssnews.net/business/80622",
+    "body_preview": "DHAKA, Sept 04, 2022 (BSS) - The country's merchandise export earnings\n\nmaintained a healthy growth in August, registering over 36.18 per cent rise\n\nto bag $4.61 billion year-on-year thanks to the good performance of the\n\napparel sector.\n\nBangladesh fetched $3.38 billion in August 2021, according to provisional\n\ndata from the Export Promotion Bureau (EPB) released today.\n\nThe export earnings in August this year were 7.14 per cent higher than the\n\ntarget ($4.3 billion) set by the Ministry of Comm"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Inflation reduces export demand",
+      "edge_label": "reduces exports",
+      "evidence_quote": "With the rising inflation, consumer demand in the western market has been reducing and this has been reflected in the export scenario.",
+      "scope_justification": "The article explicitly links reduced foreign consumer demand to the country's overall export scenario, matching exports as goods sent internationally and driven by global demand.",
+      "verification": {
+        "quote_similarity": 0.996,
+        "quote_best_match": "\"With the rising inflation, consumer demand in the western market has been reducing and this has been reflected in the export scenario.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The quoted sentence appears verbatim and explicitly links rising inflation to reduced western consumer demand, which is said to be reflected in the export scenario. The discussion is at the national export level within an article about Bangladesh’s overall merchandise exports."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-09-04",
+      "exports",
+      "reduces exports",
+      "Inflation reduces export demand"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

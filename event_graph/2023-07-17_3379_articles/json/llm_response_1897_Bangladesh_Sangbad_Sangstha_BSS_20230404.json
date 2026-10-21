@@ -1,0 +1,37 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2023-04-04",
+    "url": "https://www.bssnews.net/business/119143",
+    "body_preview": "DHAKA, April 4, 2023 (BSS) - Private consumption, private investment and growth in industry are expected to rise in Bangladesh in the coming days while accelerating key reforms would help the country sustain higher growth, said Asian Development Bank (ADB) country director for Bangladesh Edimon Ginting.\n\n\"The contribution from private consumption is expected to be buoyed by higher remittances as more workers go abroad for jobs. Private investment is expected to rise as consumer and investor conf"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Global slowdown weakens exports",
+      "edge_label": "weakens export expansion",
+      "evidence_quote": "It said the slower growth forecast reflects subdued domestic demand and weaker export expansion due to slow global growth following the Russian invasion of Ukraine.",
+      "scope_justification": "The article explicitly describes weaker Bangladesh-wide export expansion caused by slow global growth, matching the feature's scope of internationally sent goods.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "It said the slower growth forecast reflects subdued domestic demand and weaker export expansion due to slow global growth following the Russian invasion of Ukraine.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states that weaker export expansion is due to slow global growth, and the provided quote appears verbatim. The context is Bangladesh’s national exports, matching the scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-04-04",
+      "exports",
+      "weakens export expansion",
+      "Global slowdown weakens exports"
+    ]
+  ],
+  "features_queried": [
+    "balance_of_trade",
+    "stock_market_close",
+    "exports"
+  ],
+  "num_connections_found": 1
+}

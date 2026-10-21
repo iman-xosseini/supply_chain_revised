@@ -1,0 +1,61 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-10-30",
+    "url": "https://www.bssnews.net/business/90945",
+    "body_preview": "DHAKA, Oct 30, 2022 (BSS) - State Minister for Planning Dr Shamsul Alam today said that the government is giving utmost priority to controlling inflation in the country and it is taking necessary measures to this end.\n\n\"The trend of inflation whatever you're witnessing now is mainly import-based while the inflation has increased mainly because of the hike in the import cost,\" he said.\n\nThe state minister said this while addressing a launch event on \"Realizing Development Aspirations with Domesti"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Import costs raise inflation",
+      "edge_label": "increases inflation",
+      "evidence_quote": "the inflation has increased mainly because of the hike in the import cost",
+      "scope_justification": "The article explicitly links higher import costs to national inflation, matching the feature’s scope of general price-level increases.",
+      "verification": {
+        "quote_similarity": 0.986,
+        "quote_best_match": "the inflation has increased mainly because of the hike in the import cost,\"",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states that inflation has increased mainly because of higher import costs, and it discusses national-level inflation in Bangladesh. The quoted sentence appears verbatim in the text."
+      }
+    },
+    {
+      "feature": "exports",
+      "event_summary": "Export-boosting steps proposed",
+      "edge_label": "boosts exports",
+      "evidence_quote": "He proposed for fixing uniform exchange rate as well as undertaking necessary steps for boosting export and remittance.",
+      "scope_justification": "The article describes national-level measures intended to increase exports, matching the feature’s scope of goods sent internationally.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "He proposed for fixing uniform exchange rate as well as undertaking necessary steps for boosting export and remittance.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The quoted sentence appears verbatim and explicitly proposes steps intended to boost exports. The discussion is at the national (Bangladesh) level, matching the feature’s scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-10-30",
+      "inflation_rate",
+      "increases inflation",
+      "Import costs raise inflation"
+    ],
+    [
+      "2022-10-30",
+      "exports",
+      "boosts exports",
+      "Export-boosting steps proposed"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 2
+}

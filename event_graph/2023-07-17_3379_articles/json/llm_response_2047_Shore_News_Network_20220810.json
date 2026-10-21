@@ -1,0 +1,37 @@
+{
+  "article": {
+    "source": "Shore News Network",
+    "date": "2022-08-10",
+    "url": "https://www.shorenewsnetwork.com/2022/08/10/bangladesh-garment-export-growth/",
+    "body_preview": "DHAKA (Reuters) - Growth in Bangladesh's garment exports could drop to about 15% this year after an unusually strong expansion of more than 30% in 2021, two industry leaders told Reuters on Wednesday, as U.S. and European customers grapple with cost of living pressures.\n\nThe garment industry accounts for more than 80% of total exports for Bangladesh, which sells to clients such as Walmart, Gap Inc, H&M, VF Corp, Zara and American Eagle Outfitters - some of which have already flagged weak sales a"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Customer cost pressures reduce exports",
+      "edge_label": "reduces export growth",
+      "evidence_quote": "Growth in Bangladesh's garment exports could drop to about 15% this year ... as U.S. and European customers grapple with cost of living pressures.",
+      "scope_justification": "The article directly links customer demand pressures to Bangladesh's garment exports, which are goods sent internationally and therefore fall within the defined exports feature.",
+      "verification": {
+        "quote_similarity": 0.711,
+        "quote_best_match": "- Growth in Bangladesh's garment exports could drop to about 15% this year after an unusually",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The lead sentence contains the quoted phrasing and links lower export growth to customers’ cost-of-living pressures. The article discusses Bangladesh’s garment exports at the national level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-08-10",
+      "exports",
+      "reduces export growth",
+      "Customer cost pressures reduce exports"
+    ]
+  ],
+  "features_queried": [
+    "balance_of_trade",
+    "stock_market_close",
+    "exports"
+  ],
+  "num_connections_found": 1
+}

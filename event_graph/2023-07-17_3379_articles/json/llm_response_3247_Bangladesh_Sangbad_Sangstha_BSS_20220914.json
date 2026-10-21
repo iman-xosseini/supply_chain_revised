@@ -1,0 +1,37 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-09-14",
+    "url": "https://www.bssnews.net/business/82495",
+    "body_preview": "DHAKA, Sept 14, 2022 (BSS) - Stocks today extended losing streak for the second straight day as the investors booked profit on large-cap stocks.\n\nDSEX, the prime index of the Dhaka Stock Exchange (DSE), went down by 50.41 points or 0.77 per cent to settle at 6,487. Two other indices also closed lower. The DS30 index, comprising blue chips, plunged 20.27 points to finish at 2,333 and the DSE Shariah Index (DSES) fell 9.42 points to close at 1,417.\n\nTurnover, a crucial indicator of the market, dro"
+  },
+  "llm_connections": [
+    {
+      "feature": "stock_market_close",
+      "event_summary": "Profit booking lowers stocks",
+      "edge_label": "drives market decline",
+      "evidence_quote": "Stocks today extended losing streak for the second straight day as the investors booked profit on large-cap stocks.",
+      "scope_justification": "The article directly links investor profit-taking to declines in the overall DSE equity-market indices, matching the feature's market-performance scope.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "Stocks today extended losing streak for the second straight day as the investors booked profit on large-cap stocks.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The exact quote appears in the article, which explicitly links investors’ profit booking to the market’s continued decline. The discussion is at the overall DSE market level, matching the feature’s scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-09-14",
+      "stock_market_close",
+      "drives market decline",
+      "Profit booking lowers stocks"
+    ]
+  ],
+  "features_queried": [
+    "balance_of_trade",
+    "stock_market_close",
+    "exports"
+  ],
+  "num_connections_found": 1
+}

@@ -1,0 +1,80 @@
+{
+  "article": {
+    "source": "Al Jazeera Online",
+    "date": "2022-12-11",
+    "url": "https://www.aljazeera.com/news/2022/12/11/bangladesh-opposition-protests-amid-harsh-government-crackdowns",
+    "body_preview": "Dhaka, Bangladesh - Rafiqul Islam has joined tens of thousands of opposition supporters in the capital Dhaka after travelling nearly 200km (124 miles) from the southern coastal district of Noakhali. But he has had to fake his identity to evade detention ahead of the anti-government rally.\n\nThe police in the South Asian nation had arrested hundreds of opposition supporters from the main opposition Bangladesh Nationalist Party (BNP), which had called for the rally to protest against price rises an"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "War-driven export order decline",
+      "edge_label": "reduces export demand",
+      "evidence_quote": "High energy prices triggered by the Russia-Ukraine war have significantly reduced its export orders from Western countries",
+      "scope_justification": "The article describes a national reduction in export orders from international buyers, matching the country-wide flow of goods sent abroad.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "High energy prices triggered by the Russia-Ukraine war have significantly reduced its export orders from Western countries",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that high energy prices triggered by the Russia-Ukraine war have significantly reduced Bangladesh’s export orders from Western countries, explicitly linking the war-driven factor to decreased export demand at a national level."
+      }
+    },
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Fuel hikes raise essentials prices",
+      "edge_label": "raises price levels",
+      "evidence_quote": "The hikes have had a domino effect on other essentials, including edible oils, rice, eggs and vegetables, all of which now cost 20-30 percent more.",
+      "scope_justification": "The article reports fuel-price increases spreading across multiple nationally consumed essential goods, matching a broad rise in price levels rather than a single commodity.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "The hikes have had a domino effect on other essentials, including edible oils, rice, eggs and vegetables, all of which now cost 20-30 percent more.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states that fuel price hikes had a 'domino effect' causing essentials to cost 20-30% more, and discusses this as a nationwide phenomenon affecting multiple essential goods, aligning with a rise in overall price levels."
+      }
+    },
+    {
+      "feature": "currency_momentum_5d",
+      "event_summary": "War-driven currency devaluation",
+      "edge_label": "devalues currency",
+      "evidence_quote": "High energy prices triggered by the Russia-Ukraine war have significantly reduced its export orders from Western countries while at the same time massively devaluing the local currency",
+      "scope_justification": "The article explicitly describes the national currency losing value against external conditions, matching a recent exchange-rate trend or weakening momentum.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "High energy prices triggered by the Russia-Ukraine war have significantly reduced its export orders from Western countries while at the same time massively devaluing the local currency",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states that high energy prices triggered by the Russia-Ukraine war have massively devalued Bangladesh’s currency. This is a clear country-level causal link consistent with the feature’s scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-12-11",
+      "exports",
+      "reduces export demand",
+      "War-driven export order decline"
+    ],
+    [
+      "2022-12-11",
+      "inflation_rate",
+      "raises price levels",
+      "Fuel hikes raise essentials prices"
+    ],
+    [
+      "2022-12-11",
+      "currency_momentum_5d",
+      "devalues currency",
+      "War-driven currency devaluation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 3
+}

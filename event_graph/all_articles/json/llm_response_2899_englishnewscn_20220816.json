@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "english.news.cn",
+    "date": "2022-08-16",
+    "url": "https://english.news.cn/asiapacific/20220816/3464a9e2b8c3468b91db3e51efc8cbac/c.html",
+    "body_preview": "DHAKA, Aug. 16 (Xinhua) -- Energy-starved Bangladesh indicated on Tuesday its plan to import crude oil from Russia amid price concerns.\n\n\"If India can procure (oil from Russia) with non-dollar payment, why can't we?\" Prime Minister Sheikh Hasina was quoted as saying by Planning Minister MA Mannan during a meeting of the country's highest economic policy-making body.\n\nAfter the meeting of the Executive Committee of the National Economic Council (ECNEC) chaired by Hasina, Mannan told the journalis"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Fuel price hikes worsen inflation",
+      "edge_label": "increases inflation",
+      "evidence_quote": "Experts said the fuel price hike would worsen inflation, which increased to 7.56 percent in June",
+      "scope_justification": "The article explicitly discusses Bangladesh's national inflation rate, matching the feature's country-wide general price-level scope.",
+      "verification": {
+        "quote_similarity": 0.995,
+        "quote_best_match": "Experts said the fuel price hike would worsen inflation, which increased to 7.56 percent in June,",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states, 'Experts said the fuel price hike would worsen inflation, which increased to 7.56 percent in June,' explicitly linking fuel price hikes to increased national inflation in Bangladesh."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-08-16",
+      "inflation_rate",
+      "increases inflation",
+      "Fuel price hikes worsen inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

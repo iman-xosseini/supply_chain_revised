@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "english.news.cn",
+    "date": "2022-09-18",
+    "url": "https://english.news.cn/asiapacific/20220918/2a2e2d45725c48f09a0445254dbc1dd9/c.html",
+    "body_preview": "DHAKA, Sept. 18 (Xinhua) -- Bangladesh has embarked on a high growth path with an aim to double its export earnings in just four years, the country's Commerce Minister Tipu Munshi said here Saturday.\n\nAddressing a meeting with the Overseas Correspondents Association of Bangladesh (OCAB) at the National Press Club in Dhaka, he said the government has planned an export target of 100 billion U.S. dollars by 2026.\n\n\"We're planning an export target of 80 billion U.S. dollars by 2024 and 100 billion U"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Government boosts product exports",
+      "edge_label": "increases export volume",
+      "evidence_quote": "the government is taking special initiatives to increase the export of 10 products",
+      "scope_justification": "The article explicitly links national government initiatives to increased exports across multiple product categories, matching the feature's scope of goods sent internationally.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "the government is taking special initiatives to increase the export of 10 products",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly says the government is taking special initiatives to increase exports of 10 products, indicating a government action intended to raise national export volumes. This is presented at the country level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-09-18",
+      "exports",
+      "increases export volume",
+      "Government boosts product exports"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

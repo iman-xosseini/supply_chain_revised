@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Seattle Pi",
+    "date": "2023-05-12",
+    "url": "https://www.seattlepi.com/news/world/article/representatives-from-25-indian-ocean-nations-18095984.php",
+    "body_preview": "DHAKA, Bangladesh (AP) -- Representatives from 25 Indian Ocean nations discussed regional economic growth, cooperation and security at the Indian Ocean Conference in Bangladesh on Friday as the Indo-Pacific grows in importance amid changes in the world order.\n\nGovernment officials and experts discussed the Russia-Ukraine war prominently in several sessions, reflecting concerns about how countries in the region would align themselves in the new complex order stemming from the war.\n\n\"The Indian Oc"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "War drives regional inflation",
+      "edge_label": "drives inflation",
+      "evidence_quote": "Countries in the region have had to cope with rising inflation and supply chain disruptions ... as a result of the war.",
+      "scope_justification": "The article explicitly describes a war-related rise in general price levels across countries in the region, matching the inflation-rate definition.",
+      "verification": {
+        "quote_similarity": 0.89,
+        "quote_best_match": "Countries in the region have had to cope with rising inflation and supply chain disruptions as well",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that countries in the region have had to cope with rising inflation 'as a result of the war,' explicitly linking the war to higher inflation. This is discussed at a regional/country level, matching the inflation_rate feature."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-05-12",
+      "inflation_rate",
+      "drives inflation",
+      "War drives regional inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

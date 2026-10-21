@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2023-03-21",
+    "url": "https://www.bssnews.net/district/116749",
+    "body_preview": "KHULNA, March 21, 2023 (BSS)-The price of the essentials commodities has been asked to keep at tolerable level during the upcoming holy Ramadan, as sufficient food grains and essential commodities considering the holy month, are quite available in the market now, speakers at a view exchange meeting at deputy commissioner's office here today said.\n\nWith Khulna deputy commissioner (DC) Khondokar Yasir Arefin in the chair, representatives of Khulna Chamber of Commerce and Industry (KCCI), President"
+  },
+  "llm_connections": [
+    {
+      "feature": "imports",
+      "event_summary": "Government increases consumer imports",
+      "edge_label": "increases import volume",
+      "evidence_quote": "The Government has taken necessary steps for increasing the imports of consumer goods to stabilize the market with sufficient supply",
+      "scope_justification": "The article explicitly describes an increase in the volume of goods brought into the market, matching the imports feature's definition.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "The Government has taken necessary steps for increasing the imports of consumer goods to stabilize the market with sufficient supply",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that the government has taken necessary steps for increasing imports of consumer goods to stabilize the market, explicitly linking government action to an increase in import volume. This is discussed at the national policy level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-03-21",
+      "imports",
+      "increases import volume",
+      "Government increases consumer imports"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

@@ -1,0 +1,37 @@
+{
+  "article": {
+    "source": "The Financial Express",
+    "date": "2022-11-20",
+    "url": "https://thefinancialexpress.com.bd/trade/lng-import-to-go-up-25pc-in-dec-1668912258",
+    "body_preview": "Bangladesh will increase liquefied natural gas (LNG) import by around 25 per cent in December compared to its November and October imports respectively to feed growing demand for natural gas in industries, despite financial tightening.\n\nThe government will import a total of five LNG cargoes from long-term suppliers during December against its import of four LNG cargoes each during October and November, says a senior official of the state-run Petrobangla.\n\nFed on the higher imports, the quantity "
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Production squeeze threatens exports",
+      "edge_label": "threatens exports",
+      "evidence_quote": "growing concern that production squeeze would have on supplies on the already-overheated domestic market and on export",
+      "scope_justification": "The article explicitly refers to Bangladesh's national export activity, matching the feature's country-level scope for goods sent internationally.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "growing concern that production squeeze would have on supplies on the already-overheated domestic market and on export",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states there is 'growing concern that production squeeze would have on supplies on the already-overheated domestic market and on export,' explicitly linking production squeeze to negative effects on exports. The context is national exports, matching the country-level scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-11-20",
+      "exports",
+      "threatens exports",
+      "Production squeeze threatens exports"
+    ]
+  ],
+  "features_queried": [
+    "balance_of_trade",
+    "stock_market_close",
+    "exports"
+  ],
+  "num_connections_found": 1
+}

@@ -1,0 +1,37 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2023-03-16",
+    "url": "https://www.bssnews.net/business/115882",
+    "body_preview": "DHAKA, March 16, 2023 (BSS) - One year after Russia-Ukraine conflicts, the surge in global food prices that the war triggered has subsided but there are still reasons for worry- prices remain elevated, and new shocks could send them soaring again, according to the World Bank (WB).\n\nIt said food prices shot up when Russian forces blockaded Ukraine's Black Sea ports, halting shipments of cereals from one of the world's biggest exporters. Many countries reacted by curbing or stopping food or fertil"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "War blockade halted shipments",
+      "edge_label": "halts international shipments",
+      "evidence_quote": "Russian forces blockaded Ukraine's Black Sea ports, halting shipments of cereals from one of the world's biggest exporters.",
+      "scope_justification": "The article explicitly describes a reduction in the volume of goods sent internationally through halted cereal shipments.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "Russian forces blockaded Ukraine's Black Sea ports, halting shipments of cereals from one of the world's biggest exporters.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states, “Russian forces blockaded Ukraine's Black Sea ports, halting shipments of cereals from one of the world's biggest exporters,” which explicitly links the blockade to halted export shipments. This matches the international export scope discussed."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-03-16",
+      "exports",
+      "halts international shipments",
+      "War blockade halted shipments"
+    ]
+  ],
+  "features_queried": [
+    "balance_of_trade",
+    "stock_market_close",
+    "exports"
+  ],
+  "num_connections_found": 1
+}

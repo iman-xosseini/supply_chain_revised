@@ -1,0 +1,37 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2023-01-09",
+    "url": "https://www.bssnews.net/business/104238",
+    "body_preview": "DHAKA, Jan 9, 2023 (BSS) - Commerce Minister Tipu Munshi today said that considering the graduation from the LDCs, the government is focusing on signing Preferential Trade Agreements (PTAs) and Free Trade Agreements (FTAs) with potential partners.\n\n\"But, to avail international support measures even after LDC graduation, we need to enhance our negotiation skills,\" he said.\n\nThe commerce minister said these when the newly elected Board of Directors of DCCI, led by its president Barrister Md. Samee"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "LDC graduation threatens exports",
+      "edge_label": "reduces export access",
+      "evidence_quote": "after the LDC graduation, Bangladesh would lose the preferential market access and would face 8 to 16 percent export tariff",
+      "scope_justification": "The article explicitly discusses Bangladesh-wide export losses and market access after LDC graduation, matching the national volume of goods sent internationally.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "after the LDC graduation, Bangladesh would lose the preferential market access and would face 8 to 16 percent export tariff",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article directly quotes that after LDC graduation Bangladesh would lose preferential market access and face 8–16% export tariffs, explicitly linking graduation to reduced export access for Bangladesh’s exports at the national level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-01-09",
+      "exports",
+      "reduces export access",
+      "LDC graduation threatens exports"
+    ]
+  ],
+  "features_queried": [
+    "balance_of_trade",
+    "stock_market_close",
+    "exports"
+  ],
+  "num_connections_found": 1
+}

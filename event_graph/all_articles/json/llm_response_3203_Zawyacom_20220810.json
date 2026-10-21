@@ -1,0 +1,61 @@
+{
+  "article": {
+    "source": "Zawya.com",
+    "date": "2022-08-10",
+    "url": "https://www.zawya.com/en/world/indian-sub-continent/bangladesh-garment-export-growth-seen-slowing-to-normal-15-this-year-yonjssns",
+    "body_preview": "DHAKA - Growth in Bangladesh's garment exports could drop to about 15% this year after an unusually strong expansion of more than 30% in 2021, two industry leaders told Reuters on Wednesday, as U.S. and European customers grapple with cost of living pressures.\n\nThe garment industry accounts for more than 80% of total exports for Bangladesh, which sells to clients such as Walmart , Gap Inc, H&M, VF Corp, Zara and American Eagle Outfitters - some of which have already flagged weak sales as their c"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Customer cost pressures slow exports",
+      "edge_label": "reduces export growth",
+      "evidence_quote": "Growth in Bangladesh's garment exports could drop to about 15% this year ... as U.S. and European customers grapple with cost of living pressures.",
+      "scope_justification": "The article directly links national garment export growth to demand conditions among U.S. and European customers, matching the feature's international-goods volume scope.",
+      "verification": {
+        "quote_similarity": 0.711,
+        "quote_best_match": "- Growth in Bangladesh's garment exports could drop to about 15% this year after an unusually",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that growth in Bangladesh's garment exports could drop to about 15% 'as U.S. and European customers grapple with cost of living pressures,' explicitly linking customer cost pressures to reduced export growth at the national level."
+      }
+    },
+    {
+      "feature": "balance_of_trade",
+      "event_summary": "Trade deficit prompts IMF loan",
+      "edge_label": "prompts loan request",
+      "evidence_quote": "Bangladesh last month became the third South Asian country ... to seek a loan from the International Monetary Fund as its foreign exchange reserves shrank and the trade deficit jumped.",
+      "scope_justification": "The article refers to Bangladesh's country-wide trade deficit, which matches the national imports-versus-exports scope of the balance-of-trade feature.",
+      "verification": {
+        "quote_similarity": 0.899,
+        "quote_best_match": "Bangladesh last month became the third South Asian country after Pakistan and Sri Lanka to seek a loan from the International Monetary Fund as its foreign exchange reserves shrank and the trade deficit",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states Bangladesh sought an IMF loan 'as its foreign exchange reserves shrank and the trade deficit jumped,' which strongly implies the trade deficit (a national balance-of-trade issue) helped prompt the loan request. The quote appears verbatim and the scope is national."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-08-10",
+      "exports",
+      "reduces export growth",
+      "Customer cost pressures slow exports"
+    ],
+    [
+      "2022-08-10",
+      "balance_of_trade",
+      "prompts loan request",
+      "Trade deficit prompts IMF loan"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 2
+}

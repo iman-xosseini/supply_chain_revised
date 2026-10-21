@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2023-05-30",
+    "url": "https://www.bssnews.net/news-flash/128081",
+    "body_preview": "DHAKA, May 30, 2023 (BSS) - The budget session of the 11th Jatiya Sangsad(JS) will begin tomorrow.\n\nThe session will begin at 5 pm with Jatiya Sangsad Speaker Dr Shirin Sharmin Chaudhury in the chair, according to a JS press release.\n\nPresident Mohammed Shahabuddin convened the 23rd session of the parliament exercising the power bestowed upon him as per the clause (1) of article 72 of the constitution.\n\nFinance Minister AHM Mustafa Kamal will present the national budget for the next fiscal year "
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Proposed budget targets inflation",
+      "edge_label": "aims to tame",
+      "evidence_quote": "The possible budget size of Taka 7,61,785 crore would aim at taming inflation",
+      "scope_justification": "The article describes a national budget policy aimed at controlling the country’s overall inflation rate, matching the aggregate CPI scope of the feature.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "The possible budget size of Taka 7,61,785 crore would aim at taming inflation",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states the budget \"would aim at taming inflation,\" directly linking the proposed budget to controlling inflation. This is at the national level, matching the inflation rate feature."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-05-30",
+      "inflation_rate",
+      "aims to tame",
+      "Proposed budget targets inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

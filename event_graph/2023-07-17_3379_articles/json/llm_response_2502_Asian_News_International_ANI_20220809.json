@@ -1,0 +1,37 @@
+{
+  "article": {
+    "source": "Asian News International (ANI)",
+    "date": "2022-08-09",
+    "url": "https://www.aninews.in/news/world/asia/bangladesh-textile-faces-major-challanges-amid-global-recession20220810013320/",
+    "body_preview": "Dhaka [Bangladesh], August 10 (ANI): Bangladesh's textile industry is currently facing major challenges due to the global recession and inflation as retailers in both European and US markets are either deferring the shipments of finished products or delaying orders due to soaring inflation.\n\nThe world's second-largest garment exporter after China is facing prolonged challenges including power shortage domestically affecting production on one hand while its major markets are postponing shipments "
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Constricted demand reduced RMG exports",
+      "edge_label": "reduces exports",
+      "evidence_quote": "Since then the RMG exports could not pick up to the desired level of growth due to constricted demand",
+      "scope_justification": "RMG exports are goods sent internationally from Bangladesh, so the article explicitly links reduced international shipments to the exports feature.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "Since then the RMG exports could not pick up to the desired level of growth due to constricted demand",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that RMG exports “could not pick up to the desired level of growth due to constricted demand,” explicitly linking constricted demand to weaker export performance. This is discussed at the national RMG export level for Bangladesh."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-08-09",
+      "exports",
+      "reduces exports",
+      "Constricted demand reduced RMG exports"
+    ]
+  ],
+  "features_queried": [
+    "balance_of_trade",
+    "stock_market_close",
+    "exports"
+  ],
+  "num_connections_found": 1
+}

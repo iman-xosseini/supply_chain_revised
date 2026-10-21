@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Daily Sun",
+    "date": "2023-05-15",
+    "url": "https://www.daily-sun.com/post/689558/Natl-budget-is-framed-based-on-domestic-demand:-Mannan",
+    "body_preview": "DHAKA - Planning Minister MA Mannan today said that the national budget is framed in line with the demands of the country not complying with the conditions of the international financing agency like the International Monetary Fund (IMF).\n\nThe Planning Minister said this while addressing a dialogue titled \"How can the thoughts of the under-privileged people be reflected in the national budget during the time of IMF\" held at the Bangabandhu International Conference Center (BICC) in the capital. Th"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Government works to reduce inflation",
+      "edge_label": "reduces inflation rate",
+      "evidence_quote": "the government would have to work more to reduce the inflation rate further.",
+      "scope_justification": "The statement concerns reducing the country's overall inflation rate, matching the national general price-level measure defined by this feature.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "the government would have to work more to reduce the inflation rate further.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states, 'the government would have to work more to reduce the inflation rate further,' which directly links government action to lowering the national inflation rate. The scope is clearly country-level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-05-15",
+      "inflation_rate",
+      "reduces inflation rate",
+      "Government works to reduce inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

@@ -1,0 +1,37 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-09-05",
+    "url": "https://www.bssnews.net/business/80757",
+    "body_preview": "DHAKA, Sept 5, 2022 (BSS) - A three-day \"International Fish Fair\" was inaugurated at Bremen in Germany on Sunday.\n\nMd Mosharraf Hossain Bhuiyan, Ambassador of Bangladesh in Germany, inaugurated the Bangladesh pavilion in the fair, said a press release here today.\n\nFor the very first time, Bangladesh is participating in the fair to promote Bangladeshi fisheries for the German market.\n\nThe Department of Fisheries (DoF) in collaboration with Solidaridad Network Asia and the Embassy of Bangladesh in"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Fish fair participation promotes exports",
+      "edge_label": "promotes fish exports",
+      "evidence_quote": "We are participating in this fair to promote Bangladeshi fisheries for the German market",
+      "scope_justification": "The article explicitly links an international marketing event to increased shipments of Bangladeshi fish products to Germany, which are goods sent internationally.",
+      "verification": {
+        "quote_similarity": 0.983,
+        "quote_best_match": "\"We are participating in this fair to promote Bangladeshi fisheries for the German market,\"",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article includes the exact quote stating participation is to promote Bangladeshi fisheries for the German market and also notes officials’ expectations that participation will increase exports to Germany. These statements are at the national/export-market level, not just a single company."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-09-05",
+      "exports",
+      "promotes fish exports",
+      "Fish fair participation promotes exports"
+    ]
+  ],
+  "features_queried": [
+    "balance_of_trade",
+    "stock_market_close",
+    "exports"
+  ],
+  "num_connections_found": 1
+}

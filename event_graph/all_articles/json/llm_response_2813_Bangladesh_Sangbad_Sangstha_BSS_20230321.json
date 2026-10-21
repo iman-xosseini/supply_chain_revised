@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2023-03-21",
+    "url": "https://www.bssnews.net/news-flash/116759",
+    "body_preview": "DHAKA, March 21, 2023 (BSS)-Prime Minister Sheikh Hasina today emphasized again on boosting of agricultural production in the country alongside ensuring proper preservation, processing and exporting of those abroad.\n\nThe Premier also urged all concerned to give proper attention in cultivation, preservation and processing of pulse, onion and mustard oil side by side ensuring that no land remains idle and thus comes under cultivation.\n\nThe Prime Minister gave the directives while chairing a meetin"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Bumper Boro harvest lowers inflation",
+      "edge_label": "lowers inflation",
+      "evidence_quote": "If there is a bumper Boro harvest, then inflation may come down from Baishakh, but there should not be excessive rainfall during this period",
+      "scope_justification": "The article explicitly links the national Boro harvest to a decline in overall inflation, matching the feature's general price-level scope.",
+      "verification": {
+        "quote_similarity": 0.989,
+        "quote_best_match": "\"If there is a bumper Boro harvest, then inflation may come down from Baishakh, but there should not be excessive rainfall during this period,\"",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states, via the Planning Minister, that a bumper Boro harvest may lead to inflation coming down, and this is discussed in the context of national inflation. The quoted sentence appears verbatim in the text."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-03-21",
+      "inflation_rate",
+      "lowers inflation",
+      "Bumper Boro harvest lowers inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

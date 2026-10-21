@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Social News XYZ",
+    "date": "2022-08-23",
+    "url": "https://www.socialnews.xyz/2022/08/22/energy-crisis-prompts-bangladesh-to-cut-govt-office-hours/",
+    "body_preview": "Dhaka, Aug 23 (SocialNews.XYZ) Bangladeshi government offices will cut back office hours in a bid to save energy, as the country struggles with a fuel crisis, an official said.\n\nThe decision comes weeks after the country raised fuel prices to a record level, amid the global energy crisis triggered by the ongoing Russia's war on Ukraine, reports dpa news agency.\n\nThe Council of Ministers decided to reduce the working hours by one hour per day, according to Cabinet Secretary Khandaker Anwarul Isla"
+  },
+  "llm_connections": [
+    {
+      "feature": "imports",
+      "event_summary": "Government discourages non-essential imports",
+      "edge_label": "discourages imports",
+      "evidence_quote": "discouraged imports of non-essential products",
+      "scope_justification": "The national government explicitly introduced a measure targeting imported goods, matching the feature's country-wide scope over goods brought into Bangladesh.",
+      "verification": {
+        "quote_similarity": 0.989,
+        "quote_best_match": "discouraged imports of non-essential products,",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states the government 'discouraged imports of non-essential products.' This is a clear government action affecting imports at the national level, matching the claimed causal link and scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-08-23",
+      "imports",
+      "discourages imports",
+      "Government discourages non-essential imports"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

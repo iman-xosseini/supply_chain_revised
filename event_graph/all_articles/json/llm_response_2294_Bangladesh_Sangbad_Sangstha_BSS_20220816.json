@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-08-16",
+    "url": "https://www.bssnews.net/news/pm/77342",
+    "body_preview": "DHAKA, Aug 16, 2022 (BSS) - Prime Minister Sheikh Hasina today said her government mulls further steps to bring down essentials' prices to keep them within ordinary consumers tolerable level.\n\n\"Price of essentials has gone up. I belief, it is urgently need to take more measures to bring down the price of essentials to tolerable level,\" she said.\n\nThe prime minister was presiding over the Executive Committee of the National Economic Council (ECNEC) meeting joining virtually from her official Gana"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Global forces raise prices",
+      "edge_label": "raises price levels",
+      "evidence_quote": "The price of essentials has shown increasing trend across the globe due to the Russia-Ukraine war, sanctions and counter sanctions",
+      "scope_justification": "The article describes a broad increase in essential-goods prices and reduced purchasing capacity, matching the feature's price-level and purchasing-power scope.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "the price of essentials has shown increasing trend across the globe due to the Russia-Ukraine war, sanctions and counter sanctions",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that essential prices have increased across the globe due to the Russia-Ukraine war, sanctions, and counter-sanctions, which explicitly links global factors to higher price levels. The scope is global, matching a general inflation/price-level context."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-08-16",
+      "inflation_rate",
+      "raises price levels",
+      "Global forces raise prices"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

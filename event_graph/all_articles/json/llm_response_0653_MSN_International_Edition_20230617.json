@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "MSN International Edition",
+    "date": "2023-06-17",
+    "url": "https://www.msn.com/en-xl/asia/bangladesh/bangladesh-bank-to-announce-new-monetary-policy-tomorrow-9percent-interest-rate-cap-to-be-withdrawn/ar-AA1cFMxp",
+    "body_preview": "Dhaka, June 17 -- Bangladesh Bank is ready to announce a contractionary monetary policy statement tomorrow, withdrawing the single-digit interest cap to combat rising inflation, the central bank sources said.\n\nUsually, contractionary monetary policy is used to contain inflation and reduce the level of money circulating in the economy.\n\nGovernor of Bangladesh Bank, Abdur Rouf Talukder, will release the policy statement for the first half (July-December) of FY 2024 at a press conference in Banglad"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Contractionary policy targets inflation",
+      "edge_label": "contains inflation",
+      "evidence_quote": "withdrawing the single-digit interest cap to combat rising inflation",
+      "scope_justification": "The article explicitly discusses rising inflation as a broad national price-level concern, matching the feature's general inflation-rate scope.",
+      "verification": {
+        "quote_similarity": 0.993,
+        "quote_best_match": "withdrawing the single-digit interest cap to combat rising inflation,",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states the bank will announce a contractionary policy, “withdrawing the single-digit interest cap to combat rising inflation,” and adds that contractionary policy is used to contain inflation. It discusses Bangladesh’s national inflation, matching the feature’s scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-06-17",
+      "inflation_rate",
+      "contains inflation",
+      "Contractionary policy targets inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

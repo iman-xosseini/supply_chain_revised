@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-11-18",
+    "url": "https://www.bssnews.net/news-flash/94727",
+    "body_preview": "DHAKA, Nov 18, 2022 (BSS) - Prime Minister Sheikh Hasina will inaugurate 50 industrial units, projects and facilities in Economic Zones (EZs) on Sunday, marking 50 years of independence.\n\nTalking to BSS, Bangladesh Economic Zones Authority (BEZA) Executive Chairman Shaikh Yusuf Harun said the Prime Minister will virtually inaugurate 50 industrial units, projects and facilities in the EZs across the country and BEZA will have the event at eight venues.\n\n\"These include commercial operations of fou"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Economic zones target exports",
+      "edge_label": "boosts exports",
+      "evidence_quote": "BEZA aims to establish economic zones ... with a view to encouraging rapid economic development through the increase and diversification of industry, employment, production and export.",
+      "scope_justification": "The article explicitly links Bangladesh’s economic-zone development to increased export activity, matching the feature’s scope of goods sent internationally.",
+      "verification": {
+        "quote_similarity": 0.884,
+        "quote_best_match": "regions, with a view to encouraging rapid economic development through the increase and diversification of industry, employment, production and export.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states BEZA aims to establish economic zones to encourage rapid economic development through increasing and diversifying export, explicitly linking EZ development to boosting exports at a national level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-11-18",
+      "exports",
+      "boosts exports",
+      "Economic zones target exports"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

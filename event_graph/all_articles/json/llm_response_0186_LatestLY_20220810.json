@@ -1,0 +1,61 @@
+{
+  "article": {
+    "source": "LatestLY",
+    "date": "2022-08-10",
+    "url": "https://www.latestly.com/agency-news/world-news-bangladesh-textile-faces-major-challanges-amid-global-recession-4063541.html",
+    "body_preview": "Dhaka [Bangladesh], August 10 (ANI): Bangladesh's textile industry is currently facing major challenges due to the global recession and inflation as retailers in both European and US markets are either deferring the shipments of finished products or delaying orders due to soaring inflation.\n\nThe world's second-largest garment exporter after China is facing prolonged challenges including power shortage domestically affecting production on one hand while its major markets are postponing shipments "
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Covid cancellations cut exports",
+      "edge_label": "reduces export volume",
+      "evidence_quote": "Bangladesh garment orders worth USD 2.87 billion were cancelled as of March 31, 2020",
+      "scope_justification": "The cancelled orders concern Bangladesh's garment exports, which are internationally shipped goods matching the exports feature's scope.",
+      "verification": {
+        "quote_similarity": 0.994,
+        "quote_best_match": "Bangladesh garment orders worth USD 2.87 billion were cancelled as of March 31, 2020,",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The quoted sentence appears verbatim. The article links the onset of COVID-era order cancellations to an 84% drop in RMG exports in early April 2020, strongly implying causality. The discussion is at the Bangladesh garment export (sector/country-level) scope."
+      }
+    },
+    {
+      "feature": "exports",
+      "event_summary": "Constricted demand limits recovery",
+      "edge_label": "constrains export growth",
+      "evidence_quote": "Since then the RMG exports could not pick up to the desired level of growth due to constricted demand",
+      "scope_justification": "The article explicitly attributes weaker growth in Bangladesh's internationally sold RMG goods to reduced demand.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "Since then the RMG exports could not pick up to the desired level of growth due to constricted demand",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states, 'Since then the RMG exports could not pick up to the desired level of growth due to constricted demand...' explicitly linking reduced demand to constrained export growth for Bangladesh’s RMG sector at the country level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-08-10",
+      "exports",
+      "reduces export volume",
+      "Covid cancellations cut exports"
+    ],
+    [
+      "2022-08-10",
+      "exports",
+      "constrains export growth",
+      "Constricted demand limits recovery"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 2
+}

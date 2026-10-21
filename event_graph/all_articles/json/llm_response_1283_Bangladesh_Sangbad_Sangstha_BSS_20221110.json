@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-11-10",
+    "url": "https://www.bssnews.net/news-flash/93067",
+    "body_preview": "DHAKA, Nov 10, 2022 (BSS) - Bangladesh has opted to explore alternative overseas sources to meet demands for wheat, even with higher cost, as the war between Russia and Ukraine blocked ways for import of the country's second major staple from these two wheat producing nations.\n\n\"Currently we are getting no wheat from Russia and Ukraine, a situation which prompted us to allow private sector to explore new sources even if it cost a bit high,\" said a food ministry official, entrusted with the task "
+  },
+  "llm_connections": [
+    {
+      "feature": "currency_log_return",
+      "event_summary": "Currency devaluation worsens import crisis",
+      "edge_label": "aggravates import costs",
+      "evidence_quote": "enhanced wheat price in international market exposed them to a challenge while devalution of Bangladesh currency has aggravated the crisis",
+      "scope_justification": "The article explicitly links Bangladesh’s currency devaluation to worsening the crisis faced by wheat importers, matching exchange-rate effects on import costs.",
+      "verification": {
+        "quote_similarity": 0.996,
+        "quote_best_match": "enhanced wheat price in international market exposed them to a challenge while devalution of Bangladesh currency has aggravated the crisis.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that wheat importers said Bangladesh’s currency devaluation aggravated the crisis, explicitly linking devaluation to worsening import challenges. This is at the national (Bangladesh) level, matching the feature’s scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-11-10",
+      "currency_log_return",
+      "aggravates import costs",
+      "Currency devaluation worsens import crisis"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

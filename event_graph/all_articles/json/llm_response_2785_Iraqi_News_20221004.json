@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Iraqi News",
+    "date": "2022-10-04",
+    "url": "https://www.iraqinews.com/world/power-blackouts-hit-130-million-people-in-bangladesh/",
+    "body_preview": "Dhaka - At least 130 million people in Bangladesh were left without power on Tuesday after a grid failure caused widespread blackouts, the government's power utility company said.\n\nBangladesh has suffered a major power crisis in recent months as a result of higher global energy prices following Russia's invasion of Ukraine, and has imposed regular cuts to conserve electricity.\n\nBut it remained unclear what caused Tuesday's unscheduled blackout, which hit more than 80 percent of the country short"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Consumer inflation hits budgets",
+      "edge_label": "reduces purchasing power",
+      "evidence_quote": "Consumer inflation has hit household budgets hard",
+      "scope_justification": "The article explicitly links consumer-wide price inflation to reduced household purchasing power, matching the feature’s general price-level scope.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "Consumer inflation has hit household budgets hard",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states verbatim that 'Consumer inflation has hit household budgets hard,' explicitly linking inflation to negative impacts on purchasing power. This is presented at a national (Bangladesh-wide) scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-10-04",
+      "inflation_rate",
+      "reduces purchasing power",
+      "Consumer inflation hits budgets"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

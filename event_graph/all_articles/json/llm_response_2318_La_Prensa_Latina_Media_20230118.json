@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "La Prensa Latina Media",
+    "date": "2023-01-18",
+    "url": "https://www.laprensalatina.com/bangladesh-raises-gas-prices-amid-fears-of-a-fresh-spike-in-inflation/",
+    "body_preview": "Dhaka, Jan 18 (EFE).- Bangladesh increased the retail price for piped gas for industrial use and power production by up to 179 percent on Wednesday, raising fears of more inflation.\n\nThe energy ministry said from Feb.1, power producers would have to pay Taka 14 (0.13 cents) for a cubic meter of gas, up from the previous price of Taka 5.02 (0.05 cents).\n\nThe gas price for captive power producers and all industrial units was set at Taka 30 (0.29 cents) per cubic meter, up 88 percent to 155 percent"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Gas price hike threatens inflation",
+      "edge_label": "fuels inflation",
+      "evidence_quote": "Economists and consumers said the hike might further increase inflation.",
+      "scope_justification": "The article explicitly links the nationwide gas-price increase to inflation, matching the feature's scope as a general rise in price levels.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "Economists and consumers said the hike might further increase inflation.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states, “Economists and consumers said the hike might further increase inflation,” which explicitly links the gas price hike to higher inflation. This is discussed at the national level in Bangladesh, matching the scope of overall inflation."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-01-18",
+      "inflation_rate",
+      "fuels inflation",
+      "Gas price hike threatens inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

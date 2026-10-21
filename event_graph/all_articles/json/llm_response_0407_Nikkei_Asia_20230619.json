@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Nikkei Asia",
+    "date": "2023-06-19",
+    "url": "https://asia.nikkei.com/Economy/Bangladesh-tightens-policy-to-cut-inflation-meet-IMF-conditions",
+    "body_preview": "DHAKA -- Bangladesh is raising interest rates to tackle mounting inflation as it launches new policy measures to meet conditions for unlocking more of a $4.7 billion loan from the International Monetary Fund.\n\nOn Sunday, the South Asian nation's central bank announced it will hike its key lending ..."
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Interest rates target inflation",
+      "edge_label": "tackles inflation",
+      "evidence_quote": "Bangladesh is raising interest rates to tackle mounting inflation",
+      "scope_justification": "The article explicitly links a national monetary-policy action to Bangladesh's general inflation rate, matching the country-wide price-level scope.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "Bangladesh is raising interest rates to tackle mounting inflation",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states, 'Bangladesh is raising interest rates to tackle mounting inflation,' directly linking the rate hike to reducing inflation at the national level. This matches the country-wide inflation rate scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-06-19",
+      "inflation_rate",
+      "tackles inflation",
+      "Interest rates target inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

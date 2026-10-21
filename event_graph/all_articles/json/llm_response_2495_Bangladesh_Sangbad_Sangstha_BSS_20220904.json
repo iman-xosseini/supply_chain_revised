@@ -1,0 +1,61 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-09-04",
+    "url": "https://www.bssnews.net/business/80622",
+    "body_preview": "DHAKA, Sept 04, 2022 (BSS) - The country's merchandise export earnings\n\nmaintained a healthy growth in August, registering over 36.18 per cent rise\n\nto bag $4.61 billion year-on-year thanks to the good performance of the\n\napparel sector.\n\nBangladesh fetched $3.38 billion in August 2021, according to provisional\n\ndata from the Export Promotion Bureau (EPB) released today.\n\nThe export earnings in August this year were 7.14 per cent higher than the\n\ntarget ($4.3 billion) set by the Ministry of Comm"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Inflation reduces western demand",
+      "edge_label": "reduces export demand",
+      "evidence_quote": "With the rising inflation, consumer demand in the western market has been reducing and this has been reflected in the export scenario.",
+      "scope_justification": "The article links broad western-market demand to Bangladesh's merchandise export performance, matching the feature's scope of internationally sent goods driven by global demand.",
+      "verification": {
+        "quote_similarity": 0.996,
+        "quote_best_match": "\"With the rising inflation, consumer demand in the western market has been reducing and this has been reflected in the export scenario.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The quoted sentence appears verbatim and explicitly links rising inflation to reduced western consumer demand, stating this is reflected in Bangladesh’s export scenario. The discussion is at the national export level, matching the scope of the feature."
+      }
+    },
+    {
+      "feature": "exports",
+      "event_summary": "Geopolitical tensions affect exports",
+      "edge_label": "disrupts export performance",
+      "evidence_quote": "The global geo-political tension and volatile economic impact caused by that has already started to affect the export.",
+      "scope_justification": "The statement directly describes global conditions affecting Bangladesh's overall export performance, consistent with the country-level exports feature.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "the global geo-political tension and volatile economic impact caused by that has already started to affect the export.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article includes the quote that global geopolitical tension has started to affect exports and states this as a causal impact. The discussion is in the context of Bangladesh’s export performance, matching the country-level scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-09-04",
+      "exports",
+      "reduces export demand",
+      "Inflation reduces western demand"
+    ],
+    [
+      "2022-09-04",
+      "exports",
+      "disrupts export performance",
+      "Geopolitical tensions affect exports"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 2
+}

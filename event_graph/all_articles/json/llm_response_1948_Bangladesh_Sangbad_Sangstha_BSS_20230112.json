@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2023-01-12",
+    "url": "https://www.bssnews.net/business/104885",
+    "body_preview": "DHAKA, Jan 12, 2023 (BSS) - Bangladesh is significantly prone to many of the\n\nrecessionary risks if appropriate steps are not taken to diversify the export\n\nproducts and basket and increase remittances through the formal channels\n\nalthough the country may not go into recession.\n\nThe International Chamber of Commerce-Bangladesh (ICCB) in its latest\n\neditorial today also highlighted the importance of taking appropriate\n\nmeasures to streamline public sector expenditures, rationalise mega\n\ninfrastru"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Ukraine conflict raises inflation",
+      "edge_label": "adds inflationary pressure",
+      "evidence_quote": "Russia's conflict with Ukraine ... resulting in rising costs of living further adding inflationary pressure in many countries.",
+      "scope_justification": "The article explicitly links a broad international event to rising costs and inflationary pressure across many countries, matching the feature's economy-wide price-level scope.",
+      "verification": {
+        "quote_similarity": 0.839,
+        "quote_best_match": "resulting in rising costs of living further adding inflationary pressure in many countries.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that Russia's conflict with Ukraine has led to crises causing rising costs of living, which adds inflationary pressure in many countries. This explicitly establishes a causal link at a broad, economy-wide (multi-country) scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-01-12",
+      "inflation_rate",
+      "adds inflationary pressure",
+      "Ukraine conflict raises inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

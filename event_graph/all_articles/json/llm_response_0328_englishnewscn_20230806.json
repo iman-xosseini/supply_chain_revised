@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "english.news.cn",
+    "date": "2023-08-06",
+    "url": "https://english.news.cn/20230806/61e60037797f4da1bcaefdaa8945be1b/c.html",
+    "body_preview": "DHAKA, Aug. 6 (Xinhua) -- Bangladesh's inflation decreased to 9.69 percent in July from 9.74 percent in June, the Bangladesh Bureau of Statistics reported Sunday.\n\nData showed that food inflation increased to 9.76 percent in July from 9.73 percent in the previous month. Non-food items inflation decreased to 9.47 percent in July from 9.60 percent in June.\n\nInflation in Bangladesh jumped to 9.94 percent in May, the highest in the past decade, mainly driven by higher food prices.\n\nBangladeshi Finan"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Higher food prices drove inflation",
+      "edge_label": "drives inflation increase",
+      "evidence_quote": "Inflation in Bangladesh jumped to 9.94 percent in May, the highest in the past decade, mainly driven by higher food prices.",
+      "scope_justification": "The article explicitly describes Bangladesh's national inflation rate, matching the feature's economy-wide CPI price-level scope.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "Inflation in Bangladesh jumped to 9.94 percent in May, the highest in the past decade, mainly driven by higher food prices.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that inflation in Bangladesh jumped to 9.94% in May 'mainly driven by higher food prices,' explicitly linking higher food prices to the increase in national inflation. The discussion is at the country-wide inflation level, matching the feature's scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-08-06",
+      "inflation_rate",
+      "drives inflation increase",
+      "Higher food prices drove inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

@@ -1,0 +1,37 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-10-21",
+    "url": "https://www.bssnews.net/agriculture-news/89258",
+    "body_preview": "RAJSHAHI, Oct 21, 2022 (BSS)- More investment, including foreign ones, towards agriculture and its processing sector in the region can be the best way of making the sector more value added and vibrant.\n\nMasudur Rahman, President of Rajshahi Chamber of Commerce and Industries, said adequate investment to the potential sector can also contribute a lot to vibrating the region's economic condition.\n\nIn an exclusive interview at his office on Wednesday, he told BSS that the agricultural sector will f"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Airport upgrade enables exports",
+      "edge_label": "enables direct exports",
+      "evidence_quote": "making it an outlet for directly exporting the processed agri-products, fresh vegetables and fruits to different Middle Eastern and European countries",
+      "scope_justification": "The article explicitly links the proposed airport upgrade to sending agricultural goods internationally, matching the exports definition.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "making it an outlet for directly exporting the processed agri-products, fresh vegetables and fruits to different Middle Eastern and European countries",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article includes the quoted sentence linking an airport upgrade to making it an outlet for direct exports of agricultural products. This explicitly states a causal relationship at the regional export level, matching the scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-10-21",
+      "exports",
+      "enables direct exports",
+      "Airport upgrade enables exports"
+    ]
+  ],
+  "features_queried": [
+    "balance_of_trade",
+    "stock_market_close",
+    "exports"
+  ],
+  "num_connections_found": 1
+}

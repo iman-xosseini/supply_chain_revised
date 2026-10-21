@@ -1,0 +1,61 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2023-06-01",
+    "url": "https://www.bssnews.net/national-budget-2023-2024/127152",
+    "body_preview": "DHAKA, May 24, 2023 (BSS) - Three renowned economists of the country have prioritized taming inflation, strengthening the social safety nets and maintaining economic recovery from the COVID-19 pandemic as the main principles for delivering the national budget for the next fiscal year (FY24).\n\nThey said that the issue of strengthening social safety nets demands higher priority for maintaining smooth livelihood of the commoners at a time when the global economy is finding it hard to continue econo"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "War-driven global inflation",
+      "edge_label": "drives inflation",
+      "evidence_quote": "including the impacts of global unprecedented inflation created because of the war.",
+      "scope_justification": "The article explicitly describes broad, economy-wide inflation caused by the Russia-Ukraine war, matching the feature's general price-level scope.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "including the impacts of global unprecedented inflation created because of the war.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article includes the line 'global unprecedented inflation created because of the war,' explicitly stating that the war caused global inflation. This matches the general, economy-wide scope of an inflation rate."
+      }
+    },
+    {
+      "feature": "imports",
+      "event_summary": "Inflation trend hampers imports",
+      "edge_label": "hampers imports",
+      "evidence_quote": "The imports are being hampered due to the lowering trend of inflation",
+      "scope_justification": "The article refers to imports in aggregate within the national economy rather than to a single product, matching the feature's country-wide import-volume scope.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "The imports are being hampered due to the lowering trend of inflation",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states, “The imports are being hampered due to the lowering trend of inflation,” establishing a direct causal link at the national (aggregate imports) level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-06-01",
+      "inflation_rate",
+      "drives inflation",
+      "War-driven global inflation"
+    ],
+    [
+      "2023-06-01",
+      "imports",
+      "hampers imports",
+      "Inflation trend hampers imports"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 2
+}

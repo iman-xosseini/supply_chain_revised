@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "La Prensa Latina Media",
+    "date": "2023-05-02",
+    "url": "https://www.laprensalatina.com/world-bank-gives-bangladesh-2-25-billion-development-loan/",
+    "body_preview": "Dhaka, May 2 (EFE) The World Bank has agreed to provide Bangladesh a $2.25-billion loan for its five development projects on regional trade and connectivity, disaster preparedness, and environmental management.\n\nBangladesh's Economic Relations Division secretary and World Bank country director signed the agreements in Washington with Bangladesh Prime Minister Sheikh Hasina present on Monday.\n\nHasina is in Washington celebrating Bangladesh's 50-year partnership with the World Bank.\n\nUnder the agr"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Fuel prices drove inflation",
+      "edge_label": "drives inflation",
+      "evidence_quote": "The authorities raised fuel prices by almost 51 percent in August, which drove inflation to a nine-year high of 9.52 percent that month.",
+      "scope_justification": "The article explicitly links a national fuel-price increase to Bangladesh's overall inflation rate, matching the feature's country-wide CPI scope.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "The authorities raised fuel prices by almost 51 percent in August, which drove inflation to a nine-year high of 9.52 percent that month.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article includes the exact sentence stating that a 51% fuel price increase 'drove inflation to a nine-year high,' explicitly linking the event to national inflation in Bangladesh."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-05-02",
+      "inflation_rate",
+      "drives inflation",
+      "Fuel prices drove inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

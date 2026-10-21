@@ -1,0 +1,61 @@
+{
+  "article": {
+    "source": "Asian News International (ANI)",
+    "date": "2022-09-10",
+    "url": "https://www.aninews.in/news/world/asia/bangladeshs-economy-has-come-of-age-now-attracts-foreign-players20220910231610/",
+    "body_preview": "Dhaka [Bangladesh], September 10 (ANI): Economic liberalization has put Bangladesh on a solid foundation since the current Awami League government has been in power for a long time.\n\nOnce called the bottomless basket of the world, Bangladesh's economy has now come of age, and the country's resilient economy now attracts foreign players, reported Bangladesh Live News.\n\nEven the nations that had marked Bangladesh as a bottomless basket are now interested in developing close relations with Banglade"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Export-raising policy supports recovery",
+      "edge_label": "raises exports",
+      "evidence_quote": "the government's policy of raising exports and lowering imports is helping the economy recover",
+      "scope_justification": "The article explicitly describes a national government policy aimed at raising the country's exports, matching the feature's country-level goods-export scope.",
+      "verification": {
+        "quote_similarity": 0.995,
+        "quote_best_match": "the government's policy of raising exports and lowering imports is helping the economy recover.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states: \"the government's policy of raising exports and lowering imports is helping the economy recover,\" explicitly indicating a policy that raises exports. This is at the national government/country level, matching the feature’s scope."
+      }
+    },
+    {
+      "feature": "imports",
+      "event_summary": "Import-lowering policy supports recovery",
+      "edge_label": "lowers imports",
+      "evidence_quote": "the government's policy of raising exports and lowering imports is helping the economy recover",
+      "scope_justification": "The article explicitly describes a national government policy aimed at lowering the country's imports, matching the feature's aggregate goods-import scope.",
+      "verification": {
+        "quote_similarity": 0.995,
+        "quote_best_match": "the government's policy of raising exports and lowering imports is helping the economy recover.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states that the government's policy of lowering imports is helping the economy recover, and this is discussed at the national level. The quoted sentence appears verbatim in the text."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-09-10",
+      "exports",
+      "raises exports",
+      "Export-raising policy supports recovery"
+    ],
+    [
+      "2022-09-10",
+      "imports",
+      "lowers imports",
+      "Import-lowering policy supports recovery"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 2
+}

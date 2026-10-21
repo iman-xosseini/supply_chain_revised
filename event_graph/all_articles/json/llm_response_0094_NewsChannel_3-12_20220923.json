@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "NewsChannel 3-12",
+    "date": "2022-09-23",
+    "url": "https://keyt.com/news/2022/09/22/inflation-unrest-challenge-bangladeshs-miracle-economy/",
+    "body_preview": "DHAKA, Bangladesh (AP) -- Standing in line to try to buy food, Rekha Begum is distraught. Like many others in Bangladesh, she is struggling to find affordable daily essentials like rice, lentils and onions.\n\n\"I went to two other places, but they told me they don't have supplies. Then I came here and stood at the end of the queue,\" said Begum, 60, as she waited for nearly two hours to buy what she needed from a truck selling food at subsidized prices in the capital, Dhaka.\n\nBangladesh's economic "
+  },
+  "llm_connections": [
+    {
+      "feature": "currency_log_return",
+      "event_summary": "Currency weakening raises import costs",
+      "edge_label": "increases import costs",
+      "evidence_quote": "countries like Bangladesh ... have seen their currencies weaken against the dollar, adding to the costs for dollar-denominated imports",
+      "scope_justification": "The article explicitly links national-currency movement against the dollar to higher costs for dollar-denominated imports, matching the exchange-rate and import-cost scope.",
+      "verification": {
+        "quote_similarity": 0.881,
+        "quote_best_match": "among many -- have seen their currencies weaken against the dollar, adding to the costs for dollar-denominated imports",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that countries like Bangladesh have seen their currencies weaken against the dollar, adding to the costs for dollar-denominated imports, explicitly indicating causality at the country/macroeconomic level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-09-23",
+      "currency_log_return",
+      "increases import costs",
+      "Currency weakening raises import costs"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

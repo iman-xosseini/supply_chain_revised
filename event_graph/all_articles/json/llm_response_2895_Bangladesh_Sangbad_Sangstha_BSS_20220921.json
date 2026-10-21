@@ -1,0 +1,61 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-09-21",
+    "url": "https://www.bssnews.net/business/83800",
+    "body_preview": "DHAKA, Sept 21, 2022 (BSS) - Country Director of the Asian Development Bank (ADB) to Bangladesh Edimon Ginting today noted that the overall trend of the country's economy is 'positive'.\n\n\"The overall trend of the economy is still positive. But, if you can make the right policy, then you can make the economy stronger going forward,\" he said while responding to a volley of questions at the Bangladesh Resident Mission of ADB in the capital.\n\nThe ADB country director was speaking at the launching of"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Fuel and commodity price increases",
+      "edge_label": "raises inflation",
+      "evidence_quote": "Inflation is expected to accelerate from 6.2 percent in FY2022 to 6.7 percent in FY2023 as price pressures increase due to the upward adjustment",
+      "scope_justification": "The article describes national-level inflation rising because of broad fuel-price adjustments and global commodity prices, matching the aggregate price-level definition.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "Inflation is expected to accelerate from 6.2 percent in FY2022 to 6.7 percent in FY2023 as price pressures increase due to the upward adjustment",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states that inflation will accelerate due to upward adjustments in domestic fuel prices and rising global commodity prices, at the national (Bangladesh) level. The quoted sentence appears verbatim with additional detail in the article."
+      }
+    },
+    {
+      "feature": "exports",
+      "event_summary": "Advanced-economy slowdown weakens exports",
+      "edge_label": "weakens export prospects",
+      "evidence_quote": "The moderately lower growth forecast reflects slower domestic demand and weaker export prospects due to slower growth in advanced economies.",
+      "scope_justification": "The claim concerns Bangladesh's overall export prospects and links them to slower growth in advanced economies, matching the country-wide exports scope.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "The moderately lower growth forecast reflects slower domestic demand and weaker export prospects due to slower growth in advanced economies.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article contains the exact sentence stating that weaker export prospects are due to slower growth in advanced economies, referring to Bangladesh’s overall exports. This explicitly establishes the causal link at the country level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-09-21",
+      "inflation_rate",
+      "raises inflation",
+      "Fuel and commodity price increases"
+    ],
+    [
+      "2022-09-21",
+      "exports",
+      "weakens export prospects",
+      "Advanced-economy slowdown weakens exports"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 2
+}

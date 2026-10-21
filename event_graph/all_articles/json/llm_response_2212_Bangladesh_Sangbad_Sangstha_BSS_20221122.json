@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-11-22",
+    "url": "https://www.bssnews.net/news-flash/95438",
+    "body_preview": "DHAKA, Nov 22, 2022 (BSS) - Prime Minister Sheikh Hasina today asked all concerned to undertake and thus implement development projects without harming nature.\n\nThe Premier also directed the authorities concerned to implement the development schemes maintaining ecological balance as well as implementing those in a speedy manner avoiding unnecessary revision.\n\nThe Prime Minister gave the directives while chairing a meeting of the Executive Committee of the National Economic Council (ECNEC) held a"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Higher crop supply lowers inflation",
+      "edge_label": "reduces inflation",
+      "evidence_quote": "Riding on the good supply side, he noted that the general point to point inflation would come down further in November",
+      "scope_justification": "The article explicitly links overall supply conditions to a decline in general point-to-point inflation, matching the feature's aggregate price-level scope.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "Riding on the good supply side, he noted that the general point to point inflation would come down further in November",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that a good harvest will boost the supply side to rein in inflation and adds, 'Riding on the good supply side... inflation would come down further,' explicitly linking higher crop-driven supply to lower general inflation at the national level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-11-22",
+      "inflation_rate",
+      "reduces inflation",
+      "Higher crop supply lowers inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

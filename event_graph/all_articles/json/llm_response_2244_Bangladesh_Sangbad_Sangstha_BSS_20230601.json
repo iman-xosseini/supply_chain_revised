@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2023-06-01",
+    "url": "https://www.bssnews.net/national-budget-2023-2024/128550",
+    "body_preview": "DHAKA, June 1, 2023 (BSS) - Finance Minister AHM Mustafa Kamal today said\n\nthat the annual average inflation in the next fiscal year (FY24) would remain\n\naround six percent.\n\n\"Due to the decrease in the prices of fuel, food, and fertilizer in the\n\nglobal markets, along with the adjustment of fuel prices in the domestic\n\nmarkets and government initiatives to keep the food and supply systems\n\nnormal, the inflation will remain much controlled in the next fiscal year and\n\nthe annual average inflatio"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Russia-Ukraine war raises inflation",
+      "edge_label": "increases inflation",
+      "evidence_quote": "Although the inflation increased due to the Russia-Ukraine war",
+      "scope_justification": "The article describes inflation at the national annual-average level, matching the feature's scope as a general price-level indicator.",
+      "verification": {
+        "quote_similarity": 0.984,
+        "quote_best_match": "\"Although the inflation increased due to the Russia-Ukraine war,",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states, “Although the inflation increased due to the Russia-Ukraine war,” linking the war to higher inflation. This is in the context of Bangladesh’s national inflation, matching the feature’s scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-06-01",
+      "inflation_rate",
+      "increases inflation",
+      "Russia-Ukraine war raises inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

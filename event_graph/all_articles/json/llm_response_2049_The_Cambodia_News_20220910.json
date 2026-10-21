@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "The Cambodia News",
+    "date": "2022-09-10",
+    "url": "https://www.thecambodianews.net/news/272744005/bangladesh-economy-has-come-of-age-now-attracts-foreign-players",
+    "body_preview": "Dhaka [Bangladesh], September 10 (ANI): Economic liberalization has put Bangladesh on a solid foundation since the current Awami League government has been in power for a long time.\n\nOnce called the bottomless basket of the world, Bangladesh's economy has now come of age, and the country's resilient economy now attracts foreign players, reported Bangladesh Live News.\n\nEven the nations that had marked Bangladesh as a bottomless basket are now interested in developing close relations with Banglade"
+  },
+  "llm_connections": [
+    {
+      "feature": "imports",
+      "event_summary": "Government policy lowers imports",
+      "edge_label": "reduces import volume",
+      "evidence_quote": "the government's policy of raising exports and lowering imports is helping the economy recover",
+      "scope_justification": "The article explicitly describes a national government policy lowering Bangladesh's aggregate imports, matching the feature's country-wide goods-import scope.",
+      "verification": {
+        "quote_similarity": 0.995,
+        "quote_best_match": "the government's policy of raising exports and lowering imports is helping the economy recover.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states, 'the government's policy of raising exports and lowering imports is helping the economy recover,' explicitly linking a government policy to lowering imports at the national level, which implies reduced import volume."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-09-10",
+      "imports",
+      "reduces import volume",
+      "Government policy lowers imports"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

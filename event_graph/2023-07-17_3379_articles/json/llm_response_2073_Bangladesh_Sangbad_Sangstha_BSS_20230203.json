@@ -1,0 +1,37 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2023-02-03",
+    "url": "https://www.bssnews.net/business/108761",
+    "body_preview": "DHAKA, Feb 3, 2023 (BSS) - Ambiente 2023, an internationally unique platform for consumer goods, began today at Frankfurt, Germany.\n\nSome 55 Bangladeshi companies have taken part to showcase their products at the five-day leading global consumer goods show, said a press release here today.\n\nAbu Mukhles Alamgir Hossain, Director (Fair and Display) of the Export Promotion Bureau (EPB), said they have been providing subsidised stalls to increase the exports of handicrafts, decorative items and kitc"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Subsidised stalls boost exports",
+      "edge_label": "increases exports",
+      "evidence_quote": "providing subsidised stalls to increase the exports of handicrafts, decorative items and kitchen accessories",
+      "scope_justification": "The article directly describes increasing exports of manufactured and handicraft goods, matching the feature's scope of goods sent internationally.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "providing subsidised stalls to increase the exports of handicrafts, decorative items and kitchen accessories",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states they are 'providing subsidised stalls to increase the exports of handicrafts, decorative items and kitchen accessories,' establishing a direct causal intent. This is at the sector/country export level, not a single company."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-02-03",
+      "exports",
+      "increases exports",
+      "Subsidised stalls boost exports"
+    ]
+  ],
+  "features_queried": [
+    "balance_of_trade",
+    "stock_market_close",
+    "exports"
+  ],
+  "num_connections_found": 1
+}

@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2023-02-14",
+    "url": "https://www.bssnews.net/business/110624",
+    "body_preview": "DHAKA, Feb 14, 2023 (BSS) - State Minister for Planning Dr Shamsul Alam today said that the country's economy is under control and in a comfortable zone while it is also getting vibrant amid the global shocks.\n\n\"The economy is getting vibrant and it is quite evident. The general point to point inflation is gradually coming down. So, I can say the economy is under control,\" he said.\n\nThe state minister said this while addressing the \"DJFB Development Dialogue\" as the chief guest held at the NEC C"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "External factors raise inflation",
+      "edge_label": "raises inflation",
+      "evidence_quote": "the high trend of inflation that the country had witnessed in the later part of last year was mostly because of external factors.",
+      "scope_justification": "The article explicitly attributes Bangladesh's general inflation trend at the national level to external factors, matching the aggregate CPI inflation definition.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "the high trend of inflation that the country had witnessed in the later part of last year was mostly because of external factors.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that the high trend of inflation was mostly because of external factors, explicitly linking external factors as a cause of higher national inflation in Bangladesh."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-02-14",
+      "inflation_rate",
+      "raises inflation",
+      "External factors raise inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

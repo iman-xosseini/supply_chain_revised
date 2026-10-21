@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Rappler",
+    "date": "2023-04-24",
+    "url": "https://www.rappler.com/business/bangladesh-garment-workers-fight-on-decade-after-rana-plaza-collapse/",
+    "body_preview": "DHAKA, Bangladesh - Their factories are safer, but many Bangladeshis stitching clothes for big Western brands say they still face dire pay and working conditions 10 years since more than 1,100 garment workers died in the Rana Plaza collapse.\n\nA few blocks from the site of the disaster, one of the worst ever industrial accidents, Ripon Das earns 15,000 taka ($141) per month for working a seven-day week as a machine operator. As his family's sole breadwinner, it is nowhere near enough.\n\n\"I choose "
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Inflation hikes living costs",
+      "edge_label": "reduces purchasing power",
+      "evidence_quote": "As annual inflation running close to 10% hikes living costs",
+      "scope_justification": "The article explicitly describes a broad annual inflation rate increasing living costs and reducing consumers' ability to afford goods, matching the national CPI concept.",
+      "verification": {
+        "quote_similarity": 0.992,
+        "quote_best_match": "As annual inflation running close to 10% hikes living costs,",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states, “As annual inflation running close to 10% hikes living costs,” and follows with an example of reduced affordability (“Earlier I could buy… with just 100 taka, but now I can't afford the same items with even 500”), which strongly implies reduced purchasing power. The reference is to national annual inflation, matching the scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-04-24",
+      "inflation_rate",
+      "reduces purchasing power",
+      "Inflation hikes living costs"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

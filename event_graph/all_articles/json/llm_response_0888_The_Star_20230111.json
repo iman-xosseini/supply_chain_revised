@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "The Star ",
+    "date": "2023-01-11",
+    "url": "https://www.thestar.com.my/news/world/2023/01/12/world-bank-trims-bangladesh-growth-outlook-to-52-pct-in-2022-23",
+    "body_preview": "DHAKA, Jan. 11 (Xinhua) -- The World Bank has lowered its 2022-23 fiscal year (July 2022-June 2023) economic growth outlook for Bangladesh due to rising inflation and its negative impact on household incomes and firms' input costs, as well as energy shortages, import restrictions, and monetary policy tightening.\n\nThe global lender in its latest edition of Global Economic Prospects released on Tuesday has forecast a 5.2 percent growth for Bangladesh's gross domestic product (GDP) in the current f"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Rising inflation pressures households",
+      "edge_label": "reduces purchasing power",
+      "evidence_quote": "due to rising inflation and its negative impact on household incomes",
+      "scope_justification": "The article describes rising inflation across Bangladesh and its effect on household incomes, matching the national general-price-level scope of the inflation-rate feature.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "due to rising inflation and its negative impact on household incomes",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states the World Bank downgraded growth “due to rising inflation and its negative impact on household incomes,” which explicitly links higher inflation to household strain, implying reduced real purchasing power. The discussion is at the national (Bangladesh) level, matching the feature’s scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-01-11",
+      "inflation_rate",
+      "reduces purchasing power",
+      "Rising inflation pressures households"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

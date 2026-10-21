@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-11-05",
+    "url": "https://www.bssnews.net/news-flash/92078",
+    "body_preview": "DHAKA, Nov 5, 2022 (BSS) - Prime Minister Sheikh Hasina today called upon the country's youth folk to engage in inspiring people to form cooperative for boosting food production and pulling the country ahead further.\n\n\"Youth folk will have to come forward. We can go a long way if the youths do their activities in bringing village people together as everyone will have the responsibility,\" she said.\n\nThe premier was addressing a function on the 51st National Cooperatives Day at Bangabandhu Interna"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Food factories support exports",
+      "edge_label": "supports exports",
+      "evidence_quote": "you (youths) can set up food processing factories there, which will not only meet the local demand but also can help export to abroad.",
+      "scope_justification": "The article explicitly links food-processing factories in the country's special economic zones to exporting goods abroad, matching the feature's international-goods scope.",
+      "verification": {
+        "quote_similarity": 0.993,
+        "quote_best_match": "\"you (youths) can set up food processing factories there, which will not only meet the local demand but also can help export to abroad.\"",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The quoted sentence appears verbatim in the article and explicitly states that setting up food processing factories can help export abroad, indicating a causal link. The context is national, referencing government special economic zones and overall exports, matching the scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-11-05",
+      "exports",
+      "supports exports",
+      "Food factories support exports"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

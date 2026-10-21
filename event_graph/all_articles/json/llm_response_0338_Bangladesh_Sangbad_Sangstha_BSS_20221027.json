@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-10-27",
+    "url": "https://www.bssnews.net/news/90409",
+    "body_preview": "KHULNA, Oct 27, 2022 (BSS) - Amid import control and inflation in economy, the Mongla Port, country's second largest sea port, saw huge export and import in last three and a half months in the current fiscal years (2021-22) after the inauguration of Padma Bridge.\n\nFertilizer, wheat, raw materials of cement industry, coal and car import has increased while the export of fish, shrimp, crabs, garments, jute goods, fruits, vegetables, ceramics, electrical wire, mud tally, betel-nut and others produc"
+  },
+  "llm_connections": [
+    {
+      "feature": "imports",
+      "event_summary": "Padma Bridge boosts port imports",
+      "edge_label": "increases import volume",
+      "evidence_quote": "the Mongla Port ... saw huge export and import in last three and a half months ... after the inauguration of Padma Bridge",
+      "scope_justification": "The article explicitly reports increased imported commodity volume through Mongla Port, matching the feature's definition of goods brought in.",
+      "verification": {
+        "quote_similarity": 0.794,
+        "quote_best_match": "sea port, saw huge export and import in last three and a half months in the current fiscal years (2021-22) after the inauguration of Padma Bridge.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states Mongla Port saw huge exports and imports after the Padma Bridge inauguration and adds that ship arrivals have enhanced after the inauguration and import costs have reduced, linking the bridge to increased import activity. The discussion is specifically about imports through Mongla Port, matching the claim’s scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-10-27",
+      "imports",
+      "increases import volume",
+      "Padma Bridge boosts port imports"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

@@ -1,0 +1,37 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-11-20",
+    "url": "https://www.bssnews.net/news-flash/95004",
+    "body_preview": "DHAKA, Nov 20, 2022 (BSS) - Prime Minister Sheikh Hasina today inaugurated 50 industrial units, projects and facilities in the Economic Zones (EZs) across the country.\n\nShe opened the industrial establishments in the EZs virtually from her official Ganabhaban residence here this morning, marking the Golden Jubilee of the country's Independence and the Birth Centenary of Father of the Nation Bangabandhu Sheikh Mujibur Rahman.\n\nFour factories at the Bangabandhu Sheikh Mujib Shilpa Nagar (BSMSN) in"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Economic zones target exports",
+      "edge_label": "increases exports",
+      "evidence_quote": "It is also expected to produce and export products worth $40 billion annually from these economic zones.",
+      "scope_justification": "The article describes an expected annual export volume from economic zones across Bangladesh, matching the feature's focus on goods sent internationally.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "It is also expected to produce and export products worth $40 billion annually from these economic zones.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article includes the exact quote and states that exports worth $40B annually are expected from the economic zones, explicitly linking the zones to generating exports at a national scale."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-11-20",
+      "exports",
+      "increases exports",
+      "Economic zones target exports"
+    ]
+  ],
+  "features_queried": [
+    "balance_of_trade",
+    "stock_market_close",
+    "exports"
+  ],
+  "num_connections_found": 1
+}

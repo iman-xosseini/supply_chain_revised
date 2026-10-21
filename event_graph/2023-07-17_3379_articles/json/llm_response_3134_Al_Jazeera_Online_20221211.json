@@ -1,0 +1,37 @@
+{
+  "article": {
+    "source": "Al Jazeera Online",
+    "date": "2022-12-11",
+    "url": "https://www.aljazeera.com/news/2022/12/11/bangladesh-opposition-protests-amid-harsh-government-crackdowns",
+    "body_preview": "Dhaka, Bangladesh - Rafiqul Islam has joined tens of thousands of opposition supporters in the capital Dhaka after travelling nearly 200km (124 miles) from the southern coastal district of Noakhali. But he has had to fake his identity to evade detention ahead of the anti-government rally.\n\nThe police in the South Asian nation had arrested hundreds of opposition supporters from the main opposition Bangladesh Nationalist Party (BNP), which had called for the rally to protest against price rises an"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "High energy prices reduce orders",
+      "edge_label": "reduces export demand",
+      "evidence_quote": "High energy prices triggered by the Russia-Ukraine war have significantly reduced its export orders from Western countries",
+      "scope_justification": "The article explicitly describes a Bangladesh-wide reduction in international export orders, matching the feature's national export activity scope.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "High energy prices triggered by the Russia-Ukraine war have significantly reduced its export orders from Western countries",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that high energy prices from the Russia-Ukraine war have significantly reduced Bangladesh’s export orders from Western countries, explicitly linking the cause to reduced export demand at the national level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-12-11",
+      "exports",
+      "reduces export demand",
+      "High energy prices reduce orders"
+    ]
+  ],
+  "features_queried": [
+    "balance_of_trade",
+    "stock_market_close",
+    "exports"
+  ],
+  "num_connections_found": 1
+}

@@ -1,0 +1,37 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-11-15",
+    "url": "https://www.bssnews.net/business/94134",
+    "body_preview": "DHAKA, Nov 15, 2022 (BSS) - Air Incheon, a South Korean cargo airline, has started direct Seoul-Dhaka-Seoul cargo flight that will guarantee a single-day arrival for any urgent goods in between Bangladesh and the east Asian nation.\n\nTAD Logistics, a local international freight forwarder launched the two weekly direct cargo flight on Saturday, a press release said here today.\n\n\"Our export process would increase its earnings with the aid of the cargo flights and based on demand from the market. We"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "New direct cargo service",
+      "edge_label": "increases exports",
+      "evidence_quote": "Through the new cargo service exports of perishable goods from Bangladesh will rise as a result",
+      "scope_justification": "The article explicitly states that the service will increase goods exported internationally from Bangladesh, matching the exports feature.",
+      "verification": {
+        "quote_similarity": 0.995,
+        "quote_best_match": "Through the new cargo service exports of perishable goods from Bangladesh will rise as a result,",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states, “Through the new cargo service exports of perishable goods from Bangladesh will rise as a result,” directly linking the new service to increased exports. This is at the country level (Bangladesh), satisfying scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-11-15",
+      "exports",
+      "increases exports",
+      "New direct cargo service"
+    ]
+  ],
+  "features_queried": [
+    "balance_of_trade",
+    "stock_market_close",
+    "exports"
+  ],
+  "num_connections_found": 1
+}

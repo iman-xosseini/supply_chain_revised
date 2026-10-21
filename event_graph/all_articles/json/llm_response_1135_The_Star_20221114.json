@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "The Star ",
+    "date": "2022-11-14",
+    "url": "https://www.thestar.com.my/news/world/2022/11/15/roundup-bangladesh-carries-out-plans-to-navigate-through-challenges-next-year",
+    "body_preview": "DHAKA, Nov. 14 (Xinhua) -- Amid ongoing economic crisis, Bangladesh's cabinet on Monday issued half a dozen directives for the South Asian country to navigate through the domestic and external challenges posing serious threats to the macroeconomic stability next year.\n\nAfter a cabinet meeting with Prime Minister Sheikh Hasina in the chair, Cabinet Secretary Khandker Anwarul Islam told journalists that the directives include on relaxation of taxes on food imports, augmenting food production domes"
+  },
+  "llm_connections": [
+    {
+      "feature": "currency_momentum_5d",
+      "event_summary": "Dollar surge weakens taka",
+      "edge_label": "weakens currency",
+      "evidence_quote": "the Bangladeshi taka's weakness driven by the U.S. dollar's surge in recent months",
+      "scope_justification": "The article explicitly describes the recent weakening trend of Bangladesh's national currency, matching the feature's definition of currency strength over recent periods.",
+      "verification": {
+        "quote_similarity": 0.994,
+        "quote_best_match": "the Bangladeshi taka's weakness driven by the U.S. dollar's surge in recent months.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that the Bangladeshi taka’s weakness was driven by the U.S. dollar’s surge, explicitly indicating causality, and it addresses Bangladesh’s national currency at the country level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-11-14",
+      "currency_momentum_5d",
+      "weakens currency",
+      "Dollar surge weakens taka"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

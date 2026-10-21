@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "HR ASIA",
+    "date": "2023-05-02",
+    "url": "https://hr.asia/media-outreach/dhl-global-forwarding-expands-its-dedicated-container-freight-station-cfs-space-in-bangladesh-to-meet-global-garment-export-needs/",
+    "body_preview": "DHAKA, BANGLADESH - Media OutReach - 2 May 2023 - DHL Global Forwarding, the freight specialist arm of Deutsche Post DHL Group, invested over 2 million EUR to expand its dedicated Container Freight Station (CFS) space in Bangladesh to cater to the nation's ever-growing readymade garments (RMG) industry. CFSs are a scarcity in Bangladesh, with less than 20 CFSs countrywide. These facilities help pick up goods from multiple suppliers and consolidate them into a single container before shipping to "
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Strong RMG drives exports",
+      "edge_label": "drives export growth",
+      "evidence_quote": "Bangladesh's exports for FY2022 hit a record high of 52 billion USD for the first time in history as its exports continue to enjoy steady growth due to its strong RMG sector",
+      "scope_justification": "The article explicitly links Bangladesh's country-wide export total to the strong RMG sector, matching the aggregate international-goods scope of the exports feature.",
+      "verification": {
+        "quote_similarity": 0.997,
+        "quote_best_match": "Bangladesh's exports for FY2022 hit a record high of 52 billion USD for the first time in history as its exports continue to enjoy steady growth due to its strong RMG sector,",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that Bangladesh’s exports saw steady growth 'due to its strong RMG sector,' explicitly linking RMG strength to export growth. This is discussed at the national export level, matching the scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-05-02",
+      "exports",
+      "drives export growth",
+      "Strong RMG drives exports"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

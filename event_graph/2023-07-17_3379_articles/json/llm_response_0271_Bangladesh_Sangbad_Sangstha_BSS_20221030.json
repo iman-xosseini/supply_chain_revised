@@ -1,0 +1,56 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-10-30",
+    "url": "https://www.bssnews.net/business/90957",
+    "body_preview": "DHAKA, Oct 30, 2022 (BSS) - Bangladesh Garment Manufacturers and Exporters Association (BGMEA) today said the export earnings target from readymade garments set by the government for the FY23 is unlikely to be achieved due to the high inflation in major markets and shortage of energy in the country.\n\n\"Export earnings target from RMG for the current fiscal year will not be achieved as global buyers have been placing the decreasing volume of orders due to inflation,\" BGMEA President Faruque Hassan"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Inflation reduces RMG orders",
+      "edge_label": "reduces export volume",
+      "evidence_quote": "Export earnings target from RMG for the current fiscal year will not be achieved as global buyers have been placing the decreasing volume of orders due to inflation",
+      "scope_justification": "The article explicitly links reduced international apparel orders to lower RMG export earnings, matching exports as goods sent internationally and driven by global demand.",
+      "verification": {
+        "quote_similarity": 0.991,
+        "quote_best_match": "\"Export earnings target from RMG for the current fiscal year will not be achieved as global buyers have been placing the decreasing volume of orders due to inflation,\"",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The quoted sentence appears verbatim. The article explicitly states that inflation is causing a decrease in orders, leading to failure to meet the RMG export earnings target. The discussion is at the national RMG export level for Bangladesh, matching the scope."
+      }
+    },
+    {
+      "feature": "exports",
+      "event_summary": "Energy shortages constrain production",
+      "edge_label": "constrains exports",
+      "evidence_quote": "capacity remained unutilized in the RMG factories in Bangladesh due to the shortage of gas and electricity",
+      "scope_justification": "The article links country-based RMG production constraints to the sector's export target, directly affecting the international shipment of those manufactured goods.",
+      "verification": {
+        "quote_similarity": 0.995,
+        "quote_best_match": "capacity remained unutilized in the RMG factories in Bangladesh due to the shortage of gas and electricity,",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article includes the quoted line about unutilized capacity due to gas and electricity shortages and explicitly states that the energy crisis will prevent achieving the RMG export target, linking energy shortages to constrained exports at the national sector level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-10-30",
+      "exports",
+      "reduces export volume",
+      "Inflation reduces RMG orders"
+    ],
+    [
+      "2022-10-30",
+      "exports",
+      "constrains exports",
+      "Energy shortages constrain production"
+    ]
+  ],
+  "features_queried": [
+    "balance_of_trade",
+    "stock_market_close",
+    "exports"
+  ],
+  "num_connections_found": 2
+}

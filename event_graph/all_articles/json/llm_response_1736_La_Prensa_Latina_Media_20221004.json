@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "La Prensa Latina Media",
+    "date": "2022-10-04",
+    "url": "https://www.laprensalatina.com/over-130-million-in-bangladesh-face-blackout-due-to-power-grid-failure/",
+    "body_preview": "Dhaka, Oct 4 (EFE).- Nearly three-fourth of Bangladesh was left without electricity for hours on Tuesday due to a failure in the national power grid, affecting more than 130 million people, a government official said.\n\nMore than 70 per cent of the country was hit by the sudden outage due to the national grid failure at 2.04 pm local time, Bangladesh Power Development Board spokesperson Shamim Ahsan told EFE.\n\nPanicked citizens queued up to buy diesel for running generators, while the price of ca"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Fuel prices increased sharply",
+      "edge_label": "raises inflation concerns",
+      "evidence_quote": "The government on Aug.5 hiked fuel prices by about 50 percent, raising concerns about price inflation amid an economic downturn.",
+      "scope_justification": "The article explicitly links a nationwide fuel-price increase to price inflation, matching the feature's country-wide general price-level scope.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "The government on Aug.5 hiked fuel prices by about 50 percent, raising concerns about price inflation amid an economic downturn.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states, 'The government on Aug.5 hiked fuel prices by about 50 percent, raising concerns about price inflation,' which explicitly links the fuel price hike to inflation concerns at the national level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-10-04",
+      "inflation_rate",
+      "raises inflation concerns",
+      "Fuel prices increased sharply"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

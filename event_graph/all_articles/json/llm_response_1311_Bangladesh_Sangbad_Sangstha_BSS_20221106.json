@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-11-06",
+    "url": "https://www.bssnews.net/business/92366",
+    "body_preview": "DHAKA, Nov 6, 2022 (BSS) - The Federation of Bangladesh Chambers of Commerce and Industry (FBCCI) today signed a memorandum of understanding (MoU) with the United States Department of Agriculture (USDA)-funded Bangladesh Trade Facilitation (BTF) project to explore the potential of exporting Bangladeshi agro products, fish and processed commodities in the global market.\n\nFBCCI President Md Jashim Uddin and BTF project director Michael J Parr signed the MoU on behalf of their respective sides.\n\nIn"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "MoU promotes agro exports",
+      "edge_label": "increases exports",
+      "evidence_quote": "the MoU would play a role in increasing the export of Bangladeshi agro products in the global mainstream market",
+      "scope_justification": "The article explicitly links the MoU to sending Bangladeshi goods to international markets, matching the feature's definition of goods exported internationally.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "the MoU would play a role in increasing the export of Bangladeshi agro products in the global mainstream market",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that the MoU 'would play a role in increasing the export of Bangladeshi agro products in the global mainstream market,' explicitly linking the MoU to higher exports. This is discussed at the national level for Bangladeshi agro exports."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-11-06",
+      "exports",
+      "increases exports",
+      "MoU promotes agro exports"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

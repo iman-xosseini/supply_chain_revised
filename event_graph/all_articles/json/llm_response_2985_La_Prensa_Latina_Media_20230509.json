@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "La Prensa Latina Media",
+    "date": "2023-05-09",
+    "url": "https://www.laprensalatina.com/bangladeshs-forex-reserves-hit-seven-year-low-of-29-8-billion/",
+    "body_preview": "Dhaka, May 9 (EFE).- Bangladesh's foreign exchange reserves fell below $30 billion for the first time in seven years in a concerning sign for the country's economy, economists and bankers said on Tuesday.\n\nBangladesh Bank spokesperson and executive director, Mezbaul Haque, told EFE that the country's foreign exchange reserves stood at $29.83 billion on Monday after the payment of import bills worth $1.18 billion to the Asian Clearing Union.\n\nThe last time Bangladesh's foreign exchange reserves w"
+  },
+  "llm_connections": [
+    {
+      "feature": "imports",
+      "event_summary": "Foreign-currency gap impacts imports",
+      "edge_label": "disrupts imports",
+      "evidence_quote": "There is a big gap between the inflow and outflow of our foreign currency. It is not just a concern but a big problem.",
+      "scope_justification": "The article explicitly states that the national foreign-currency inflow/outflow gap is hugely impacting aggregate imports, matching the country-wide import-volume scope.",
+      "verification": {
+        "quote_similarity": 0.983,
+        "quote_best_match": "\"There is a big gap between the inflow and outflow of our foreign currency. It is not just a concern but a big problem,\"",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The quoted sentence appears verbatim, and the article immediately adds, “It is hugely impacting imports,” explicitly linking the foreign-currency inflow/outflow gap to effects on imports. The discussion is at the national (Bangladesh) level, matching the scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-05-09",
+      "imports",
+      "disrupts imports",
+      "Foreign-currency gap impacts imports"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

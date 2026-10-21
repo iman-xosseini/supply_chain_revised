@@ -1,0 +1,139 @@
+feature_name,child,level
+Supply Chain Dataset,Economic and Financial Indicators,1
+Supply Chain Dataset,Holiday and Event Features,1
+Supply Chain Dataset,Operational Metrics,1
+Supply Chain Dataset,Product Catalog and Classification,1
+Supply Chain Dataset,Weather and Climate,1
+Economic and Financial Indicators,balance_of_trade,2
+Economic and Financial Indicators,currency_log_return,2
+Economic and Financial Indicators,currency_momentum_5d,2
+Economic and Financial Indicators,exports,2
+Economic and Financial Indicators,imports,2
+Economic and Financial Indicators,inflation_rate,2
+Economic and Financial Indicators,interest_rate_value,2
+Economic and Financial Indicators,stock_market_close,2
+Holiday and Event Features,Event Category Encodings,2
+Holiday and Event Features,Holiday Name Encodings,2
+Holiday and Event Features,Holiday Type Encodings,2
+Holiday and Event Features,Scope and Location Encodings,2
+Operational Metrics,Delivery,2
+Operational Metrics,Factory_Issue,2
+Operational Metrics,Production,2
+Operational Metrics,Sales,2
+Operational Metrics,Station,2
+Operational Metrics,inventory_proxy,2
+Product Catalog and Classification,Group_A,2
+Product Catalog and Classification,Group_E,2
+Product Catalog and Classification,Group_M,2
+Product Catalog and Classification,Group_P,2
+Product Catalog and Classification,Group_S,2
+Product Catalog and Classification,Group_nan,2
+Weather and Climate,Humidity,2
+Weather and Climate,Rainfall,2
+Weather and Climate,Sunshine,2
+Weather and Climate,Temperature,2
+Delivery,delivery_sales_ratio,3
+Event Category Encodings,category_bank_holiday,3
+Event Category Encodings,category_cultural_event,3
+Event Category Encodings,category_cultural_holiday,3
+Event Category Encodings,category_national_holiday,3
+Event Category Encodings,category_no_event,3
+Event Category Encodings,category_religious_holiday,3
+Event Category Encodings,category_religious_period,3
+Event Category Encodings,category_school_university,3
+Event Category Encodings,category_weather_event,3
+Factory_Issue,factory_issue_rate,3
+Group_A,Sub-Group_AT,3
+Group_A,Sub-Group_ATN,3
+Group_A,Sub-Group_ATPA,3
+Group_A,Sub-Group_ATPPCH,3
+Group_A,Sub-Group_ATWWP,3
+Group_E,Sub-Group_EEA,3
+Group_M,Sub-Group_MAC,3
+Group_M,Sub-Group_MAHS,3
+Group_M,Sub-Group_MAP,3
+Group_M,Sub-Group_MAPA,3
+Group_M,Sub-Group_MAR,3
+Group_M,Sub-Group_MASR,3
+Group_P,Sub-Group_POP,3
+Group_P,Sub-Group_POPF,3
+Group_P,Sub-Group_POV,3
+Group_S,Sub-Group_SE,3
+Group_S,Sub-Group_SO,3
+Group_S,Sub-Group_SOP,3
+Group_S,Sub-Group_SOS,3
+Group_nan,Sub-Group_nan,3
+Holiday Name Encodings,holiday_name_Ashura,3
+Holiday Name Encodings,holiday_name_Bank Holiday,3
+Holiday Name Encodings,holiday_name_Bengali New Year,3
+Holiday Name Encodings,holiday_name_Buddha Purnima,3
+Holiday Name Encodings,holiday_name_Eid al-Fitr,3
+Holiday Name Encodings,holiday_name_Eid-ul-Azha,3
+Holiday Name Encodings,holiday_name_Independence Day,3
+Holiday Name Encodings,holiday_name_Jumatul Bidah,3
+Holiday Name Encodings,holiday_name_Language Mother Day,3
+Holiday Name Encodings,holiday_name_May Day,3
+Holiday Name Encodings,holiday_name_Shab e-barat,3
+Holiday Name Encodings,holiday_name_Shab-e-Qadr,3
+Holiday Name Encodings,holiday_name_Sheikh Mujibur Rahman's birthday,3
+Holiday Name Encodings,holiday_name_nan,3
+Holiday Type Encodings,holiday_type_National Holiday,3
+Holiday Type Encodings,holiday_type_Not a National Holiday,3
+Holiday Type Encodings,holiday_type_nan,3
+Production,production_sales_ratio,3
+Rainfall,typical_rain_mm,3
+Sales,Sales_lag_1,3
+Sales,Sales_lag_14,3
+Sales,Sales_lag_2,3
+Sales,Sales_lag_21,3
+Sales,Sales_lag_28,3
+Sales,Sales_lag_3,3
+Sales,Sales_lag_7,3
+Scope and Location Encodings,scope_or_location_Chattogram division & south-east,3
+Scope and Location Encodings,scope_or_location_Nationwide,3
+Scope and Location Encodings,scope_or_location_Nationwide (strongest in Buddhist communities),3
+Scope and Location Encodings,scope_or_location_Nationwide (strongest in cities),3
+Scope and Location Encodings,scope_or_location_Tongi near Dhaka,3
+Scope and Location Encodings,scope_or_location_Urban centres (esp. Dhaka),3
+Scope and Location Encodings,scope_or_location_nan,3
+Sub-Group_AT,Product_AT5X5K,4
+Sub-Group_ATN,Product_ATN01K24P,4
+Sub-Group_ATN,Product_ATN02K12P,4
+Sub-Group_ATPA,Product_ATPA1K24P,4
+Sub-Group_ATPPCH,Product_ATPPCH5X5K,4
+Sub-Group_ATWWP,Product_ATWWP001K24P,4
+Sub-Group_ATWWP,Product_ATWWP002K12P,4
+Sub-Group_EEA,Product_EEA200G24P,4
+Sub-Group_EEA,Product_EEA500G12P,4
+Sub-Group_MAC,Product_MAC1K25P,4
+Sub-Group_MAHS,Product_MAHS025K,4
+Sub-Group_MAP,Product_MAP1K25P,4
+Sub-Group_MAPA,Product_MAPA1K24P,4
+Sub-Group_MAR,Product_MAR01K24P,4
+Sub-Group_MAR,Product_MAR02K12P,4
+Sub-Group_MASR,Product_MASR025K,4
+Sub-Group_POP,Product_POP001L12P,4
+Sub-Group_POP,Product_POP001L12P.1,4
+Sub-Group_POP,Product_POP002L09P,4
+Sub-Group_POP,Product_POP005L04P,4
+Sub-Group_POP,Product_POP015K,4
+Sub-Group_POP,Product_POP500M24P,4
+Sub-Group_POPF,Product_POPF01L12P,4
+Sub-Group_POV,Product_POV001L24P,4
+Sub-Group_POV,Product_POV002L09P,4
+Sub-Group_POV,Product_POV005L04P,4
+Sub-Group_POV,Product_POV500M24P,4
+Sub-Group_SE,Product_SE200G24P,4
+Sub-Group_SE,Product_SE500G24P,4
+Sub-Group_SO,Product_SO0001L12P,4
+Sub-Group_SO,Product_SO0002L09P,4
+Sub-Group_SO,Product_SO0005L04P,4
+Sub-Group_SO,Product_SO0500M24P,4
+Sub-Group_SOP,Product_SOP001L12P,4
+Sub-Group_SOS,Product_SOS001L12P,4
+Sub-Group_SOS,Product_SOS002L09P,4
+Sub-Group_SOS,Product_SOS003L04P,4
+Sub-Group_SOS,Product_SOS005L04P,4
+Sub-Group_SOS,Product_SOS008L02P,4
+Sub-Group_SOS,Product_SOS250M48P,4
+Sub-Group_SOS,Product_SOS500M24P,4

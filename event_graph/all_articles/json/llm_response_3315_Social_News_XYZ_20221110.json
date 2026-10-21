@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Social News XYZ",
+    "date": "2022-11-10",
+    "url": "https://www.socialnews.xyz/2022/11/10/imf-reaches-staff-level-agreement-with-bdesh-for-4-5-bn/",
+    "body_preview": "Dhaka, Nov 10 (SocialNews.XYZ) The International Monetary Fund (IMF) confirmed that it has reached a staff-level agreement with Bangladesh that paves the way for the release of the much-awaited $4.5 billion in loan support.\n\nRahul Anand, who led an IMF team to Dhaka from October 26 to November 9, made the announcement on Wednesday, saying the agreement is subject to IMF management approval and executive board endorsement, which is expected in the coming weeks, reports Xinhua news agency.\n\nOffici"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "War drives rising inflation",
+      "edge_label": "drives inflation",
+      "evidence_quote": "the Russia-Ukraine war, leading to a sharp widening of current account deficit, rapid decline of foreign exchange reserves, rising inflation and slowing growth",
+      "scope_justification": "The article explicitly reports rising nationwide inflation in Bangladesh, matching the feature's general price-level scope.",
+      "verification": {
+        "quote_similarity": 0.997,
+        "quote_best_match": "the Russia-Ukraine war, leading to a sharp widening of current account deficit, rapid decline of foreign exchange reserves, rising inflation and slowing growth.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that the Russia-Ukraine war led to rising inflation in Bangladesh, matching the provided quote and establishing explicit causality at the national level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-11-10",
+      "inflation_rate",
+      "drives inflation",
+      "War drives rising inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

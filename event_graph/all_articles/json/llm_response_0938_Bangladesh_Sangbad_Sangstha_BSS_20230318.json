@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2023-03-18",
+    "url": "https://www.bssnews.net/business/116262",
+    "body_preview": "DHAKA, March 18, 2023 (BSS) - The 'Made in Bangladesh' tag will be used for all RMG products manufactured in Bangladesh in their label in Bengali from January 1, 2024, said BGMEA President Faruque Hassan.\n\nHe also said that they are working on putting the \"Bangladesh-e Toiri\" tag in Bengali in the export products along with the existing \"Made in Bangladesh\" tag.\n\nThe Bangladesh Garment Manufacturers and Exporters Association (BGMEA) also wants a change to the Bangladesh EPZ Labour Act in order t"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Inflation curtails purchasing capacity",
+      "edge_label": "curtails purchasing power",
+      "evidence_quote": "global economic turmoil, inflationary pressures have curtailed the purchasing capacity",
+      "scope_justification": "The article explicitly links inflationary pressures to reduced purchasing capacity, matching the feature's definition of price increases reducing purchasing power.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "global economic turmoil, inflationary pressures have curtailed the purchasing capacity",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states: 'global economic turmoil, inflationary pressures have curtailed the purchasing capacity,' which explicitly links inflation to reduced purchasing capacity at a general (market-wide) level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-03-18",
+      "inflation_rate",
+      "curtails purchasing power",
+      "Inflation curtails purchasing capacity"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

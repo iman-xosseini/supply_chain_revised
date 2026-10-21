@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Daily Sun",
+    "date": "2023-07-19",
+    "url": "https://www.daily-sun.com/post/701026/Trade-bodies-for-continuing-Black-Sea-Grain-Initiative-Deal",
+    "body_preview": "DHAKA - Six trade bodies have laid emphasis on continuing the 'Black Sea Grain Initiative (BSGI) Agreement' to avert human catastrophe.\n\nThey observed that the Bangladesh businesses are concerned about the disruption of smooth supply of wheat to feed millions of people around the world due to Russia's decision to axe the Black Sea Grain Initiative (\"BSGI\") from 17 July, said a press release today.\n\nThe BSGI deal negotiated by the United Nations and Turkey allowed Ukraine to export millions of to"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "BSGI discontinuation worsens inflation",
+      "edge_label": "fails to contain inflation",
+      "evidence_quote": "the discontinuation of BSGI will not only cause man-made human catastrophe but also fail to contain the already sky-rocketed global inflation",
+      "scope_justification": "The article explicitly links BSGI discontinuation to global inflation, matching the feature's scope as a general rise in price levels.",
+      "verification": {
+        "quote_similarity": 0.996,
+        "quote_best_match": "the discontinuation of BSGI will not only cause man-made human catastrophe but also fail to contain the already sky-rocketed global inflation.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article contains the exact quote stating that discontinuation of BSGI will 'fail to contain the already sky-rocketed global inflation,' explicitly linking the event to inflation. The scope is global, matching the general inflation rate feature."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-07-19",
+      "inflation_rate",
+      "fails to contain inflation",
+      "BSGI discontinuation worsens inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

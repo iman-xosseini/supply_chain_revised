@@ -1,0 +1,61 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-09-06",
+    "url": "https://www.bssnews.net/news/80963",
+    "body_preview": "DHAKA, Sept 6, 2022 (BSS) - Planning Minister MA Mannan today expressed his hope that the general point to point inflation in the country is likely to ease from October due to the various measures taken by the government.\n\n\"The inflation is likely to remain a bit higher in September as it was in August. After that hopefully inflation is likely to ease from October,\" he said.\n\nThe Planning Minister said this while responding to a volley of questions at the \"DJFB Development Dialogue\" as the chief"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Government measures ease inflation",
+      "edge_label": "eases inflation",
+      "evidence_quote": "general point to point inflation in the country is likely to ease from October due to the various measures taken by the government.",
+      "scope_justification": "The statement directly concerns country-wide general inflation, matching the feature's national CPI-style price-level scope.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "general point to point inflation in the country is likely to ease from October due to the various measures taken by the government.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states that national inflation is likely to ease from October due to government measures, matching the provided quote and the country-level inflation scope."
+      }
+    },
+    {
+      "feature": "currency_log_return",
+      "event_summary": "Currency devaluation pressures",
+      "edge_label": "devalues exchange rate",
+      "evidence_quote": "the local currency has been devalued against US dollars since there were various pressures",
+      "scope_justification": "The article explicitly describes movement in Bangladesh's national local-currency-to-US-dollar exchange rate, matching the feature's exchange-rate scope.",
+      "verification": {
+        "quote_similarity": 0.994,
+        "quote_best_match": "the local currency has been devalued against US dollars since there were various pressures,",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states, “the local currency has been devalued against US dollars since there were various pressures,” which explicitly links pressures to currency devaluation at the national exchange-rate level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-09-06",
+      "inflation_rate",
+      "eases inflation",
+      "Government measures ease inflation"
+    ],
+    [
+      "2022-09-06",
+      "currency_log_return",
+      "devalues exchange rate",
+      "Currency devaluation pressures"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 2
+}

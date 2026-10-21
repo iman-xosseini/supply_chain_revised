@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-08-23",
+    "url": "https://www.bssnews.net/news/78541",
+    "body_preview": "DHAKA, Aug 23, 2022 (BSS) - Awami League (AL) Presidium Member and Agriculture Minister Dr Muhammad Abdur Razzaque today said the government is trying its best to reduce the price of consumer goods as those have been increased due to global crisis.\n\n\"We admit that people are suffering. Those with low income are finding it difficult to run their families. However, the government is trying its best to alleviate the suffering of the people. The government is trying to reduce the price of everything"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Global crisis raises prices",
+      "edge_label": "raises consumer prices",
+      "evidence_quote": "consumer goods as those have been increased due to global crisis",
+      "scope_justification": "The article describes broad increases in consumer-goods prices nationally, matching the feature's scope of a general rise in price levels.",
+      "verification": {
+        "quote_similarity": 0.992,
+        "quote_best_match": "consumer goods as those have been increased due to global crisis.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that consumer goods prices 'have been increased due to global crisis,' explicitly linking the global crisis to higher prices. It discusses consumer goods prices at a national level, matching the broad scope of inflation/price level increases."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-08-23",
+      "inflation_rate",
+      "raises consumer prices",
+      "Global crisis raises prices"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

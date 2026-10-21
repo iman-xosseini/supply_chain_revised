@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Prothomalo",
+    "date": "2022-11-24",
+    "url": "https://en.prothomalo.com/opinion/editorial/qophqgy6iw",
+    "body_preview": "Bangladesh Energy Regulatory Commission (BERC) decided to increase the price of electricity by 19.92 per cent at the bulk level when most of the people are unable to rein in the expenses despite various cuts in daily needs due to unabated high inflation.\n\nAs a result, the pressure of additional cost on the power distribution companies will ultimately be passed on to the consumers. But economists have been urging and suggesting bringing down the inflation to bring respite to public life. Due to t"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Electricity price hike",
+      "edge_label": "increases inflation",
+      "evidence_quote": "Due to the electricity price hike, another wave of price inflation will surely hit the market of all the essentials.",
+      "scope_justification": "The article explicitly links a national electricity price increase to broader price inflation across essential goods, matching the feature's general price-level scope.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "Due to the electricity price hike, another wave of price inflation will surely hit the market of all the essentials.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states that the electricity price hike will cause another wave of price inflation for essentials, and it discusses this in a national context. The exact quote appears in the text."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-11-24",
+      "inflation_rate",
+      "increases inflation",
+      "Electricity price hike"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

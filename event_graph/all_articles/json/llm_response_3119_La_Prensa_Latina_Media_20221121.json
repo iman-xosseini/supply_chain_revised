@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "La Prensa Latina Media",
+    "date": "2022-11-21",
+    "url": "https://www.laprensalatina.com/bangladesh-raises-bulk-power-prices-to-try-and-reduce-consumption/",
+    "body_preview": "Dhaka, Nov 21 (EFE).- Bangladesh authorities on Monday announced a nearly 20 percent hike in wholesale prices of electricity, a measure that will come into effect from December and is aimed at reducing fuel consumption amid an energy crisis.\n\nFrom December, each unit of power will cost 6.20 takas ($0.06) at the wholesale level, up from the current price of 5.17 takas, the chairman of the Bangladesh Energy Regulatory Commission, Abdul Jalil, said in a virtual presser on Monday.\n\nIn a subsequent s"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Fuel prices raise inflation",
+      "edge_label": "increases inflation",
+      "evidence_quote": "rising fuel prices have led to inflation shooting up in the country",
+      "scope_justification": "The article explicitly links nationwide fuel-price increases to inflation, matching the feature's country-level general price-level scope.",
+      "verification": {
+        "quote_similarity": 0.993,
+        "quote_best_match": "rising fuel prices have led to inflation shooting up in the country.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states, 'rising fuel prices have led to inflation shooting up in the country,' which directly appears in the text, explicitly indicates causality, and refers to nationwide inflation in Bangladesh."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-11-21",
+      "inflation_rate",
+      "increases inflation",
+      "Fuel prices raise inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

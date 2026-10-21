@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2023-06-30",
+    "url": "https://www.bssnews.net/news/president/133682",
+    "body_preview": "DHAKA, June 29, 2023 (BSS) - President Mohammed Shahabuddin has called upon the country's affluent quarter to come forward to stand by the poverty-stricken and underprivileged people of the society to make Eid occasion joyful.\n\n\"The joy of Eid should be shared with relatives and neighbours . . . Let us forget the hatred and spread the joy of Eid among all,\" he said in a recorded televised speech to greet the countrymen on the occasion of Eid-ul-Azha, the second largest religious festival of the "
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Pandemic and wars raise inflation",
+      "edge_label": "raises inflation",
+      "evidence_quote": "He said global inflation is on the rise due to the impact of the Corona epidemic and war-conflicts in various places.",
+      "scope_justification": "The article explicitly describes a broad, global rise in inflation, matching the feature's general price-level scope rather than a single commodity.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "He said global inflation is on the rise due to the impact of the Corona epidemic and war-conflicts in various places.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states, “global inflation is on the rise due to the impact of the Corona epidemic and war-conflicts,” which explicitly links the pandemic and wars to rising inflation. It addresses inflation at a global level, matching the general inflation_rate scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-06-30",
+      "inflation_rate",
+      "raises inflation",
+      "Pandemic and wars raise inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

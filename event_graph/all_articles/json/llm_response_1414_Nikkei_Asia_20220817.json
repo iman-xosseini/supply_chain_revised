@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Nikkei Asia",
+    "date": "2022-08-17",
+    "url": "https://asia.nikkei.com/Politics/Bangladesh-anger-over-fuel-prices-echoes-Sri-Lanka-Pakistan",
+    "body_preview": "DHAKA -- Pressure is building on Bangladeshi Prime Minister Sheikh Hasina's government, as fuel price rises send shock waves through the population with a little more than a year until the next election. While officials in Dhaka insist the economy is not in dire straits, there are eerie echoes of the problems seen in Bangladesh's South Asian neighbors, Sri Lanka and Pakistan.\n\nAt the beginning of August, Bangladesh raised fuel prices by 40% to 50% across the board. The hikes have had a domino ef"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Fuel hikes raise essentials",
+      "edge_label": "raises price levels",
+      "evidence_quote": "The hikes have had a domino effect on other essentials, including edible oils, rice, eggs and vegetables, all of which now cost 10% to 20% more.",
+      "scope_justification": "The article explicitly describes fuel-price increases causing higher prices across multiple essential goods, matching the feature's scope of broad price-level increases.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "The hikes have had a domino effect on other essentials, including edible oils, rice, eggs and vegetables, all of which now cost 10% to 20% more.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The quoted sentence appears verbatim and explicitly links fuel price hikes to increased prices of multiple essential goods. The discussion is at a national, multi-category level consistent with broader price level/inflation scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-08-17",
+      "inflation_rate",
+      "raises price levels",
+      "Fuel hikes raise essentials"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

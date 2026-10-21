@@ -1,0 +1,80 @@
+{
+  "article": {
+    "source": "english.news.cn",
+    "date": "2023-07-19",
+    "url": "https://english.news.cn/20230719/6fb9a572e3b141e3a82293b533eae2e8/c.html",
+    "body_preview": "DHAKA, July 19 (Xinhua) -- The Asian Development Bank (ADB) Wednesday said the Bangladeshi economy is forecast to grow faster than initially expected in 2023, following better export performance.\n\nADB in its Asian Development Outlook (ADO) for July 2023 says the Bangladeshi economy will grow at least 6 percent in 2023-2024, up from the bank's April forecast of 5.3 percent.\n\nFor the current 2023-2024 fiscal, the Manila-based lender has kept the forecast for the growth of Bangladesh's economy unch"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Better export performance",
+      "edge_label": "raises growth forecast",
+      "evidence_quote": "The Asian Development Bank (ADB) Wednesday said the Bangladeshi economy is forecast to grow faster than initially expected in 2023, following better export performance.",
+      "scope_justification": "The article explicitly discusses Bangladesh's national export performance and export growth, matching the feature's scope of internationally sent goods.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "The Asian Development Bank (ADB) Wednesday said the Bangladeshi economy is forecast to grow faster than initially expected in 2023, following better export performance.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The exact quote appears in the article, and it explicitly links better export performance to a faster growth forecast for Bangladesh. The discussion is at the national (country) level, matching the scope of exports."
+      }
+    },
+    {
+      "feature": "imports",
+      "event_summary": "Sharper import decline",
+      "edge_label": "strengthens net exports",
+      "evidence_quote": "The higher estimate of 6 percent for FY23 ended on June 30 reflects strong net exports as imports fell more sharply than expected",
+      "scope_justification": "The article refers to aggregate imports for Bangladesh's economy, matching the feature's country-wide volume of goods brought in.",
+      "verification": {
+        "quote_similarity": 0.996,
+        "quote_best_match": "\"The higher estimate of 6 percent for FY23 ended on June 30 reflects strong net exports as imports fell more sharply than expected",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that strong net exports occurred as imports fell more sharply than expected, directly linking a sharper import decline to stronger net exports at the country level for Bangladesh."
+      }
+    },
+    {
+      "feature": "balance_of_trade",
+      "event_summary": "Strong net exports",
+      "edge_label": "raises growth forecast",
+      "evidence_quote": "The higher estimate of 6 percent for FY23 ended on June 30 reflects strong net exports",
+      "scope_justification": "The article explicitly identifies national-level net exports as reflecting the higher economic growth estimate, matching the feature's country-wide imports-versus-exports balance.",
+      "verification": {
+        "quote_similarity": 0.994,
+        "quote_best_match": "\"The higher estimate of 6 percent for FY23 ended on June 30 reflects strong net exports",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article includes the exact quote stating the higher 6% estimate reflects strong net exports. This explicitly links country-level net exports to a higher growth forecast for Bangladesh."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-07-19",
+      "exports",
+      "raises growth forecast",
+      "Better export performance"
+    ],
+    [
+      "2023-07-19",
+      "imports",
+      "strengthens net exports",
+      "Sharper import decline"
+    ],
+    [
+      "2023-07-19",
+      "balance_of_trade",
+      "raises growth forecast",
+      "Strong net exports"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 3
+}

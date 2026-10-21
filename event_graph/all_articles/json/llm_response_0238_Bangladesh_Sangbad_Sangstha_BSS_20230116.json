@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2023-01-16",
+    "url": "https://www.bssnews.net/news-flash/105459",
+    "body_preview": "DHAKA, Jan 16, 2023 (BSS) - International Monetary Fund (IMF) will continue support for Bangladesh to accomplish its aspiration to become a developed, prosperous and higher income country by 2041.\n\n\"Bangladesh has aspiration to become a developed, prosperous and higher income country by 2041, and IMF will continue its support,\" said the lending agency's Deputy Managing Director Antoinette Monsio Sayeh while paying a call on Prime Minister Sheikh Hasina at her official residence Ganabhaban.\n\nAnto"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Pandemic and war raise inflation",
+      "edge_label": "increases price pressure",
+      "evidence_quote": "The whole world faces challenges due to the staggering impacts of the Covid-19 pandemic and a difficult situation because of the Russia-Ukraine war.",
+      "scope_justification": "The article links these global disruptions to inflationary pressure and commodity price hikes affecting Bangladesh, matching the feature's country-level general price-rise scope.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "the whole world faces challenges due to the staggering impacts of the Covid-19 pandemic and a difficult situation because of the Russia-Ukraine war.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article quotes that the world faces challenges due to the pandemic and the Russia-Ukraine war and explicitly states that, in this situation, countries like Bangladesh face problems related to inflationary pressure and commodity price hikes. This links the events to increased price pressure at the country level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-01-16",
+      "inflation_rate",
+      "increases price pressure",
+      "Pandemic and war raise inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

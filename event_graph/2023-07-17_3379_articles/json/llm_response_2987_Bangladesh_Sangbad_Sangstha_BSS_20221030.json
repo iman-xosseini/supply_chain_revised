@@ -1,0 +1,37 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-10-30",
+    "url": "https://www.bssnews.net/business/90957",
+    "body_preview": "DHAKA, Oct 30, 2022 (BSS) - Bangladesh Garment Manufacturers and Exporters Association (BGMEA) today said the export earnings target from readymade garments set by the government for the FY23 is unlikely to be achieved due to the high inflation in major markets and shortage of energy in the country.\n\n\"Export earnings target from RMG for the current fiscal year will not be achieved as global buyers have been placing the decreasing volume of orders due to inflation,\" BGMEA President Faruque Hassan"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Inflation reduces apparel exports",
+      "edge_label": "reduces export earnings",
+      "evidence_quote": "Export earnings target from RMG for the current fiscal year will not be achieved as global buyers have been placing the decreasing volume of orders due to inflation",
+      "scope_justification": "The article directly links reduced international orders to Bangladesh's RMG exports, which are goods sent to foreign markets and therefore match the exports feature's trade scope.",
+      "verification": {
+        "quote_similarity": 0.991,
+        "quote_best_match": "\"Export earnings target from RMG for the current fiscal year will not be achieved as global buyers have been placing the decreasing volume of orders due to inflation,\"",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The quoted sentence appears verbatim and explicitly links inflation to decreasing orders, which is cited as the reason the RMG export earnings target will not be achieved. The discussion is at the Bangladesh RMG sector (country-level exports) scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-10-30",
+      "exports",
+      "reduces export earnings",
+      "Inflation reduces apparel exports"
+    ]
+  ],
+  "features_queried": [
+    "balance_of_trade",
+    "stock_market_close",
+    "exports"
+  ],
+  "num_connections_found": 1
+}

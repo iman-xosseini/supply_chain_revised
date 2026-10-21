@@ -1,0 +1,80 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-09-12",
+    "url": "https://www.bssnews.net/business/82196",
+    "body_preview": "DHAKA, Sept 12, 2022 (BSS) - Bangladesh has an additional export potential of $20 billion in the EU and UK and it would rise further as China was losing its share in the global market.\n\n\"It is possible to increase its export by $20 billion in the EU and UK with the existing capacity of Bangladesh through improving efficiency,\" said Research and Policy Integration for Development (RAPID) Chairman Dr Mohammad Abdur Razzaque said.\n\nAccording to a study conducted by RAPID, Bangladesh's export potent"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Productivity gaps suppress exports",
+      "edge_label": "limits export growth",
+      "evidence_quote": "Bangladesh's export potentials worth $20 billion remained untapped ... due to lack of productivity, diversification and adoption of technology",
+      "scope_justification": "The article directly describes Bangladesh-wide export potential and how productivity, diversification, and technology constraints limit goods exported internationally.",
+      "verification": {
+        "quote_similarity": 0.794,
+        "quote_best_match": "Bangladesh's export potentials worth $20 billion remained untapped in the European Union and United Kingdom markets due to lack of productivity, diversification and adoption",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that $20 billion in Bangladesh’s export potential in the EU/UK remained untapped due to lack of productivity, diversification, and technology adoption, explicitly linking productivity gaps to constrained exports at the national level."
+      }
+    },
+    {
+      "feature": "exports",
+      "event_summary": "Efficiency increases export potential",
+      "edge_label": "increases exports",
+      "evidence_quote": "It is possible to increase its export by $20 billion in the EU and UK with the existing capacity of Bangladesh through improving efficiency",
+      "scope_justification": "The claim explicitly links improved efficiency to higher Bangladesh export volume, matching the feature's international-goods export scope.",
+      "verification": {
+        "quote_similarity": 0.989,
+        "quote_best_match": "\"It is possible to increase its export by $20 billion in the EU and UK with the existing capacity of Bangladesh through improving efficiency,\"",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article contains the quoted sentence linking improved efficiency to a $20B increase in Bangladesh’s exports to the EU and UK, explicitly stating a causal relationship at the country-level export scope."
+      }
+    },
+    {
+      "feature": "exports",
+      "event_summary": "Duty-free access supports exports",
+      "edge_label": "facilitates export growth",
+      "evidence_quote": "Bangladesh would get duty free market access in the EU till 2029",
+      "scope_justification": "The article presents Bangladesh's market-access conditions as supporting achievement of its export target, which concerns national goods exports to international markets.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "Bangladesh would get duty free market access in the EU till 2029",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article includes the quoted statement and explicitly links duty-free EU/UK access to achieving Bangladesh’s export targets (“it would not be difficult to achieve the target... as Bangladesh would get duty free market access”). The discussion is at the national export level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-09-12",
+      "exports",
+      "limits export growth",
+      "Productivity gaps suppress exports"
+    ],
+    [
+      "2022-09-12",
+      "exports",
+      "increases exports",
+      "Efficiency increases export potential"
+    ],
+    [
+      "2022-09-12",
+      "exports",
+      "facilitates export growth",
+      "Duty-free access supports exports"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 3
+}

@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2023-01-18",
+    "url": "https://www.bssnews.net/news-flash/105939",
+    "body_preview": "DHAKA, Jan 18, 2023 (BSS) - Prime Minister Sheikh Hasina today told the Jatiya Sangsad (JS) that Bangladesh is not taking loan from the International Monetary Fund (IMF) with any condition.\n\n\"IMF only lends (to any country) when the country attains the ability for repayment. We are not taking loan (from the IMF) with any condition,\" she said while responding to a question from the Jatiya Party lawmaker Md Mujibul Haque of Kishoreganj-3 constituency.\n\nTaking floor on a point of order, Mujibul Haq"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Utility tariffs raise inflation",
+      "edge_label": "increases inflation",
+      "evidence_quote": "already raised the electricity tariff and will increase gas tariff, which will lead to price hike of commodities and inflation.",
+      "scope_justification": "The article explicitly links nationwide electricity and gas tariff increases to higher commodity prices and inflation, matching the feature's general price-level scope.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "already raised the electricity tariff and will increase gas tariff, which will lead to price hike of commodities and inflation.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article includes the explicit statement by a lawmaker that raising electricity and gas tariffs \"will lead to price hike of commodities and inflation,\" establishing a clear causal link at the national level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-01-18",
+      "inflation_rate",
+      "increases inflation",
+      "Utility tariffs raise inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

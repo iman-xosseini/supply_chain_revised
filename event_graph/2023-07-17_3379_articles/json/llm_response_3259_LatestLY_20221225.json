@@ -1,0 +1,37 @@
+{
+  "article": {
+    "source": "LatestLY",
+    "date": "2022-12-25",
+    "url": "https://www.latestly.com/agency-news/world-news-bangladesh-pm-sheikh-hasina-says-she-accepted-awami-leagues-leadership-in-view-of-global-situation-4633097.html",
+    "body_preview": "Dhaka [Bangladesh], December 25 (ANI): Bangladesh PM Sheikh Hasina on Sunday said she accepted leadership of the Awami League in view of the global economic situation, The Daily Star reported.\n\nShe made the statement while exchanging greetings with party leaders and activists at Ganabhaban after being elected as Awami League's President for the 10th time.\n\nAlso Read | Pushpa Kamal Dahal Appointed As Nepal Prime Minister; Third-Term for Communist Party Leader.\n\n\"One must not take (leadership) res"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Extra food enables exports",
+      "edge_label": "enables food exports",
+      "evidence_quote": "If we can produce extra food, we can export those, mitigating our own demands",
+      "scope_justification": "The article explicitly states that Bangladesh’s additional food production can be sent internationally, directly describing exports of goods.",
+      "verification": {
+        "quote_similarity": 0.987,
+        "quote_best_match": "If we can produce extra food, we can export those, mitigating our own demands,\"",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The quoted sentence appears verbatim and explicitly links producing extra food to being able to export it. The context is Bangladesh at the national level, matching the scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-12-25",
+      "exports",
+      "enables food exports",
+      "Extra food enables exports"
+    ]
+  ],
+  "features_queried": [
+    "balance_of_trade",
+    "stock_market_close",
+    "exports"
+  ],
+  "num_connections_found": 1
+}

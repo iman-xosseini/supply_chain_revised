@@ -1,0 +1,37 @@
+{
+  "article": {
+    "source": "europesun.com",
+    "date": "2022-09-23",
+    "url": "https://www.europesun.com/news/272789726/inflation-unrest-challenge-bangladeshs-miracle-economy",
+    "body_preview": "Dhaka, Bangladesh - Standing in line to try to buy food, Rekha Begum is distraught. Like many others in Bangladesh, she is struggling to find affordable daily essentials like rice, lentils and onions.\n\n'I went to two other places, but they told me they don't have supplies. Then I came here and stood at the end of the queue,' said Begum, 60, as she waited for nearly two hours to buy what she needed from a truck selling food at subsidized prices in the capital, Dhaka.\n\nBangladesh's economic miracl"
+  },
+  "llm_connections": [
+    {
+      "feature": "balance_of_trade",
+      "event_summary": "Imports rose, exports fluctuated",
+      "edge_label": "widens external deficit",
+      "evidence_quote": "Imports in the last fiscal year, ending in June, 2022, rose to $84 billion, while exports have fluctuated, leaving a record current account deficit of $17 billion.",
+      "scope_justification": "The article describes country-wide import and export values and their resulting national deficit, matching the feature's aggregate trade-balance scope.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "Imports in the last fiscal year, ending in June, 2022, rose to $84 billion, while exports have fluctuated, leaving a record current account deficit of $17 billion.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The quoted sentence appears verbatim and explicitly links rising imports and fluctuating exports to a resulting record current account (external) deficit. The discussion is at the national level for Bangladesh."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-09-23",
+      "balance_of_trade",
+      "widens external deficit",
+      "Imports rose, exports fluctuated"
+    ]
+  ],
+  "features_queried": [
+    "balance_of_trade",
+    "stock_market_close",
+    "exports"
+  ],
+  "num_connections_found": 1
+}

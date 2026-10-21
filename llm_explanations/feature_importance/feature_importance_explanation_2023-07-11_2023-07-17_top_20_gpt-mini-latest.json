@@ -1,0 +1,7 @@
+{
+  "start_date": "2023-07-11",
+  "end_date": "2023-07-17",
+  "top_n": 20,
+  "model_name": "~openai/gpt-mini-latest",
+  "explanation": "**Operations and Logistics** accounts for 85.4% of the predictive importance and is associated mainly with downward pressure on daily sales volume, so this area merits the closest monitoring in the planning view. **Sales** adds 13.2% and is also linked mostly to lower forecasts, while **Macroeconomics**, **Products**, and **Weather** contribute only marginally and point downward as well; **Sub-Groups** has a very small upward association. Practically, shifts in Operations and Logistics and Sales deserve the most attention when updating the forecast. These are predictive associations, not causes, and historical-sales signals are autocorrelated."
+}

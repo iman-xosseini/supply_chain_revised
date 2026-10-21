@@ -1,0 +1,56 @@
+{
+  "article": {
+    "source": "The Financial Express",
+    "date": "2022-10-15",
+    "url": "https://thefinancialexpress.com.bd/views/views/currency-depreciation-and-balance-of-payments-1665848740",
+    "body_preview": "Bangladesh's balance of payments (BoP) captures the transactions between Bangladeshi residents and the rest of the world in a given period of time. Residents are defined broadly to include people who live in Bangladesh, engaged in businesses and other organisations that operate in Bangladesh.\n\nBalance of payments divides transactions into two broad accounts: current account (CA) and combined capital and financial account (CFA). In essence, the current account captures the net flow of money that "
+  },
+  "llm_connections": [
+    {
+      "feature": "balance_of_trade",
+      "event_summary": "Taka depreciation pressures trade",
+      "edge_label": "reduces net exports",
+      "evidence_quote": "the direct effect of a currency depreciation is to increase the price of imports relative to exports, which tends to decrease the value of net exports (exports-imports)",
+      "scope_justification": "The article discusses Bangladesh-wide imports and exports together through net exports, matching the country-wide trade-balance definition.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "the direct effect of a currency depreciation is to increase the price of imports relative to exports, which tends to decrease the value of net exports (exports-imports)",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The quoted sentence appears verbatim in the article. It explicitly states that currency depreciation decreases net exports as a direct effect. The discussion is at the country-level (Bangladesh’s trade/current account), matching the trade-balance scope."
+      }
+    },
+    {
+      "feature": "exports",
+      "event_summary": "Taka depreciation boosts exports",
+      "edge_label": "stimulates export growth",
+      "evidence_quote": "As the taka depreciates, one would expect that exports from Bangladesh would become more price competitive stimulating export growth.",
+      "scope_justification": "The claim directly concerns Bangladesh's aggregate exports and explicitly states that currency depreciation can stimulate their growth.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "As the taka depreciates, one would expect that exports from Bangladesh would become more price competitive stimulating export growth.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states that as the taka depreciates, Bangladeshi exports become more price competitive, stimulating export growth, while noting possible offsets. It addresses exports at the country level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-10-15",
+      "balance_of_trade",
+      "reduces net exports",
+      "Taka depreciation pressures trade"
+    ],
+    [
+      "2022-10-15",
+      "exports",
+      "stimulates export growth",
+      "Taka depreciation boosts exports"
+    ]
+  ],
+  "features_queried": [
+    "balance_of_trade",
+    "stock_market_close",
+    "exports"
+  ],
+  "num_connections_found": 2
+}

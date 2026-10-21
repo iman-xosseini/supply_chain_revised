@@ -1,0 +1,61 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2023-01-08",
+    "url": "https://www.bssnews.net/business/103982",
+    "body_preview": "DHAKA, Jan 8, 2023 (BSS) - The government is constructing a deep seaport at Matarbari of Cox's Bazar to help the country handle growing volumes of exports and imports and ease the pressure on the country's principal sea port Chattogram.\n\nThe government is also constructing Coal-based Power Plant, LNG Terminal and development of highways.\n\nExperts concerned expect that Matarbari will become the most important export-import hub in the South-Asian region in future as the region is bustling with a n"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Matarbari port construction",
+      "edge_label": "facilitates export handling",
+      "evidence_quote": "The government is constructing a deep seaport at Matarbari of Cox's Bazar to help the country handle growing volumes of exports and imports",
+      "scope_justification": "The article explicitly refers to the country's growing export volumes, matching the national-level volume of goods sent internationally.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "The government is constructing a deep seaport at Matarbari of Cox's Bazar to help the country handle growing volumes of exports and imports",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states the port is being constructed to help the country handle growing volumes of exports and imports, which directly ties construction to facilitating export handling at the national level. The provided quote (with a minor omission) appears in the text and matches the scope."
+      }
+    },
+    {
+      "feature": "imports",
+      "event_summary": "Matarbari port construction",
+      "edge_label": "facilitates import handling",
+      "evidence_quote": "The government is constructing a deep seaport at Matarbari of Cox's Bazar to help the country handle growing volumes of exports and imports",
+      "scope_justification": "The article explicitly refers to the country's growing import volumes, matching the national-level volume of goods brought into the country.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "The government is constructing a deep seaport at Matarbari of Cox's Bazar to help the country handle growing volumes of exports and imports",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states the port is being constructed 'to help the country handle growing volumes of exports and imports,' establishing a clear causal link at the national level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-01-08",
+      "exports",
+      "facilitates export handling",
+      "Matarbari port construction"
+    ],
+    [
+      "2023-01-08",
+      "imports",
+      "facilitates import handling",
+      "Matarbari port construction"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 2
+}

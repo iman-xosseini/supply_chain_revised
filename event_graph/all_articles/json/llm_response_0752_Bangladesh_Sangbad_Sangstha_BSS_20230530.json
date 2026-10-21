@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2023-05-30",
+    "url": "https://www.bssnews.net/business/128189",
+    "body_preview": "DHAKA, May 30, 2023 (BSS) - A delegation from Cotton USA met with Bangladesh\n\nGarment Manufacturers and Exporters Association (BGMEA) President Faruque\n\nHassan today to discuss potential collaboration on creating trade\n\nopportunities that would be beneficial for both sides.\n\nThe team included William R. Bettendorf, Director, Supply Chain Marketing and\n\nSouth Asia; Stephanie Thiers-Ratcliffe, Director, European Brands and\n\nRetailers; and Ali Arsalan, Bangladesh Consultant, Cotton USA.\n\nBGMEA Dire"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Duty-free access proposed",
+      "edge_label": "increases garment exports",
+      "evidence_quote": "if the U.S. government allows duty-free access of the garments made of the cotton imported from the US, it would allow the US importers to purchase more clothing from Bangladesh.",
+      "scope_justification": "The article directly links increased purchases by US importers to more garments sent from Bangladesh internationally, matching the exports definition.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "if the U.S. government allows duty-free access of the garments made of the cotton imported from the US, it would allow the US importers to purchase more clothing from Bangladesh.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The quoted sentence appears verbatim and explicitly links duty-free access to increased purchases by US importers from Bangladesh, which strongly implies higher garment exports. The discussion is at the country-level (Bangladesh–US trade), matching the scope of exports."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-05-30",
+      "exports",
+      "increases garment exports",
+      "Duty-free access proposed"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

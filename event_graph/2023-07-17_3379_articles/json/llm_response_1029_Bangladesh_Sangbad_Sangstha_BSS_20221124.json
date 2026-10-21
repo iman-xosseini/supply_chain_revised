@@ -1,0 +1,37 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-11-24",
+    "url": "https://www.bssnews.net/business/95961",
+    "body_preview": "DHAKA, Nov 24, 2022 (BSS) - Commerce Minister Tipu Munshi today said that the existing situation over the availability of energy like gas in the industries would be improved in January.\n\nHe also said that the gas crisis has become evident in the country due to the global situation for which production in the industries has also being hampered to some extent.\n\n\"It's a temporary problem, hopefully the situation will be improved in January,\" Tipu said.\n\nThe commerce minister said this while address"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Government support boosts ceramic exports",
+      "edge_label": "boosts exports",
+      "evidence_quote": "necessary support would be provided to the businessmen so that they could boost the production and export of ceramic items",
+      "scope_justification": "The article explicitly links government support to increased exports of ceramic goods, which are goods sent internationally.",
+      "verification": {
+        "quote_similarity": 0.996,
+        "quote_best_match": "necessary support would be provided to the businessmen so that they could boost the production and export of ceramic items.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article contains the sentence that necessary support will be provided to help businessmen boost production and export of ceramic items, explicitly linking government support to increased exports at the sector/national level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-11-24",
+      "exports",
+      "boosts exports",
+      "Government support boosts ceramic exports"
+    ]
+  ],
+  "features_queried": [
+    "balance_of_trade",
+    "stock_market_close",
+    "exports"
+  ],
+  "num_connections_found": 1
+}

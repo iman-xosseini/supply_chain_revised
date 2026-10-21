@@ -1,0 +1,80 @@
+{
+  "article": {
+    "source": "La Prensa Latina Media",
+    "date": "2022-11-09",
+    "url": "https://www.laprensalatina.com/bangladesh-reaches-preliminary-agreement-with-imf-for-4-5-billion/",
+    "body_preview": "Dhaka, Oct 9 (EFE).- Bangladesh reached a preliminary agreement on Wednesday with the International Monetary Fund (IMF) to access a $4.5 billion credit plan to deal with the country's financial crisis.\n\nBangladesh and the IMF team have reached \"a staff-level agreement\" to support the authorities' economic policies under a new plan for a 42-month credit of about $3.2 billion under the Extended Credit Facility (ECF) and the Extended Fund Facility (EFF).\n\nAnother $1.3 billion will be provided under"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Ukraine war raises inflation",
+      "edge_label": "increases inflation",
+      "evidence_quote": "Russia's war in Ukraine, leading to a sharp widening of the current account deficit, rapid decline of foreign exchange reserves, rising inflation and slowing growth",
+      "scope_justification": "The article explicitly links a national-level geopolitical event to rising inflation, matching the country-wide CPI concept.",
+      "verification": {
+        "quote_similarity": 0.994,
+        "quote_best_match": "Russia's war in Ukraine, leading to a sharp widening of the current account deficit, rapid decline of foreign exchange reserves, rising inflation and slowing growth,\"",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that Russia's war in Ukraine led to rising inflation in Bangladesh, explicitly linking the event to increased inflation at the national level. The quoted sentence appears nearly verbatim and refers to Bangladesh’s macroeconomic conditions."
+      }
+    },
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Fuel price hike drives inflation",
+      "edge_label": "drives inflation higher",
+      "evidence_quote": "The authorities raised the price of fuel by almost 51 percent in August, which further drove inflation to 9.52 percent that month",
+      "scope_justification": "The article directly connects a nationwide fuel-price increase with Bangladesh's aggregate inflation rate.",
+      "verification": {
+        "quote_similarity": 0.996,
+        "quote_best_match": "The authorities raised the price of fuel by almost 51 percent in August, which further drove inflation to 9.52 percent that month,",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states that a nationwide 51% fuel price increase 'further drove inflation to 9.52 percent' in August, clearly linking the event to Bangladesh’s overall inflation rate."
+      }
+    },
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Monetary policy manages inflation",
+      "edge_label": "manages inflation",
+      "evidence_quote": "Bangladesh also hopes to adjust its monetary policy to better manage inflation",
+      "scope_justification": "The statement directly describes national monetary policy as a measure intended to affect Bangladesh's overall inflation rate.",
+      "verification": {
+        "quote_similarity": 0.994,
+        "quote_best_match": "Bangladesh also hopes to adjust its monetary policy to better manage inflation,",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states Bangladesh hopes to adjust monetary policy to better manage inflation, explicitly linking monetary policy changes to managing national inflation. The scope is country-level and matches the feature."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-11-09",
+      "inflation_rate",
+      "increases inflation",
+      "Ukraine war raises inflation"
+    ],
+    [
+      "2022-11-09",
+      "inflation_rate",
+      "drives inflation higher",
+      "Fuel price hike drives inflation"
+    ],
+    [
+      "2022-11-09",
+      "inflation_rate",
+      "manages inflation",
+      "Monetary policy manages inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 3
+}

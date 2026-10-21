@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Winnipeg Free Press",
+    "date": "2022-11-09",
+    "url": "https://www.winnipegfreepress.com/business/2022/11/09/imf-bangladesh-reach-preliminary-deal-for-4-5b-in-loans",
+    "body_preview": "DHAKA,Bangladesh (AP) -- The International Monetary Fund reached a preliminary agreement on Wednesday with Bangladesh to provide $4.5 billion to help the country weather disruptions caused by the war in Ukraine and manage risks from climate change.\n\nThe agreement is subject to approval by the IMF's executive board, which is expected within weeks. Bangladesh sought the loans as its foreign currency reserves were dwindling due to a weakening currency and soaring costs for imports.\n\nThe IMF said in"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "War raises inflation",
+      "edge_label": "raises inflation",
+      "evidence_quote": "Bangladesh's robust economic recovery from the pandemic has been interrupted by Russia's war in Ukraine, leading to ... rising inflation and slowing growth",
+      "scope_justification": "The article explicitly links the war to rising inflation across Bangladesh's national economy, matching the aggregate CPI-based inflation feature.",
+      "verification": {
+        "quote_similarity": 0.861,
+        "quote_best_match": "\"Bangladesh's robust economic recovery from the pandemic has been interrupted by Russia's war in Ukraine, leading to a sharp widening of the",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article includes the quoted statement that Russia's war in Ukraine led to rising inflation in Bangladesh, establishing a causal link at the national economic level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-11-09",
+      "inflation_rate",
+      "raises inflation",
+      "War raises inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

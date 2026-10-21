@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Daily Sun",
+    "date": "2023-06-05",
+    "url": "https://www.daily-sun.com/post/693276/PM-sees-next-election-as-a-challenge",
+    "body_preview": "DHAKA - Awami League President and Prime Minister Sheikh Hasina today urged the party leaders and activists to take all out preparations for the next national polls saying it would be a challenge due to multifaceted conspiracies.\n\n\"The next election is a challenge because there are conspiracies from various quarters,\" she said while exchanging views with the leaders, activists of Awami League (AL) and its associates bodies at her official residence Ganabhaban.\n\nSome people raise misconceptions a"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Conflict-driven price increases",
+      "edge_label": "raises price levels",
+      "evidence_quote": "commodity prices, transport cost, prices of gas, fuel and coal soared up globally following the Russia- Ukraine conflict",
+      "scope_justification": "The article describes broad increases in commodity and essential goods prices, matching the feature’s scope of general price-level increases affecting purchasing power.",
+      "verification": {
+        "quote_similarity": 0.996,
+        "quote_best_match": "commodity prices, transport cost, prices of gas, fuel and coal soared up globally following the Russia- Ukraine conflict.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that prices of commodities, transport, gas, fuel, and coal 'soared up globally following the Russia-Ukraine conflict,' explicitly linking the conflict to higher prices. It discusses broad price increases globally and in Bangladesh, matching a general price-level (inflation) scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-06-05",
+      "inflation_rate",
+      "raises price levels",
+      "Conflict-driven price increases"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

@@ -1,0 +1,80 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-11-05",
+    "url": "https://www.bssnews.net/business/92126",
+    "body_preview": "DHAKA, Nov 5, 2022 (BSS) - President of the Federation of Bangladesh Chambers of Commerce and Industry (FBCCI) Md Jashim Uddin today said that domestic industries would fall in difficulties if the current lending rate is increased.\n\nHe said this while speaking at 'ERF's Dialogue' as the chief guest, organized by the Economic Reporters' Forum (ERF), at its auditorium in the capital today.\n\nJashim said that the interest rate of bank loans cannot be increased for the sake of expanding investment an"
+  },
+  "llm_connections": [
+    {
+      "feature": "interest_rate_value",
+      "event_summary": "Lending rate increase threatens operations",
+      "edge_label": "raises production costs",
+      "evidence_quote": "Any initiative to increase the lending rate will impact production cost as well as raise a burden on the customers",
+      "scope_justification": "The article directly links higher loan interest rates, a borrowing cost, to increased production costs and operational difficulty.",
+      "verification": {
+        "quote_similarity": 0.991,
+        "quote_best_match": "Any initiative to increase the lending rate will impact production cost as well as raise a burden on the customers,\"",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The quoted sentence appears verbatim in the article. The article explicitly links higher lending rates to increased production costs and also states that raising interest rates would impair industries' ability to operate. The discussion is at the national/industry level in Bangladesh, matching the scope."
+      }
+    },
+    {
+      "feature": "currency_momentum_5d",
+      "event_summary": "US rate hikes strengthen dollar",
+      "edge_label": "strengthens the dollar",
+      "evidence_quote": "the US has increased interest rates to strengthen the dollar",
+      "scope_justification": "The article explicitly describes an interest-rate increase causing greater strength in a currency, matching the feature's currency-strength scope.",
+      "verification": {
+        "quote_similarity": 0.992,
+        "quote_best_match": "the US has increased interest rates to strengthen the dollar.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states, “the US has increased interest rates to strengthen the dollar,” which explicitly links US rate hikes to a stronger dollar at a national currency level, matching the feature’s scope."
+      }
+    },
+    {
+      "feature": "exports",
+      "event_summary": "Energy shortages threaten foreign deliveries",
+      "edge_label": "disrupts exports",
+      "evidence_quote": "if the businesses do not get gas and electricity now, they would fail to deliver products according to the orders of foreign buyers",
+      "scope_justification": "The claim concerns products intended for foreign buyers, directly matching the international-goods scope of exports.",
+      "verification": {
+        "quote_similarity": 0.996,
+        "quote_best_match": "if the businesses do not get gas and electricity now, they would fail to deliver products according to the orders of foreign buyers.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states that without gas and electricity, businesses would fail to deliver products to foreign buyers, directly linking energy shortages to disrupted foreign deliveries (exports). The statement is made in a countrywide industry context by the FBCCI president, matching the national scope of exports."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-11-05",
+      "interest_rate_value",
+      "raises production costs",
+      "Lending rate increase threatens operations"
+    ],
+    [
+      "2022-11-05",
+      "currency_momentum_5d",
+      "strengthens the dollar",
+      "US rate hikes strengthen dollar"
+    ],
+    [
+      "2022-11-05",
+      "exports",
+      "disrupts exports",
+      "Energy shortages threaten foreign deliveries"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 3
+}

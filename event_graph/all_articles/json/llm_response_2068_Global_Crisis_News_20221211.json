@@ -1,0 +1,61 @@
+{
+  "article": {
+    "source": "Global Crisis News",
+    "date": "2022-12-11",
+    "url": "https://globalcrisisnews.com/breaking/bangladesh-opposition-stages-protests-as-it-challenges-pm-hasina/",
+    "body_preview": "Dhaka, Bangladesh - Rafiqul Islam joined tens of thousands of opposition supporters in the capital Dhaka after travelling nearly 200km (124 miles) from the southern coastal district of Noakhali. But he had to fake his identity to evade detention ahead of the anti-government rally on Saturday.\n\nThe police in the South Asian nation had arrested hundreds of supporters from the main opposition Bangladesh Nationalist Party (BNP), which had called for the rally to protest against price rises and deman"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Fuel hikes raised essentials",
+      "edge_label": "increases consumer prices",
+      "evidence_quote": "The hikes have had a domino effect on other essentials, including edible oils, rice, eggs and vegetables, all of which now cost 20-30 percent more.",
+      "scope_justification": "The article describes nationwide fuel-price increases causing broad increases across multiple essential goods, matching the general price-level scope of inflation.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "The hikes have had a domino effect on other essentials, including edible oils, rice, eggs and vegetables, all of which now cost 20-30 percent more.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article contains the quoted sentence and explicitly links fuel price hikes to subsequent increases in prices of multiple essential goods. The discussion is at a nationwide level, matching the general consumer price/inflation scope."
+      }
+    },
+    {
+      "feature": "exports",
+      "event_summary": "Energy prices reduced orders",
+      "edge_label": "reduces export orders",
+      "evidence_quote": "High energy prices triggered by the Russia-Ukraine war have significantly reduced its export orders from Western countries",
+      "scope_justification": "The claim concerns Bangladesh's national export sector and its export orders to Western countries, matching the feature's country-level volume of internationally sent goods.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "High energy prices triggered by the Russia-Ukraine war have significantly reduced its export orders from Western countries",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states that high energy prices triggered by the Russia-Ukraine war have significantly reduced Bangladesh’s export orders from Western countries, referring to the national export sector."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-12-11",
+      "inflation_rate",
+      "increases consumer prices",
+      "Fuel hikes raised essentials"
+    ],
+    [
+      "2022-12-11",
+      "exports",
+      "reduces export orders",
+      "Energy prices reduced orders"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 2
+}

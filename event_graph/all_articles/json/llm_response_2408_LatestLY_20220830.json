@@ -1,0 +1,61 @@
+{
+  "article": {
+    "source": "LatestLY",
+    "date": "2022-08-30",
+    "url": "https://www.latestly.com/agency-news/world-news-pm-sheikh-hasina-dispels-possibility-of-sri-lanka-like-economic-crisis-in-bangladesh-4145396.html",
+    "body_preview": "Dhaka, Aug 30 (PTI) Prime Minister Sheikh Hasina said on Tuesday that Bangladesh would never plunge into a Sri Lanka-like economic crisis as her government was steering the country's development in a planned way.\n\nAddressing an event of her ruling Awami League here, Hasina said her government took every development project considering their economic return and the national budgets were prepared in a planned way as well to evade economic disasters and facilitate smooth development.\n\nAlso Read | P"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Currency depreciation raises inflation",
+      "edge_label": "raises inflation",
+      "evidence_quote": "further depreciation of its currency would mount domestic inflation pressures",
+      "scope_justification": "The article explicitly links national-currency depreciation to domestic inflation pressure, matching the country-wide price-level scope of the inflation-rate feature.",
+      "verification": {
+        "quote_similarity": 0.994,
+        "quote_best_match": "further depreciation of its currency would mount domestic inflation pressures,",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that S&P cautioned Bangladesh that further currency depreciation would mount domestic inflation pressures, explicitly linking depreciation to higher national inflation. This matches the country-level scope."
+      }
+    },
+    {
+      "feature": "currency_momentum_5d",
+      "event_summary": "Foreign-exchange outflows pressure taka",
+      "edge_label": "drives currency depreciation",
+      "evidence_quote": "These trends have driven net outflows of foreign exchange from the economy, resulting in declining reserves and depreciatory pressure against the taka",
+      "scope_justification": "The statement describes a national exchange-rate trend and its stated driver, matching the feature's focus on recent currency strength or direction.",
+      "verification": {
+        "quote_similarity": 0.99,
+        "quote_best_match": "\"These trends have driven net outflows of foreign exchange from the economy, resulting in declining reserves and depreciatory pressure against the taka,\"",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article contains the exact sentence stating that net foreign-exchange outflows resulted in depreciatory pressure against the taka, indicating a causal link. The discussion is at the national (Bangladesh) level, matching the feature’s scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-08-30",
+      "inflation_rate",
+      "raises inflation",
+      "Currency depreciation raises inflation"
+    ],
+    [
+      "2022-08-30",
+      "currency_momentum_5d",
+      "drives currency depreciation",
+      "Foreign-exchange outflows pressure taka"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 2
+}

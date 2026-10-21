@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Daily Sun",
+    "date": "2022-12-15",
+    "url": "https://www.daily-sun.com/post/662560/PM-seeks-people%e2%80%99s-help-to-overcome-global-crisis-resist-antistate-intrigues--",
+    "body_preview": "DHAKA - Prime Minister Sheikh Hasina today alerted the people about anti-state plots being hatched by local and foreign conspirators, urging the countrymen to help her government overcome the current global crisis steamed from the Covid-19 pandemic and Russia-Ukraine war.\n\n\"Crisis will come. Getting afraid of a crisis is not right. We have successfully faced the coronavirus pandemic with the help of the people. InshaAllah, we will also overcome the global recession. We are seeking cooperation fr"
+  },
+  "llm_connections": [
+    {
+      "feature": "imports",
+      "event_summary": "Pandemic suspends imports",
+      "edge_label": "halts imports",
+      "evidence_quote": "imports of all types of heavy machinery, foreign travel and imports of other goods were largely suspended during the coronavirus pandemic",
+      "scope_justification": "The article describes a broad, country-level suspension of multiple categories of imports, matching the feature's aggregate volume of goods brought into the country.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "imports of all types of heavy machinery, foreign travel and imports of other goods were largely suspended during the coronavirus pandemic",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that imports of heavy machinery and other goods were largely suspended during the coronavirus pandemic, which strongly implies the pandemic led to the suspension. This is presented at a national level, matching the scope of overall imports."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-12-15",
+      "imports",
+      "halts imports",
+      "Pandemic suspends imports"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

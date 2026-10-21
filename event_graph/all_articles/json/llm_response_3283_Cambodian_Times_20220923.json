@@ -1,0 +1,61 @@
+{
+  "article": {
+    "source": "Cambodian Times",
+    "date": "2022-09-23",
+    "url": "https://www.cambodiantimes.com/news/272789726/inflation-unrest-challenge-bangladeshs-miracle-economy",
+    "body_preview": "Dhaka, Bangladesh - Standing in line to try to buy food, Rekha Begum is distraught. Like many others in Bangladesh, she is struggling to find affordable daily essentials like rice, lentils and onions.\n\n'I went to two other places, but they told me they don't have supplies. Then I came here and stood at the end of the queue,' said Begum, 60, as she waited for nearly two hours to buy what she needed from a truck selling food at subsidized prices in the capital, Dhaka.\n\nBangladesh's economic miracl"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Fuel prices raise living costs",
+      "edge_label": "increases price levels",
+      "evidence_quote": "fuel price hikes amplify public frustrations over rising costs for food and other necessities",
+      "scope_justification": "The article explicitly links a national fuel-price increase to rising prices for food and other necessities, matching the general price-level scope of inflation.",
+      "verification": {
+        "quote_similarity": 0.995,
+        "quote_best_match": "fuel price hikes amplify public frustrations over rising costs for food and other necessities.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states, 'fuel price hikes amplify public frustrations over rising costs for food and other necessities,' and also links raised fuel prices to higher cost of living. This explicitly ties fuel-price increases to broader price increases at the national level in Bangladesh."
+      }
+    },
+    {
+      "feature": "currency_log_return",
+      "event_summary": "Currency weakening raises import costs",
+      "edge_label": "increases import costs",
+      "evidence_quote": "countries like Bangladesh, Sri Lanka and Laos ... have seen their currencies weaken against the dollar, adding to the costs for dollar-denominated imports",
+      "scope_justification": "The article describes a national exchange-rate movement against the dollar and explicitly states that it raises costs for dollar-denominated imports, matching the feature's exchange-rate cost-impact scope.",
+      "verification": {
+        "quote_similarity": 0.947,
+        "quote_best_match": "countries like Bangladesh, Sri Lanka and Laos - among many - have seen their currencies weaken against the dollar, adding to the costs for dollar-denominated imports",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states that currencies weakening against the dollar add to the costs of dollar-denominated imports. This is discussed at the country level (e.g., Bangladesh, Sri Lanka, Laos), matching the feature's scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-09-23",
+      "inflation_rate",
+      "increases price levels",
+      "Fuel prices raise living costs"
+    ],
+    [
+      "2022-09-23",
+      "currency_log_return",
+      "increases import costs",
+      "Currency weakening raises import costs"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 2
+}

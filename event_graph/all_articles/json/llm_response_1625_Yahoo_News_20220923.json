@@ -1,0 +1,61 @@
+{
+  "article": {
+    "source": "Yahoo News",
+    "date": "2022-09-23",
+    "url": "https://news.yahoo.com/inflation-unrest-challenge-bangladeshs-miracle-040402704.html",
+    "body_preview": "DHAKA, Bangladesh (AP) -- Standing in line to try to buy food, Rekha Begum is distraught. Like many others in Bangladesh, she is struggling to find affordable daily essentials like rice, lentils and onions.\n\n\"I went to two other places, but they told me they don't have supplies. Then I came here and stood at the end of the queue,\" said Begum, 60, as she waited for nearly two hours to buy what she needed from a truck selling food at subsidized prices in the capital, Dhaka.\n\nBangladesh's economic "
+  },
+  "llm_connections": [
+    {
+      "feature": "balance_of_trade",
+      "event_summary": "Imports outpace exports",
+      "edge_label": "widens external deficit",
+      "evidence_quote": "Imports in the last fiscal year ... rose to $84 billion, while exports have fluctuated, leaving a record current account deficit of $17 billion.",
+      "scope_justification": "The claim concerns Bangladesh-wide imports and exports and explicitly describes their combined effect on the country’s external balance.",
+      "verification": {
+        "quote_similarity": 0.919,
+        "quote_best_match": "Imports in the last fiscal year, ending in June, 2022, rose to $84 billion, while exports have fluctuated, leaving a record current account deficit of $17 billion.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states: 'Imports ... rose to $84 billion, while exports have fluctuated, leaving a record current account deficit of $17 billion,' explicitly linking import/export dynamics to a widened external deficit at the country level."
+      }
+    },
+    {
+      "feature": "currency_momentum_5d",
+      "event_summary": "Currency weakens against dollar",
+      "edge_label": "increases import costs",
+      "evidence_quote": "countries like Bangladesh ... have seen their currencies weaken against the dollar, adding to the costs for dollar-denominated imports",
+      "scope_justification": "The article describes a weakening national-currency trend against the dollar, matching the feature’s currency-strength or momentum scope.",
+      "verification": {
+        "quote_similarity": 0.881,
+        "quote_best_match": "among many -- have seen their currencies weaken against the dollar, adding to the costs for dollar-denominated imports",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states that currencies weakening against the dollar add to the costs of dollar-denominated imports, and it discusses this at the country level (e.g., Bangladesh), matching the currency momentum scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-09-23",
+      "balance_of_trade",
+      "widens external deficit",
+      "Imports outpace exports"
+    ],
+    [
+      "2022-09-23",
+      "currency_momentum_5d",
+      "increases import costs",
+      "Currency weakens against dollar"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 2
+}

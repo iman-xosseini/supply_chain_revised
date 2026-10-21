@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-10-01",
+    "url": "https://www.bssnews.net/business/85713",
+    "body_preview": "DHAKA, Oct 1, 2022 (BSS) - The export of RMG items to European Union (EU) has witnessed a robust growth of 45 percent during the January-June period of this year compared to the same period last year.\n\nAccording to data from the Eurostat under the European Commission (EC), the import of RMG items to EU market during that six-month period increased by 25.03 percent on average where China supplied the bulk of the RMG items worth $12.22 billion having a growth of 21.78 percent.\n\nBangladesh gained t"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "EU inflation reduces clothing spending",
+      "edge_label": "reduces purchasing power",
+      "evidence_quote": "high inflation ... has pushed up the living cost in EU for which the people there are reducing their expenditure in clothes",
+      "scope_justification": "The article explicitly links high inflation to increased living costs and reduced consumer spending, matching inflation's effect on purchasing power.",
+      "verification": {
+        "quote_similarity": 0.912,
+        "quote_best_match": "has pushed up the living cost in EU for which the people there are reducing their expenditure in clothes.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that high inflation has pushed up living costs in the EU, leading people to reduce clothing expenditure. This quote appears in the text, explicitly establishes causality, and matches the EU-level scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-10-01",
+      "inflation_rate",
+      "reduces purchasing power",
+      "EU inflation reduces clothing spending"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

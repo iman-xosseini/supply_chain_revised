@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-12-15",
+    "url": "https://www.bssnews.net/news-flash/100288",
+    "body_preview": "DHAKA, Dec 15, 2022 (BSS) - Prime Minister Sheikh Hasina today alerted the people about anti-state plots being hatched by local and foreign conspirators, urging the countrymen to help her government overcome the current global crisis steamed from the Covid-19 pandemic and Russia-Ukraine war.\n\n\"Crisis will come. Getting afraid of a crisis is not right. We have successfully faced the coronavirus pandemic with the help of the people. InshaAllah, we will also overcome the global recession. We are se"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Global reasons normalize inflation",
+      "edge_label": "reduces inflation",
+      "evidence_quote": "The prices of essential goods have started increasing due to global reasons which are now starting to be normal. The price inflation is declining.",
+      "scope_justification": "The article explicitly discusses declining price inflation at the country level, matching the feature’s scope as a general rise or decline in price levels.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "The prices of essential goods have started increasing due to global reasons which are now starting to be normal. The price inflation is declining.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that prices had risen due to global reasons which are now starting to normalize, followed immediately by 'The price inflation is declining,' strongly implying that normalization of global factors is reducing inflation at the national level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-12-15",
+      "inflation_rate",
+      "reduces inflation",
+      "Global reasons normalize inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

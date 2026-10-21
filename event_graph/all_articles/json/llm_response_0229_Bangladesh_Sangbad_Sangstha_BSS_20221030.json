@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-10-30",
+    "url": "https://www.bssnews.net/business/90945",
+    "body_preview": "DHAKA, Oct 30, 2022 (BSS) - State Minister for Planning Dr Shamsul Alam today said that the government is giving utmost priority to controlling inflation in the country and it is taking necessary measures to this end.\n\n\"The trend of inflation whatever you're witnessing now is mainly import-based while the inflation has increased mainly because of the hike in the import cost,\" he said.\n\nThe state minister said this while addressing a launch event on \"Realizing Development Aspirations with Domesti"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Import costs raise inflation",
+      "edge_label": "raises inflation",
+      "evidence_quote": "inflation has increased mainly because of the hike in the import cost",
+      "scope_justification": "The article explicitly attributes country-wide inflation, defined as a general rise in prices, to higher import costs.",
+      "verification": {
+        "quote_similarity": 0.986,
+        "quote_best_match": "inflation has increased mainly because of the hike in the import cost,\"",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article includes the exact quote stating inflation increased mainly because of higher import costs. It explicitly links import costs to national inflation in Bangladesh."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-10-30",
+      "inflation_rate",
+      "raises inflation",
+      "Import costs raise inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

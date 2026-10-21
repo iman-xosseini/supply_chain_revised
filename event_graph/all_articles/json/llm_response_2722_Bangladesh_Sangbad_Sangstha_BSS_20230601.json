@@ -1,0 +1,61 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2023-06-01",
+    "url": "https://www.bssnews.net/national-budget-2023-2024/128488",
+    "body_preview": "DHAKA, June 01, 2023 (BSS) - Finance Minister AHM Mustafa Kamal today said the government will focus on sustaining the economic recovery by successfully implementing the ongoing stimulus packages.\n\n\"We have completely overcome the effects of the pandemic. Therefore, in this budget, our aim will be to sustain the economic recovery by successfully implementing the ongoing stimulus packages,\" he said.\n\nThe minister said this while placing over Taka 7.61 lakh crore national budget for FY23-24 at the"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Currency depreciation raises inflation",
+      "edge_label": "raises inflation",
+      "evidence_quote": "the depreciation of the country's foreign exchange rate led to a surge of average inflation to 9.5 percent in August 2022.",
+      "scope_justification": "The article explicitly describes a national average inflation rate in Bangladesh, matching the feature's country-wide general price-level scope.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "the depreciation of the country's foreign exchange rate led to a surge of average inflation to 9.5 percent in August 2022.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that the depreciation of the country's exchange rate led to a surge in average inflation to 9.5% in August 2022, explicitly indicating causality at the national level in Bangladesh."
+      }
+    },
+    {
+      "feature": "currency_log_return",
+      "event_summary": "War affects exchange rates",
+      "edge_label": "disrupts exchange rates",
+      "evidence_quote": "The Russia-Ukraine war situation has had the biggest impact on inflation, government spending, balance of payments, foreign exchange reserves and exchange rates.",
+      "scope_justification": "The article explicitly identifies an exchange-rate impact at the national level, matching the feature's scope of exchange-rate movement affecting Bangladesh's economy.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "the Russia-Ukraine war situation has had the biggest impact on inflation, government spending, balance of payments, foreign exchange reserves and exchange rates.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states that the Russia-Ukraine war had the biggest impact on exchange rates, directly indicating causation. The context is Bangladesh’s national economy, matching the feature’s country-level scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-06-01",
+      "inflation_rate",
+      "raises inflation",
+      "Currency depreciation raises inflation"
+    ],
+    [
+      "2023-06-01",
+      "currency_log_return",
+      "disrupts exchange rates",
+      "War affects exchange rates"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 2
+}

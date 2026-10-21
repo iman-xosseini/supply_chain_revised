@@ -1,0 +1,37 @@
+{
+  "article": {
+    "source": "Social News XYZ",
+    "date": "2022-09-04",
+    "url": "https://www.socialnews.xyz/2022/09/04/india-bangladesh-improving-physical-linkages/",
+    "body_preview": "Dhaka, Sep 4 (SocialNews.XYZ) Connectivity has become a priority for India and Bangladesh and the two countries are trying to re-establish the old linkages that got disrupted in the Pakistan era.\n\nWhile the need for connectivity between India's 'mainland' and the Northeast via Bangladesh through a multi-modal approach has been felt for a long time, it began translating into action on the ground in the last five years following the assessment that reopening the pre-Partition trade routes would re"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Protocol routes enabled cement export",
+      "edge_label": "enables exports",
+      "evidence_quote": "Dhaka and New Delhi began operations on the ninth and 10th protocol routes ... with the first-ever export consignment of cement reaching Tripura",
+      "scope_justification": "The article explicitly describes goods being sent internationally from Bangladesh to Tripura, matching the exports definition, although it cites a specific consignment.",
+      "verification": {
+        "quote_similarity": 0.706,
+        "quote_best_match": "Dhaka and New Delhi began operations on the ninth and 10th protocol routes - the Daudkandi (Bangladesh) to Sonamura (Tripura)",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that operations on the ninth and 10th protocol routes began “with the first-ever export consignment of cement reaching Tripura from Bangladesh,” explicitly linking the route operations to enabling an export. While citing a specific shipment, it directly demonstrates exports occurring via these routes."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-09-04",
+      "exports",
+      "enables exports",
+      "Protocol routes enabled cement export"
+    ]
+  ],
+  "features_queried": [
+    "balance_of_trade",
+    "stock_market_close",
+    "exports"
+  ],
+  "num_connections_found": 1
+}

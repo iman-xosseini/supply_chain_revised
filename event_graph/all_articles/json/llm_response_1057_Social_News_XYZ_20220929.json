@@ -1,0 +1,61 @@
+{
+  "article": {
+    "source": "Social News XYZ",
+    "date": "2022-09-29",
+    "url": "https://www.socialnews.xyz/2022/09/29/bangladeshi-central-bank-hikes-repo-rate-to-tame-inflation/",
+    "body_preview": "Dhaka, Sep 30 (SocialNews.XYZ) The central bank of Bangladesh has hiked the repo rate by 25 basis points (bps) to 5.75 per cent in a bid to rein in inflation.\n\nThe Monetary Policy Committee of the Bangladesh Bank (BB) took the decision in its 56th meeting held Thursday in the capital Dhaka. The new rate will come into effect October 2, Xinhua news agency reported, citing a circular issued by the BB.\n\nThe bank earlier in June increased its policy rate (the repo rate) by 50 bps to 5.50 per cent fr"
+  },
+  "llm_connections": [
+    {
+      "feature": "interest_rate_value",
+      "event_summary": "Repo rate raised 25 bps",
+      "edge_label": "raises policy rate",
+      "evidence_quote": "hiked the repo rate by 25 basis points (bps) to 5.75 per cent",
+      "scope_justification": "The article directly reports a Bangladesh central bank repo-rate change, matching the feature's central-bank borrowing-rate scope.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "hiked the repo rate by 25 basis points (bps) to 5.75 per cent",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states, 'hiked the repo rate by 25 basis points (bps) to 5.75 per cent,' explicitly linking the rate hike to the new interest rate value. It concerns Bangladesh’s central bank, matching the national policy scope."
+      }
+    },
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Repo hike targets inflation",
+      "edge_label": "aims to curb inflation",
+      "evidence_quote": "The central bank of Bangladesh has hiked the repo rate by 25 basis points (bps) to 5.75 per cent in a bid to rein in inflation.",
+      "scope_justification": "The article explicitly links the national central bank's rate increase to restraining inflation, matching the feature's national price-level scope.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "The central bank of Bangladesh has hiked the repo rate by 25 basis points (bps) to 5.75 per cent in a bid to rein in inflation.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states the repo rate was hiked 'in a bid to rein in inflation,' directly linking the rate increase to curbing national inflation by Bangladesh’s central bank. This matches the national scope of the feature."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-09-29",
+      "interest_rate_value",
+      "raises policy rate",
+      "Repo rate raised 25 bps"
+    ],
+    [
+      "2022-09-29",
+      "inflation_rate",
+      "aims to curb inflation",
+      "Repo hike targets inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 2
+}

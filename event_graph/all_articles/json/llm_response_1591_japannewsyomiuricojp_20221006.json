@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "japannews.yomiuri.co.jp",
+    "date": "2022-10-06",
+    "url": "https://japannews.yomiuri.co.jp/world/asia-pacific/20221006-62689/",
+    "body_preview": "DHAKA (Thomson Reuters Foundation) -- When Abul Kashem moved to Dhaka two years ago, after the roiling Jamuna River eroded away his home and farm in northern Bangladesh, the work he found helping grocery buyers carry their wares paid just enough to feed his family and pay his rent.\n\nBut with the government increasing fuel prices 50% in August, inflation on the rise and the economy slowing, getting by is now much harder, especially for the most vulnerable, including the capital's legions of migra"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Fuel hike raises inflation",
+      "edge_label": "increases price levels",
+      "evidence_quote": "The unprecedented hike jolted the economy, sending prices of food and other commodities surging",
+      "scope_justification": "The article explicitly links a nationwide fuel-price increase to broad increases in food and commodity prices, matching the aggregate consumer-price scope of inflation.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "The unprecedented hike jolted the economy, sending prices of food and other commodities surging",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states, 'The unprecedented hike jolted the economy, sending prices of food and other commodities surging,' explicitly linking the fuel-price hike to rising prices. It discusses Bangladesh-wide impacts and mentions the national inflation rate, matching the aggregate inflation scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-10-06",
+      "inflation_rate",
+      "increases price levels",
+      "Fuel hike raises inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

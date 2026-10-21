@@ -1,0 +1,37 @@
+{
+  "article": {
+    "source": "The Financial Express",
+    "date": "2022-11-04",
+    "url": "https://thefinancialexpress.com.bd/economy/bangladesh/bop-deficit-widens-forex-reserves-fall-further-1667530056",
+    "body_preview": "Bangladesh's balance-of-payments (BoP) deficit widened to nearly US$3.45 billion in the July-September quarter of the current fiscal year, casting further strain on the country's falling foreign-currency reserves, according to latest official data.\n\nThe high-frequency macroeconomic data released Thursday by the central bank of Bangladesh show that all three key accounts under the BoP flagship shrank during the first quarter or Q1 of the fiscal.\n\nCurrent account accounted for a higher deficit of "
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "EU slowdown reduced exports",
+      "edge_label": "reduces exports",
+      "evidence_quote": "single-month merchandise-export earnings in October this year declined 7.85 per cent to US$ 4.35 billion, year on year, mainly because of the economic slowdown in the European Union caused by the Russia-Ukraine war.",
+      "scope_justification": "The article describes a Bangladesh-wide decline in merchandise exports, matching the feature's country-level export scope.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "single-month merchandise-export earnings in October this year declined 7.85 per cent to US$ 4.35 billion, year on year, mainly because of the economic slowdown in the European Union caused by the Russia-Ukraine war.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states that Bangladesh’s October merchandise exports declined mainly because of the EU’s economic slowdown due to the Russia-Ukraine war. This is a country-level export outcome, matching the feature’s scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-11-04",
+      "exports",
+      "reduces exports",
+      "EU slowdown reduced exports"
+    ]
+  ],
+  "features_queried": [
+    "balance_of_trade",
+    "stock_market_close",
+    "exports"
+  ],
+  "num_connections_found": 1
+}

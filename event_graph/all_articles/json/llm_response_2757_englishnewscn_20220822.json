@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "english.news.cn",
+    "date": "2022-08-22",
+    "url": "https://english.news.cn/asiapacific/20220822/fd2ec0c6ffff4d51a869638a061f0287/c.html",
+    "body_preview": "DHAKA, Aug. 22 (Xinhua) -- Energy-starved Bangladesh on Monday decided to reschedule the office hour of government and autonomous institutions to save electricity and ease traffic gridlock.\n\nThe decision was made at a cabinet meeting with Prime Minister Sheikh Hasina in the chair, Cabinet Secretary Khandker Anwarul Islam told journalists.\n\nHe said government offices and autonomous institutions will remain open from 8:00 a.m. local time to 3:00 p.m. local time instead of the usual eight hours fro"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Fuel price hike worsens inflation",
+      "edge_label": "worsens inflation",
+      "evidence_quote": "Experts said the fuel price hike would worsen inflation, which increased to 7.56 percent in June",
+      "scope_justification": "The article explicitly links a nationwide retail fuel-price increase to Bangladesh's overall inflation rate, matching the feature's aggregate consumer-price scope.",
+      "verification": {
+        "quote_similarity": 0.995,
+        "quote_best_match": "Experts said the fuel price hike would worsen inflation, which increased to 7.56 percent in June,",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states, 'Experts said the fuel price hike would worsen inflation, which increased to 7.56 percent in June,' establishing a causal link and discussing national inflation in Bangladesh."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-08-22",
+      "inflation_rate",
+      "worsens inflation",
+      "Fuel price hike worsens inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

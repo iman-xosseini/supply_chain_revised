@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-10-19",
+    "url": "https://www.bssnews.net/news-flash/88841",
+    "body_preview": "DHAKA, Oct 19, 2022 (BSS) - Prime Minister Sheikh Hasina today said the countrymen will get electricity as her government would continue the power supply despite being compelled to show austerity in energy sector due to the global crisis for Russia-Ukraine war and Covid-19 pandemic.\n\n\"We have to be economical due to the war, sanctions and Coronavirus that contributed immensely to skyrocketing inflation and transportation cost. It doesn't mean the countrymen won't get electricity. They will get e"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Global crisis drives inflation",
+      "edge_label": "drives inflation",
+      "evidence_quote": "the war, sanctions and Coronavirus that contributed immensely to skyrocketing inflation and transportation cost",
+      "scope_justification": "The article explicitly discusses broad inflation caused by global events, matching the feature's country-level general price-level scope.",
+      "verification": {
+        "quote_similarity": 0.996,
+        "quote_best_match": "the war, sanctions and Coronavirus that contributed immensely to skyrocketing inflation and transportation cost.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article includes the quoted statement attributing skyrocketing inflation to the war, sanctions, and Coronavirus. This explicitly states a causal link at a broad, macroeconomic level consistent with an inflation-rate feature."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-10-19",
+      "inflation_rate",
+      "drives inflation",
+      "Global crisis drives inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

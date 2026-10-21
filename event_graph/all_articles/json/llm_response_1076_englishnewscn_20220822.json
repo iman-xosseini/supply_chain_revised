@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "english.news.cn",
+    "date": "2022-08-22",
+    "url": "https://english.news.cn/asiapacific/20220822/fd2ec0c6ffff4d51a869638a061f0287/c.html",
+    "body_preview": "DHAKA, Aug. 22 (Xinhua) -- Energy-starved Bangladesh on Monday decided to reschedule the office hour of government and autonomous institutions to save electricity and ease traffic gridlock.\n\nThe decision was made at a cabinet meeting with Prime Minister Sheikh Hasina in the chair, Cabinet Secretary Khandker Anwarul Islam told journalists.\n\nHe said government offices and autonomous institutions will remain open from 8:00 a.m. local time to 3:00 p.m. local time instead of the usual eight hours fro"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Fuel prices sharply increased",
+      "edge_label": "worsens inflation",
+      "evidence_quote": "Experts said the fuel price hike would worsen inflation",
+      "scope_justification": "The article explicitly links a nationwide fuel price increase to inflation, matching the feature's scope as a general rise in price levels.",
+      "verification": {
+        "quote_similarity": 0.991,
+        "quote_best_match": "Experts said the fuel price hike would worsen inflation,",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article contains the sentence, “Experts said the fuel price hike would worsen inflation,” explicitly linking higher fuel prices to worsening inflation. The discussion is at the national level for Bangladesh, matching the feature’s scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-08-22",
+      "inflation_rate",
+      "worsens inflation",
+      "Fuel prices sharply increased"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

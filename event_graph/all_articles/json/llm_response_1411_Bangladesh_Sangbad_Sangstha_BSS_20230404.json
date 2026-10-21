@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2023-04-04",
+    "url": "https://www.bssnews.net/business/119222",
+    "body_preview": "DHAKA, April 4, 2023 (BSS) - South Asia's growth prospects have weakened due to tightening financial conditions, with large downside risks in most countries given limited fiscal space and depleting reserves, said the World Bank (WB) in its twice-a-year regional update.\n\nThe report stresses the need to roll back market distortions introduced during the pandemic and address debilitating socioeconomic divides that constrain South Asia's potential, said a WB press release here today.\n\nReleased today"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Currency weakness slows disinflation",
+      "edge_label": "slows inflation decline",
+      "evidence_quote": "weaker currencies and delayed domestic price adjustments are contributing to a slower than anticipated decline in inflation",
+      "scope_justification": "The article explicitly discusses regional inflation dynamics, matching the feature’s general price-level scope rather than a single commodity or firm.",
+      "verification": {
+        "quote_similarity": 0.996,
+        "quote_best_match": "weaker currencies and delayed domestic price adjustments are contributing to a slower than anticipated decline in inflation.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that 'weaker currencies and delayed domestic price adjustments are contributing to a slower than anticipated decline in inflation,' explicitly linking currency weakness to slower disinflation at a regional (South Asia) macroeconomic level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-04-04",
+      "inflation_rate",
+      "slows inflation decline",
+      "Currency weakness slows disinflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

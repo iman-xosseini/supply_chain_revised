@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2023-03-29",
+    "url": "https://www.bssnews.net/news-flash/118182",
+    "body_preview": "DHAKA, March 29, 2023 (BSS) - The globally famed Bloomberg news agency has praised Prime Minister Sheikh Hasina for her \"timely reform steps\" to negate impacts of the worldwide economic crisis in Bangladesh, predicting the initiatives to elect her government for fourth straight term in next general elections.\n\n\"She is expected to win a fourth straight term in the elections,\" the international finance biased news service wrote in an article, simultaneously suggesting Sheikh Hasina \"needs to push "
+  },
+  "llm_connections": [
+    {
+      "feature": "balance_of_trade",
+      "event_summary": "Import costs widen trade deficit",
+      "edge_label": "widens trade deficit",
+      "evidence_quote": "the rising costs of imports widened the trade deficit",
+      "scope_justification": "The article describes Bangladesh's national trade deficit, matching the country-wide balance between imports and exports.",
+      "verification": {
+        "quote_similarity": 0.991,
+        "quote_best_match": "the rising costs of imports widened the trade deficit.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states, 'the rising costs of imports widened the trade deficit,' explicitly linking higher import costs to a wider national trade deficit in Bangladesh, matching the country-level scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-03-29",
+      "balance_of_trade",
+      "widens trade deficit",
+      "Import costs widen trade deficit"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

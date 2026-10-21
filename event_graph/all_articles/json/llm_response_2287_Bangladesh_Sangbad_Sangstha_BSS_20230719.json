@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2023-07-19",
+    "url": "https://www.bssnews.net/news/137156",
+    "body_preview": "DHAKA, July 19, 2023 (BSS) - Six trade bodies have laid emphasis on continuing the 'Black Sea Grain Initiative (BSGI) Agreement' to avert human catastrophe.\n\nThey observed that the Bangladesh businesses are concerned about the disruption of smooth supply of wheat to feed millions of people around the world due to Russia's decision to axe the Black Sea Grain Initiative (\"BSGI\") from 17 July, said a press release today.\n\nThe bodies are Federation of Bangladesh Chambers of Commerce and Industry (FB"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "BSGI discontinuation worsens inflation",
+      "edge_label": "fails to contain inflation",
+      "evidence_quote": "the discontinuation of BSGI will not only cause man-made human catastrophe but also fail to contain the already sky-rocketed global inflation.",
+      "scope_justification": "The article explicitly links the agreement's discontinuation to global inflation, matching the feature's broad price-level scope.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "the discontinuation of BSGI will not only cause man-made human catastrophe but also fail to contain the already sky-rocketed global inflation.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states that discontinuation of the BSGI will 'fail to contain the already sky-rocketed global inflation,' directly asserting a causal link. The scope is global inflation, which matches the broad inflation_rate feature."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-07-19",
+      "inflation_rate",
+      "fails to contain inflation",
+      "BSGI discontinuation worsens inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

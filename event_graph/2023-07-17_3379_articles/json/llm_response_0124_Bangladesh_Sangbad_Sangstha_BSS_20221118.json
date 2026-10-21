@@ -1,0 +1,37 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-11-18",
+    "url": "https://www.bssnews.net/news-flash/94727",
+    "body_preview": "DHAKA, Nov 18, 2022 (BSS) - Prime Minister Sheikh Hasina will inaugurate 50 industrial units, projects and facilities in Economic Zones (EZs) on Sunday, marking 50 years of independence.\n\nTalking to BSS, Bangladesh Economic Zones Authority (BEZA) Executive Chairman Shaikh Yusuf Harun said the Prime Minister will virtually inaugurate 50 industrial units, projects and facilities in the EZs across the country and BEZA will have the event at eight venues.\n\n\"These include commercial operations of fou"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Economic zones expand exports",
+      "edge_label": "increases exports",
+      "evidence_quote": "It is also expected to produce and export products worth $40 billion annually in these economic zones.",
+      "scope_justification": "The article explicitly projects internationally exported products from the economic zones, matching the feature's focus on goods sent internationally.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "It is also expected to produce and export products worth $40 billion annually in these economic zones.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article includes the quoted line and explicitly states that establishing economic zones aims to increase exports, also projecting $40B in annual exports from the zones. This is discussed at the nationwide economic zones level, matching the feature’s scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-11-18",
+      "exports",
+      "increases exports",
+      "Economic zones expand exports"
+    ]
+  ],
+  "features_queried": [
+    "balance_of_trade",
+    "stock_market_close",
+    "exports"
+  ],
+  "num_connections_found": 1
+}

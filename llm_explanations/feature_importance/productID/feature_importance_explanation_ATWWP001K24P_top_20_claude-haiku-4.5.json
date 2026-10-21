@@ -1,0 +1,7 @@
+{
+  "start_date": "2023-07-11",
+  "end_date": "2023-08-09",
+  "top_n": 20,
+  "model_name": "anthropic/claude-haiku-4.5",
+  "explanation": "**Operations and Logistics** accounts for 84.0% of predictive importance and is associated with downward pressure on daily sales volume. **Sales** contributes a material 14.8% with similar downward association, while **Macroeconomics** plays a minor role at 0.7%. **Weather**, **Rainfall**, and **Holiday Type** together represent less than 1% of importance. The forecast should be monitored closely against **Operations and Logistics** signals, as this domain's predictive strength suggests its historical patterns are tightly linked to sales outcomes. These associations reflect correlations in historical data rather than causal mechanisms."
+}

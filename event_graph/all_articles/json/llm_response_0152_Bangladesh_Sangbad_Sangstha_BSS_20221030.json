@@ -1,0 +1,61 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-10-30",
+    "url": "https://www.bssnews.net/business/90957",
+    "body_preview": "DHAKA, Oct 30, 2022 (BSS) - Bangladesh Garment Manufacturers and Exporters Association (BGMEA) today said the export earnings target from readymade garments set by the government for the FY23 is unlikely to be achieved due to the high inflation in major markets and shortage of energy in the country.\n\n\"Export earnings target from RMG for the current fiscal year will not be achieved as global buyers have been placing the decreasing volume of orders due to inflation,\" BGMEA President Faruque Hassan"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Inflation reduces RMG orders",
+      "edge_label": "reduces export demand",
+      "evidence_quote": "Export earnings target from RMG for the current fiscal year will not be achieved as global buyers have been placing the decreasing volume of orders due to inflation",
+      "scope_justification": "The article links reduced international apparel orders to Bangladesh's RMG export performance, matching exports as goods sent abroad and driven by global demand.",
+      "verification": {
+        "quote_similarity": 0.991,
+        "quote_best_match": "\"Export earnings target from RMG for the current fiscal year will not be achieved as global buyers have been placing the decreasing volume of orders due to inflation,\"",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The exact quote appears in the article, which explicitly links inflation to reduced buyer orders and states this will hinder Bangladesh’s RMG export earnings target. The discussion is at the national RMG export level, matching the scope."
+      }
+    },
+    {
+      "feature": "exports",
+      "event_summary": "Energy crisis threatens exports",
+      "edge_label": "constrains export production",
+      "evidence_quote": "Under the circumstances it will not be possible to achieve the apparel export target for the current financial year due to the energy crisis",
+      "scope_justification": "The claim concerns Bangladesh's national RMG apparel export target and explicitly attributes its expected shortfall to an energy-related production constraint.",
+      "verification": {
+        "quote_similarity": 0.996,
+        "quote_best_match": "Under the circumstances it will not be possible to achieve the apparel export target for the current financial year due to the energy crisis,",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article contains the quoted statement nearly verbatim and explicitly links the energy crisis (gas/electricity shortages) to unutilized capacity and the inability to meet the national RMG export target. The discussion is at Bangladesh’s country-level RMG sector scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-10-30",
+      "exports",
+      "reduces export demand",
+      "Inflation reduces RMG orders"
+    ],
+    [
+      "2022-10-30",
+      "exports",
+      "constrains export production",
+      "Energy crisis threatens exports"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 2
+}

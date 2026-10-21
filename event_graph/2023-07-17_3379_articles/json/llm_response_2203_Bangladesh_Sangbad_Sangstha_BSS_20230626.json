@@ -1,0 +1,37 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2023-06-26",
+    "url": "https://www.bssnews.net/news-flash/133320",
+    "body_preview": "RANGPUR, June 26, 2023 (BSS) - Import and export activities will remain suspended for six days from June 27 to July 2 next through Hili Land Port (HLP) under Hakimpur upazila in Dinajpur on occasion of the Eid-ul-Azha festivity.\n\nGeneral Secretary of the Customs, Clearing and Forwarding Agents Association of HLP Jamil Hossain Cholonto said import and export activities will remain suspended through the land port during the period.\n\n\"Imports, exports, customs clearance, loading and unloading of im"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Hili port export suspension",
+      "edge_label": "halts exports",
+      "evidence_quote": "Import and export activities will remain suspended for six days from June 27 to July 2",
+      "scope_justification": "The article explicitly states that international export activity through HLP will stop temporarily, matching the feature's focus on goods sent internationally.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "Import and export activities will remain suspended for six days from June 27 to July 2",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that import and export activities through Hili Land Port will be suspended for six days, which explicitly means exports are halted during that period. The scope is specific to Hili Land Port, matching the event described."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-06-26",
+      "exports",
+      "halts exports",
+      "Hili port export suspension"
+    ]
+  ],
+  "features_queried": [
+    "balance_of_trade",
+    "stock_market_close",
+    "exports"
+  ],
+  "num_connections_found": 1
+}

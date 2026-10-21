@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-08-16",
+    "url": "https://www.bssnews.net/month-of-mourning/77433",
+    "body_preview": "DHAKA, Aug 16, 2022 (BSS) - Prime Minister Sheikh Hasina today said that the countries which teach lessons, raise questions about human rights and impose sanctions have given shelter to the killers of Bangabandhu and most of his family members.\n\n\"They (countries) give us lessons (on human rights), but they are protecting the killers of my father Bangabandhu Sheikh Mujibur Rahman, my mother, brothers, women and children,\" she said at a discussion meeting organized by Awami League (AL).\n\nSheikh Ha"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "War and sanctions raise prices",
+      "edge_label": "raises price levels",
+      "evidence_quote": "The Coronavirus pandemic that created economic recession and the Russia-Ukraine war, sanction and counter-sanction of the USA and Russia caused price hike of fuel oil and other items.",
+      "scope_justification": "The article explicitly attributes price increases across fuel oil and other items to major economic shocks, matching the feature's general price-level scope.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "the Coronavirus pandemic that created economic recession and the Russia-Ukraine war, sanction and counter-sanction of the USA and Russia caused price hike of fuel oil and other items.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states that the Russia-Ukraine war and related sanctions caused a price hike of fuel oil and other items. This implies a broad effect on prices at an economy-wide level, aligning with the inflation/price level scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-08-16",
+      "inflation_rate",
+      "raises price levels",
+      "War and sanctions raise prices"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

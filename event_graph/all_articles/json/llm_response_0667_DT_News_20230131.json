@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "DT News",
+    "date": "2023-01-31",
+    "url": "https://www.newsofbahrain.com/world/87779.html",
+    "body_preview": "Agencies | Dhaka\n\nThe Daily Tribune - www.newsofbahrain.com\n\nThe International Monetary Fund (IMF) has signed off on a $4.7 billion support loan package for Bangladesh to help it cope with soaring energy and food costs that have sparked huge protests.\n\nBangladesh and other South Asian countries dependent on fossil fuel imports were hit hard by sharp cost-of-living increases following Russia's attack of Ukraine.\n\nNationwide blackouts of up to 13 hours a day hit the electricity grid last year and "
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Energy costs increase prices",
+      "edge_label": "raises price levels",
+      "evidence_quote": "Bangladesh and other South Asian countries dependent on fossil fuel imports were hit hard by sharp cost-of-living increases following Russia's attack of Ukraine.",
+      "scope_justification": "The article describes broad national cost-of-living increases, matching the feature's scope of general price-level increases affecting purchasing power.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "Bangladesh and other South Asian countries dependent on fossil fuel imports were hit hard by sharp cost-of-living increases following Russia's attack of Ukraine.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The quoted sentence appears verbatim. The article explicitly links fossil-fuel dependence and post-Ukraine-attack shocks to sharp cost-of-living increases, and elsewhere notes rising energy-related costs rippling across the economy, indicating higher prices. The discussion is at the national/regional level, matching the inflation/price-level scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-01-31",
+      "inflation_rate",
+      "raises price levels",
+      "Energy costs increase prices"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

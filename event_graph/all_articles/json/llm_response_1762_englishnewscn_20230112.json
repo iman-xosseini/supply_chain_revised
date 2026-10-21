@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "english.news.cn",
+    "date": "2023-01-12",
+    "url": "https://english.news.cn/asiapacific/20230112/5547fe0157ab4065a5f4368262a2d063/c.html",
+    "body_preview": "DHAKA, Jan. 12 (Xinhua) -- The Bangladeshi government decided on Thursday to hike the electricity price by 5 percent to 7.48 taka per unit on a weighted average.\n\nThe new rate came into effect from Jan. 1, 2023, according to a notice from the ministry of power, energy and mineral resources.\n\nThe move to raise the retail price of electricity came after the price was hiked by 19.92 percent at the producers' level in December last year.\n\nThe Bangladeshi government said last week that it will introd"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Electricity price hike",
+      "edge_label": "pushes up inflation",
+      "evidence_quote": "Experts claimed the markup in the retail power price would likely push up the nation's inflation rate again.",
+      "scope_justification": "The article explicitly links a nationwide retail electricity price increase to the nation's overall inflation rate, matching the feature's general price-level scope.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "Experts claimed the markup in the retail power price would likely push up the nation's inflation rate again.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article contains the exact quote stating that experts believe the retail power price markup would likely push up the nation's inflation rate, explicitly linking the electricity price hike to national inflation."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-01-12",
+      "inflation_rate",
+      "pushes up inflation",
+      "Electricity price hike"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

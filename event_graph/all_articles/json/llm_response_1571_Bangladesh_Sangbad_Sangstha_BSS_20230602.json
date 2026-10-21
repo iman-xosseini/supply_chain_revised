@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2023-06-02",
+    "url": "https://www.bssnews.net/national-budget-2023-2024/128771",
+    "body_preview": "DHAKA, June 2, 2023 (BSS) - Finance Minister AHM Mustafa Kamal today said that the proposed budget for the next fiscal year (FY24) has been awarded to all sections of people, including rich and poor, while all the projections made in the budget would be attained as like the previous years.\n\n\"We've awarded this budget to all sections of people, including rich and poor,\" he said.\n\nThe Finance Minister said this while replying to a barrage of questions at a post-budget press conference held at the "
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "FY24 budget targets inflation",
+      "edge_label": "aims to contain",
+      "evidence_quote": "budget for the next fiscal year at Jatiya Sangsad aiming at 7.5 percent GDP growth rate and also to contain inflation at 6 percent.",
+      "scope_justification": "The article explicitly addresses national inflation and the FY24 budget's stated objective of containing the general price-level increase at 6 percent.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "budget for the next fiscal year at Jatiya Sangsad aiming at 7.5 percent GDP growth rate and also to contain inflation at 6 percent.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article explicitly states that the FY24 budget is aiming to contain inflation at 6 percent. This directly links the budget to the objective of influencing the national inflation rate."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-06-02",
+      "inflation_rate",
+      "aims to contain",
+      "FY24 budget targets inflation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

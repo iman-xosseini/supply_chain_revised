@@ -1,0 +1,37 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2022-11-20",
+    "url": "https://www.bssnews.net/news-flash/95004",
+    "body_preview": "DHAKA, Nov 20, 2022 (BSS) - Prime Minister Sheikh Hasina today inaugurated 50 industrial units, projects and facilities in the Economic Zones (EZs) across the country.\n\nShe opened the industrial establishments in the EZs virtually from her official Ganabhaban residence here this morning, marking the Golden Jubilee of the country's Independence and the Birth Centenary of Father of the Nation Bangabandhu Sheikh Mujibur Rahman.\n\nFour factories at the Bangabandhu Sheikh Mujib Shilpa Nagar (BSMSN) in"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Economic zones inaugurated",
+      "edge_label": "increases exports",
+      "evidence_quote": "It is also expected to produce and export products worth $40 billion annually from these economic zones.",
+      "scope_justification": "The article explicitly links the economic zones to exporting products, directly matching the feature’s definition of goods sent internationally.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "It is also expected to produce and export products worth $40 billion annually from these economic zones.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article contains the quoted line about expected exports from the economic zones and explicitly states that establishing economic zones is aimed at increasing exports. It discusses this at a national level (Bangladesh’s EZs and expected export figures), matching the feature’s scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-11-20",
+      "exports",
+      "increases exports",
+      "Economic zones inaugurated"
+    ]
+  ],
+  "features_queried": [
+    "balance_of_trade",
+    "stock_market_close",
+    "exports"
+  ],
+  "num_connections_found": 1
+}

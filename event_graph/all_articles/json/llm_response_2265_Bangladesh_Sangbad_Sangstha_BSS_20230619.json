@@ -1,0 +1,61 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2023-06-19",
+    "url": "https://www.bssnews.net/business/132106",
+    "body_preview": "DHAKA, June 19, 2023 (BSS) - Stock markets today closed the session of the week with an upward trend since investors found positive gestures in the new monetary policy statement of the Bangladesh Bank (BB).\n\nThe central bank on Sunday announced its monetary policy statement (MPS) for the first half of the fiscal 2023-24 adopting a contractionary monetary policy stance to contain inflation.\n\nThe central bank has removed the interest rate cap of 6 percent-9 percent and replaced it with a market-dr"
+  },
+  "llm_connections": [
+    {
+      "feature": "stock_market_close",
+      "event_summary": "Monetary policy lifts stocks",
+      "edge_label": "lifts stock market",
+      "evidence_quote": "Stock markets today closed the session of the week with an upward trend since investors found positive gestures in the new monetary policy statement",
+      "scope_justification": "The article explicitly links the national monetary policy statement to overall stock-market performance, matching the feature's equity-market scope.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "Stock markets today closed the session of the week with an upward trend since investors found positive gestures in the new monetary policy statement",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that stock markets closed higher 'since investors found positive gestures in the new monetary policy statement,' explicitly linking the monetary policy to the market rise at a national market scope."
+      }
+    },
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Policy targets inflation containment",
+      "edge_label": "contains inflation",
+      "evidence_quote": "adopting a contractionary monetary policy stance to contain inflation",
+      "scope_justification": "The article explicitly presents a national monetary-policy action intended to affect broad inflation, matching the feature's general price-level scope.",
+      "verification": {
+        "quote_similarity": 0.993,
+        "quote_best_match": "adopting a contractionary monetary policy stance to contain inflation.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states the central bank is adopting a contractionary monetary policy stance \"to contain inflation,\" explicitly linking the policy to inflation containment at the national level."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-06-19",
+      "stock_market_close",
+      "lifts stock market",
+      "Monetary policy lifts stocks"
+    ],
+    [
+      "2023-06-19",
+      "inflation_rate",
+      "contains inflation",
+      "Policy targets inflation containment"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 2
+}

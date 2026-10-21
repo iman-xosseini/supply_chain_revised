@@ -1,0 +1,37 @@
+{
+  "article": {
+    "source": "Asian News International (ANI)",
+    "date": "2022-12-17",
+    "url": "https://www.aninews.in/news/world/asia/bangladesh-made-tremendous-progress-under-sheikh-hasina-report20221217231018/",
+    "body_preview": "Dhaka [Bangladesh], December 17 (ANI): The last 14 years of the Awami League Government under Sheikh Hasina has been transformative for Bangladesh, reported Asian Lite International.\n\nWithin this relatively short period of time, Bangladesh has gone from being a low-income and least-developed country to a lower-middle-income-developing country.\n\nFrom pulling millions of people out of the clutches of poverty and exhibiting over 6.6 per cent average economic growth to sheltering over a million disp"
+  },
+  "llm_connections": [
+    {
+      "feature": "exports",
+      "event_summary": "Ports facilitate national exports",
+      "edge_label": "facilitates exports",
+      "evidence_quote": "The government has developed sea, river and land ports for facilitating export and internal trade.",
+      "scope_justification": "The article attributes export facilitation to development of multiple national transport ports, matching the country-wide scope of goods sent internationally.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "The government has developed sea, river and land ports for facilitating export and internal trade.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states, 'The government has developed sea, river and land ports for facilitating export and internal trade,' which appears verbatim. This explicitly links port development to facilitating exports, and it is presented at a national level by referencing the government's actions across multiple types of ports."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-12-17",
+      "exports",
+      "facilitates exports",
+      "Ports facilitate national exports"
+    ]
+  ],
+  "features_queried": [
+    "balance_of_trade",
+    "stock_market_close",
+    "exports"
+  ],
+  "num_connections_found": 1
+}

@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "ANN",
+    "date": "2022-09-23",
+    "url": "https://asianews.network/44-cases-filed-over-market-manipulation-of-essential-good-prices/",
+    "body_preview": "DHAKA - Bangladesh Competition Commission has filed 44 cases against a host of individuals and organisations, accusing them of creating an artificial crisis that led to abnormal hikes in prices of items like rice, flour, eggs, poultry and toiletries.\n\nAbdus Sabur, secretary of BCC, told The Daily Star that the cases were filed on Wednesday on various charges under Section 15 of the Competition Act, 2012, and the hearing will begin on September 26.\n\nAction will be taken against them as per the la"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Essential goods prices rise",
+      "edge_label": "raises price levels",
+      "evidence_quote": "Over the past several months, the market has seen an unusual rise in prices of rice, oil, flour, eggs, chicken, soap, detergent and toothpaste, which shot up the living cost of people.",
+      "scope_justification": "The article reports broad price increases across many essential goods and their effect on living costs, matching a general price-level and purchasing-power measure.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "Over the past several months, the market has seen an unusual rise in prices of rice, oil, flour, eggs, chicken, soap, detergent and toothpaste, which shot up the living cost of people.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that unusual rises in prices of many essential goods 'shot up the living cost of people,' explicitly linking price increases to higher overall price levels. The discussion is nationwide and broad across essentials, matching an inflation/price-level scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-09-23",
+      "inflation_rate",
+      "raises price levels",
+      "Essential goods prices rise"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

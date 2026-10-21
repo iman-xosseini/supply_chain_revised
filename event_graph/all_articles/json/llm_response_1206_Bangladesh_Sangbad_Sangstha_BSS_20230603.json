@@ -1,0 +1,42 @@
+{
+  "article": {
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "date": "2023-06-03",
+    "url": "https://www.bssnews.net/business/128969",
+    "body_preview": "DHAKA, June 3, 2023 (BSS) - Planning Minister MA Mannan today said that the proposed budget for FY24 has been largely rural-friendly.\n\n\"The number of beneficiaries and the amounts has been increased under the social safety nets for the rural communities. Besides, the rural economy will be strengthened further since there will be steps for boosting agricultural production,\" he said.\n\nThe Planning Minister was addressing the MCCI-PRI Post Budget 2023-2024 Discussion titled \"Bangladesh from Vulnera"
+  },
+  "llm_connections": [
+    {
+      "feature": "inflation_rate",
+      "event_summary": "Supply-side strengthening needed",
+      "edge_label": "enables inflation containment",
+      "evidence_quote": "it's not possible to contain inflation without strengthening the supply side",
+      "scope_justification": "The statement directly addresses containing general inflation, matching the feature's economy-wide price-level scope.",
+      "verification": {
+        "quote_similarity": 0.987,
+        "quote_best_match": "it's not possible to contain inflation without strengthening the supply side,\"",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article contains the exact quote stating it’s not possible to contain inflation without strengthening the supply side, explicitly asserting a causal necessity. The context is national economic policy and general inflation, matching the economy-wide scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2023-06-03",
+      "inflation_rate",
+      "enables inflation containment",
+      "Supply-side strengthening needed"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 1
+}

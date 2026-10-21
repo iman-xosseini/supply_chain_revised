@@ -1,0 +1,61 @@
+{
+  "article": {
+    "source": "Northern Ireland News",
+    "date": "2022-08-19",
+    "url": "https://www.northernirelandnews.com/news/272658784/bangladesh-fixes-ceiling-on-usd-trading-for-money-exchangers",
+    "body_preview": "DHAKA, Aug. 19 (Xinhua) -- The central bank of Bangladesh has fixed a ceiling on U.S. dollar trading profit for money exchangers, amid a lingering greenback supply shortage and its appreciation against the country's currency taka.\n\nAfter a meeting with the Money Changers' Association in Dhaka, Bangladesh Bank (BB) spokesperson Serajul Islam told reporters that no money exchangers in the country can now charge over 1.5 taka against a U.S. dollar while buying and selling the greenback.\n\nDays earli"
+  },
+  "llm_connections": [
+    {
+      "feature": "balance_of_trade",
+      "event_summary": "Imports widen trade deficit",
+      "edge_label": "widens trade deficit",
+      "evidence_quote": "Bangladesh's trade deficit ballooned to a record level of over 33 billion U.S. dollars in the fiscal 2021-22 which ended June 30 on the back of increased imports",
+      "scope_justification": "The article describes Bangladesh-wide trade deficit figures and increased national imports, matching the country-wide imports-versus-exports scope of the balance of trade.",
+      "verification": {
+        "quote_similarity": 0.997,
+        "quote_best_match": "Bangladesh's trade deficit ballooned to a record level of over 33 billion U.S. dollars in the fiscal 2021-22 which ended June 30 on the back of increased imports,",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states that Bangladesh’s trade deficit ballooned 'on the back of increased imports,' explicitly linking higher imports to a wider trade deficit. This is discussed at the national level, matching the balance of trade scope."
+      }
+    },
+    {
+      "feature": "currency_momentum_5d",
+      "event_summary": "Imports linked to taka depreciation",
+      "edge_label": "weakens currency",
+      "evidence_quote": "Increasing imports and a widening trade deficit were cited as possible reasons for taka depreciation.",
+      "scope_justification": "The article explicitly links national-level import growth and trade deficit expansion to taka depreciation, matching the feature's scope as a recent currency trend or strength.",
+      "verification": {
+        "quote_similarity": 1.0,
+        "quote_best_match": "Increasing imports and a widening trade deficit were cited as possible reasons for taka depreciation.",
+        "judge_verdict": "CONFIRMED",
+        "judge_reasoning": "The article states, “Increasing imports and a widening trade deficit were cited as possible reasons for taka depreciation,” which explicitly links higher imports/trade deficit to a weaker taka at the national level, matching the feature’s scope."
+      }
+    }
+  ],
+  "triplets": [
+    [
+      "2022-08-19",
+      "balance_of_trade",
+      "widens trade deficit",
+      "Imports widen trade deficit"
+    ],
+    [
+      "2022-08-19",
+      "currency_momentum_5d",
+      "weakens currency",
+      "Imports linked to taka depreciation"
+    ]
+  ],
+  "features_queried": [
+    "interest_rate_value",
+    "stock_market_close",
+    "inflation_rate",
+    "balance_of_trade",
+    "exports",
+    "imports",
+    "currency_log_return",
+    "currency_momentum_5d"
+  ],
+  "num_connections_found": 2
+}
